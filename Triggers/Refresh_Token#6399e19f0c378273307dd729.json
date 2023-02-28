@@ -1,0 +1,51 @@
+{
+  "id": "LGToPmumcJy814-WMLBK2",
+  "_id": "6399e19f0c378273307dd729",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Refresh_Token",
+  "old_name": "Refresh_Token",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "userProfile",
+          "url": "/oauth/token/refresh",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": "loginTrigger",
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 3,
+              "name": "Current session",
+              "key": "refreshToken",
+              "value": "userProfile.refresh_token"
+            }
+          ],
+          "baseURL": "6343ef6168954540043c9ee0",
+          "storeType": 3
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "2/27/2023",
+  "createdAt": "2/27/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
