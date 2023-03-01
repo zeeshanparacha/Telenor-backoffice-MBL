@@ -502,7 +502,8 @@
                                                             "required": true,
                                                             "errorMsg": "This field is required",
                                                             "regex": "/^\\S*$/",
-                                                            "regexErrorMsg": "not accepting spaces"
+                                                            "regexErrorMsg": "not accepting spaces",
+                                                            "bindButton": "qQNOC51WBk539znapQxBK"
                                                           },
                                                           "placeholder": "",
                                                           "disableUnderline": true,
@@ -1118,80 +1119,7 @@
                                                                   "validate": {
                                                                     "required": true,
                                                                     "errorMsg": "This field is required",
-                                                                    "bindButton": [
-                                                                      {
-                                                                        "id": "qQNOC51WBk539znapQxBK",
-                                                                        "status": "ACTIVE",
-                                                                        "attributes": {
-                                                                          "label": "CREATE",
-                                                                          "variant": "contained",
-                                                                          "name": "Button",
-                                                                          "label-locale-key": "",
-                                                                          "fullWidth": true,
-                                                                          "layoutProperties": {
-                                                                            "button": {
-                                                                              "//": "Use this class to style button component."
-                                                                            },
-                                                                            "inputProps": {
-                                                                              "//": "Use this class to style button element."
-                                                                            },
-                                                                            "mainContainer": "button",
-                                                                            "xl": 12,
-                                                                            "lg": 12,
-                                                                            "md": 12,
-                                                                            "sm": 12,
-                                                                            "xs": 12
-                                                                          },
-                                                                          "cssClassNames": [
-                                                                            {
-                                                                              "cssClassName": "CardButton"
-                                                                            }
-                                                                          ],
-                                                                          "hideComponent": false,
-                                                                          "hideCondition": {
-                                                                            "logic": {
-                                                                              "if": [
-                                                                                {
-                                                                                  "var": "currentScreen.form.userId.length"
-                                                                                },
-                                                                                true,
-                                                                                false
-                                                                              ]
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "name": "Button",
-                                                                        "icon": "FaBimobject",
-                                                                        "group": "Form",
-                                                                        "type": "20006",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 1,
-                                                                        "version": "1.0.0",
-                                                                        "isLatest": true,
-                                                                        "projectType": "web",
-                                                                        "component": {
-                                                                          "content": "Button",
-                                                                          "type": "20006"
-                                                                        },
-                                                                        "events": [
-                                                                          {
-                                                                            "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
-                                                                            "triggerName": "Create bank or branch user",
-                                                                            "name": "On Submit",
-                                                                            "type": "4",
-                                                                            "serviceType": "8"
-                                                                          }
-                                                                        ],
-                                                                        "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
-                                                                        "screenId": "tfKETRTTbOeFiWGUKY_Wu",
-                                                                        "subType": "component",
-                                                                        "projectId": "63f349eda070071e283ca270",
-                                                                        "gitBranchName": "master",
-                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-                                                                      }
-                                                                    ]
+                                                                    "bindButton": "qQNOC51WBk539znapQxBK"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -2287,157 +2215,7 @@
                                                                     "errorMsg": "Mobile Number is required",
                                                                     "regex": "/^((\\+92)|(0092))-{0,1}\\d{3}-{0,1}\\d{7}$|^\\d{11}$|^\\d{4}-\\d{7}$/",
                                                                     "regexErrorMsg": "Mobile Number is Invalid",
-                                                                    "bindButton": [
-                                                                      {
-                                                                        "id": "w7lidQsSGZt7LpDpfpDqa",
-                                                                        "status": "ACTIVE",
-                                                                        "attributes": {
-                                                                          "label": "Update",
-                                                                          "variant": "contained",
-                                                                          "name": "Button",
-                                                                          "label-locale-key": "",
-                                                                          "fullWidth": true,
-                                                                          "layoutProperties": {
-                                                                            "button": {
-                                                                              "//": "Use this class to style button component."
-                                                                            },
-                                                                            "inputProps": {
-                                                                              "//": "Use this class to style button element."
-                                                                            },
-                                                                            "mainContainer": "button",
-                                                                            "xl": 12,
-                                                                            "lg": 12,
-                                                                            "md": 12,
-                                                                            "sm": 12,
-                                                                            "xs": 12
-                                                                          },
-                                                                          "cssClassNames": [
-                                                                            {
-                                                                              "cssClassName": "CardButton"
-                                                                            }
-                                                                          ],
-                                                                          "disableCondition": {
-                                                                            "logic": {
-                                                                              "if": [
-                                                                                {
-                                                                                  "contain": [
-                                                                                    {
-                                                                                      "var": "currentSession.permissionUserList"
-                                                                                    },
-                                                                                    159,
-                                                                                    ""
-                                                                                  ]
-                                                                                },
-                                                                                false,
-                                                                                true
-                                                                              ]
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "name": "Button",
-                                                                        "icon": "FaBimobject",
-                                                                        "group": "Form",
-                                                                        "type": "20006",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 1,
-                                                                        "version": "1.0.0",
-                                                                        "isLatest": true,
-                                                                        "projectType": "web",
-                                                                        "component": {
-                                                                          "content": "Button",
-                                                                          "type": "20006"
-                                                                        },
-                                                                        "events": [
-                                                                          {
-                                                                            "triggerId": "F06s_sxj9mWf9uNQqYBzV",
-                                                                            "triggerName": "Update Bank User",
-                                                                            "name": "On Submit",
-                                                                            "type": "4",
-                                                                            "serviceType": "8"
-                                                                          }
-                                                                        ],
-                                                                        "path": "1-0-0-0-0-0-1-0-10-2-0-0-1-0-0",
-                                                                        "screenId": "tfKETRTTbOeFiWGUKY_Wu",
-                                                                        "subType": "component",
-                                                                        "projectId": "63f349eda070071e283ca270",
-                                                                        "gitBranchName": "master",
-                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-                                                                      },
-                                                                      {
-                                                                        "id": "qQNOC51WBk539znapQxBK",
-                                                                        "status": "ACTIVE",
-                                                                        "attributes": {
-                                                                          "label": "CREATE",
-                                                                          "variant": "contained",
-                                                                          "name": "Button",
-                                                                          "label-locale-key": "",
-                                                                          "fullWidth": true,
-                                                                          "layoutProperties": {
-                                                                            "button": {
-                                                                              "//": "Use this class to style button component."
-                                                                            },
-                                                                            "inputProps": {
-                                                                              "//": "Use this class to style button element."
-                                                                            },
-                                                                            "mainContainer": "button",
-                                                                            "xl": 12,
-                                                                            "lg": 12,
-                                                                            "md": 12,
-                                                                            "sm": 12,
-                                                                            "xs": 12
-                                                                          },
-                                                                          "cssClassNames": [
-                                                                            {
-                                                                              "cssClassName": "CardButton"
-                                                                            }
-                                                                          ],
-                                                                          "hideComponent": false,
-                                                                          "hideCondition": {
-                                                                            "logic": {
-                                                                              "if": [
-                                                                                {
-                                                                                  "var": "currentScreen.form.userId.length"
-                                                                                },
-                                                                                true,
-                                                                                false
-                                                                              ]
-                                                                            }
-                                                                          }
-                                                                        },
-                                                                        "name": "Button",
-                                                                        "icon": "FaBimobject",
-                                                                        "group": "Form",
-                                                                        "type": "20006",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 1,
-                                                                        "version": "1.0.0",
-                                                                        "isLatest": true,
-                                                                        "projectType": "web",
-                                                                        "component": {
-                                                                          "content": "Button",
-                                                                          "type": "20006"
-                                                                        },
-                                                                        "events": [
-                                                                          {
-                                                                            "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
-                                                                            "triggerName": "Create bank or branch user",
-                                                                            "name": "On Submit",
-                                                                            "type": "4",
-                                                                            "serviceType": "8"
-                                                                          }
-                                                                        ],
-                                                                        "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
-                                                                        "screenId": "tfKETRTTbOeFiWGUKY_Wu",
-                                                                        "subType": "component",
-                                                                        "projectId": "63f349eda070071e283ca270",
-                                                                        "gitBranchName": "master",
-                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-                                                                      }
-                                                                    ]
+                                                                    "bindButton": "qQNOC51WBk539znapQxBK"
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -4488,8 +4266,9 @@
                                                                   "dataValue": "",
                                                                   "mandatory": true,
                                                                   "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This Field is Required"
+                                                                    "required": true,
+                                                                    "errorMsg": "This Field is Required",
+                                                                    "bindButton": "w7lidQsSGZt7LpDpfpDqa"
                                                                   },
                                                                   "layoutProperties": {
                                                                     "autocomplete": {
@@ -4663,8 +4442,9 @@
                                                                   "dataValue": "",
                                                                   "mandatory": true,
                                                                   "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This Field is Required"
+                                                                    "required": true,
+                                                                    "errorMsg": "This Field is Required",
+                                                                    "bindButton": "w7lidQsSGZt7LpDpfpDqa"
                                                                   },
                                                                   "layoutProperties": {
                                                                     "autocomplete": {
@@ -4835,8 +4615,9 @@
                                                                   "dataValue": "",
                                                                   "mandatory": true,
                                                                   "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This Field is Required"
+                                                                    "required": true,
+                                                                    "errorMsg": "This Field is Required",
+                                                                    "bindButton": "w7lidQsSGZt7LpDpfpDqa"
                                                                   },
                                                                   "layoutProperties": {
                                                                     "autocomplete": {
@@ -5830,7 +5611,7 @@
                                                                     "name": "On Submit"
                                                                   }
                                                                 ],
-                                                                "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0"
+                                                                "path": "1-0-0-0-0-0-1-0-11-2-0-0-0-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -5900,7 +5681,7 @@
                                                                 "id": "w7lidQsSGZt7LpDpfpDqa",
                                                                 "status": "ACTIVE",
                                                                 "attributes": {
-                                                                  "label": "Update",
+                                                                  "label": "UPDATE",
                                                                   "variant": "contained",
                                                                   "name": "Button",
                                                                   "label-locale-key": "",
@@ -6059,7 +5840,7 @@
                                                                     "name": "On Submit"
                                                                   }
                                                                 ],
-                                                                "path": "1-0-0-0-0-0-1-0-10-2-0-0-1-0-0"
+                                                                "path": "1-0-0-0-0-0-1-0-11-2-0-0-1-0-0"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -6774,7 +6555,7 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "tfKETRTTbOeFiWGUKY_Wu",
-    "createdBy": "muzzamil",
+    "createdBy": "ahmerjavedkhan",
     "updatedAt": "3/1/2023",
     "createdAt": "3/1/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7625,7 +7406,8 @@
         "required": true,
         "errorMsg": "This field is required",
         "regex": "/^\\S*$/",
-        "regexErrorMsg": "not accepting spaces"
+        "regexErrorMsg": "not accepting spaces",
+        "bindButton": "qQNOC51WBk539znapQxBK"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -8135,69 +7917,7 @@
       "validate": {
         "required": true,
         "errorMsg": "This field is required",
-        "bindButton": [
-          {
-            "id": "qQNOC51WBk539znapQxBK",
-            "status": "ACTIVE",
-            "attributes": {
-              "label": "CREATE",
-              "variant": "contained",
-              "name": "Button",
-              "label-locale-key": "",
-              "fullWidth": true,
-              "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
-                "inputProps": {
-                  "//": "Use this class to style button element."
-                },
-                "mainContainer": "button",
-                "xl": 12,
-                "lg": 12,
-                "md": 12,
-                "sm": 12,
-                "xs": 12
-              },
-              "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "hideComponent": false,
-              "hideCondition": {
-                "logic": {
-                  "if": [
-                    { "var": "currentScreen.form.userId.length" },
-                    true,
-                    false
-                  ]
-                }
-              }
-            },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
-            "events": [
-              {
-                "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
-                "triggerName": "Create bank or branch user",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "8"
-              }
-            ],
-            "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
-            "screenId": "tfKETRTTbOeFiWGUKY_Wu",
-            "subType": "component",
-            "projectId": "63f349eda070071e283ca270",
-            "gitBranchName": "master",
-            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-          }
-        ]
+        "bindButton": "qQNOC51WBk539znapQxBK"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -9161,135 +8881,7 @@
         "errorMsg": "Mobile Number is required",
         "regex": "/^((\\+92)|(0092))-{0,1}\\d{3}-{0,1}\\d{7}$|^\\d{11}$|^\\d{4}-\\d{7}$/",
         "regexErrorMsg": "Mobile Number is Invalid",
-        "bindButton": [
-          {
-            "id": "w7lidQsSGZt7LpDpfpDqa",
-            "status": "ACTIVE",
-            "attributes": {
-              "label": "Update",
-              "variant": "contained",
-              "name": "Button",
-              "label-locale-key": "",
-              "fullWidth": true,
-              "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
-                "inputProps": {
-                  "//": "Use this class to style button element."
-                },
-                "mainContainer": "button",
-                "xl": 12,
-                "lg": 12,
-                "md": 12,
-                "sm": 12,
-                "xs": 12
-              },
-              "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "disableCondition": {
-                "logic": {
-                  "if": [
-                    {
-                      "contain": [
-                        { "var": "currentSession.permissionUserList" },
-                        159,
-                        ""
-                      ]
-                    },
-                    false,
-                    true
-                  ]
-                }
-              }
-            },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
-            "events": [
-              {
-                "triggerId": "F06s_sxj9mWf9uNQqYBzV",
-                "triggerName": "Update Bank User",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "8"
-              }
-            ],
-            "path": "1-0-0-0-0-0-1-0-10-2-0-0-1-0-0",
-            "screenId": "tfKETRTTbOeFiWGUKY_Wu",
-            "subType": "component",
-            "projectId": "63f349eda070071e283ca270",
-            "gitBranchName": "master",
-            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-          },
-          {
-            "id": "qQNOC51WBk539znapQxBK",
-            "status": "ACTIVE",
-            "attributes": {
-              "label": "CREATE",
-              "variant": "contained",
-              "name": "Button",
-              "label-locale-key": "",
-              "fullWidth": true,
-              "layoutProperties": {
-                "button": { "//": "Use this class to style button component." },
-                "inputProps": {
-                  "//": "Use this class to style button element."
-                },
-                "mainContainer": "button",
-                "xl": 12,
-                "lg": 12,
-                "md": 12,
-                "sm": 12,
-                "xs": 12
-              },
-              "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "hideComponent": false,
-              "hideCondition": {
-                "logic": {
-                  "if": [
-                    { "var": "currentScreen.form.userId.length" },
-                    true,
-                    false
-                  ]
-                }
-              }
-            },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
-            "events": [
-              {
-                "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
-                "triggerName": "Create bank or branch user",
-                "name": "On Submit",
-                "type": "4",
-                "serviceType": "8"
-              }
-            ],
-            "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
-            "screenId": "tfKETRTTbOeFiWGUKY_Wu",
-            "subType": "component",
-            "projectId": "63f349eda070071e283ca270",
-            "gitBranchName": "master",
-            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-          }
-        ]
+        "bindButton": "qQNOC51WBk539znapQxBK"
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -11002,7 +10594,11 @@
       "dataKey": "",
       "dataValue": "",
       "mandatory": true,
-      "validate": { "required": false, "errorMsg": "This Field is Required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This Field is Required",
+        "bindButton": "w7lidQsSGZt7LpDpfpDqa"
+      },
       "layoutProperties": {
         "autocomplete": {
           "//": "Use this class to style autocomplete component in dropdown."
@@ -11122,7 +10718,11 @@
       "dataKey": "",
       "dataValue": "",
       "mandatory": true,
-      "validate": { "required": false, "errorMsg": "This Field is Required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This Field is Required",
+        "bindButton": "w7lidQsSGZt7LpDpfpDqa"
+      },
       "layoutProperties": {
         "autocomplete": {
           "//": "Use this class to style autocomplete component in dropdown."
@@ -11247,7 +10847,11 @@
       "dataKey": "",
       "dataValue": "",
       "mandatory": true,
-      "validate": { "required": false, "errorMsg": "This Field is Required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This Field is Required",
+        "bindButton": "w7lidQsSGZt7LpDpfpDqa"
+      },
       "layoutProperties": {
         "autocomplete": {
           "//": "Use this class to style autocomplete component in dropdown."
@@ -12046,7 +11650,7 @@
         "serviceType": "8"
       }
     ],
-    "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+    "path": "1-0-0-0-0-0-1-0-11-2-0-0-0-0-0",
     "screenId": "tfKETRTTbOeFiWGUKY_Wu",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -12105,7 +11709,7 @@
     "id": "w7lidQsSGZt7LpDpfpDqa",
     "status": "ACTIVE",
     "attributes": {
-      "label": "Update",
+      "label": "UPDATE",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -12158,7 +11762,7 @@
         "serviceType": "8"
       }
     ],
-    "path": "1-0-0-0-0-0-1-0-10-2-0-0-1-0-0",
+    "path": "1-0-0-0-0-0-1-0-11-2-0-0-1-0-0",
     "screenId": "tfKETRTTbOeFiWGUKY_Wu",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
