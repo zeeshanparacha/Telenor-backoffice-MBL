@@ -1478,7 +1478,81 @@
                                                                   },
                                                                   "validate": {
                                                                     "required": true,
-                                                                    "errorMsg": "This field is required"
+                                                                    "errorMsg": "This field is required",
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "qQNOC51WBk539znapQxBK",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "CREATE",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ],
+                                                                          "hideComponent": false,
+                                                                          "hideCondition": {
+                                                                            "logic": {
+                                                                              "if": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.userId.length"
+                                                                                },
+                                                                                true,
+                                                                                false
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                                                                            "triggerName": "Create bank or branch user",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "8"
+                                                                          }
+                                                                        ],
+                                                                        "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+                                                                        "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f349eda070071e283ca270",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -1866,7 +1940,81 @@
                                                                     "required": true,
                                                                     "errorMsg": "Email is required",
                                                                     "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
-                                                                    "regexErrorMsg": "Email is invalid"
+                                                                    "regexErrorMsg": "Email is invalid",
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "qQNOC51WBk539znapQxBK",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "CREATE",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ],
+                                                                          "hideComponent": false,
+                                                                          "hideCondition": {
+                                                                            "logic": {
+                                                                              "if": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.userId.length"
+                                                                                },
+                                                                                true,
+                                                                                false
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                                                                            "triggerName": "Create bank or branch user",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "8"
+                                                                          }
+                                                                        ],
+                                                                        "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+                                                                        "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f349eda070071e283ca270",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -2623,7 +2771,80 @@
                                                                   "validate": {
                                                                     "required": true,
                                                                     "errorMsg": "Department is required",
-                                                                    "bindButton": []
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "qQNOC51WBk539znapQxBK",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "CREATE",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ],
+                                                                          "hideComponent": false,
+                                                                          "hideCondition": {
+                                                                            "logic": {
+                                                                              "if": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.userId.length"
+                                                                                },
+                                                                                true,
+                                                                                false
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                                                                            "triggerName": "Create bank or branch user",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "8"
+                                                                          }
+                                                                        ],
+                                                                        "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+                                                                        "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f349eda070071e283ca270",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -2961,7 +3182,80 @@
                                                                   "validate": {
                                                                     "required": true,
                                                                     "errorMsg": "Designation is required",
-                                                                    "bindButton": []
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "qQNOC51WBk539znapQxBK",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "CREATE",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ],
+                                                                          "hideComponent": false,
+                                                                          "hideCondition": {
+                                                                            "logic": {
+                                                                              "if": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.userId.length"
+                                                                                },
+                                                                                true,
+                                                                                false
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                                                                            "triggerName": "Create bank or branch user",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "8"
+                                                                          }
+                                                                        ],
+                                                                        "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+                                                                        "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f349eda070071e283ca270",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -3324,7 +3618,81 @@
                                                                     "required": true,
                                                                     "errorMsg": "Cnic is required",
                                                                     "regex": "/^[0-9]{5}[0-9]{7}[0-9]$/",
-                                                                    "regexErrorMsg": "Cnic Fomat is invalid"
+                                                                    "regexErrorMsg": "Cnic Fomat is invalid",
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "qQNOC51WBk539znapQxBK",
+                                                                        "status": "ACTIVE",
+                                                                        "attributes": {
+                                                                          "label": "CREATE",
+                                                                          "variant": "contained",
+                                                                          "name": "Button",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component."
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "cssClassNames": [
+                                                                            {
+                                                                              "cssClassName": "CardButton"
+                                                                            }
+                                                                          ],
+                                                                          "hideComponent": false,
+                                                                          "hideCondition": {
+                                                                            "logic": {
+                                                                              "if": [
+                                                                                {
+                                                                                  "var": "currentScreen.form.userId.length"
+                                                                                },
+                                                                                true,
+                                                                                false
+                                                                              ]
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                                                                            "triggerName": "Create bank or branch user",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "8"
+                                                                          }
+                                                                        ],
+                                                                        "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+                                                                        "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+                                                                        "subType": "component",
+                                                                        "projectId": "63f349eda070071e283ca270",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   "placeholder": "",
                                                                   "disableUnderline": true,
@@ -3612,8 +3980,9 @@
                                                                   "dataValue": "name",
                                                                   "mandatory": true,
                                                                   "validate": {
-                                                                    "required": false,
-                                                                    "errorMsg": "This Field is Required"
+                                                                    "required": true,
+                                                                    "errorMsg": "This Field is Required",
+                                                                    "bindButton": "qQNOC51WBk539znapQxBK"
                                                                   },
                                                                   "layoutProperties": {
                                                                     "autocomplete": {
@@ -8083,7 +8452,73 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": true, "errorMsg": "This field is required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This field is required",
+        "bindButton": [
+          {
+            "id": "qQNOC51WBk539znapQxBK",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "CREATE",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "hideComponent": false,
+              "hideCondition": {
+                "logic": {
+                  "if": [
+                    { "var": "currentScreen.form.userId.length" },
+                    true,
+                    false
+                  ]
+                }
+              }
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                "triggerName": "Create bank or branch user",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+            "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+            "subType": "component",
+            "projectId": "63f349eda070071e283ca270",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
@@ -8400,7 +8835,70 @@
         "required": true,
         "errorMsg": "Email is required",
         "regex": "/^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/",
-        "regexErrorMsg": "Email is invalid"
+        "regexErrorMsg": "Email is invalid",
+        "bindButton": [
+          {
+            "id": "qQNOC51WBk539znapQxBK",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "CREATE",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "hideComponent": false,
+              "hideCondition": {
+                "logic": {
+                  "if": [
+                    { "var": "currentScreen.form.userId.length" },
+                    true,
+                    false
+                  ]
+                }
+              }
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                "triggerName": "Create bank or branch user",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+            "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+            "subType": "component",
+            "projectId": "63f349eda070071e283ca270",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -9108,7 +9606,69 @@
       "validate": {
         "required": true,
         "errorMsg": "Department is required",
-        "bindButton": []
+        "bindButton": [
+          {
+            "id": "qQNOC51WBk539znapQxBK",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "CREATE",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "hideComponent": false,
+              "hideCondition": {
+                "logic": {
+                  "if": [
+                    { "var": "currentScreen.form.userId.length" },
+                    true,
+                    false
+                  ]
+                }
+              }
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                "triggerName": "Create bank or branch user",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+            "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+            "subType": "component",
+            "projectId": "63f349eda070071e283ca270",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -9365,7 +9925,69 @@
       "validate": {
         "required": true,
         "errorMsg": "Designation is required",
-        "bindButton": []
+        "bindButton": [
+          {
+            "id": "qQNOC51WBk539znapQxBK",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "CREATE",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "hideComponent": false,
+              "hideCondition": {
+                "logic": {
+                  "if": [
+                    { "var": "currentScreen.form.userId.length" },
+                    true,
+                    false
+                  ]
+                }
+              }
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                "triggerName": "Create bank or branch user",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+            "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+            "subType": "component",
+            "projectId": "63f349eda070071e283ca270",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -9687,7 +10309,70 @@
         "required": true,
         "errorMsg": "Cnic is required",
         "regex": "/^[0-9]{5}[0-9]{7}[0-9]$/",
-        "regexErrorMsg": "Cnic Fomat is invalid"
+        "regexErrorMsg": "Cnic Fomat is invalid",
+        "bindButton": [
+          {
+            "id": "qQNOC51WBk539znapQxBK",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "CREATE",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "hideComponent": false,
+              "hideCondition": {
+                "logic": {
+                  "if": [
+                    { "var": "currentScreen.form.userId.length" },
+                    true,
+                    false
+                  ]
+                }
+              }
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
+                "triggerName": "Create bank or branch user",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "1-0-0-0-0-0-1-0-10-2-0-0-0-0-0",
+            "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+            "subType": "component",
+            "projectId": "63f349eda070071e283ca270",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
       },
       "placeholder": "",
       "disableUnderline": true,
@@ -9928,7 +10613,11 @@
       "dataKey": "id",
       "dataValue": "name",
       "mandatory": true,
-      "validate": { "required": false, "errorMsg": "This Field is Required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "This Field is Required",
+        "bindButton": "qQNOC51WBk539znapQxBK"
+      },
       "layoutProperties": {
         "autocomplete": {
           "//": "Use this class to style autocomplete component in dropdown."
