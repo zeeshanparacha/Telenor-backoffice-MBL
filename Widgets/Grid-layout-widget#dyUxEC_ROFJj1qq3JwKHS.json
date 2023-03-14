@@ -1,0 +1,295 @@
+[
+  {
+    "id": "dyUxEC_ROFJj1qq3JwKHS",
+    "name": "Grid layout widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "ANsriGM6EubMtM_VPH4ad",
+          "componentType": "10001",
+          "id": "ANsriGM6EubMtM_VPH4ad",
+          "position": {
+            "i": "ANsriGM6EubMtM_VPH4ad",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "ANsriGM6EubMtM_VPH4ad",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Grid layout",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "0px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "group": "Layout",
+        "type": "10001",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [
+          {
+            "triggerId": "vVS3TULVf0M9xxlfW5ROd",
+            "triggerName": "Get Branch User Permission",
+            "serviceType": "8",
+            "attributes": {
+              "loaderWidgetIds": [906070],
+              "messageWidgetIds": [906070],
+              "responseStateKey": "permissionListsResponse",
+              "responseReturnValue": "data.bankPermissions",
+              "url": "/bank-permissions/list",
+              "checksum": true,
+              "encryption": true,
+              "isDeviceDetails": true,
+              "loginTrigger": false,
+              "formData": false,
+              "logoutTrigger": false,
+              "headers": {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "channel_key": "001",
+                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                "locale": "en-ltr"
+              },
+              "requestBody": [],
+              "baseURL": "634555d068954540043d6820",
+              "storeType": 2
+            },
+            "type": "1",
+            "name": "On initialization"
+          },
+          {
+            "triggerId": "YOJ1VWDhyMNrB6RYDsyCd",
+            "triggerName": "Map permissionGroups",
+            "serviceType": "11",
+            "attributes": {
+              "storeType": "",
+              "selectedObjectBindingKey": "selectedObject",
+              "dataType": "value",
+              "destinationBindingKey": "allowedPermissionsId",
+              "sourceBindingKey": "permissionGroups",
+              "sourceStoreType": 1,
+              "destinationStoreType": 2,
+              "value": "id",
+              "targettedType": "array"
+            },
+            "type": "1",
+            "name": "On initialization"
+          }
+        ],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": "0-0-1-0-0-0-4",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "4xEEUsabPZ2c8elKXDem6",
+            "gridProps": [
+              {
+                "id": "gsaoN9VDifytYyAoPdHWg",
+                "status": "ACTIVE",
+                "name": "Label",
+                "attributes": {
+                  "label": "Permissions",
+                  "variant": "body1",
+                  "name": "Label",
+                  "mandatory": false,
+                  "layoutProperties": {
+                    "label": {
+                      "//": "Use this class to style label component.",
+                      "background-color": "#f7f9fb",
+                      "font-size": "16px",
+                      "padding": "10px 18px",
+                      "border-bottom": "#e1e8ec solid 1px",
+                      "border-top": "#e1e8ec solid 1px"
+                    },
+                    "mainContainer": "label",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "cssClassNames": [{ "cssClassName": "CardHeaderContainer" }]
+                },
+                "icon": "FaFont",
+                "group": "Form",
+                "type": "20002",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 15,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Label", "type": "20002" },
+                "events": [],
+                "path": "0-0-1-0-0-0-4-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            },
+            "path": "0-0-1-0-0-0-4-0"
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "dyUxEC_ROFJj1qq3JwKHS",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "dyUxEC_ROFJj1qq3JwKHS",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "3/13/2023",
+    "createdAt": "3/13/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ANsriGM6EubMtM_VPH4ad",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "gsaoN9VDifytYyAoPdHWg",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "vVS3TULVf0M9xxlfW5ROd",
+        "triggerName": "Get Branch User Permission",
+        "name": "On initialization",
+        "type": "1"
+      },
+      {
+        "triggerId": "YOJ1VWDhyMNrB6RYDsyCd",
+        "triggerName": "Map permissionGroups",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
+    "subType": "component",
+    "screenId": "4f5VmfhMQME_D2x_H-AJP",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "gsaoN9VDifytYyAoPdHWg",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Permissions",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "background-color": "#f7f9fb",
+          "font-size": "16px",
+          "padding": "10px 18px",
+          "border-bottom": "#e1e8ec solid 1px",
+          "border-top": "#e1e8ec solid 1px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "CardHeaderContainer" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-1-0-0-0-4-0-0",
+    "screenId": "4f5VmfhMQME_D2x_H-AJP",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

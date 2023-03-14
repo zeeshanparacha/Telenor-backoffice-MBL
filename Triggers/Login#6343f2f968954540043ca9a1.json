@@ -68,7 +68,7 @@
               "and": [
                 { ">": [{ "var": "access_token.length" }, 1] },
                 { "==": [{ "var": "is_otp_required" }, true] },
-                { "==": [{ "var": "user_type_id" }, "1"] }
+                { "!=": [{ "var": "user_type_id" }, "2"] }
               ]
             },
             "httpStatus": 200,
@@ -80,7 +80,7 @@
               "and": [
                 { ">": [{ "var": "access_token.length" }, 1] },
                 { "==": [{ "var": "is_otp_required" }, false] },
-                { "==": [{ "var": "user_type_id" }, "1"] }
+                { "!=": [{ "var": "user_type_id" }, "2"] }
               ]
             },
             "httpStatus": 200,
@@ -100,7 +100,7 @@
             "triggerId": "C9VAY5AIiTfVpeNy7pz65"
           },
           {
-            "logic": { "!=": [{ "var": "user_type_id" }, "1"] },
+            "logic": { "==": [{ "var": "user_type_id" }, "2"] },
             "httpStatus": 200,
             "triggerName": "Show New Login Error Modal",
             "triggerId": "eFNep-KVpg_cpnQcE0kGQ"
@@ -109,8 +109,8 @@
       }
     }
   ],
-  "updatedAt": "3/3/2023",
-  "createdAt": "3/3/2023",
+  "updatedAt": "3/13/2023",
+  "createdAt": "3/13/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }
