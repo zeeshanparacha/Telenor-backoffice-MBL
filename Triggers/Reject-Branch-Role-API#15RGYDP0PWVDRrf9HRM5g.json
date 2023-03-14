@@ -1,10 +1,8 @@
 {
-  "id": "63IfbdGsrywSQLBoldwKr",
-  "_id": "VCYLuXwcqP1QfO3NSn3Mn",
+  "id": "gcES3daqyCzmWjnyMs9OJ",
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
-  "name": "Get Branch Permission For Bank API",
-  "old_name": "Get Branch Permission For Bank API",
+  "name": "Reject Branch Role API",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,9 +12,8 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "permissionListsResponse",
-          "responseReturnValue": "data.branchPermissions",
-          "url": "/branch/role/permission/list",
+          "responseStateKey": "response",
+          "url": "/branch/role/maker-request/reject",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -30,27 +27,47 @@
             "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
             "locale": "en-ltr"
           },
-          "requestBody": [],
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "comments",
+              "value": "comment"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "makerCheckerId",
+              "value": "selectedObject.id"
+            }
+          ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
         },
         "responseHandler": [
           {
-            "httpStatus": 200,
             "logic": { "==": [{ "var": "status" }, 1] },
-            "triggerName": "Map edit permission group to roles",
-            "triggerId": "sdp35tr-V1bB8xUMdRcA3"
+            "httpStatus": 200,
+            "triggerName": "Open Pending Branch Role Screen",
+            "triggerId": "ZYlEO7E6qxbl6smq3EHdP"
           },
           {
-            "logic": { "if": [true, true, true] },
+            "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Compare permissionGroups",
-            "triggerId": "YQGZw99-oLx10USmHMSs5"
+            "triggerName": "Clear pending Branch Role Binding Key",
+            "triggerId": "8gk_GsbNT4xdbE0h3UKMY"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "7qK4zY9-Va6XZGtImuOcg"
           }
         ]
       }
     }
   ],
+  "_id": "15RGYDP0PWVDRrf9HRM5g",
   "updatedAt": "3/14/2023",
   "createdAt": "3/14/2023",
   "createdBy": "ahmerjavedkhan",

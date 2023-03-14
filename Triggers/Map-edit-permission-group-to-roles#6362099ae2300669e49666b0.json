@@ -1,1 +1,55 @@
-{"createdBy":"talib","updatedBy":"talib","_id":"6362099ae2300669e49666b0","id":"sdp35tr-V1bB8xUMdRcA3","name":"Map edit permission group to roles","projectId":"63f349eda070071e283ca270","gitBranchName":"master","services":[{"_id":"63620f53e2300669e49673bf","type":"11","command":{"responseHandler":[],"returns":[],"_id":"63620f53e2300669e49673c0","attributes":{"requestBody":[],"storeType":"","selectedObjectBindingKey":"selectedObject","dataType":"object","destinationBindingKey":"selectedRoles","sourceBindingKey":"permissionListsResponse","sourceStoreType":2,"destinationStoreType":2,"filterList":[{"key":"id","changeValueConditonally":false},{"key":"name"},{"key":"orderId"},{"key":"checked","changeValueConditonally":true,"logic":{"if":[{"contain":[{"var":"currentScreen.form.permissionGroups"},{"var":"id"},"id"]},true,false]}}],"mapRecursiveInChilds":true,"childKeysforRecursiveMap":"permissionGroups"},"type":"6"}}],"createdAt":"02-Nov-2022","updatedAt":"02-Nov-2022","__v":4}
+{
+  "id": "sdp35tr-V1bB8xUMdRcA3",
+  "_id": "6362099ae2300669e49666b0",
+  "name": "Map edit permission group to roles",
+  "old_name": "Map edit permission group to roles",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "object",
+          "destinationBindingKey": "selectedRoles",
+          "sourceBindingKey": "permissionListsResponse",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "id", "changeValueConditonally": false },
+            { "key": "name" },
+            { "key": "orderId" },
+            {
+              "key": "checked",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [
+                  {
+                    "contain": [
+                      { "var": "currentScreen.form.permissionGroups" },
+                      { "var": "id" },
+                      "id"
+                    ]
+                  },
+                  true,
+                  false
+                ]
+              }
+            }
+          ],
+          "mapRecursiveInChilds": true,
+          "childKeysforRecursiveMap": "permissionGroups",
+          "targettedType": "array"
+        }
+      }
+    }
+  ],
+  "updatedAt": "3/14/2023",
+  "createdAt": "3/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

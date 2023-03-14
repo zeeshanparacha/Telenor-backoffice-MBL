@@ -1473,6 +1473,22 @@
                 "readOnly": true
               },
               {
+                "id": "ACV75V4t7nsSbr6LEuWAN",
+                "name": "Open Success Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
                 "id": "afakwLwJK8LCd1MpZbIF8",
                 "status": "ACTIVE",
                 "_id": "610134a1d1f5e860b1e8c751",
@@ -1566,11 +1582,11 @@
                   "widget"
                 ],
                 "component": { "content": "Grid layout", "type": "10001" },
-                "path": "0-0-2",
+                "path": "0-0-3",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "T51hYcxtgsi3Kp4_Fg420",
+                    "id": "Pk1c74BQnglgFnkZkLeRC",
                     "gridProps": [
                       {
                         "id": "XX2PvzdDuzQhWtW5lK_sh",
@@ -1679,8 +1695,8 @@
                               "iconButtons": [
                                 {
                                   "trigger": {
-                                    "id": "Ni35V354zzhYGmWCAXHgJ",
-                                    "name": "Open Create Branch Role Screen",
+                                    "id": "y8hnbpNWpDkpSZ61P7xSs",
+                                    "name": " Open Edit Branch Role Screen",
                                     "projectId": "63f349eda070071e283ca270",
                                     "gitBranchName": "master",
                                     "services": [
@@ -1692,12 +1708,12 @@
                                             "nextWidgetId": "4f5VmfhMQME_D2x_H-AJP",
                                             "gridRadioValue": "",
                                             "selectedObjectBindingKey": "selectedObject",
-                                            "editableForm": false
+                                            "editableForm": true
                                           }
                                         }
                                       }
                                     ],
-                                    "_id": "ZLEALVtJxrCcif6xxrPft",
+                                    "_id": "6f8Zb7gtPBuRVN1AAVGdc",
                                     "updatedAt": "3/14/2023",
                                     "createdAt": "3/14/2023",
                                     "createdBy": "ahmerjavedkhan",
@@ -1706,7 +1722,7 @@
                                   "selectedObjectBindingKey": "selectedObject",
                                   "asset": null,
                                   "iconname": "FaEdit",
-                                  "triggerId": "Ni35V354zzhYGmWCAXHgJ",
+                                  "triggerId": "y8hnbpNWpDkpSZ61P7xSs",
                                   "bindingKey": "",
                                   "values": [],
                                   "conditional": {},
@@ -1754,8 +1770,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-2-0"
+                    }
                   }
                 ],
                 "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -1862,6 +1877,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "ACV75V4t7nsSbr6LEuWAN",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "afakwLwJK8LCd1MpZbIF8",
@@ -2937,6 +2964,22 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "ACV75V4t7nsSbr6LEuWAN",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "Lu2KNfZWCZIeo6wG2B16C",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "afakwLwJK8LCd1MpZbIF8",
     "name": "Grid layout",
     "type": "10001",
@@ -3088,8 +3131,8 @@
           "iconButtons": [
             {
               "trigger": {
-                "id": "Ni35V354zzhYGmWCAXHgJ",
-                "name": "Open Create Branch Role Screen",
+                "id": "y8hnbpNWpDkpSZ61P7xSs",
+                "name": " Open Edit Branch Role Screen",
                 "projectId": "63f349eda070071e283ca270",
                 "gitBranchName": "master",
                 "services": [
@@ -3101,12 +3144,12 @@
                         "nextWidgetId": "4f5VmfhMQME_D2x_H-AJP",
                         "gridRadioValue": "",
                         "selectedObjectBindingKey": "selectedObject",
-                        "editableForm": false
+                        "editableForm": true
                       }
                     }
                   }
                 ],
-                "_id": "ZLEALVtJxrCcif6xxrPft",
+                "_id": "6f8Zb7gtPBuRVN1AAVGdc",
                 "updatedAt": "3/14/2023",
                 "createdAt": "3/14/2023",
                 "createdBy": "ahmerjavedkhan",
@@ -3115,7 +3158,7 @@
               "selectedObjectBindingKey": "selectedObject",
               "asset": null,
               "iconname": "FaEdit",
-              "triggerId": "Ni35V354zzhYGmWCAXHgJ",
+              "triggerId": "y8hnbpNWpDkpSZ61P7xSs",
               "bindingKey": "",
               "values": [],
               "conditional": {},
