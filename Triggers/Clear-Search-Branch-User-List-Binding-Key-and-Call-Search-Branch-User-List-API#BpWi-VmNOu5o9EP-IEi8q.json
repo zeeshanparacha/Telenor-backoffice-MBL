@@ -1,0 +1,134 @@
+{
+  "id": "f51Tw_MymU2la36gTggt9",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Clear Search Branch User List Binding Key and Call Search Branch User List API",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "U8NDyQNfgtAwtpZD5t8RC",
+              "name": "Clear Search Branch User List",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "listBranchUser",
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "W1mbuedxu4Lw6kLTkRwIn",
+              "updatedAt": "3/14/2023",
+              "createdAt": "3/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "4VxCEi_3BrbnyN1-B4yYI",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "name": "Search Branch User List API",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "listBranchUser",
+                      "responseReturnValue": "data.users",
+                      "url": "/branch/user/list",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "email",
+                          "value": "email"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "mobileNumber",
+                          "value": "mobileNumber"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "nationalId",
+                          "value": "nationalId"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "username",
+                          "value": "username"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageNumber",
+                          "value": "1"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageSize",
+                          "value": "500"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "_id": "lvUJPr4sjF2Z0nOF4Z5hq",
+              "updatedAt": "3/14/2023",
+              "createdAt": "3/14/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["U8NDyQNfgtAwtpZD5t8RC", "4VxCEi_3BrbnyN1-B4yYI"]
+        }
+      }
+    }
+  ],
+  "_id": "BpWi-VmNOu5o9EP-IEi8q",
+  "updatedAt": "3/14/2023",
+  "createdAt": "3/14/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

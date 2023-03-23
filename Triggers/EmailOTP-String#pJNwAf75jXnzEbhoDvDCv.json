@@ -1,0 +1,42 @@
+{
+  "id": "sVKSX32C3RkaGe1Ik4_5v",
+  "name": "EmailOTP String",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "isLoginEmailOtpRequired",
+          "sourceBindingKey": "selectedObject.payload",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": {
+            "if": [
+              {
+                "==": [
+                  { "var": "selectedObject.payload.isLoginEmailOtpRequired" },
+                  true
+                ]
+              },
+              "true",
+              "false"
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "_id": "pJNwAf75jXnzEbhoDvDCv",
+  "updatedAt": "3/15/2023",
+  "createdAt": "3/15/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

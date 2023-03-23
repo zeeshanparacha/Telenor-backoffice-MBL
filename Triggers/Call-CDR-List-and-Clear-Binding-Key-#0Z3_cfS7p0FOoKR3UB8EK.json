@@ -1,0 +1,117 @@
+{
+  "id": "6DTrNgsmGPC2YLxQ5N_ZJ",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Call CDR List and Clear Binding Key ",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "wqT0f49fc7r7b_RU0Lldm",
+              "name": "Clear PO List Binding Key",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "poListResponse",
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "AOGlEZeD8oLV2Hk77fRHO",
+              "updatedAt": "3/21/2023",
+              "createdAt": "3/21/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "KYfrYZjptg2FpJKEZMgtC",
+              "_id": "_6aKMHvu8p-8aSOWH2Iwj",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "name": "List CDR  API",
+              "old_name": "List CDR  API",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "poListResponse",
+                      "responseReturnValue": "data.payOrders",
+                      "url": "/cdr/list",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageNumber",
+                          "value": "1"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageSize",
+                          "value": "5"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "status",
+                          "value": "status"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "3/21/2023",
+              "createdAt": "3/21/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": ["wqT0f49fc7r7b_RU0Lldm", "KYfrYZjptg2FpJKEZMgtC"]
+        }
+      }
+    }
+  ],
+  "_id": "0Z3_cfS7p0FOoKR3UB8EK",
+  "updatedAt": "3/21/2023",
+  "createdAt": "3/21/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

@@ -1,10 +1,10 @@
 {
-  "id": "Np1cq1r0u9MrKUtov2lwe",
-  "_id": "634d3bad9c86266780a09df5",
+  "id": "5r-RkAJGN0DZXtM92zjtH",
+  "_id": "THvS9YI-PQtEQvz65G-lQ",
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
-  "name": "Reject Bank User Single",
-  "old_name": "Reject Bank User Single",
+  "name": "Approve Pending Branch User API",
+  "old_name": "Approve Pending Branch User API",
   "status": "ACTIVE",
   "services": [
     {
@@ -15,7 +15,7 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "response",
-          "url": "/bank-users/check-request/reject",
+          "url": "/branch/user/checker-request/approved",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -30,6 +30,12 @@
             "locale": "en-ltr"
           },
           "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "comments",
+              "value": "comments"
+            },
             {
               "type": 2,
               "name": "Current screen",
@@ -48,28 +54,22 @@
             "triggerId": "7qK4zY9-Va6XZGtImuOcg"
           },
           {
-            "logic": { "==": [{ "var": "status" }, 0] },
-            "httpStatus": 400,
-            "triggerName": "Show Error Modal",
-            "triggerId": "zj5wU451q42rOfjv-NNhD"
-          },
-          {
-            "logic": { "==": [{ "var": "status" }, 0] },
-            "httpStatus": 200,
-            "triggerName": "Show Error Modal",
-            "triggerId": "zj5wU451q42rOfjv-NNhD"
-          },
-          {
-            "logic": { "==": [{ "var": "status" }, 1] },
-            "httpStatus": 200,
-            "triggerName": "Clear Pending Branch Data Grid Service",
-            "triggerId": "TAt5Ydfqo2X_5ONoVMBq8"
-          },
-          {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
             "triggerName": "Open Pending Branch User Screen",
-            "triggerId": "bIExwUCovTStmw7qeN-yF"
+            "triggerId": "h_NNATefkWxeggdC7n9Fy"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Pending Branch User List BindingKey",
+            "triggerId": "6_gm0MaNpU68GI1YzsV7v"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "httpStatus": 200,
+            "triggerName": "Show Error Modal",
+            "triggerId": "zj5wU451q42rOfjv-NNhD"
           }
         ]
       }

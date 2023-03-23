@@ -1,0 +1,156 @@
+{
+  "id": "9LAU_C6CrfSy-_lHbsoZ_",
+  "_id": "oGU6FWWy2Z9Uk1D-FM59r",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Update Branch User API ",
+  "old_name": "Update Branch User API ",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/branch/user/maker-request/update",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchId",
+              "value": "branchId.id"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "branchName",
+              "value": "branchId.name"
+            },
+            { "type": 1, "name": "Form", "key": "cnic", "value": "nic" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "department",
+              "value": "department"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "designation",
+              "value": "designation"
+            },
+            { "type": 1, "name": "Form", "key": "email", "value": "email" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "firstName",
+              "value": "firstName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "isLoginEmailOtpRequired",
+              "value": "isLoginEmailOtpRequired"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "isLoginSmsOtpRequired",
+              "value": "isLoginSmsOtpRequired"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "lastName",
+              "value": "lastName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "mobileNo",
+              "value": "mobileNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "roleId",
+              "value": "roleId.id"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "roleName",
+              "value": "roleId.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "status.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "userName",
+              "value": "username"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "7qK4zY9-Va6XZGtImuOcg"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Search Branch User Screen",
+            "triggerId": "WpP9hGTjWXZ2_bDlxXlSd"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Search Branch User List",
+            "triggerId": "U8NDyQNfgtAwtpZD5t8RC"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "httpStatus": 200,
+            "triggerName": "Show Error Modal",
+            "triggerId": "zj5wU451q42rOfjv-NNhD"
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "3/16/2023",
+  "createdAt": "3/16/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

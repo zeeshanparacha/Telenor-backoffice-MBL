@@ -1,0 +1,47 @@
+{
+  "id": "XEXGpBvA1vHljadRs0h3k",
+  "_id": "lDJHi3pXY7_roXVLTf4mF",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Download CDR PDF",
+  "old_name": "Download CDR PDF",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/cdr/list/export/pdf",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "Pay Order Report.pdf",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "status", "value": "status" }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "3/21/2023",
+  "createdAt": "3/21/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
