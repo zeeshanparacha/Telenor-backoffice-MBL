@@ -2943,83 +2943,30 @@
                                       "iconButtons": [
                                         {
                                           "trigger": {
-                                            "createdBy": "talib",
-                                            "updatedBy": "talib",
-                                            "_id": "634baf262ac2a16598ed4bc5",
-                                            "id": "_i4j3Y--6kxAE1_qGiJk-",
-                                            "projectId": "6305eb4fb2d1671fbc4b1de8",
-                                            "gitBranchName": "Sprint-1",
-                                            "name": "Approve Business User Role Single",
-                                            "status": "ACTIVE",
+                                            "id": "R_vnlqzv_6a7AegoXtSKm",
+                                            "_id": "p0K1BlPbl0h24hqw0lXiR",
+                                            "name": "Open Rtgs View Detail Screen",
+                                            "old_name": "Open Rtgs View Detail Screen",
+                                            "projectId": "63f349eda070071e283ca270",
+                                            "gitBranchName": "master",
                                             "services": [
                                               {
-                                                "_id": "634baf262ac2a16598ed4bc6",
-                                                "type": "8",
+                                                "type": "1",
                                                 "command": {
-                                                  "responseHandler": [
-                                                    {
-                                                      "httpStatus": 200,
-                                                      "logic": {
-                                                        "==": [
-                                                          { "var": "status" },
-                                                          1
-                                                        ]
-                                                      },
-                                                      "triggerName": "Open Success Modal",
-                                                      "triggerId": "7qK4zY9-Va6XZGtImuOcg"
-                                                    },
-                                                    {
-                                                      "logic": {
-                                                        "==": [
-                                                          { "var": "status" },
-                                                          0
-                                                        ]
-                                                      },
-                                                      "httpStatus": 200,
-                                                      "triggerName": "Show Error Modal",
-                                                      "triggerId": "zj5wU451q42rOfjv-NNhD"
-                                                    }
-                                                  ],
-                                                  "returns": [],
-                                                  "_id": "634baf262ac2a16598ed4bc7",
+                                                  "type": "3",
                                                   "attributes": {
-                                                    "loaderWidgetIds": [906070],
-                                                    "messageWidgetIds": [
-                                                      906070
-                                                    ],
-                                                    "responseStateKey": "response",
-                                                    "url": "/business-roles/check-request/approve",
-                                                    "checksum": true,
-                                                    "encryption": true,
-                                                    "isDeviceDetails": true,
-                                                    "loginTrigger": false,
-                                                    "formData": false,
-                                                    "logoutTrigger": false,
-                                                    "headers": {
-                                                      "Content-Type": "application/json",
-                                                      "Accept": "application/json",
-                                                      "channel_key": "001",
-                                                      "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                      "locale": "en-ltr"
-                                                    },
-                                                    "requestBody": [
-                                                      {
-                                                        "type": 2,
-                                                        "name": "Current screen",
-                                                        "key": "makerCheckerId",
-                                                        "value": "selectedObject.id"
-                                                      }
-                                                    ],
-                                                    "baseURL": "634555d068954540043d6820",
-                                                    "storeType": 2
-                                                  },
-                                                  "type": "1"
+                                                    "nextWidgetId": "yq327VVgsCt8pHoBiWnle",
+                                                    "gridRadioValue": "",
+                                                    "selectedObjectBindingKey": "selectedObject",
+                                                    "editableForm": true
+                                                  }
                                                 }
                                               }
                                             ],
-                                            "createdAt": "16-Oct-2022",
-                                            "updatedAt": "16-Oct-2022",
-                                            "__v": 0
+                                            "updatedAt": "3/23/2023",
+                                            "createdAt": "3/23/2023",
+                                            "createdBy": "ahmerjavedkhan",
+                                            "updatedBy": "ahmerjavedkhan"
                                           },
                                           "selectedObjectBindingKey": "selectedObject",
                                           "label": "View Detail",
@@ -3028,7 +2975,7 @@
                                               "cssClassName": "viewDetailsButton1"
                                             }
                                           ],
-                                          "triggerId": "_i4j3Y--6kxAE1_qGiJk-",
+                                          "triggerId": "R_vnlqzv_6a7AegoXtSKm",
                                           "conditional": {},
                                           "values": [],
                                           "disableConditional": {},
@@ -3183,8 +3130,8 @@
     "gitBranchName": "master",
     "_id": "brZ4uDtPELge35fyHd56w",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/21/2023",
-    "createdAt": "3/21/2023",
+    "updatedAt": "3/23/2023",
+    "createdAt": "3/23/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5491,76 +5438,35 @@
           "iconButtons": [
             {
               "trigger": {
-                "createdBy": "talib",
-                "updatedBy": "talib",
-                "_id": "634baf262ac2a16598ed4bc5",
-                "id": "_i4j3Y--6kxAE1_qGiJk-",
-                "projectId": "6305eb4fb2d1671fbc4b1de8",
-                "gitBranchName": "Sprint-1",
-                "name": "Approve Business User Role Single",
-                "status": "ACTIVE",
+                "id": "R_vnlqzv_6a7AegoXtSKm",
+                "_id": "p0K1BlPbl0h24hqw0lXiR",
+                "name": "Open Rtgs View Detail Screen",
+                "old_name": "Open Rtgs View Detail Screen",
+                "projectId": "63f349eda070071e283ca270",
+                "gitBranchName": "master",
                 "services": [
                   {
-                    "_id": "634baf262ac2a16598ed4bc6",
-                    "type": "8",
+                    "type": "1",
                     "command": {
-                      "responseHandler": [
-                        {
-                          "httpStatus": 200,
-                          "logic": { "==": [{ "var": "status" }, 1] },
-                          "triggerName": "Open Success Modal",
-                          "triggerId": "7qK4zY9-Va6XZGtImuOcg"
-                        },
-                        {
-                          "logic": { "==": [{ "var": "status" }, 0] },
-                          "httpStatus": 200,
-                          "triggerName": "Show Error Modal",
-                          "triggerId": "zj5wU451q42rOfjv-NNhD"
-                        }
-                      ],
-                      "returns": [],
-                      "_id": "634baf262ac2a16598ed4bc7",
+                      "type": "3",
                       "attributes": {
-                        "loaderWidgetIds": [906070],
-                        "messageWidgetIds": [906070],
-                        "responseStateKey": "response",
-                        "url": "/business-roles/check-request/approve",
-                        "checksum": true,
-                        "encryption": true,
-                        "isDeviceDetails": true,
-                        "loginTrigger": false,
-                        "formData": false,
-                        "logoutTrigger": false,
-                        "headers": {
-                          "Content-Type": "application/json",
-                          "Accept": "application/json",
-                          "channel_key": "001",
-                          "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                          "locale": "en-ltr"
-                        },
-                        "requestBody": [
-                          {
-                            "type": 2,
-                            "name": "Current screen",
-                            "key": "makerCheckerId",
-                            "value": "selectedObject.id"
-                          }
-                        ],
-                        "baseURL": "634555d068954540043d6820",
-                        "storeType": 2
-                      },
-                      "type": "1"
+                        "nextWidgetId": "yq327VVgsCt8pHoBiWnle",
+                        "gridRadioValue": "",
+                        "selectedObjectBindingKey": "selectedObject",
+                        "editableForm": true
+                      }
                     }
                   }
                 ],
-                "createdAt": "16-Oct-2022",
-                "updatedAt": "16-Oct-2022",
-                "__v": 0
+                "updatedAt": "3/23/2023",
+                "createdAt": "3/23/2023",
+                "createdBy": "ahmerjavedkhan",
+                "updatedBy": "ahmerjavedkhan"
               },
               "selectedObjectBindingKey": "selectedObject",
               "label": "View Detail",
               "cssClassNames": [{ "cssClassName": "viewDetailsButton1" }],
-              "triggerId": "_i4j3Y--6kxAE1_qGiJk-",
+              "triggerId": "R_vnlqzv_6a7AegoXtSKm",
               "conditional": {},
               "values": [],
               "disableConditional": {},

@@ -4,7 +4,7 @@
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
   "name": "rtgs Approve Status API",
-  "old_name": "PO Approve Status API",
+  "old_name": "rtgs Approve Status API",
   "status": "ACTIVE",
   "services": [
     {
@@ -15,7 +15,7 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "response",
-          "url": "/po/update-status",
+          "url": "/rtgs/update-status",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -47,6 +47,12 @@
               "name": "Static",
               "key": "status",
               "value": "COMPLETED"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "rtgsNumber",
+              "value": "rtgsNumber"
             }
           ],
           "baseURL": "634555d068954540043d6820",
@@ -56,8 +62,8 @@
           {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Open PO List  Screen",
-            "triggerId": "Rl8S2wOoxa9qqgRLVyg6x"
+            "triggerName": "Open Rtgs List Screen",
+            "triggerId": "32F0Uks-ETHhKP2xy7Ar1"
           },
           {
             "logic": { "==": [{ "var": "status" }, 1] },
@@ -69,8 +75,8 @@
       }
     }
   ],
-  "updatedAt": "3/22/2023",
-  "createdAt": "3/22/2023",
+  "updatedAt": "3/23/2023",
+  "createdAt": "3/23/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

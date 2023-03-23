@@ -4,7 +4,7 @@
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
   "name": "rtgs Reject Status API",
-  "old_name": "PO Reject Status API",
+  "old_name": "rtgs Reject Status API",
   "status": "ACTIVE",
   "services": [
     {
@@ -15,7 +15,7 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "response",
-          "url": "/po/update-status",
+          "url": "/rtgs/update-status",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -56,8 +56,8 @@
           {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Open PO List  Screen",
-            "triggerId": "Rl8S2wOoxa9qqgRLVyg6x"
+            "triggerName": "Open Rtgs List Screen",
+            "triggerId": "32F0Uks-ETHhKP2xy7Ar1"
           },
           {
             "logic": { "==": [{ "var": "status" }, 1] },
@@ -69,8 +69,8 @@
       }
     }
   ],
-  "updatedAt": "3/22/2023",
-  "createdAt": "3/22/2023",
+  "updatedAt": "3/23/2023",
+  "createdAt": "3/23/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }
