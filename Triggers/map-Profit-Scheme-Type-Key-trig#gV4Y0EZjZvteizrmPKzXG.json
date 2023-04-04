@@ -1,0 +1,31 @@
+{
+  "id": "RmCeedffMHTKbFv0PbMyV",
+  "_id": "gV4Y0EZjZvteizrmPKzXG",
+  "name": "map Profit Scheme Type-Key trig",
+  "old_name": "map Profit Scheme trig",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "type",
+          "sourceBindingKey": "corporateDetailsonEdit.feeScheme.type",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/4/2023",
+  "createdAt": "4/4/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}

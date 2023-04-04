@@ -1,0 +1,121 @@
+{
+  "_id": "DwFEEnbb9wGdW0u_A2yVZ",
+  "id": "j2FUS7Rl-HP-nfg1kyLgb",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Open Edit Corporate Screen and Map Profit Margin trig",
+  "old_name": "Open Edit Corporate Screen and Map Profit Margin trig",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "createdBy": "talib",
+              "updatedBy": "talib",
+              "_id": "6363adfde2300669e4983fc6",
+              "id": "QnNlme_2dXLSg4CE4fWQn",
+              "name": "Open Edit Corporate Screen",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "_id": "6363cac7e2300669e498cfd7",
+                  "type": "1",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "6363cac7e2300669e498cfd8",
+                    "attributes": {
+                      "nextWidgetId": "WmWXQsFTiuwzP4UYdLxb4",
+                      "gridRadioValue": "",
+                      "selectedObjectBindingKey": "selectedObject.payload.configuration",
+                      "editableForm": true
+                    },
+                    "type": "3"
+                  }
+                }
+              ],
+              "createdAt": "03-Nov-2022",
+              "updatedAt": "03-Nov-2022",
+              "__v": 3
+            },
+            {
+              "id": "RmCeedffMHTKbFv0PbMyV",
+              "_id": "gV4Y0EZjZvteizrmPKzXG",
+              "name": "map Profit Scheme Type-Key trig",
+              "old_name": "map Profit Scheme trig",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "type",
+                      "sourceBindingKey": "corporateDetailsonEdit.feeScheme.type",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "4/4/2023",
+              "createdAt": "4/4/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            },
+            {
+              "id": "9-JdYxLeQoHiwTc_X8bls",
+              "name": "map Profit Scheme Value-Key trig",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "value",
+                      "destinationBindingKey": "value",
+                      "sourceBindingKey": "corporateDetailsonEdit.feeScheme.value",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "targettedType": "value"
+                    }
+                  }
+                }
+              ],
+              "_id": "uTiU21fDZYGAfWOny72qh",
+              "updatedAt": "4/4/2023",
+              "createdAt": "4/4/2023",
+              "createdBy": "ahmerjavedkhan",
+              "updatedBy": "ahmerjavedkhan"
+            }
+          ],
+          "triggerIds": [
+            "QnNlme_2dXLSg4CE4fWQn",
+            "RmCeedffMHTKbFv0PbMyV",
+            "9-JdYxLeQoHiwTc_X8bls"
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/4/2023",
+  "createdAt": "4/4/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
+}
