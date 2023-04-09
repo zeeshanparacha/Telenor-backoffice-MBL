@@ -1,10 +1,10 @@
 {
-  "id": "KYfrYZjptg2FpJKEZMgtC",
-  "_id": "_6aKMHvu8p-8aSOWH2Iwj",
+  "id": "M98mY_p7YNDGkDtKo1l3L",
+  "_id": "e92y3arMEpgovqJu0Q4Pm",
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
-  "name": "List CDR  API",
-  "old_name": "List CDR  API",
+  "name": "Get Pending Corporate Registration",
+  "old_name": "Get Pending Corporate Registration",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,9 +14,9 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "listResponse",
-          "responseReturnValue": "data.cdrList",
-          "url": "/cdr/list",
+          "responseStateKey": "pendingCorporateRegistration",
+          "responseReturnValue": "data.result.list",
+          "url": "/corporate-registration/pending-requests",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -32,26 +32,7 @@
           },
           "requestBody": [
             { "type": 4, "name": "Static", "key": "pageNumber", "value": "1" },
-            { "type": 4, "name": "Static", "key": "pageSize", "value": "5" },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "status",
-              "value": "status.code"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "companyId",
-              "value": "company.companyId"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "fromDate",
-              "value": "fromDate"
-            },
-            { "type": 1, "name": "Form", "key": "toDate", "value": "toDate" }
+            { "type": 4, "name": "Static", "key": "pageSize", "value": "5" }
           ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
@@ -62,6 +43,6 @@
   ],
   "updatedAt": "4/6/2023",
   "createdAt": "4/6/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
 }

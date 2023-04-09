@@ -33,7 +33,25 @@
           "requestBody": [
             { "type": 4, "name": "Static", "key": "pageNumber", "value": "1" },
             { "type": 4, "name": "Static", "key": "pageSize", "value": "5" },
-            { "type": 1, "name": "Form", "key": "status", "value": "status" }
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "status.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyId",
+              "value": "company.companyId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fromDate",
+              "value": "fromDate"
+            },
+            { "type": 1, "name": "Form", "key": "toDate", "value": "toDate" }
           ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
@@ -42,8 +60,8 @@
       }
     }
   ],
-  "updatedAt": "3/24/2023",
-  "createdAt": "3/24/2023",
+  "updatedAt": "4/6/2023",
+  "createdAt": "4/6/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }

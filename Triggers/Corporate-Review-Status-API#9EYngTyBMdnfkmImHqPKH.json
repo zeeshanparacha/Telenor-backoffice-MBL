@@ -1,0 +1,48 @@
+{
+  "id": "gtfrgMP4sHaAr8rVB1aDT",
+  "_id": "9EYngTyBMdnfkmImHqPKH",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Corporate Review Status API",
+  "old_name": "Corporate Review Status API",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "statusCorporateRegistration",
+          "responseReturnValue": "data.result.list",
+          "url": "/corporate-registration/reviewed-requests",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 4, "name": "Static", "key": "pageNumber", "value": "1" },
+            { "type": 4, "name": "Static", "key": "pageSize", "value": "5" }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "4/7/2023",
+  "createdAt": "4/7/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

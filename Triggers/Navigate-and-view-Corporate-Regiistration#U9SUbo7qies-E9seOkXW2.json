@@ -1,0 +1,104 @@
+{
+  "_id": "U9SUbo7qies-E9seOkXW2",
+  "id": "ZEPqVZwm6ZwTnBJjff-Ah",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Navigate and view Corporate Regiistration",
+  "old_name": "Navigate and view Corporate Regiistration",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "7tSRLHZZj5tcO4uIO7t2u",
+              "_id": "RBQyMWZTv1og8SKWzCfco",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "name": "Get View Corporate Registration",
+              "old_name": "View Corporate Registration",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "corporateReg",
+                      "responseReturnValue": "data.corporate_offline.data",
+                      "url": "/corporate-registration/view",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "formId",
+                          "value": "54"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "4/6/2023",
+              "createdAt": "4/6/2023",
+              "createdBy": "muzzamil",
+              "updatedBy": "muzzamil"
+            },
+            {
+              "id": "xie_VkXdd6Yc5ZOb3Au9n",
+              "name": "Navigate View Corporate Registration",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "3",
+                    "attributes": {
+                      "nextWidgetId": "DJGUvrNJYPOshPQhs6d0z",
+                      "gridRadioValue": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "_id": "3ZNcfzWnY9BsXIDfNB5Yt",
+              "updatedAt": "4/6/2023",
+              "createdAt": "4/6/2023",
+              "createdBy": "muzzamil",
+              "updatedBy": "muzzamil"
+            }
+          ],
+          "triggerIds": ["7tSRLHZZj5tcO4uIO7t2u", "xie_VkXdd6Yc5ZOb3Au9n"]
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/7/2023",
+  "createdAt": "4/7/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

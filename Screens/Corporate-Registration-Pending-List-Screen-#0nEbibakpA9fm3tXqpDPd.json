@@ -1,0 +1,1165 @@
+[
+  {
+    "id": "0nEbibakpA9fm3tXqpDPd",
+    "name": "Corporate Registration Pending List Screen ",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "wlFDem5AigedK-mzlJlog",
+          "componentType": "10001",
+          "id": "wlFDem5AigedK-mzlJlog",
+          "position": {
+            "i": "wlFDem5AigedK-mzlJlog",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "wlFDem5AigedK-mzlJlog",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Corporate Registration Pending List Screen ",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Corporate Registration Pending List Screen "
+        },
+        "group": "Layout",
+        "type": "sidebarItem",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": 0,
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "MVGrd0PNwKMWrkbZ3ZlQd",
+            "gridProps": [
+              {
+                "type": "10001",
+                "id": "Kcv7CvcFXagWtIgSOPPn2",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "cJ-217_imym0LJWjbxHyi",
+                    "gridProps": [
+                      {
+                        "id": "1E-4erfj_ClgEZi_cFXAo",
+                        "type": "20002",
+                        "name": "Label",
+                        "component": { "content": "Label", "type": "20002" },
+                        "attributes": {
+                          "label": "Corporate Registration Pending List",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component.",
+                              "padding-bottom": "13px",
+                              "font-size": "28px",
+                              "letter-spacing": "-1px",
+                              "display": "block",
+                              "color": "#666",
+                              "margin": "0px 0px 0px 0px",
+                              "font-weight": "300"
+                            },
+                            "mainContainer": "label",
+                            "xl": 10,
+                            "lg": 10,
+                            "md": 10,
+                            "sm": 4,
+                            "xs": 4
+                          }
+                        },
+                        "events": [],
+                        "path": "0-0-0-0-0",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 10,
+                      "lg": 10,
+                      "md": 10,
+                      "sm": 4,
+                      "xs": 4
+                    },
+                    "path": "0-0-0-0"
+                  },
+                  {
+                    "type": "column",
+                    "id": "23W_HwujG0pihwLWB7LPv",
+                    "gridProps": [],
+                    "layoutProperties": {
+                      "xl": 1,
+                      "lg": 1,
+                      "md": 1,
+                      "sm": 4,
+                      "xs": 4
+                    },
+                    "path": "0-0-0-1"
+                  },
+                  {
+                    "type": "column",
+                    "id": "jE-qBT3d8OOsaEN-YmlnB",
+                    "gridProps": [],
+                    "layoutProperties": {
+                      "xl": 1,
+                      "lg": 1,
+                      "md": 1,
+                      "sm": 4,
+                      "xs": 4
+                    },
+                    "path": "0-0-0-2"
+                  }
+                ],
+                "path": "0-0-0",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout",
+                  "cssClassNames": [{ "cssClassName": "pageTitleBorder" }]
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "Ssj8T-VgHPVUnxSXfAnM7",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "40f-j3A6IRdZj8zG9GKDK",
+                    "gridProps": [
+                      {
+                        "id": "X7BEDiGcLF7USYMQEmVZm",
+                        "status": "ACTIVE",
+                        "_id": "610134a1d1f5e860b1e8c751",
+                        "name": "Grid layout",
+                        "icon": "FaGripHorizontal",
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "group": "Layout",
+                        "type": "10001",
+                        "updatedAt": "23-Sep-2021",
+                        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+                        "createdAt": "24-Aug-2021",
+                        "events": [
+                          {
+                            "triggerId": "M98mY_p7YNDGkDtKo1l3L",
+                            "triggerName": "Get Pending Corporate Registration",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "pendingCorporateRegistration",
+                              "responseReturnValue": "data",
+                              "url": "/corporate-registration/pending-requests",
+                              "checksum": true,
+                              "encryption": true,
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [
+                                {
+                                  "type": 4,
+                                  "name": "Static",
+                                  "key": "pageNumber",
+                                  "value": "1"
+                                },
+                                {
+                                  "type": 4,
+                                  "name": "Static",
+                                  "key": "pageSize",
+                                  "value": "5"
+                                }
+                              ],
+                              "baseURL": "634555d068954540043d6820",
+                              "storeType": 2
+                            },
+                            "type": "1",
+                            "name": "On initialization"
+                          }
+                        ],
+                        "order": 1,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "component": {
+                          "content": "Grid layout",
+                          "type": "10001"
+                        },
+                        "path": "0-0-2-0-0",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "PaGbE58h2JClUfqlv4XxA",
+                            "gridProps": [
+                              {
+                                "id": "tt0xbilv-wFfkCWu_IKAX",
+                                "status": "ACTIVE",
+                                "name": "Data table",
+                                "type": "20014",
+                                "attributes": {
+                                  "responseStateKey": "pendingCorporateRegistration",
+                                  "layoutProperties": {
+                                    "container": {
+                                      "//": "Use this class to style data table container."
+                                    },
+                                    "rowStyle": {
+                                      "//": "Use this class to style data table rows.",
+                                      "color": "black",
+                                      "background-color": "white",
+                                      "text-align": "left"
+                                    },
+                                    "defaultColDefinition": {
+                                      "//": "Use this class to define column definition of data table.",
+                                      "sortable": true,
+                                      "animateRows": false,
+                                      "resizable": true,
+                                      "enableValue": false,
+                                      "enableRowGroup": false,
+                                      "enablePivot": false,
+                                      "filter": true,
+                                      "type": "leftAligned",
+                                      "minWidth": 10,
+                                      "domLayout": "autoHeight"
+                                    },
+                                    "mainContainer": "container",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12,
+                                    "headerStyles": {
+                                      "background-color": "#DA0006",
+                                      "color": "#FFFFFF"
+                                    }
+                                  },
+                                  "defaultColDef": {
+                                    "sortable": true,
+                                    "animateRows": false,
+                                    "resizable": false,
+                                    "enableValue": false,
+                                    "enableRowGroup": false,
+                                    "enablePivot": false,
+                                    "filter": true,
+                                    "type": "leftAligned",
+                                    "minWidth": 30,
+                                    "domLayout": "autoHeight"
+                                  },
+                                  "rowStyle": {
+                                    "color": "black",
+                                    "background-color": "white",
+                                    "text-align": "left"
+                                  },
+                                  "columnDefinition": [
+                                    {
+                                      "type": "checkbox",
+                                      "typeTemp": {
+                                        "name": "Checkbox",
+                                        "type": "checkbox"
+                                      },
+                                      "bindingKeyForSelectedRow": "selectedRows",
+                                      "storeType": 2,
+                                      "field": "",
+                                      "checkboxValue": "account"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "companyName",
+                                      "headerName": "Company Name",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "email",
+                                      "headerName": "Email",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "field": "mobileNumber",
+                                      "headerName": "Mobile Number",
+                                      "conditional": { "bindingKey": "" },
+                                      "values": [""],
+                                      "cssConditional": {
+                                        "bindingKey": "",
+                                        "cssClassNames": []
+                                      },
+                                      "cssValues": [""]
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Icon Button",
+                                        "type": "iconButton"
+                                      },
+                                      "headerName": "Action",
+                                      "field": "",
+                                      "rowId": "id",
+                                      "iconButtons": [
+                                        {
+                                          "label": "View Detail",
+                                          "trigger": {
+                                            "id": "ZEPqVZwm6ZwTnBJjff-Ah",
+                                            "projectId": "63f349eda070071e283ca270",
+                                            "gitBranchName": "master",
+                                            "name": "Navigate and view Corporate Regiistration",
+                                            "old_name": "",
+                                            "status": "ACTIVE",
+                                            "services": [
+                                              {
+                                                "type": "2",
+                                                "command": {
+                                                  "type": "1",
+                                                  "attributes": {
+                                                    "delay": "",
+                                                    "triggers": [
+                                                      {
+                                                        "id": "7tSRLHZZj5tcO4uIO7t2u",
+                                                        "_id": "RBQyMWZTv1og8SKWzCfco",
+                                                        "projectId": "63f349eda070071e283ca270",
+                                                        "gitBranchName": "master",
+                                                        "name": "Get View Corporate Registration",
+                                                        "old_name": "View Corporate Registration",
+                                                        "status": "ACTIVE",
+                                                        "services": [
+                                                          {
+                                                            "type": "8",
+                                                            "command": {
+                                                              "type": "1",
+                                                              "attributes": {
+                                                                "loaderWidgetIds": [
+                                                                  906070
+                                                                ],
+                                                                "messageWidgetIds": [
+                                                                  906070
+                                                                ],
+                                                                "responseStateKey": "corporateReg",
+                                                                "responseReturnValue": "data.corporate_offline.data",
+                                                                "url": "/corporate-registration/view",
+                                                                "checksum": true,
+                                                                "encryption": true,
+                                                                "isDeviceDetails": true,
+                                                                "loginTrigger": false,
+                                                                "formData": false,
+                                                                "logoutTrigger": false,
+                                                                "headers": {
+                                                                  "Content-Type": "application/json",
+                                                                  "Accept": "application/json",
+                                                                  "channel_key": "001",
+                                                                  "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                  "locale": "en-ltr"
+                                                                },
+                                                                "requestBody": [
+                                                                  {
+                                                                    "type": 4,
+                                                                    "name": "Static",
+                                                                    "key": "formId",
+                                                                    "value": "54"
+                                                                  }
+                                                                ],
+                                                                "baseURL": "634555d068954540043d6820",
+                                                                "storeType": 2
+                                                              },
+                                                              "responseHandler": []
+                                                            }
+                                                          }
+                                                        ],
+                                                        "updatedAt": "4/6/2023",
+                                                        "createdAt": "4/6/2023",
+                                                        "createdBy": "muzzamil",
+                                                        "updatedBy": "muzzamil"
+                                                      },
+                                                      {
+                                                        "id": "xie_VkXdd6Yc5ZOb3Au9n",
+                                                        "name": "Navigate View Corporate Registration",
+                                                        "projectId": "63f349eda070071e283ca270",
+                                                        "gitBranchName": "master",
+                                                        "services": [
+                                                          {
+                                                            "type": "1",
+                                                            "command": {
+                                                              "type": "3",
+                                                              "attributes": {
+                                                                "nextWidgetId": "DJGUvrNJYPOshPQhs6d0z",
+                                                                "gridRadioValue": "",
+                                                                "selectedObjectBindingKey": "selectedObject",
+                                                                "editableForm": false
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "_id": "3ZNcfzWnY9BsXIDfNB5Yt",
+                                                        "updatedAt": "4/6/2023",
+                                                        "createdAt": "4/6/2023",
+                                                        "createdBy": "muzzamil",
+                                                        "updatedBy": "muzzamil"
+                                                      }
+                                                    ],
+                                                    "triggerIds": [
+                                                      "7tSRLHZZj5tcO4uIO7t2u",
+                                                      "xie_VkXdd6Yc5ZOb3Au9n"
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "_id": "U9SUbo7qies-E9seOkXW2",
+                                            "updatedAt": "4/6/2023",
+                                            "createdAt": "4/6/2023",
+                                            "createdBy": "muzzamil",
+                                            "updatedBy": "muzzamil"
+                                          },
+                                          "triggerId": "ZEPqVZwm6ZwTnBJjff-Ah",
+                                          "conditional": {},
+                                          "values": [],
+                                          "disableConditional": {},
+                                          "disableValues": [],
+                                          "cssConditional": {},
+                                          "cssValues": [],
+                                          "cssClassNames": [
+                                            {
+                                              "cssClassName": "viewDetailsButton1"
+                                            }
+                                          ],
+                                          "selectedObjectBindingKey": "selectedObject"
+                                        }
+                                      ],
+                                      "type": "iconButton"
+                                    }
+                                  ],
+                                  "rowDefinition": [],
+                                  "debug": false,
+                                  "pagination": true,
+                                  "paginationPageSize": 5,
+                                  "suppressCsvExport": true,
+                                  "suppressExcelExport": true,
+                                  "name": "Data Grid",
+                                  "storeType": 2
+                                },
+                                "icon": "FaTable",
+                                "group": "Advanced",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 12,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Data table",
+                                  "type": "20014"
+                                },
+                                "events": [],
+                                "path": "0-0-1-0-0-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-2-0-0-0"
+                          }
+                        ],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        },
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 1,
+                          "colSize0xs": 12,
+                          "colSize0sm": 12,
+                          "colSize0md": 12,
+                          "colSize0lg": 12,
+                          "colSize0xl": 12
+                        },
+                        "readOnly": true
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-2-0"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-2"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            },
+            "path": "0-0"
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      }
+    ],
+    "events": [],
+    "subType": "screen",
+    "screenId": "0nEbibakpA9fm3tXqpDPd",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "0nEbibakpA9fm3tXqpDPd",
+    "createdBy": "muzzamil",
+    "updatedAt": "4/7/2023",
+    "createdAt": "4/7/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "wlFDem5AigedK-mzlJlog",
+    "name": "Corporate Registration Pending List Screen ",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "Kcv7CvcFXagWtIgSOPPn2",
+          "componentType": "10001",
+          "id": "Kcv7CvcFXagWtIgSOPPn2",
+          "position": {
+            "i": "Kcv7CvcFXagWtIgSOPPn2",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "Ssj8T-VgHPVUnxSXfAnM7",
+          "componentType": "10001",
+          "id": "Ssj8T-VgHPVUnxSXfAnM7",
+          "position": {
+            "i": "Ssj8T-VgHPVUnxSXfAnM7",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Corporate Registration Pending List Screen "
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "0nEbibakpA9fm3tXqpDPd",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Kcv7CvcFXagWtIgSOPPn2",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 10,
+            "lg": 10,
+            "md": 10,
+            "sm": 4,
+            "xs": 4
+          },
+          "componentId": "1E-4erfj_ClgEZi_cFXAo",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "cssClassNames": [{ "cssClassName": "pageTitleBorder" }]
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "0nEbibakpA9fm3tXqpDPd",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "1E-4erfj_ClgEZi_cFXAo",
+    "type": "20002",
+    "name": "Label",
+    "component": { "content": "Label", "type": "20002" },
+    "attributes": {
+      "label": "Corporate Registration Pending List",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "padding-bottom": "13px",
+          "font-size": "28px",
+          "letter-spacing": "-1px",
+          "display": "block",
+          "color": "#666",
+          "margin": "0px 0px 0px 0px",
+          "font-weight": "300"
+        },
+        "mainContainer": "label",
+        "xl": 10,
+        "lg": 10,
+        "md": 10,
+        "sm": 4,
+        "xs": 4
+      }
+    },
+    "events": [],
+    "path": "0-0-0-0-0",
+    "version": "1.0.0",
+    "screenId": "0nEbibakpA9fm3tXqpDPd",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Ssj8T-VgHPVUnxSXfAnM7",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "X7BEDiGcLF7USYMQEmVZm",
+          "componentType": "10001",
+          "id": "X7BEDiGcLF7USYMQEmVZm",
+          "position": {
+            "i": "X7BEDiGcLF7USYMQEmVZm",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "0nEbibakpA9fm3tXqpDPd",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "X7BEDiGcLF7USYMQEmVZm",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "tt0xbilv-wFfkCWu_IKAX",
+          "componentType": "20014",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "M98mY_p7YNDGkDtKo1l3L",
+        "triggerName": "Get Pending Corporate Registration",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
+    "subType": "component",
+    "screenId": "0nEbibakpA9fm3tXqpDPd",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "tt0xbilv-wFfkCWu_IKAX",
+    "status": "ACTIVE",
+    "name": "Data table",
+    "type": "20014",
+    "attributes": {
+      "responseStateKey": "pendingCorporateRegistration",
+      "layoutProperties": {
+        "container": { "//": "Use this class to style data table container." },
+        "rowStyle": {
+          "//": "Use this class to style data table rows.",
+          "color": "black",
+          "background-color": "white",
+          "text-align": "left"
+        },
+        "defaultColDefinition": {
+          "//": "Use this class to define column definition of data table.",
+          "sortable": true,
+          "animateRows": false,
+          "resizable": true,
+          "enableValue": false,
+          "enableRowGroup": false,
+          "enablePivot": false,
+          "filter": true,
+          "type": "leftAligned",
+          "minWidth": 10,
+          "domLayout": "autoHeight"
+        },
+        "mainContainer": "container",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12,
+        "headerStyles": { "background-color": "#DA0006", "color": "#FFFFFF" }
+      },
+      "defaultColDef": {
+        "sortable": true,
+        "animateRows": false,
+        "resizable": false,
+        "enableValue": false,
+        "enableRowGroup": false,
+        "enablePivot": false,
+        "filter": true,
+        "type": "leftAligned",
+        "minWidth": 30,
+        "domLayout": "autoHeight"
+      },
+      "rowStyle": {
+        "color": "black",
+        "background-color": "white",
+        "text-align": "left"
+      },
+      "columnDefinition": [
+        {
+          "type": "checkbox",
+          "typeTemp": { "name": "Checkbox", "type": "checkbox" },
+          "bindingKeyForSelectedRow": "selectedRows",
+          "storeType": 2,
+          "field": "",
+          "checkboxValue": "account"
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "companyName",
+          "headerName": "Company Name",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "email",
+          "headerName": "Email",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "mobileNumber",
+          "headerName": "Mobile Number",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "headerName": "Action",
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [
+            {
+              "label": "View Detail",
+              "trigger": {
+                "id": "ZEPqVZwm6ZwTnBJjff-Ah",
+                "projectId": "63f349eda070071e283ca270",
+                "gitBranchName": "master",
+                "name": "Navigate and view Corporate Regiistration",
+                "old_name": "",
+                "status": "ACTIVE",
+                "services": [
+                  {
+                    "type": "2",
+                    "command": {
+                      "type": "1",
+                      "attributes": {
+                        "delay": "",
+                        "triggers": [
+                          {
+                            "id": "7tSRLHZZj5tcO4uIO7t2u",
+                            "_id": "RBQyMWZTv1og8SKWzCfco",
+                            "projectId": "63f349eda070071e283ca270",
+                            "gitBranchName": "master",
+                            "name": "Get View Corporate Registration",
+                            "old_name": "View Corporate Registration",
+                            "status": "ACTIVE",
+                            "services": [
+                              {
+                                "type": "8",
+                                "command": {
+                                  "type": "1",
+                                  "attributes": {
+                                    "loaderWidgetIds": [906070],
+                                    "messageWidgetIds": [906070],
+                                    "responseStateKey": "corporateReg",
+                                    "responseReturnValue": "data.corporate_offline.data",
+                                    "url": "/corporate-registration/view",
+                                    "checksum": true,
+                                    "encryption": true,
+                                    "isDeviceDetails": true,
+                                    "loginTrigger": false,
+                                    "formData": false,
+                                    "logoutTrigger": false,
+                                    "headers": {
+                                      "Content-Type": "application/json",
+                                      "Accept": "application/json",
+                                      "channel_key": "001",
+                                      "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                      "locale": "en-ltr"
+                                    },
+                                    "requestBody": [
+                                      {
+                                        "type": 4,
+                                        "name": "Static",
+                                        "key": "formId",
+                                        "value": "54"
+                                      }
+                                    ],
+                                    "baseURL": "634555d068954540043d6820",
+                                    "storeType": 2
+                                  },
+                                  "responseHandler": []
+                                }
+                              }
+                            ],
+                            "updatedAt": "4/6/2023",
+                            "createdAt": "4/6/2023",
+                            "createdBy": "muzzamil",
+                            "updatedBy": "muzzamil"
+                          },
+                          {
+                            "id": "xie_VkXdd6Yc5ZOb3Au9n",
+                            "name": "Navigate View Corporate Registration",
+                            "projectId": "63f349eda070071e283ca270",
+                            "gitBranchName": "master",
+                            "services": [
+                              {
+                                "type": "1",
+                                "command": {
+                                  "type": "3",
+                                  "attributes": {
+                                    "nextWidgetId": "DJGUvrNJYPOshPQhs6d0z",
+                                    "gridRadioValue": "",
+                                    "selectedObjectBindingKey": "selectedObject",
+                                    "editableForm": false
+                                  }
+                                }
+                              }
+                            ],
+                            "_id": "3ZNcfzWnY9BsXIDfNB5Yt",
+                            "updatedAt": "4/6/2023",
+                            "createdAt": "4/6/2023",
+                            "createdBy": "muzzamil",
+                            "updatedBy": "muzzamil"
+                          }
+                        ],
+                        "triggerIds": [
+                          "7tSRLHZZj5tcO4uIO7t2u",
+                          "xie_VkXdd6Yc5ZOb3Au9n"
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "_id": "U9SUbo7qies-E9seOkXW2",
+                "updatedAt": "4/6/2023",
+                "createdAt": "4/6/2023",
+                "createdBy": "muzzamil",
+                "updatedBy": "muzzamil"
+              },
+              "triggerId": "ZEPqVZwm6ZwTnBJjff-Ah",
+              "conditional": {},
+              "values": [],
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": [],
+              "cssClassNames": [{ "cssClassName": "viewDetailsButton1" }],
+              "selectedObjectBindingKey": "selectedObject"
+            }
+          ],
+          "type": "iconButton"
+        }
+      ],
+      "rowDefinition": [],
+      "debug": false,
+      "pagination": true,
+      "paginationPageSize": 5,
+      "suppressCsvExport": true,
+      "suppressExcelExport": true,
+      "name": "Data Grid",
+      "storeType": 2
+    },
+    "icon": "FaTable",
+    "group": "Advanced",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 12,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Data table", "type": "20014" },
+    "events": [],
+    "path": "0-0-1-0-0-0-0",
+    "screenId": "0nEbibakpA9fm3tXqpDPd",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

@@ -489,7 +489,7 @@
                                                         "createdAt": "23-Aug-2021",
                                                         "attributes": {
                                                           "name": "Drop down",
-                                                          "stateName": "roleId",
+                                                          "stateName": "status",
                                                           "allValues": true,
                                                           "dataSource": "",
                                                           "dataKey": "",
@@ -881,8 +881,8 @@
                                                         "attributes": {
                                                           "name": "Calendar",
                                                           "label": "",
-                                                          "stateName": "date",
-                                                          "format": "dd/MM/yyyy",
+                                                          "stateName": "fromDate",
+                                                          "format": "dd-MM-yyyy",
                                                           "variant": "standard",
                                                           "validate": {
                                                             "required": false,
@@ -916,7 +916,7 @@
                                                           "type": "20027"
                                                         },
                                                         "event": [],
-                                                        "path": "0-0-0",
+                                                        "path": "0-0-1-0-0-0-1-0-0-0-3-0-0",
                                                         "events": []
                                                       }
                                                     ],
@@ -1160,11 +1160,11 @@
                                                         "createdAt": "23-Aug-2021",
                                                         "attributes": {
                                                           "name": "Drop down",
-                                                          "stateName": "roleId",
+                                                          "stateName": "company",
                                                           "allValues": true,
-                                                          "dataSource": "branchRoles",
-                                                          "dataKey": "id",
-                                                          "dataValue": "name",
+                                                          "dataSource": "corporateList",
+                                                          "dataKey": "companyId",
+                                                          "dataValue": "companyName",
                                                           "mandatory": true,
                                                           "validate": {
                                                             "required": true,
@@ -1284,8 +1284,8 @@
                                                         "type": "20003",
                                                         "events": [
                                                           {
-                                                            "triggerId": "byj6SLNWX3lNdlBEA8y_O",
-                                                            "triggerName": "List Branc User Roles",
+                                                            "triggerId": "5Q1-FBGCOvLsEUd8LcZdG",
+                                                            "triggerName": "Get Active Corporate List",
                                                             "serviceType": "8",
                                                             "attributes": {
                                                               "loaderWidgetIds": [
@@ -1294,8 +1294,9 @@
                                                               "messageWidgetIds": [
                                                                 906070
                                                               ],
-                                                              "responseStateKey": "branchRoles",
-                                                              "url": "/BackOffice/listBranchRoles",
+                                                              "responseStateKey": "corporateList",
+                                                              "responseReturnValue": "data.corporates.page",
+                                                              "url": "/corporates/list",
                                                               "checksum": true,
                                                               "encryption": true,
                                                               "isDeviceDetails": true,
@@ -1309,7 +1310,32 @@
                                                                 "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
                                                                 "locale": "en-ltr"
                                                               },
-                                                              "requestBody": [],
+                                                              "requestBody": [
+                                                                {
+                                                                  "type": 4,
+                                                                  "name": "Static",
+                                                                  "key": "pageSize",
+                                                                  "value": "1000"
+                                                                },
+                                                                {
+                                                                  "type": 2,
+                                                                  "name": "Current screen",
+                                                                  "key": "companyName",
+                                                                  "value": "companyName"
+                                                                },
+                                                                {
+                                                                  "type": 2,
+                                                                  "name": "Current screen",
+                                                                  "key": "customerId",
+                                                                  "value": "customerId"
+                                                                },
+                                                                {
+                                                                  "type": 4,
+                                                                  "name": "Static",
+                                                                  "key": "pageSize",
+                                                                  "value": "0"
+                                                                }
+                                                              ],
                                                               "baseURL": "634555d068954540043d6820",
                                                               "storeType": 2
                                                             },
@@ -1325,7 +1351,7 @@
                                                           "content": "Drop down",
                                                           "type": "20003"
                                                         },
-                                                        "path": "0-0-0"
+                                                        "path": "0-0-1-0-0-0-1-1-0-0-1-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -1539,8 +1565,8 @@
                                                         "attributes": {
                                                           "name": "Calendar",
                                                           "label": "",
-                                                          "stateName": "date",
-                                                          "format": "dd/MM/yyyy",
+                                                          "stateName": "toDate",
+                                                          "format": "dd-MM-yyyy",
                                                           "variant": "standard",
                                                           "validate": {
                                                             "required": false,
@@ -1574,7 +1600,7 @@
                                                           "type": "20027"
                                                         },
                                                         "event": [],
-                                                        "path": "0-0-0",
+                                                        "path": "0-0-1-0-0-0-1-1-0-0-3-0-0",
                                                         "events": []
                                                       }
                                                     ],
@@ -3372,7 +3398,7 @@
         },
         "component": { "type": "10001", "content": "Grid layout" },
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
-        "name": "PO List Br-Portal Screen"
+        "name": "CDR List For Br-Portal Screen"
       }
     ],
     "events": [],
@@ -3383,13 +3409,13 @@
     "gitBranchName": "master",
     "_id": "-PAdrcBIMSZ3zTUeJHSvo",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/29/2023",
-    "createdAt": "3/29/2023",
+    "updatedAt": "4/6/2023",
+    "createdAt": "4/6/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "7zpRTtY9Iy4X3N0o4catu",
-    "name": "PO List Br-Portal Screen",
+    "name": "CDR List For Br-Portal Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -4127,7 +4153,7 @@
     "createdAt": "23-Aug-2021",
     "attributes": {
       "name": "Drop down",
-      "stateName": "roleId",
+      "stateName": "status",
       "allValues": true,
       "dataSource": "",
       "dataKey": "",
@@ -4404,8 +4430,8 @@
     "attributes": {
       "name": "Calendar",
       "label": "",
-      "stateName": "date",
-      "format": "dd/MM/yyyy",
+      "stateName": "fromDate",
+      "format": "dd-MM-yyyy",
       "variant": "standard",
       "validate": { "required": false, "errorMsg": "", "isCalendar": true },
       "layoutProperties": {
@@ -4426,7 +4452,7 @@
     "projectType": "web",
     "component": { "content": "Date picker", "type": "20027" },
     "event": [],
-    "path": "0-0-0",
+    "path": "0-0-1-0-0-0-1-0-0-0-3-0-0",
     "events": [],
     "screenId": "-PAdrcBIMSZ3zTUeJHSvo",
     "subType": "component",
@@ -4682,11 +4708,11 @@
     "createdAt": "23-Aug-2021",
     "attributes": {
       "name": "Drop down",
-      "stateName": "roleId",
+      "stateName": "company",
       "allValues": true,
-      "dataSource": "branchRoles",
-      "dataKey": "id",
-      "dataValue": "name",
+      "dataSource": "corporateList",
+      "dataKey": "companyId",
+      "dataValue": "companyName",
       "mandatory": true,
       "validate": {
         "required": true,
@@ -4791,8 +4817,8 @@
     "type": "20003",
     "events": [
       {
-        "triggerId": "byj6SLNWX3lNdlBEA8y_O",
-        "triggerName": "List Branc User Roles",
+        "triggerId": "5Q1-FBGCOvLsEUd8LcZdG",
+        "triggerName": "Get Active Corporate List",
         "name": "On initialization",
         "type": "1",
         "serviceType": "8"
@@ -4803,7 +4829,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0",
+    "path": "0-0-1-0-0-0-1-1-0-0-1-0-0",
     "screenId": "-PAdrcBIMSZ3zTUeJHSvo",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -4955,8 +4981,8 @@
     "attributes": {
       "name": "Calendar",
       "label": "",
-      "stateName": "date",
-      "format": "dd/MM/yyyy",
+      "stateName": "toDate",
+      "format": "dd-MM-yyyy",
       "variant": "standard",
       "validate": { "required": false, "errorMsg": "", "isCalendar": true },
       "layoutProperties": {
@@ -4977,7 +5003,7 @@
     "projectType": "web",
     "component": { "content": "Date picker", "type": "20027" },
     "event": [],
-    "path": "0-0-0",
+    "path": "0-0-1-0-0-0-1-1-0-0-3-0-0",
     "events": [],
     "screenId": "-PAdrcBIMSZ3zTUeJHSvo",
     "subType": "component",

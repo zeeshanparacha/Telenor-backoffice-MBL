@@ -25,7 +25,7 @@
         "id": "KAqcbRgtvSaB03Fc1KZqS",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "CDR Screen",
+        "name": "PO List Br-Portal Screen",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -524,7 +524,7 @@
                                                         "createdAt": "23-Aug-2021",
                                                         "attributes": {
                                                           "name": "Drop down",
-                                                          "stateName": "roleId",
+                                                          "stateName": "status",
                                                           "allValues": true,
                                                           "dataSource": "",
                                                           "dataKey": "",
@@ -916,8 +916,8 @@
                                                         "attributes": {
                                                           "name": "Calendar",
                                                           "label": "",
-                                                          "stateName": "date",
-                                                          "format": "dd/MM/yyyy",
+                                                          "stateName": "fromDate",
+                                                          "format": "dd-MM-yyyy",
                                                           "variant": "standard",
                                                           "validate": {
                                                             "required": false,
@@ -951,7 +951,7 @@
                                                           "type": "20027"
                                                         },
                                                         "event": [],
-                                                        "path": "0-0-0",
+                                                        "path": "0-0-1-0-0-0-1-0-0-0-3-0-0",
                                                         "events": []
                                                       }
                                                     ],
@@ -1195,11 +1195,11 @@
                                                         "createdAt": "23-Aug-2021",
                                                         "attributes": {
                                                           "name": "Drop down",
-                                                          "stateName": "roleId",
+                                                          "stateName": "company",
                                                           "allValues": true,
-                                                          "dataSource": "branchRoles",
-                                                          "dataKey": "id",
-                                                          "dataValue": "name",
+                                                          "dataSource": "corporateList",
+                                                          "dataKey": "companyId",
+                                                          "dataValue": "companyName",
                                                           "mandatory": true,
                                                           "validate": {
                                                             "required": true,
@@ -1360,7 +1360,7 @@
                                                           "content": "Drop down",
                                                           "type": "20003"
                                                         },
-                                                        "path": "0-0-0"
+                                                        "path": "0-0-1-0-0-0-1-1-0-0-1-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -1574,8 +1574,8 @@
                                                         "attributes": {
                                                           "name": "Calendar",
                                                           "label": "",
-                                                          "stateName": "date",
-                                                          "format": "dd/MM/yyyy",
+                                                          "stateName": "toDate",
+                                                          "format": "dd-MM-yyyy",
                                                           "variant": "standard",
                                                           "validate": {
                                                             "required": false,
@@ -1609,7 +1609,7 @@
                                                           "type": "20027"
                                                         },
                                                         "event": [],
-                                                        "path": "0-0-0",
+                                                        "path": "0-0-1-0-0-0-1-1-0-0-3-0-0",
                                                         "events": []
                                                       }
                                                     ],
@@ -3398,13 +3398,13 @@
     "gitBranchName": "master",
     "_id": "ObzhilX1ImVafJIqsLOXY",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/29/2023",
-    "createdAt": "3/29/2023",
+    "updatedAt": "4/6/2023",
+    "createdAt": "4/6/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "KAqcbRgtvSaB03Fc1KZqS",
-    "name": "CDR Screen",
+    "name": "PO List Br-Portal Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -4142,7 +4142,7 @@
     "createdAt": "23-Aug-2021",
     "attributes": {
       "name": "Drop down",
-      "stateName": "roleId",
+      "stateName": "status",
       "allValues": true,
       "dataSource": "",
       "dataKey": "",
@@ -4419,8 +4419,8 @@
     "attributes": {
       "name": "Calendar",
       "label": "",
-      "stateName": "date",
-      "format": "dd/MM/yyyy",
+      "stateName": "fromDate",
+      "format": "dd-MM-yyyy",
       "variant": "standard",
       "validate": { "required": false, "errorMsg": "", "isCalendar": true },
       "layoutProperties": {
@@ -4441,7 +4441,7 @@
     "projectType": "web",
     "component": { "content": "Date picker", "type": "20027" },
     "event": [],
-    "path": "0-0-0",
+    "path": "0-0-1-0-0-0-1-0-0-0-3-0-0",
     "events": [],
     "screenId": "ObzhilX1ImVafJIqsLOXY",
     "subType": "component",
@@ -4697,11 +4697,11 @@
     "createdAt": "23-Aug-2021",
     "attributes": {
       "name": "Drop down",
-      "stateName": "roleId",
+      "stateName": "company",
       "allValues": true,
-      "dataSource": "branchRoles",
-      "dataKey": "id",
-      "dataValue": "name",
+      "dataSource": "corporateList",
+      "dataKey": "companyId",
+      "dataValue": "companyName",
       "mandatory": true,
       "validate": {
         "required": true,
@@ -4818,7 +4818,7 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0",
+    "path": "0-0-1-0-0-0-1-1-0-0-1-0-0",
     "screenId": "ObzhilX1ImVafJIqsLOXY",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -4970,8 +4970,8 @@
     "attributes": {
       "name": "Calendar",
       "label": "",
-      "stateName": "date",
-      "format": "dd/MM/yyyy",
+      "stateName": "toDate",
+      "format": "dd-MM-yyyy",
       "variant": "standard",
       "validate": { "required": false, "errorMsg": "", "isCalendar": true },
       "layoutProperties": {
@@ -4992,7 +4992,7 @@
     "projectType": "web",
     "component": { "content": "Date picker", "type": "20027" },
     "event": [],
-    "path": "0-0-0",
+    "path": "0-0-1-0-0-0-1-1-0-0-3-0-0",
     "events": [],
     "screenId": "ObzhilX1ImVafJIqsLOXY",
     "subType": "component",

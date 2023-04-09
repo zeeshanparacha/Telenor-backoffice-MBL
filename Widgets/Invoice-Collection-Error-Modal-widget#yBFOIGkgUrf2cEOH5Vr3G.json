@@ -1,0 +1,978 @@
+[
+  {
+    "id": "yBFOIGkgUrf2cEOH5Vr3G",
+    "name": "Invoice Collection Error Modal widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "n9tXSOWzSwti9OSEofDTN",
+          "componentType": "10001",
+          "id": "n9tXSOWzSwti9OSEofDTN",
+          "position": {
+            "i": "n9tXSOWzSwti9OSEofDTN",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "n9tXSOWzSwti9OSEofDTN",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "oror3uTGpdufkOWiKTwd-",
+            "gridProps": [
+              {
+                "id": "9IfdSMQGF8NTi7cNWu3EM",
+                "type": "10001",
+                "name": "Grid layout",
+                "component": { "content": "Grid layout", "type": "10001" },
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0,
+                      "borderRadius": "15px",
+                      "background": "#ffffff",
+                      "margin": "0px auto",
+                      "min-height": "200px",
+                      "box-shadow": "0 10px 20px rgba(136,137,137,0.07)"
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "path": "0-0-0",
+                "version": "1.0.0",
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "UL4lmFwsGHS4QgfDAeheq",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid layout",
+                        "id": "h-yfcJ2Me4wcHAh5x6Zok",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "5hkMzWKVkWSBFFVe_wFL5",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "MnYBULs29u_hgV-BwA9kY",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "Payq9QbDHrYxG-7unTgXh",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-0-0-0-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-0-0-0-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 11,
+                              "lg": 11,
+                              "md": 11,
+                              "sm": 11,
+                              "xs": 11
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "7fmXSYwrivS3qURJJQDpL",
+                            "gridProps": [
+                              {
+                                "id": "R2ncTk4k3O5mG0x9DnBzR",
+                                "status": "ACTIVE",
+                                "name": "Image",
+                                "icon": "FaImage",
+                                "attributes": {
+                                  "name": "Image",
+                                  "contentType": false,
+                                  "defaultImageAssetIdTemp": {
+                                    "name": "dracaena-cinnabari.jpg",
+                                    "id": "CNIz67fi824LHr0ae-pOV"
+                                  },
+                                  "layoutProperties": {
+                                    "image": {
+                                      "//": "Use this class to style image component.",
+                                      "float": "right",
+                                      "height": "15px",
+                                      "cursor": "pointer"
+                                    },
+                                    "mainContainer": "image",
+                                    "xl": 1,
+                                    "lg": 1,
+                                    "md": 1,
+                                    "sm": 1,
+                                    "xs": 1
+                                  },
+                                  "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                  "imageAssetIdTemp": {
+                                    "createdBy": "haseeb",
+                                    "_id": "638728dc08099543289abf57",
+                                    "name": "cross1.png",
+                                    "type": "png",
+                                    "projectId": "6305eb4fb2d1671fbc4b1de8",
+                                    "id": "6dCi0eiUYVPyA4mzg0aSv",
+                                    "gitBranchName": "Sprint-1",
+                                    "folderType": "web",
+                                    "platform": "web",
+                                    "url": "web/cross1.png",
+                                    "canvasUrl": "web/cross1.png",
+                                    "createdAt": "2022-11-30T09:56:44.060Z",
+                                    "updatedAt": "2022-11-30T09:56:44.060Z",
+                                    "__v": 0,
+                                    "uri": "web/cross1.png"
+                                  },
+                                  "imageAssetId": "6dCi0eiUYVPyA4mzg0aSv",
+                                  "stateName": null,
+                                  "storeType": null
+                                },
+                                "group": "Form",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 0,
+                                "type": "20012",
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Image",
+                                  "type": "20012"
+                                },
+                                "events": [
+                                  {
+                                    "triggerId": "UJSP1h8PZcVOoTfjVwgZw",
+                                    "triggerName": "Hide Modal",
+                                    "serviceType": "9",
+                                    "attributes": {
+                                      "modalId": "C1eoxmoOcg6UZHi3o-l7a"
+                                    },
+                                    "type": "2",
+                                    "name": "On click"
+                                  }
+                                ],
+                                "path": "0-0-0-0-0-1-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 1,
+                              "lg": 1,
+                              "md": 1,
+                              "sm": 1,
+                              "xs": 1
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "18px",
+                              "spacing": 0,
+                              "background": "#d23838"
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "events": [],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-0-0",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 2,
+                          "colSize0xs": 11,
+                          "colSize0sm": 11,
+                          "colSize0md": 11,
+                          "colSize0lg": 11,
+                          "colSize0xl": 11,
+                          "colSize1xs": 1,
+                          "colSize1sm": 1,
+                          "colSize1md": 1,
+                          "colSize1lg": 1,
+                          "colSize1xl": 1
+                        },
+                        "readOnly": true
+                      },
+                      {
+                        "type": "10001",
+                        "name": "Grid layout",
+                        "id": "wsOUhGq4dnUGtY8DjCERw",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "CF4eeu_zKOf7vvdnaHPhD",
+                            "gridProps": [
+                              {
+                                "id": "qSMTd_QaxL1-1Pc2wt7_v",
+                                "status": "ACTIVE",
+                                "name": "Image",
+                                "icon": "FaImage",
+                                "attributes": {
+                                  "name": "Image",
+                                  "contentType": false,
+                                  "defaultImageAssetIdTemp": {
+                                    "name": "dracaena-cinnabari.jpg",
+                                    "id": "CNIz67fi824LHr0ae-pOV"
+                                  },
+                                  "layoutProperties": {
+                                    "image": {
+                                      "//": "Use this class to style image component.",
+                                      "height": "54px",
+                                      "width": "54px",
+                                      "margin": "0px auto",
+                                      "display": "flex"
+                                    },
+                                    "mainContainer": "image",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                  "imageAssetIdTemp": {
+                                    "createdBy": "ahmerjavedkhan",
+                                    "_id": "63872e5c08099543289ae1c8",
+                                    "name": "Group 67.png",
+                                    "type": "png",
+                                    "projectId": "6305eb4fb2d1671fbc4b1de8",
+                                    "id": "LFTyEWB45Rqo-7HgZHMkl",
+                                    "gitBranchName": "Sprint-1",
+                                    "folderType": "web",
+                                    "platform": "web",
+                                    "url": "web/Group 67.png",
+                                    "canvasUrl": "web/Group 67.png",
+                                    "createdAt": "2022-11-30T10:20:12.181Z",
+                                    "updatedAt": "2022-11-30T10:20:12.181Z",
+                                    "__v": 0,
+                                    "uri": "web/Group 67.png"
+                                  },
+                                  "imageAssetId": "LFTyEWB45Rqo-7HgZHMkl",
+                                  "stateName": null,
+                                  "storeType": null
+                                },
+                                "group": "Form",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 0,
+                                "type": "20012",
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Image",
+                                  "type": "20012"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-0-0-1-0"
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0,
+                              "margin": "40px 0px 0px 0px"
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "events": [],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-0-1",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 1,
+                          "colSize0xs": 12,
+                          "colSize0sm": 12,
+                          "colSize0md": 12,
+                          "colSize0lg": 12,
+                          "colSize0xl": 12
+                        },
+                        "readOnly": false
+                      },
+                      {
+                        "id": "T7uvlyj5OwwpJDyTq9YgF",
+                        "type": "20002",
+                        "name": "Label",
+                        "component": { "content": "Label", "type": "20002" },
+                        "attributes": {
+                          "label": "error",
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component.",
+                              "font-size": "18px",
+                              "font-weight": "400",
+                              "color": "#000000",
+                              "letter-spacing": "0.54px"
+                            },
+                            "mainContainer": "label",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "cssClassNames": [
+                            { "cssClassName": "successLabelStykle" }
+                          ],
+                          "searchInState": true,
+                          "storeType": 2
+                        },
+                        "events": [],
+                        "path": "0-0-3-0-0-0-2",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0"
+                  }
+                ],
+                "readOnly": false
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "path": "0-0-3",
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "Invoice Collection Error Modal",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "yBFOIGkgUrf2cEOH5Vr3G",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "yBFOIGkgUrf2cEOH5Vr3G",
+    "createdBy": "iqdar",
+    "updatedAt": "4/8/2023",
+    "createdAt": "4/8/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "n9tXSOWzSwti9OSEofDTN",
+    "name": "Invoice Collection Error Modal",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "9IfdSMQGF8NTi7cNWu3EM",
+          "componentType": "10001",
+          "id": "9IfdSMQGF8NTi7cNWu3EM",
+          "position": {
+            "i": "9IfdSMQGF8NTi7cNWu3EM",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "NXGhjxpaXvIIqQYp0e81Q",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "9IfdSMQGF8NTi7cNWu3EM",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "h-yfcJ2Me4wcHAh5x6Zok",
+          "componentType": "10001",
+          "id": "h-yfcJ2Me4wcHAh5x6Zok",
+          "position": {
+            "i": "h-yfcJ2Me4wcHAh5x6Zok",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "wsOUhGq4dnUGtY8DjCERw",
+          "componentType": "10001",
+          "id": "wsOUhGq4dnUGtY8DjCERw",
+          "position": {
+            "i": "wsOUhGq4dnUGtY8DjCERw",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "T7uvlyj5OwwpJDyTq9YgF",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0,
+          "borderRadius": "15px",
+          "background": "#ffffff",
+          "margin": "0px auto",
+          "min-height": "200px",
+          "box-shadow": "0 10px 20px rgba(136,137,137,0.07)"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "NXGhjxpaXvIIqQYp0e81Q",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "h-yfcJ2Me4wcHAh5x6Zok",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "MnYBULs29u_hgV-BwA9kY",
+          "componentType": "10001",
+          "id": "MnYBULs29u_hgV-BwA9kY",
+          "position": {
+            "i": "MnYBULs29u_hgV-BwA9kY",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 11,
+            "lg": 11,
+            "md": 11,
+            "sm": 11,
+            "xs": 11
+          }
+        },
+        {
+          "layoutProperties": { "xl": 1, "lg": 1, "md": 1, "sm": 1, "xs": 1 },
+          "componentId": "R2ncTk4k3O5mG0x9DnBzR",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "18px",
+          "spacing": 0,
+          "background": "#d23838"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "NXGhjxpaXvIIqQYp0e81Q",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "MnYBULs29u_hgV-BwA9kY",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "NXGhjxpaXvIIqQYp0e81Q",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "R2ncTk4k3O5mG0x9DnBzR",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "float": "right",
+          "height": "15px",
+          "cursor": "pointer"
+        },
+        "mainContainer": "image",
+        "xl": 1,
+        "lg": 1,
+        "md": 1,
+        "sm": 1,
+        "xs": 1
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "haseeb",
+        "_id": "638728dc08099543289abf57",
+        "name": "cross1.png",
+        "type": "png",
+        "projectId": "6305eb4fb2d1671fbc4b1de8",
+        "id": "6dCi0eiUYVPyA4mzg0aSv",
+        "gitBranchName": "Sprint-1",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/cross1.png",
+        "canvasUrl": "web/cross1.png",
+        "createdAt": "2022-11-30T09:56:44.060Z",
+        "updatedAt": "2022-11-30T09:56:44.060Z",
+        "__v": 0,
+        "uri": "web/cross1.png"
+      },
+      "imageAssetId": "6dCi0eiUYVPyA4mzg0aSv",
+      "stateName": null,
+      "storeType": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [
+      {
+        "triggerId": "UJSP1h8PZcVOoTfjVwgZw",
+        "triggerName": "Hide Modal",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "9"
+      }
+    ],
+    "path": "0-0-0-0-0-1-0",
+    "screenId": "NXGhjxpaXvIIqQYp0e81Q",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "wsOUhGq4dnUGtY8DjCERw",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "qSMTd_QaxL1-1Pc2wt7_v",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "margin": "40px 0px 0px 0px"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "NXGhjxpaXvIIqQYp0e81Q",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "qSMTd_QaxL1-1Pc2wt7_v",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "height": "54px",
+          "width": "54px",
+          "margin": "0px auto",
+          "display": "flex"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "ahmerjavedkhan",
+        "_id": "63872e5c08099543289ae1c8",
+        "name": "Group 67.png",
+        "type": "png",
+        "projectId": "6305eb4fb2d1671fbc4b1de8",
+        "id": "LFTyEWB45Rqo-7HgZHMkl",
+        "gitBranchName": "Sprint-1",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/Group 67.png",
+        "canvasUrl": "web/Group 67.png",
+        "createdAt": "2022-11-30T10:20:12.181Z",
+        "updatedAt": "2022-11-30T10:20:12.181Z",
+        "__v": 0,
+        "uri": "web/Group 67.png"
+      },
+      "imageAssetId": "LFTyEWB45Rqo-7HgZHMkl",
+      "stateName": null,
+      "storeType": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-0-0-1-0-0",
+    "screenId": "NXGhjxpaXvIIqQYp0e81Q",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "T7uvlyj5OwwpJDyTq9YgF",
+    "type": "20002",
+    "name": "Label",
+    "component": { "content": "Label", "type": "20002" },
+    "attributes": {
+      "label": "error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "events": [],
+    "path": "0-0-3-0-0-0-2",
+    "version": "1.0.0",
+    "screenId": "NXGhjxpaXvIIqQYp0e81Q",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]
