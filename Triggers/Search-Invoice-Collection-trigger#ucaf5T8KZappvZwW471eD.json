@@ -14,8 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "selectedObject",
-          "responseReturnValue": "data.collection",
+          "responseStateKey": "response",
           "url": "/collections/enquire-unpaid",
           "checksum": true,
           "encryption": true,
@@ -45,26 +44,21 @@
           {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Fill Form Data",
-            "triggerId": "C9VAY5AImRfVpeNy7py77"
+            "triggerName": "Map Collection Response to BindingKey",
+            "triggerId": "Z2Cvv4CpAwaPewxilGi5P"
           },
           {
             "httpStatus": 200,
             "triggerName": "Show Error Modal",
             "triggerId": "zj5wU451q42rOfjv-NNhD",
             "logic": { "==": [{ "var": "status" }, 0] }
-          },
-          {
-            "httpStatus": 404,
-            "triggerName": "Invoice Collection Error Modal",
-            "triggerId": "nnfC8YiwPdhUkhvj0kVag"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/8/2023",
-  "createdAt": "4/8/2023",
-  "createdBy": "iqdar",
-  "updatedBy": "iqdar"
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

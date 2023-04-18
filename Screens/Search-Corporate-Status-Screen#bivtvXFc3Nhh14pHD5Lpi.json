@@ -371,21 +371,21 @@
                                                         "createdAt": "23-Aug-2021",
                                                         "attributes": {
                                                           "name": "Drop down",
-                                                          "stateName": "status",
+                                                          "stateName": "statusCorporateRegistration",
                                                           "allValues": true,
                                                           "dataSource": "",
                                                           "dataKey": "",
                                                           "dataValue": "",
-                                                          "mandatory": true,
+                                                          "mandatory": false,
                                                           "validate": {
                                                             "required": true,
                                                             "errorMsg": "This Field is Required",
                                                             "bindButton": [
                                                               {
-                                                                "id": "qQNOC51WBk539znapQxBK",
+                                                                "id": "uwfzsVIPLZQvUTl4UdTzY",
                                                                 "status": "ACTIVE",
                                                                 "attributes": {
-                                                                  "label": "CREATE",
+                                                                  "label": "Search",
                                                                   "variant": "contained",
                                                                   "name": "Button",
                                                                   "label-locale-key": "",
@@ -409,18 +409,10 @@
                                                                       "cssClassName": "CardButton"
                                                                     }
                                                                   ],
-                                                                  "hideComponent": false,
-                                                                  "hideCondition": {
-                                                                    "logic": {
-                                                                      "if": [
-                                                                        {
-                                                                          "var": "currentScreen.form.userId.length"
-                                                                        },
-                                                                        true,
-                                                                        false
-                                                                      ]
-                                                                    }
-                                                                  }
+                                                                  "asset": null,
+                                                                  "iconname": "FaSearch",
+                                                                  "buttonIconPosition": "start",
+                                                                  "iconName": "FaSearch"
                                                                 },
                                                                 "name": "Button",
                                                                 "icon": "FaBimobject",
@@ -439,15 +431,15 @@
                                                                 },
                                                                 "events": [
                                                                   {
-                                                                    "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
-                                                                    "triggerName": "Create bank or branch user",
+                                                                    "triggerId": "gtfrgMP4sHaAr8rVB1aDT",
+                                                                    "triggerName": "Corporate Review Status API",
                                                                     "name": "On Submit",
                                                                     "type": "4",
                                                                     "serviceType": "8"
                                                                   }
                                                                 ],
-                                                                "path": "1-0-0-0-0-0-1-0-11-2-0-0-0-0-0",
-                                                                "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+                                                                "path": "0-0-1-0-0-0-2-1-0-0-0",
+                                                                "screenId": "bivtvXFc3Nhh14pHD5Lpi",
                                                                 "subType": "component",
                                                                 "projectId": "63f349eda070071e283ca270",
                                                                 "gitBranchName": "master",
@@ -504,7 +496,7 @@
                                                             }
                                                           ],
                                                           "selectedDataType": 1,
-                                                          "defaultKey": "status"
+                                                          "multiSelect": false
                                                         },
                                                         "type": "20003",
                                                         "events": [],
@@ -896,7 +888,11 @@
                                                     {
                                                       "cssClassName": "CardButton"
                                                     }
-                                                  ]
+                                                  ],
+                                                  "asset": null,
+                                                  "iconname": "FaSearch",
+                                                  "buttonIconPosition": "start",
+                                                  "iconName": "FaSearch"
                                                 },
                                                 "name": "Button",
                                                 "icon": "FaBimobject",
@@ -958,8 +954,8 @@
                                                       "baseURL": "634555d068954540043d6820",
                                                       "storeType": 2
                                                     },
-                                                    "type": "2",
-                                                    "name": "On click"
+                                                    "type": "4",
+                                                    "name": "On Submit"
                                                   }
                                                 ],
                                                 "path": "0-0-1-0-0-0-2-1-0-0-0"
@@ -1037,7 +1033,7 @@
                                                 "status": "ACTIVE",
                                                 "attributes": {
                                                   "label": "Reset",
-                                                  "variant": "contained",
+                                                  "variant": "outlined",
                                                   "name": "Button",
                                                   "label-locale-key": "",
                                                   "fullWidth": true,
@@ -1305,6 +1301,162 @@
                                                 "cssClassNames": []
                                               },
                                               "cssValues": [""]
+                                            },
+                                            {
+                                              "type": "text",
+                                              "typeTemp": {
+                                                "name": "Text",
+                                                "type": "text"
+                                              },
+                                              "field": "status",
+                                              "headerName": "Status",
+                                              "conditional": {
+                                                "bindingKey": ""
+                                              },
+                                              "values": [""],
+                                              "cssConditional": {
+                                                "bindingKey": "",
+                                                "cssClassNames": []
+                                              },
+                                              "cssValues": [""]
+                                            },
+                                            {
+                                              "typeTemp": {
+                                                "name": "Icon Button",
+                                                "type": "iconButton"
+                                              },
+                                              "headerName": "Action",
+                                              "field": "",
+                                              "rowId": "id",
+                                              "iconButtons": [
+                                                {
+                                                  "label": "View Detail",
+                                                  "trigger": {
+                                                    "_id": "U9SUbo7qies-E9seOkXW2",
+                                                    "id": "ZEPqVZwm6ZwTnBJjff-Ah",
+                                                    "projectId": "63f349eda070071e283ca270",
+                                                    "gitBranchName": "master",
+                                                    "name": "Navigate and view Corporate Regiistration",
+                                                    "old_name": "Navigate and view Corporate Regiistration",
+                                                    "status": "ACTIVE",
+                                                    "services": [
+                                                      {
+                                                        "type": "2",
+                                                        "command": {
+                                                          "type": "1",
+                                                          "attributes": {
+                                                            "delay": "",
+                                                            "triggers": [
+                                                              {
+                                                                "id": "7tSRLHZZj5tcO4uIO7t2u",
+                                                                "_id": "RBQyMWZTv1og8SKWzCfco",
+                                                                "projectId": "63f349eda070071e283ca270",
+                                                                "gitBranchName": "master",
+                                                                "name": "Get View Corporate Registration",
+                                                                "old_name": "View Corporate Registration",
+                                                                "status": "ACTIVE",
+                                                                "services": [
+                                                                  {
+                                                                    "type": "8",
+                                                                    "command": {
+                                                                      "type": "1",
+                                                                      "attributes": {
+                                                                        "loaderWidgetIds": [
+                                                                          906070
+                                                                        ],
+                                                                        "messageWidgetIds": [
+                                                                          906070
+                                                                        ],
+                                                                        "responseStateKey": "corporateReg",
+                                                                        "responseReturnValue": "data.corporate_offline.data",
+                                                                        "url": "/corporate-registration/view",
+                                                                        "checksum": true,
+                                                                        "encryption": true,
+                                                                        "isDeviceDetails": true,
+                                                                        "loginTrigger": false,
+                                                                        "formData": false,
+                                                                        "logoutTrigger": false,
+                                                                        "headers": {
+                                                                          "Content-Type": "application/json",
+                                                                          "Accept": "application/json",
+                                                                          "channel_key": "001",
+                                                                          "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                          "locale": "en-ltr"
+                                                                        },
+                                                                        "requestBody": [
+                                                                          {
+                                                                            "type": 4,
+                                                                            "name": "Static",
+                                                                            "key": "formId",
+                                                                            "value": "54"
+                                                                          }
+                                                                        ],
+                                                                        "baseURL": "634555d068954540043d6820",
+                                                                        "storeType": 2
+                                                                      },
+                                                                      "responseHandler": []
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "updatedAt": "4/6/2023",
+                                                                "createdAt": "4/6/2023",
+                                                                "createdBy": "muzzamil",
+                                                                "updatedBy": "muzzamil"
+                                                              },
+                                                              {
+                                                                "id": "xie_VkXdd6Yc5ZOb3Au9n",
+                                                                "name": "Navigate View Corporate Registration",
+                                                                "projectId": "63f349eda070071e283ca270",
+                                                                "gitBranchName": "master",
+                                                                "services": [
+                                                                  {
+                                                                    "type": "1",
+                                                                    "command": {
+                                                                      "type": "3",
+                                                                      "attributes": {
+                                                                        "nextWidgetId": "DJGUvrNJYPOshPQhs6d0z",
+                                                                        "gridRadioValue": "",
+                                                                        "selectedObjectBindingKey": "selectedObject",
+                                                                        "editableForm": false
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "_id": "3ZNcfzWnY9BsXIDfNB5Yt",
+                                                                "updatedAt": "4/6/2023",
+                                                                "createdAt": "4/6/2023",
+                                                                "createdBy": "muzzamil",
+                                                                "updatedBy": "muzzamil"
+                                                              }
+                                                            ],
+                                                            "triggerIds": [
+                                                              "7tSRLHZZj5tcO4uIO7t2u",
+                                                              "xie_VkXdd6Yc5ZOb3Au9n"
+                                                            ]
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "updatedAt": "4/7/2023",
+                                                    "createdAt": "4/7/2023",
+                                                    "createdBy": "muzzamil",
+                                                    "updatedBy": "muzzamil"
+                                                  },
+                                                  "cssClassNames": [
+                                                    {
+                                                      "cssClassName": "viewDetailsButton1"
+                                                    }
+                                                  ],
+                                                  "triggerId": "ZEPqVZwm6ZwTnBJjff-Ah",
+                                                  "conditional": {},
+                                                  "values": [],
+                                                  "disableConditional": {},
+                                                  "disableValues": [],
+                                                  "cssConditional": {},
+                                                  "cssValues": []
+                                                }
+                                              ],
+                                              "type": "iconButton"
                                             }
                                           ],
                                           "rowDefinition": [],
@@ -1601,8 +1753,8 @@
     "gitBranchName": "master",
     "_id": "bivtvXFc3Nhh14pHD5Lpi",
     "createdBy": "ishfaque",
-    "updatedAt": "4/7/2023",
-    "createdAt": "4/7/2023",
+    "updatedAt": "4/13/2023",
+    "createdAt": "4/13/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2201,21 +2353,21 @@
     "createdAt": "23-Aug-2021",
     "attributes": {
       "name": "Drop down",
-      "stateName": "status",
+      "stateName": "statusCorporateRegistration",
       "allValues": true,
       "dataSource": "",
       "dataKey": "",
       "dataValue": "",
-      "mandatory": true,
+      "mandatory": false,
       "validate": {
         "required": true,
         "errorMsg": "This Field is Required",
         "bindButton": [
           {
-            "id": "qQNOC51WBk539znapQxBK",
+            "id": "uwfzsVIPLZQvUTl4UdTzY",
             "status": "ACTIVE",
             "attributes": {
-              "label": "CREATE",
+              "label": "Search",
               "variant": "contained",
               "name": "Button",
               "label-locale-key": "",
@@ -2233,16 +2385,10 @@
                 "xs": 12
               },
               "cssClassNames": [{ "cssClassName": "CardButton" }],
-              "hideComponent": false,
-              "hideCondition": {
-                "logic": {
-                  "if": [
-                    { "var": "currentScreen.form.userId.length" },
-                    true,
-                    false
-                  ]
-                }
-              }
+              "asset": null,
+              "iconname": "FaSearch",
+              "buttonIconPosition": "start",
+              "iconName": "FaSearch"
             },
             "name": "Button",
             "icon": "FaBimobject",
@@ -2258,15 +2404,15 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "cUTJ2oiHCgM2k1nhpCjAB",
-                "triggerName": "Create bank or branch user",
+                "triggerId": "gtfrgMP4sHaAr8rVB1aDT",
+                "triggerName": "Corporate Review Status API",
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "8"
               }
             ],
-            "path": "1-0-0-0-0-0-1-0-11-2-0-0-0-0-0",
-            "screenId": "tfKETRTTbOeFiWGUKY_Wu",
+            "path": "0-0-1-0-0-0-2-1-0-0-0",
+            "screenId": "bivtvXFc3Nhh14pHD5Lpi",
             "subType": "component",
             "projectId": "63f349eda070071e283ca270",
             "gitBranchName": "master",
@@ -2310,7 +2456,7 @@
       "placeholder": "Select",
       "cssClassNames": [{ "cssClassName": "card_dropdown" }],
       "selectedDataType": 1,
-      "defaultKey": "status"
+      "multiSelect": false
     },
     "type": "20003",
     "events": [],
@@ -2558,7 +2704,11 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "CardButton" }],
+      "asset": null,
+      "iconname": "FaSearch",
+      "buttonIconPosition": "start",
+      "iconName": "FaSearch"
     },
     "name": "Button",
     "icon": "FaBimobject",
@@ -2576,8 +2726,8 @@
       {
         "triggerId": "gtfrgMP4sHaAr8rVB1aDT",
         "triggerName": "Corporate Review Status API",
-        "name": "On click",
-        "type": "2",
+        "name": "On Submit",
+        "type": "4",
         "serviceType": "8"
       }
     ],
@@ -2638,7 +2788,7 @@
     "status": "ACTIVE",
     "attributes": {
       "label": "Reset",
-      "variant": "contained",
+      "variant": "outlined",
       "name": "Button",
       "label-locale-key": "",
       "fullWidth": true,
@@ -2823,6 +2973,143 @@
           "values": [""],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
           "cssValues": [""]
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "status",
+          "headerName": "Status",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "headerName": "Action",
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [
+            {
+              "label": "View Detail",
+              "trigger": {
+                "_id": "U9SUbo7qies-E9seOkXW2",
+                "id": "ZEPqVZwm6ZwTnBJjff-Ah",
+                "projectId": "63f349eda070071e283ca270",
+                "gitBranchName": "master",
+                "name": "Navigate and view Corporate Regiistration",
+                "old_name": "Navigate and view Corporate Regiistration",
+                "status": "ACTIVE",
+                "services": [
+                  {
+                    "type": "2",
+                    "command": {
+                      "type": "1",
+                      "attributes": {
+                        "delay": "",
+                        "triggers": [
+                          {
+                            "id": "7tSRLHZZj5tcO4uIO7t2u",
+                            "_id": "RBQyMWZTv1og8SKWzCfco",
+                            "projectId": "63f349eda070071e283ca270",
+                            "gitBranchName": "master",
+                            "name": "Get View Corporate Registration",
+                            "old_name": "View Corporate Registration",
+                            "status": "ACTIVE",
+                            "services": [
+                              {
+                                "type": "8",
+                                "command": {
+                                  "type": "1",
+                                  "attributes": {
+                                    "loaderWidgetIds": [906070],
+                                    "messageWidgetIds": [906070],
+                                    "responseStateKey": "corporateReg",
+                                    "responseReturnValue": "data.corporate_offline.data",
+                                    "url": "/corporate-registration/view",
+                                    "checksum": true,
+                                    "encryption": true,
+                                    "isDeviceDetails": true,
+                                    "loginTrigger": false,
+                                    "formData": false,
+                                    "logoutTrigger": false,
+                                    "headers": {
+                                      "Content-Type": "application/json",
+                                      "Accept": "application/json",
+                                      "channel_key": "001",
+                                      "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                      "locale": "en-ltr"
+                                    },
+                                    "requestBody": [
+                                      {
+                                        "type": 4,
+                                        "name": "Static",
+                                        "key": "formId",
+                                        "value": "54"
+                                      }
+                                    ],
+                                    "baseURL": "634555d068954540043d6820",
+                                    "storeType": 2
+                                  },
+                                  "responseHandler": []
+                                }
+                              }
+                            ],
+                            "updatedAt": "4/6/2023",
+                            "createdAt": "4/6/2023",
+                            "createdBy": "muzzamil",
+                            "updatedBy": "muzzamil"
+                          },
+                          {
+                            "id": "xie_VkXdd6Yc5ZOb3Au9n",
+                            "name": "Navigate View Corporate Registration",
+                            "projectId": "63f349eda070071e283ca270",
+                            "gitBranchName": "master",
+                            "services": [
+                              {
+                                "type": "1",
+                                "command": {
+                                  "type": "3",
+                                  "attributes": {
+                                    "nextWidgetId": "DJGUvrNJYPOshPQhs6d0z",
+                                    "gridRadioValue": "",
+                                    "selectedObjectBindingKey": "selectedObject",
+                                    "editableForm": false
+                                  }
+                                }
+                              }
+                            ],
+                            "_id": "3ZNcfzWnY9BsXIDfNB5Yt",
+                            "updatedAt": "4/6/2023",
+                            "createdAt": "4/6/2023",
+                            "createdBy": "muzzamil",
+                            "updatedBy": "muzzamil"
+                          }
+                        ],
+                        "triggerIds": [
+                          "7tSRLHZZj5tcO4uIO7t2u",
+                          "xie_VkXdd6Yc5ZOb3Au9n"
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "updatedAt": "4/7/2023",
+                "createdAt": "4/7/2023",
+                "createdBy": "muzzamil",
+                "updatedBy": "muzzamil"
+              },
+              "cssClassNames": [{ "cssClassName": "viewDetailsButton1" }],
+              "triggerId": "ZEPqVZwm6ZwTnBJjff-Ah",
+              "conditional": {},
+              "values": [],
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": []
+            }
+          ],
+          "type": "iconButton"
         }
       ],
       "rowDefinition": [],

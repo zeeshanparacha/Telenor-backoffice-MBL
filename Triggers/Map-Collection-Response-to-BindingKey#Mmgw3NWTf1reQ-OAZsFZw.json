@@ -1,0 +1,31 @@
+{
+  "id": "Z2Cvv4CpAwaPewxilGi5P",
+  "_id": "Mmgw3NWTf1reQ-OAZsFZw",
+  "name": "Map Collection Response to BindingKey",
+  "old_name": "Map Collection Response to BindingKey",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "form",
+          "sourceBindingKey": "response.data.collection",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/18/2023",
+  "createdAt": "4/18/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

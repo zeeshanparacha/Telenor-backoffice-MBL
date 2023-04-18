@@ -1,0 +1,51 @@
+{
+  "id": "gYs_ZbzRQBXGT55l88Jjb",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "zakat exemption for partnership",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "zakatExemptionDoc",
+          "url": "corporateReg.partnership.zakatExemptionDocId",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "zakat Exemption",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "document",
+              "value": "corporateReg.partnership.zakatExemptionDocId"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "_id": "SF1IUvR5fmT_eKs6x2v49",
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

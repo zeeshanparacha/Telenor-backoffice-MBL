@@ -1,0 +1,51 @@
+{
+  "id": "oOS56E1V7_ODTB26TpJ1l",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "FATCA FOR PARTNERSHIP",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "fatcaDoc",
+          "url": "/corporate-registration/download-documents",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "FATCA",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "document",
+              "value": "corporateReg.partnership.fatcaDocId"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "_id": "JAUSi2hxWmjTWRSHx5h0u",
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

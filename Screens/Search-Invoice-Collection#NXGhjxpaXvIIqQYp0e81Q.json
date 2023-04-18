@@ -658,6 +658,7 @@
                     "gridLayout": {
                       "//": "Use this class to style grid layout component.",
                       "padding": "0 15px",
+                      "marginTop": "20px",
                       "spacing": 0
                     },
                     "mainContainer": "gridLayout"
@@ -692,7 +693,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "aHxbNWjmbwawm_VLRCxAc",
+                    "id": "tG6_DNP1XYtBs8ldvqUo0",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -4918,12 +4919,28 @@
                                 "name": "Grid layout"
                               },
                               {
+                                "id": "iSaOQ5PW2EBctNa2H4Aad",
+                                "name": "Show Error Modal",
+                                "type": "20031",
+                                "attributes": {
+                                  "widgetId": "2IQS1AnMOn8bkEpMKGUPj",
+                                  "layoutProperties": {
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  }
+                                },
+                                "component": { "type": "20031" }
+                              },
+                              {
                                 "type": "10001",
                                 "id": "80kMEY1IxRyBP5aQvas7Q",
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "LweRrvmDtV0r9eqvDek1R",
+                                    "id": "gu-dB8ClW3D4Vbj1x3-KB",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -5244,12 +5261,11 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    },
-                                    "path": "0-0-2-0-0-0-7-0"
+                                    }
                                   },
                                   {
                                     "type": "column",
-                                    "id": "gw3NKvX_alf3GkXNjGfoX",
+                                    "id": "oE5alHgUroA_yFG490npz",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -5567,12 +5583,11 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    },
-                                    "path": "0-0-2-0-0-0-7-1"
+                                    }
                                   },
                                   {
                                     "type": "column",
-                                    "id": "y-Oas3nTBAXonNuwFJOHu",
+                                    "id": "ePVtZugmqNK-KVcjI9GVd",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -5890,11 +5905,10 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    },
-                                    "path": "0-0-2-0-0-0-7-2"
+                                    }
                                   }
                                 ],
-                                "path": "0-0-2-0-0-0-7",
+                                "path": "0-0-2-0-0-0-6",
                                 "events": [],
                                 "attributes": {
                                   "gridProps": [],
@@ -5926,7 +5940,27 @@
                                   "20010",
                                   "widget"
                                 ],
-                                "name": "Grid layout"
+                                "name": "Grid layout",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 3,
+                                  "colSize0xs": 4,
+                                  "colSize0sm": 4,
+                                  "colSize0md": 4,
+                                  "colSize0lg": 4,
+                                  "colSize0xl": 4,
+                                  "colSize1xs": 4,
+                                  "colSize1sm": 4,
+                                  "colSize1md": 4,
+                                  "colSize1lg": 4,
+                                  "colSize1xl": 4,
+                                  "colSize2xs": 4,
+                                  "colSize2sm": 4,
+                                  "colSize2md": 4,
+                                  "colSize2lg": 4,
+                                  "colSize2xl": 4
+                                },
+                                "readOnly": true
                               }
                             ],
                             "layoutProperties": {
@@ -5983,8 +6017,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-2-0"
+                    }
                   }
                 ],
                 "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -6020,9 +6053,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "NXGhjxpaXvIIqQYp0e81Q",
-    "createdBy": "iqdar",
-    "updatedAt": "4/8/2023",
-    "createdAt": "4/8/2023",
+    "createdBy": "ajk",
+    "updatedAt": "4/18/2023",
+    "createdAt": "4/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6557,6 +6590,7 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "padding": "0 15px",
+          "marginTop": "20px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -6678,6 +6712,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "iSaOQ5PW2EBctNa2H4Aad",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "80kMEY1IxRyBP5aQvas7Q",
@@ -10190,6 +10236,22 @@
     "screenId": "NXGhjxpaXvIIqQYp0e81Q",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "iSaOQ5PW2EBctNa2H4Aad",
+    "name": "Show Error Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "2IQS1AnMOn8bkEpMKGUPj",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "NXGhjxpaXvIIqQYp0e81Q",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

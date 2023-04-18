@@ -1,0 +1,52 @@
+{
+  "id": "A9MiE-5zUEJyv7gBl9xGb",
+  "_id": "XsWvS_yvKRzw085aJWfMn",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "memorandum Of Association Download",
+  "old_name": "memorandum Of Association Download",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "memorandumOfAssociationDoc",
+          "url": "/corporate-registration/download-documents",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "Memorandum Of Association",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "document",
+              "value": "corporateReg.privateorPublicLimited.memorandumOfAssociationDocId"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "4/13/2023",
+  "createdAt": "4/13/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

@@ -32,7 +32,13 @@
           },
           "requestBody": [
             { "type": 4, "name": "Static", "key": "pageNumber", "value": "1" },
-            { "type": 4, "name": "Static", "key": "pageSize", "value": "5" }
+            { "type": 4, "name": "Static", "key": "pageSize", "value": "5" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "statusCorporateRegistration.code"
+            }
           ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
@@ -41,8 +47,8 @@
       }
     }
   ],
-  "updatedAt": "4/7/2023",
-  "createdAt": "4/7/2023",
-  "createdBy": "muzzamil",
-  "updatedBy": "muzzamil"
+  "updatedAt": "4/10/2023",
+  "createdAt": "4/10/2023",
+  "createdBy": "ishfaque",
+  "updatedBy": "ishfaque"
 }

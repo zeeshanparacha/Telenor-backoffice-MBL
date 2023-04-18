@@ -1,0 +1,52 @@
+{
+  "id": "hSaQOPcRupDciVNElsl4Z",
+  "_id": "5qvdin0Ty7kKYO7Xp11Ip",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Download Declaration doc",
+  "old_name": "Download Declaration doc",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "DeclarationDoc",
+          "url": "/corporate-registration/download-documents",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "Declaration Doc",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "document",
+              "value": "corporateReg.soleProprietor.declarationDocId"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "updatedAt": "4/12/2023",
+  "createdAt": "4/12/2023",
+  "createdBy": "muzzamil",
+  "updatedBy": "muzzamil"
+}

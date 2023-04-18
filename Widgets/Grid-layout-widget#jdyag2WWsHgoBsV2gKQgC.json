@@ -1,0 +1,1817 @@
+[
+  {
+    "id": "jdyag2WWsHgoBsV2gKQgC",
+    "name": "Grid layout widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "OUW-wOMFWjxtBm2McG3iv",
+          "componentType": "10001",
+          "id": "OUW-wOMFWjxtBm2McG3iv",
+          "position": {
+            "i": "OUW-wOMFWjxtBm2McG3iv",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "OUW-wOMFWjxtBm2McG3iv",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "VldyR9VQNj4hirRy27H05",
+            "gridProps": [
+              {
+                "type": "10001",
+                "id": "RRDcQHmSSCZmwDCIGQe7q",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "9WREiSnqitM7PC1j-DhUf",
+                    "gridProps": [
+                      {
+                        "id": "LxCSMH3ut_Wlz4N-Ewk_A",
+                        "type": "20006",
+                        "name": "Button",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Declaration ",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "buttonIconPosition": "end",
+                          "asset": null,
+                          "iconname": "GrDocumentExcel",
+                          "iconName": "GrDocumentExcel",
+                          "cssClassNames": [
+                            { "cssClassName": "iconButtonWhite" }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "hSaQOPcRupDciVNElsl4Z",
+                            "triggerName": "Download Declaration doc",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "DeclarationDoc",
+                              "url": "/corporate-registration/download-documents",
+                              "checksum": true,
+                              "encryption": true,
+                              "fileName": "Declaration Doc",
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [
+                                {
+                                  "type": 2,
+                                  "name": "Current screen",
+                                  "key": "document",
+                                  "value": "soleProprietor.declarationDocId"
+                                }
+                              ],
+                              "baseURL": "634555d068954540043d6820",
+                              "storeType": 2
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-0-0-0-0",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0-0-0-0-0-0-0"
+                  }
+                ],
+                "path": "0-0-0-0-0-0-0-0-0",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "R1QdpoUwtwRfRZ1sbEVRi",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "fDdGeIsXoG8vghI8UXA9t",
+                    "gridProps": [
+                      {
+                        "id": "kGFYFxUSTZZmvs6Y0ZyB_",
+                        "type": "20006",
+                        "name": "Button",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "CZ ",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "buttonIconPosition": "end",
+                          "asset": null,
+                          "iconname": "GrDocumentExcel",
+                          "iconName": "GrDocumentExcel",
+                          "cssClassNames": [
+                            { "cssClassName": "iconButtonWhite" }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+                            "triggerName": "Corporate And Activity Report1 Download XLS",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "CorporateAndActivityReport1DownloadXLS",
+                              "url": "/report/corporate-activity/export/excel",
+                              "checksum": true,
+                              "encryption": true,
+                              "fileName": "Corporate And Activity Report1.xls",
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateFrom",
+                                  "value": "dateFrom"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateTo",
+                                  "value": "dateTo"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "status",
+                                  "value": "status"
+                                }
+                              ],
+                              "baseURL": "634555d068954540043d6820",
+                              "storeType": 2
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-0-1-0-0",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0-0-0-0-0-1-0"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-0-0-0-0-1"
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "0_TUwgY_zehmUDeNp7nco",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "4nkFRYuIjXJNtZDpzqo86",
+                    "gridProps": [
+                      {
+                        "id": "gIEJeAMmHFEZABINtowOd",
+                        "type": "20006",
+                        "name": "Button",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Download ",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "buttonIconPosition": "end",
+                          "asset": null,
+                          "iconname": "GrDocumentExcel",
+                          "iconName": "GrDocumentExcel",
+                          "cssClassNames": [
+                            { "cssClassName": "iconButtonWhite" }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+                            "triggerName": "Corporate And Activity Report1 Download XLS",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "CorporateAndActivityReport1DownloadXLS",
+                              "url": "/report/corporate-activity/export/excel",
+                              "checksum": true,
+                              "encryption": true,
+                              "fileName": "Corporate And Activity Report1.xls",
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateFrom",
+                                  "value": "dateFrom"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateTo",
+                                  "value": "dateTo"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "status",
+                                  "value": "status"
+                                }
+                              ],
+                              "baseURL": "634555d068954540043d6820",
+                              "storeType": 2
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-0-2-0-0",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0-0-0-0-0-2-0"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-0-0-0-0-2"
+              }
+            ],
+            "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          },
+          {
+            "type": "column",
+            "id": "0Wmj2w6X-yOKn6xItPSAX",
+            "gridProps": [
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "3-5IDw-Bu7-blmzcWGXdC",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "rUStsf6G7Rx5u487Qaj55",
+                    "gridProps": [
+                      {
+                        "id": "A-9MZK_v6nn8rLwecJZws",
+                        "type": "20006",
+                        "name": "Button",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Download ",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "buttonIconPosition": "end",
+                          "asset": null,
+                          "iconname": "GrDocumentExcel",
+                          "iconName": "GrDocumentExcel",
+                          "cssClassNames": [
+                            { "cssClassName": "iconButtonWhite" }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+                            "triggerName": "Corporate And Activity Report1 Download XLS",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "CorporateAndActivityReport1DownloadXLS",
+                              "url": "/report/corporate-activity/export/excel",
+                              "checksum": true,
+                              "encryption": true,
+                              "fileName": "Corporate And Activity Report1.xls",
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateFrom",
+                                  "value": "dateFrom"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateTo",
+                                  "value": "dateTo"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "status",
+                                  "value": "status"
+                                }
+                              ],
+                              "baseURL": "634555d068954540043d6820",
+                              "storeType": 2
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-1-0-0-0",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0-0-0-0-1-0-0"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-0-0-0-1-0"
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "zT7MPcyRUfUJpH6cS6sbP",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "HYS_2fIXc8n8tHmsRSK-Z",
+                    "gridProps": [
+                      {
+                        "id": "CiJgn0aT0GMlSVaQXrv1i",
+                        "type": "20006",
+                        "name": "Button",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Download ",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "buttonIconPosition": "end",
+                          "asset": null,
+                          "iconname": "GrDocumentExcel",
+                          "iconName": "GrDocumentExcel",
+                          "cssClassNames": [
+                            { "cssClassName": "iconButtonWhite" }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+                            "triggerName": "Corporate And Activity Report1 Download XLS",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "CorporateAndActivityReport1DownloadXLS",
+                              "url": "/report/corporate-activity/export/excel",
+                              "checksum": true,
+                              "encryption": true,
+                              "fileName": "Corporate And Activity Report1.xls",
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateFrom",
+                                  "value": "dateFrom"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateTo",
+                                  "value": "dateTo"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "status",
+                                  "value": "status"
+                                }
+                              ],
+                              "baseURL": "634555d068954540043d6820",
+                              "storeType": 2
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-1-1-0-0",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0-0-0-0-1-1-0"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-0-0-0-1-1"
+              }
+            ],
+            "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          },
+          {
+            "type": "column",
+            "id": "q10CNpZrLY3JmhumFKSzS",
+            "gridProps": [
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "LmAr_f7VdL82zA4wA_Tgh",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "ksLLd3_RzEbYc4zf3eH_X",
+                    "gridProps": [
+                      {
+                        "id": "-qBIHRs0kNvcJ9NMqZcXP",
+                        "type": "20006",
+                        "name": "Button",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Download ",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "buttonIconPosition": "end",
+                          "asset": null,
+                          "iconname": "GrDocumentExcel",
+                          "iconName": "GrDocumentExcel",
+                          "cssClassNames": [
+                            { "cssClassName": "iconButtonWhite" }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+                            "triggerName": "Corporate And Activity Report1 Download XLS",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "CorporateAndActivityReport1DownloadXLS",
+                              "url": "/report/corporate-activity/export/excel",
+                              "checksum": true,
+                              "encryption": true,
+                              "fileName": "Corporate And Activity Report1.xls",
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateFrom",
+                                  "value": "dateFrom"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateTo",
+                                  "value": "dateTo"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "status",
+                                  "value": "status"
+                                }
+                              ],
+                              "baseURL": "634555d068954540043d6820",
+                              "storeType": 2
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-2-0-0-0",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0-0-0-0-2-0-0"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-0-0-0-2-0"
+              },
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "bIdo-93eXX2DtkZWES_Qn",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "XAmEgOd36_B-nlnjag_0v",
+                    "gridProps": [
+                      {
+                        "id": "a7KwpWAS-0vtZQ0J8FkRd",
+                        "type": "20006",
+                        "name": "Button",
+                        "component": { "content": "Button", "type": "20006" },
+                        "attributes": {
+                          "label": "Download ",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "buttonIconPosition": "end",
+                          "asset": null,
+                          "iconname": "GrDocumentExcel",
+                          "iconName": "GrDocumentExcel",
+                          "cssClassNames": [
+                            { "cssClassName": "iconButtonWhite" }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+                            "triggerName": "Corporate And Activity Report1 Download XLS",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "CorporateAndActivityReport1DownloadXLS",
+                              "url": "/report/corporate-activity/export/excel",
+                              "checksum": true,
+                              "encryption": true,
+                              "fileName": "Corporate And Activity Report1.xls",
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateFrom",
+                                  "value": "dateFrom"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "dateTo",
+                                  "value": "dateTo"
+                                },
+                                {
+                                  "type": 1,
+                                  "name": "Form",
+                                  "key": "status",
+                                  "value": "status"
+                                }
+                              ],
+                              "baseURL": "634555d068954540043d6820",
+                              "storeType": 2
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
+                        "path": "0-0-0-0-0-0-0-2-1-0-0",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0-0-0-0-2-1-0"
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0-0-0-0-0-2-1"
+              }
+            ],
+            "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          }
+        ],
+        "path": "0-0-0-0-0-0-0",
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout",
+          "columns": "3",
+          "hideCondition": {
+            "logic": {
+              "!=": [
+                { "var": "currentScreen.corporateReg.isSoleProprietor" },
+                true
+              ]
+            }
+          }
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "Grid layout",
+        "dimensions": {
+          "rows": 1,
+          "columns": 3,
+          "colSize0xs": 4,
+          "colSize0sm": 4,
+          "colSize0md": 4,
+          "colSize0lg": 4,
+          "colSize0xl": 4,
+          "colSize1xs": 4,
+          "colSize1sm": 4,
+          "colSize1md": 4,
+          "colSize1lg": 4,
+          "colSize1xl": 4,
+          "colSize2xs": 4,
+          "colSize2sm": 4,
+          "colSize2md": 4,
+          "colSize2lg": 4,
+          "colSize2xl": 4
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "jdyag2WWsHgoBsV2gKQgC",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "jdyag2WWsHgoBsV2gKQgC",
+    "createdBy": "muzzamil",
+    "updatedAt": "4/11/2023",
+    "createdAt": "4/11/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "OUW-wOMFWjxtBm2McG3iv",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "RRDcQHmSSCZmwDCIGQe7q",
+          "componentType": "10001",
+          "id": "RRDcQHmSSCZmwDCIGQe7q",
+          "position": {
+            "i": "RRDcQHmSSCZmwDCIGQe7q",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        },
+        {
+          "componentId": "R1QdpoUwtwRfRZ1sbEVRi",
+          "componentType": "10001",
+          "id": "R1QdpoUwtwRfRZ1sbEVRi",
+          "position": {
+            "i": "R1QdpoUwtwRfRZ1sbEVRi",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        },
+        {
+          "componentId": "0_TUwgY_zehmUDeNp7nco",
+          "componentType": "10001",
+          "id": "0_TUwgY_zehmUDeNp7nco",
+          "position": {
+            "i": "0_TUwgY_zehmUDeNp7nco",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        },
+        {
+          "componentId": "3-5IDw-Bu7-blmzcWGXdC",
+          "componentType": "10001",
+          "id": "3-5IDw-Bu7-blmzcWGXdC",
+          "position": {
+            "i": "3-5IDw-Bu7-blmzcWGXdC",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        },
+        {
+          "componentId": "zT7MPcyRUfUJpH6cS6sbP",
+          "componentType": "10001",
+          "id": "zT7MPcyRUfUJpH6cS6sbP",
+          "position": {
+            "i": "zT7MPcyRUfUJpH6cS6sbP",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        },
+        {
+          "componentId": "LmAr_f7VdL82zA4wA_Tgh",
+          "componentType": "10001",
+          "id": "LmAr_f7VdL82zA4wA_Tgh",
+          "position": {
+            "i": "LmAr_f7VdL82zA4wA_Tgh",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        },
+        {
+          "componentId": "bIdo-93eXX2DtkZWES_Qn",
+          "componentType": "10001",
+          "id": "bIdo-93eXX2DtkZWES_Qn",
+          "position": {
+            "i": "bIdo-93eXX2DtkZWES_Qn",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "columns": "3",
+      "hideCondition": {
+        "logic": {
+          "!=": [{ "var": "currentScreen.corporateReg.isSoleProprietor" }, true]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "RRDcQHmSSCZmwDCIGQe7q",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "LxCSMH3ut_Wlz4N-Ewk_A",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "LxCSMH3ut_Wlz4N-Ewk_A",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "Declaration ",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "GrDocumentExcel",
+      "iconName": "GrDocumentExcel",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "hSaQOPcRupDciVNElsl4Z",
+        "triggerName": "Download Declaration doc",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0-0-0-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "R1QdpoUwtwRfRZ1sbEVRi",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "kGFYFxUSTZZmvs6Y0ZyB_",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "kGFYFxUSTZZmvs6Y0ZyB_",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "CZ ",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "GrDocumentExcel",
+      "iconName": "GrDocumentExcel",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+        "triggerName": "Corporate And Activity Report1 Download XLS",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0-0-1-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "0_TUwgY_zehmUDeNp7nco",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "gIEJeAMmHFEZABINtowOd",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "gIEJeAMmHFEZABINtowOd",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "Download ",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "GrDocumentExcel",
+      "iconName": "GrDocumentExcel",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+        "triggerName": "Corporate And Activity Report1 Download XLS",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0-0-2-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "3-5IDw-Bu7-blmzcWGXdC",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "A-9MZK_v6nn8rLwecJZws",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "A-9MZK_v6nn8rLwecJZws",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "Download ",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "GrDocumentExcel",
+      "iconName": "GrDocumentExcel",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+        "triggerName": "Corporate And Activity Report1 Download XLS",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0-1-0-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "zT7MPcyRUfUJpH6cS6sbP",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "CiJgn0aT0GMlSVaQXrv1i",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "CiJgn0aT0GMlSVaQXrv1i",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "Download ",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "GrDocumentExcel",
+      "iconName": "GrDocumentExcel",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+        "triggerName": "Corporate And Activity Report1 Download XLS",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0-1-1-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "LmAr_f7VdL82zA4wA_Tgh",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "-qBIHRs0kNvcJ9NMqZcXP",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "-qBIHRs0kNvcJ9NMqZcXP",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "Download ",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "GrDocumentExcel",
+      "iconName": "GrDocumentExcel",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+        "triggerName": "Corporate And Activity Report1 Download XLS",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0-2-0-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "bIdo-93eXX2DtkZWES_Qn",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "a7KwpWAS-0vtZQ0J8FkRd",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "a7KwpWAS-0vtZQ0J8FkRd",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "Download ",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "GrDocumentExcel",
+      "iconName": "GrDocumentExcel",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "HBsW_gTkHVAW-acD8tJ42",
+        "triggerName": "Corporate And Activity Report1 Download XLS",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0-2-1-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]
