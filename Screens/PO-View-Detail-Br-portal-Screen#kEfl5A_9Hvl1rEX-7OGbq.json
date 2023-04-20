@@ -124,7 +124,7 @@
         },
         "component": { "type": "10001", "content": "Grid layout" },
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
-        "name": "Grid layout"
+        "name": "PO View Detail Br-portal Screen"
       },
       {
         "type": "10001",
@@ -1059,7 +1059,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "vq-G9uGv90SJFzFf4JKm_",
+                                                            "id": "ulD33SYLT1FahSo4U7BO9",
                                                             "gridProps": [
                                                               {
                                                                 "id": "UouYoBHPlEMixkpqcXKXZ",
@@ -1107,8 +1107,7 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "1-0-0-0-0-0-1-0-0-0-0-0-6-0"
+                                                            }
                                                           }
                                                         ],
                                                         "layoutProperties": {
@@ -1189,7 +1188,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "Dlp9hlM75YESVm6kGb_Ri",
+                                                            "id": "5PMimJCnTVpeQ1Eb-Ws_3",
                                                             "gridProps": [
                                                               {
                                                                 "id": "NTRxHtJoBolAbGLFIzSWH",
@@ -1264,8 +1263,7 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "1-0-0-0-0-0-1-0-0-0-0-0-7-0"
+                                                            }
                                                           }
                                                         ],
                                                         "layoutProperties": {
@@ -2010,7 +2008,7 @@
                                                                       "cssClassName": "emptyTextField"
                                                                     }
                                                                   ],
-                                                                  "stateName": "Account Title",
+                                                                  "stateName": "accountTitle",
                                                                   "disableCondition": {
                                                                     "logic": true
                                                                   }
@@ -2088,7 +2086,7 @@
                                                             "logic": {
                                                               "if": [
                                                                 {
-                                                                  "var": "currentScreen.selectedObject.otherRepresentativeCnic.length"
+                                                                  "var": "currentScreen.selectedObject.otherRepresentativeName.length"
                                                                 },
                                                                 false,
                                                                 true
@@ -2121,7 +2119,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "xXrR235fZlPN7G9fOctc_",
+                                                            "id": "n5ilO4k7VP5rh_Do3_HNS",
                                                             "gridProps": [
                                                               {
                                                                 "id": "B3M-VyXKxwd_OAwm84WbO",
@@ -2169,8 +2167,7 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "1-0-0-0-0-0-1-0-0-1-0-0-6-0"
+                                                            }
                                                           }
                                                         ],
                                                         "layoutProperties": {
@@ -2218,7 +2215,7 @@
                                                             "logic": {
                                                               "if": [
                                                                 {
-                                                                  "var": "currentScreen.selectedObject.otherRepresentativeCnic.length"
+                                                                  "var": "currentScreen.selectedObject.otherRepresentativeName.length"
                                                                 },
                                                                 false,
                                                                 true
@@ -2251,7 +2248,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "AX-C3K1307xbLrAsMQh3J",
+                                                            "id": "k01yx-ShxSvvMkrcFlmJZ",
                                                             "gridProps": [
                                                               {
                                                                 "id": "fa0Pj1k59tL_poFfReZHr",
@@ -2325,8 +2322,7 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "1-0-0-0-0-0-1-0-0-1-0-0-7-0"
+                                                            }
                                                           }
                                                         ],
                                                         "layoutProperties": {
@@ -3145,7 +3141,7 @@
                                                             "logic": {
                                                               "if": [
                                                                 {
-                                                                  "var": "currentScreen.selectedObject.otherRepresentativeCity.length"
+                                                                  "var": "currentScreen.selectedObject.otherRepresentativeName.length"
                                                                 },
                                                                 false,
                                                                 true
@@ -3178,7 +3174,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "Jl2UheOjrxBmzTcGzLA0y",
+                                                            "id": "cN8ILEsMk76MSmqs_s3FV",
                                                             "gridProps": [
                                                               {
                                                                 "id": "I-D1mbb9Finx7_qZOefsV",
@@ -3226,8 +3222,7 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "1-0-0-0-0-0-1-0-0-2-0-0-6-0"
+                                                            }
                                                           }
                                                         ],
                                                         "layoutProperties": {
@@ -3275,7 +3270,7 @@
                                                             "logic": {
                                                               "if": [
                                                                 {
-                                                                  "var": "currentScreen.selectedObject.otherRepresentativeCity.length"
+                                                                  "var": "currentScreen.selectedObject.otherRepresentativeName.length"
                                                                 },
                                                                 false,
                                                                 true
@@ -3308,7 +3303,7 @@
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
-                                                            "id": "WlRhwQAych_Lc3rHyxx8C",
+                                                            "id": "ZTdiL-srThFSqIlJisPaI",
                                                             "gridProps": [
                                                               {
                                                                 "id": "wjfbsjWZXVqeAlPF6Fwg5",
@@ -3382,8 +3377,7 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            },
-                                                            "path": "1-0-0-0-0-0-1-0-0-2-0-0-7-0"
+                                                            }
                                                           }
                                                         ],
                                                         "layoutProperties": {
@@ -4151,6 +4145,14 @@
                                                             },
                                                             "type": "2",
                                                             "name": "On click"
+                                                          },
+                                                          {
+                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
+                                                            "triggerName": "Clear Form Data",
+                                                            "serviceType": "14",
+                                                            "attributes": {},
+                                                            "type": "2",
+                                                            "name": "On click"
                                                           }
                                                         ],
                                                         "path": "1-0-0-0-0-0-1-0-3-0-0-0-0"
@@ -4384,6 +4386,14 @@
                                                             },
                                                             "type": "2",
                                                             "name": "On click"
+                                                          },
+                                                          {
+                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
+                                                            "triggerName": "Clear Form Data",
+                                                            "serviceType": "14",
+                                                            "attributes": {},
+                                                            "type": "2",
+                                                            "name": "On click"
                                                           }
                                                         ],
                                                         "path": "1-0-0-0-0-0-1-0-3-2-0-0-0"
@@ -4568,6 +4578,14 @@
                                                               "baseURL": "634555d068954540043d6820",
                                                               "storeType": 2
                                                             },
+                                                            "type": "2",
+                                                            "name": "On click"
+                                                          },
+                                                          {
+                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65",
+                                                            "triggerName": "Clear Form Data",
+                                                            "serviceType": "14",
+                                                            "attributes": {},
                                                             "type": "2",
                                                             "name": "On click"
                                                           }
@@ -4869,13 +4887,13 @@
     "gitBranchName": "master",
     "_id": "kEfl5A_9Hvl1rEX-7OGbq",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/28/2023",
-    "createdAt": "3/28/2023",
+    "updatedAt": "4/20/2023",
+    "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "nSLw26DAMCRi3j3tMLNDd",
-    "name": "Grid layout",
+    "name": "PO View Detail Br-portal Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -7084,7 +7102,7 @@
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "stateName": "Account Title",
+      "stateName": "accountTitle",
       "disableCondition": { "logic": true }
     },
     "icon": "FaWindowMinimize",
@@ -7145,7 +7163,7 @@
         "logic": {
           "if": [
             {
-              "var": "currentScreen.selectedObject.otherRepresentativeCnic.length"
+              "var": "currentScreen.selectedObject.otherRepresentativeName.length"
             },
             false,
             true
@@ -7242,7 +7260,7 @@
         "logic": {
           "if": [
             {
-              "var": "currentScreen.selectedObject.otherRepresentativeCnic.length"
+              "var": "currentScreen.selectedObject.otherRepresentativeName.length"
             },
             false,
             true
@@ -8108,7 +8126,7 @@
         "logic": {
           "if": [
             {
-              "var": "currentScreen.selectedObject.otherRepresentativeCity.length"
+              "var": "currentScreen.selectedObject.otherRepresentativeName.length"
             },
             false,
             true
@@ -8205,7 +8223,7 @@
         "logic": {
           "if": [
             {
-              "var": "currentScreen.selectedObject.otherRepresentativeCity.length"
+              "var": "currentScreen.selectedObject.otherRepresentativeName.length"
             },
             false,
             true
@@ -8966,6 +8984,13 @@
         "name": "On click",
         "type": "2",
         "serviceType": "1"
+      },
+      {
+        "triggerId": "C9VAY5AImRfVpeNy7pz65",
+        "triggerName": "Clear Form Data",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "14"
       }
     ],
     "path": "1-0-0-0-0-0-1-0-3-0-0-0-0",
@@ -9097,6 +9122,13 @@
         "name": "On click",
         "type": "2",
         "serviceType": "8"
+      },
+      {
+        "triggerId": "C9VAY5AImRfVpeNy7pz65",
+        "triggerName": "Clear Form Data",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "14"
       }
     ],
     "path": "1-0-0-0-0-0-1-0-3-2-0-0-0",
@@ -9196,6 +9228,13 @@
         "name": "On click",
         "type": "2",
         "serviceType": "8"
+      },
+      {
+        "triggerId": "C9VAY5AImRfVpeNy7pz65",
+        "triggerName": "Clear Form Data",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "14"
       }
     ],
     "path": "1-0-0-0-0-0-1-0-3-3-0-0-0",

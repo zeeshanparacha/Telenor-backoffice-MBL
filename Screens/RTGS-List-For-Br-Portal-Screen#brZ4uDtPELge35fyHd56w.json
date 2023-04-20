@@ -637,41 +637,7 @@
                                                           "selectedDataType": 1
                                                         },
                                                         "type": "20003",
-                                                        "events": [
-                                                          {
-                                                            "triggerId": "byj6SLNWX3lNdlBEA8y_O",
-                                                            "triggerName": "List Branc User Roles",
-                                                            "serviceType": "8",
-                                                            "attributes": {
-                                                              "loaderWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "messageWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "responseStateKey": "branchRoles",
-                                                              "url": "/BackOffice/listBranchRoles",
-                                                              "checksum": true,
-                                                              "encryption": true,
-                                                              "isDeviceDetails": true,
-                                                              "loginTrigger": false,
-                                                              "formData": false,
-                                                              "logoutTrigger": false,
-                                                              "headers": {
-                                                                "Content-Type": "application/json",
-                                                                "Accept": "application/json",
-                                                                "channel_key": "001",
-                                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                                "locale": "en-ltr"
-                                                              },
-                                                              "requestBody": [],
-                                                              "baseURL": "634555d068954540043d6820",
-                                                              "storeType": 2
-                                                            },
-                                                            "type": "1",
-                                                            "name": "On initialization"
-                                                          }
-                                                        ],
+                                                        "events": [],
                                                         "order": 10,
                                                         "version": "1.0.0",
                                                         "isLatest": true,
@@ -2806,13 +2772,29 @@
                 "readOnly": true
               },
               {
+                "id": "ACV75V4t7nsSbr6LEuWAN",
+                "name": "Open Success Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
                 "type": "10001",
                 "name": "Grid layout",
                 "id": "gXM96OmmZxdp0nuvPKrjK",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "PAsW96cqWWuL1Uov_mbS9",
+                    "id": "b6rXfzrtbagJXDarmwFyy",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2873,12 +2855,11 @@
                       "md": 8,
                       "sm": 8,
                       "xs": 8
-                    },
-                    "path": "0-0-2-0"
+                    }
                   },
                   {
                     "type": "column",
-                    "id": "-2y2Y-Tg_dnhY57YZLdE2",
+                    "id": "aOE-jM_IyXDSm41MtceUs",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -3028,12 +3009,11 @@
                       "md": 2,
                       "sm": 2,
                       "xs": 2
-                    },
-                    "path": "0-0-2-1"
+                    }
                   },
                   {
                     "type": "column",
-                    "id": "v-XqVrwIq8l82IdMcgr-r",
+                    "id": "VKjfEKXjvYD_XBNh_-Hzs",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -3183,8 +3163,7 @@
                       "md": 2,
                       "sm": 2,
                       "xs": 2
-                    },
-                    "path": "0-0-2-2"
+                    }
                   }
                 ],
                 "allowedContainers": [
@@ -3216,7 +3195,7 @@
                 },
                 "events": [],
                 "component": { "type": "10001", "content": "Grid layout" },
-                "path": "0-0-2",
+                "path": "0-0-3",
                 "dimensions": {
                   "rows": 1,
                   "columns": 3,
@@ -3747,8 +3726,8 @@
     "gitBranchName": "master",
     "_id": "brZ4uDtPELge35fyHd56w",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/6/2023",
-    "createdAt": "4/6/2023",
+    "updatedAt": "4/20/2023",
+    "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3794,6 +3773,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "ACV75V4t7nsSbr6LEuWAN",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "gXM96OmmZxdp0nuvPKrjK",
@@ -4577,15 +4568,7 @@
       "selectedDataType": 1
     },
     "type": "20003",
-    "events": [
-      {
-        "triggerId": "byj6SLNWX3lNdlBEA8y_O",
-        "triggerName": "List Branc User Roles",
-        "name": "On initialization",
-        "type": "1",
-        "serviceType": "8"
-      }
-    ],
+    "events": [],
     "order": 10,
     "version": "1.0.0",
     "isLatest": true,
@@ -5968,6 +5951,22 @@
     "screenId": "brZ4uDtPELge35fyHd56w",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ACV75V4t7nsSbr6LEuWAN",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "brZ4uDtPELge35fyHd56w",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

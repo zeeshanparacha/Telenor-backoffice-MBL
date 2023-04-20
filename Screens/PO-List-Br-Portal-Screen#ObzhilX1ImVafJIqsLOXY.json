@@ -659,41 +659,7 @@
                                                           "selectedDataType": 1
                                                         },
                                                         "type": "20003",
-                                                        "events": [
-                                                          {
-                                                            "triggerId": "byj6SLNWX3lNdlBEA8y_O",
-                                                            "triggerName": "List Branc User Roles",
-                                                            "serviceType": "8",
-                                                            "attributes": {
-                                                              "loaderWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "messageWidgetIds": [
-                                                                906070
-                                                              ],
-                                                              "responseStateKey": "branchRoles",
-                                                              "url": "/BackOffice/listBranchRoles",
-                                                              "checksum": true,
-                                                              "encryption": true,
-                                                              "isDeviceDetails": true,
-                                                              "loginTrigger": false,
-                                                              "formData": false,
-                                                              "logoutTrigger": false,
-                                                              "headers": {
-                                                                "Content-Type": "application/json",
-                                                                "Accept": "application/json",
-                                                                "channel_key": "001",
-                                                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                                "locale": "en-ltr"
-                                                              },
-                                                              "requestBody": [],
-                                                              "baseURL": "634555d068954540043d6820",
-                                                              "storeType": 2
-                                                            },
-                                                            "type": "1",
-                                                            "name": "On initialization"
-                                                          }
-                                                        ],
+                                                        "events": [],
                                                         "order": 10,
                                                         "version": "1.0.0",
                                                         "isLatest": true,
@@ -1319,8 +1285,8 @@
                                                         "type": "20003",
                                                         "events": [
                                                           {
-                                                            "triggerId": "byj6SLNWX3lNdlBEA8y_O",
-                                                            "triggerName": "List Branc User Roles",
+                                                            "triggerId": "5Q1-FBGCOvLsEUd8LcZdG",
+                                                            "triggerName": "Get Active Corporate List",
                                                             "serviceType": "8",
                                                             "attributes": {
                                                               "loaderWidgetIds": [
@@ -1329,8 +1295,9 @@
                                                               "messageWidgetIds": [
                                                                 906070
                                                               ],
-                                                              "responseStateKey": "branchRoles",
-                                                              "url": "/BackOffice/listBranchRoles",
+                                                              "responseStateKey": "corporateList",
+                                                              "responseReturnValue": "data.corporates.page",
+                                                              "url": "/corporates/list",
                                                               "checksum": true,
                                                               "encryption": true,
                                                               "isDeviceDetails": true,
@@ -1344,7 +1311,32 @@
                                                                 "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
                                                                 "locale": "en-ltr"
                                                               },
-                                                              "requestBody": [],
+                                                              "requestBody": [
+                                                                {
+                                                                  "type": 4,
+                                                                  "name": "Static",
+                                                                  "key": "pageSize",
+                                                                  "value": "1000"
+                                                                },
+                                                                {
+                                                                  "type": 2,
+                                                                  "name": "Current screen",
+                                                                  "key": "companyName",
+                                                                  "value": "companyName"
+                                                                },
+                                                                {
+                                                                  "type": 2,
+                                                                  "name": "Current screen",
+                                                                  "key": "customerId",
+                                                                  "value": "customerId"
+                                                                },
+                                                                {
+                                                                  "type": 4,
+                                                                  "name": "Static",
+                                                                  "key": "pageSize",
+                                                                  "value": "0"
+                                                                }
+                                                              ],
                                                               "baseURL": "634555d068954540043d6820",
                                                               "storeType": 2
                                                             },
@@ -2487,13 +2479,29 @@
                 "readOnly": true
               },
               {
+                "id": "ACV75V4t7nsSbr6LEuWAN",
+                "name": "Open Success Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
                 "type": "10001",
                 "name": "Grid layout",
                 "id": "oDDCW5P9PIKZXL61JMo0k",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "5HuAMErwv4NPjTiCZrR8l",
+                    "id": "JUq7y67NSP4t9GIRwRU-U",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2556,7 +2564,7 @@
                   },
                   {
                     "type": "column",
-                    "id": "9xsA7dTczLbhqRpwJNetc",
+                    "id": "9RFSCBKtuRJCkuRJ9cqQ0",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2709,7 +2717,7 @@
                   },
                   {
                     "type": "column",
-                    "id": "yi3JAQ_rjcwaX7e-38LGe",
+                    "id": "TUNegL_EuGoIJq3vmthz7",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2890,7 +2898,7 @@
                 },
                 "events": [],
                 "component": { "type": "10001", "content": "Grid layout" },
-                "path": "0-0-2",
+                "path": "0-0-3",
                 "dimensions": {
                   "rows": 1,
                   "columns": 3,
@@ -3398,8 +3406,8 @@
     "gitBranchName": "master",
     "_id": "ObzhilX1ImVafJIqsLOXY",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/6/2023",
-    "createdAt": "4/6/2023",
+    "updatedAt": "4/20/2023",
+    "createdAt": "4/20/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3445,6 +3453,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "ACV75V4t7nsSbr6LEuWAN",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "oDDCW5P9PIKZXL61JMo0k",
@@ -4253,15 +4273,7 @@
       "selectedDataType": 1
     },
     "type": "20003",
-    "events": [
-      {
-        "triggerId": "byj6SLNWX3lNdlBEA8y_O",
-        "triggerName": "List Branc User Roles",
-        "name": "On initialization",
-        "type": "1",
-        "serviceType": "8"
-      }
-    ],
+    "events": [],
     "order": 10,
     "version": "1.0.0",
     "isLatest": true,
@@ -4806,8 +4818,8 @@
     "type": "20003",
     "events": [
       {
-        "triggerId": "byj6SLNWX3lNdlBEA8y_O",
-        "triggerName": "List Branc User Roles",
+        "triggerId": "5Q1-FBGCOvLsEUd8LcZdG",
+        "triggerName": "Get Active Corporate List",
         "name": "On initialization",
         "type": "1",
         "serviceType": "8"
@@ -5346,6 +5358,22 @@
     "screenId": "ObzhilX1ImVafJIqsLOXY",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ACV75V4t7nsSbr6LEuWAN",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "ObzhilX1ImVafJIqsLOXY",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
