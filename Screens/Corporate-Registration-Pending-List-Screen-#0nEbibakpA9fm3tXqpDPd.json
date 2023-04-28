@@ -175,13 +175,29 @@
                 "name": "Grid layout"
               },
               {
+                "id": "ACV75V4t7nsSbr6LEuWAN",
+                "name": "Open Success Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+                  "layoutProperties": {
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "component": { "type": "20031" }
+              },
+              {
                 "type": "10001",
                 "name": "Grid layout",
                 "id": "Ssj8T-VgHPVUnxSXfAnM7",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "40f-j3A6IRdZj8zG9GKDK",
+                    "id": "TrBV4TsF3P0q3JRKFyar8",
                     "gridProps": [
                       {
                         "id": "X7BEDiGcLF7USYMQEmVZm",
@@ -215,44 +231,101 @@
                         "createdAt": "24-Aug-2021",
                         "events": [
                           {
-                            "triggerId": "M98mY_p7YNDGkDtKo1l3L",
-                            "triggerName": "Get Pending Corporate Registration",
-                            "serviceType": "8",
+                            "triggerId": "tPduol4-lRAnQ5q1jY3fa",
+                            "triggerName": "Get Pending Corporate Registration and Clear Data from corporate Pending list",
+                            "serviceType": "2",
                             "attributes": {
-                              "loaderWidgetIds": [906070],
-                              "messageWidgetIds": [906070],
-                              "responseStateKey": "pendingCorporateRegistration",
-                              "responseReturnValue": "data",
-                              "url": "/corporate-registration/pending-requests",
-                              "checksum": true,
-                              "encryption": true,
-                              "isDeviceDetails": true,
-                              "loginTrigger": false,
-                              "formData": false,
-                              "logoutTrigger": false,
-                              "headers": {
-                                "Content-Type": "application/json",
-                                "Accept": "application/json",
-                                "channel_key": "001",
-                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                "locale": "en-ltr"
-                              },
-                              "requestBody": [
+                              "delay": "",
+                              "triggers": [
                                 {
-                                  "type": 4,
-                                  "name": "Static",
-                                  "key": "pageNumber",
-                                  "value": "1"
+                                  "id": "M98mY_p7YNDGkDtKo1l3L",
+                                  "_id": "e92y3arMEpgovqJu0Q4Pm",
+                                  "projectId": "63f349eda070071e283ca270",
+                                  "gitBranchName": "master",
+                                  "name": "Get Pending Corporate Registration",
+                                  "old_name": "Get Pending Corporate Registration",
+                                  "status": "ACTIVE",
+                                  "services": [
+                                    {
+                                      "type": "8",
+                                      "command": {
+                                        "type": "1",
+                                        "attributes": {
+                                          "loaderWidgetIds": [906070],
+                                          "messageWidgetIds": [906070],
+                                          "responseStateKey": "pendingCorporateRegistration",
+                                          "responseReturnValue": "data.result.list",
+                                          "url": "/corporate-registration/pending-requests",
+                                          "checksum": true,
+                                          "encryption": true,
+                                          "isDeviceDetails": true,
+                                          "loginTrigger": false,
+                                          "formData": false,
+                                          "logoutTrigger": false,
+                                          "headers": {
+                                            "Content-Type": "application/json",
+                                            "Accept": "application/json",
+                                            "channel_key": "001",
+                                            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                            "locale": "en-ltr"
+                                          },
+                                          "requestBody": [
+                                            {
+                                              "type": 4,
+                                              "name": "Static",
+                                              "key": "pageNumber",
+                                              "value": "1"
+                                            },
+                                            {
+                                              "type": 4,
+                                              "name": "Static",
+                                              "key": "pageSize",
+                                              "value": "5"
+                                            }
+                                          ],
+                                          "baseURL": "634555d068954540043d6820",
+                                          "storeType": 2
+                                        },
+                                        "responseHandler": []
+                                      }
+                                    }
+                                  ],
+                                  "updatedAt": "4/6/2023",
+                                  "createdAt": "4/6/2023",
+                                  "createdBy": "muzzamil",
+                                  "updatedBy": "muzzamil"
                                 },
                                 {
-                                  "type": 4,
-                                  "name": "Static",
-                                  "key": "pageSize",
-                                  "value": "5"
+                                  "id": "uydBqqJTWZ6hkexTjAjYu",
+                                  "name": "Clear Data from corporate Pending List",
+                                  "projectId": "63f349eda070071e283ca270",
+                                  "gitBranchName": "master",
+                                  "services": [
+                                    {
+                                      "type": "11",
+                                      "command": {
+                                        "type": "4",
+                                        "attributes": {
+                                          "stateName": "pendingCorporateRegistration",
+                                          "storeType": 2,
+                                          "selectedObjectBindingKey": "selectedObject",
+                                          "dataType": "",
+                                          "sourceBindingKey": ""
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "_id": "Xj8HviBdYNwzNQH5jFoiN",
+                                  "updatedAt": "4/26/2023",
+                                  "createdAt": "4/26/2023",
+                                  "createdBy": "ishfaque",
+                                  "updatedBy": "ishfaque"
                                 }
                               ],
-                              "baseURL": "634555d068954540043d6820",
-                              "storeType": 2
+                              "triggerIds": [
+                                "M98mY_p7YNDGkDtKo1l3L",
+                                "uydBqqJTWZ6hkexTjAjYu"
+                              ]
                             },
                             "type": "1",
                             "name": "On initialization"
@@ -277,7 +350,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "PaGbE58h2JClUfqlv4XxA",
+                            "id": "kOcNI2tsjeXMxDGV7KINc",
                             "gridProps": [
                               {
                                 "id": "tt0xbilv-wFfkCWu_IKAX",
@@ -409,11 +482,12 @@
                                         {
                                           "label": "View Detail",
                                           "trigger": {
+                                            "_id": "U9SUbo7qies-E9seOkXW2",
                                             "id": "ZEPqVZwm6ZwTnBJjff-Ah",
                                             "projectId": "63f349eda070071e283ca270",
                                             "gitBranchName": "master",
                                             "name": "Navigate and view Corporate Regiistration",
-                                            "old_name": "",
+                                            "old_name": "Navigate and view Corporate Regiistration",
                                             "status": "ACTIVE",
                                             "services": [
                                               {
@@ -513,11 +587,10 @@
                                                 }
                                               }
                                             ],
-                                            "_id": "U9SUbo7qies-E9seOkXW2",
-                                            "updatedAt": "4/6/2023",
-                                            "createdAt": "4/6/2023",
-                                            "createdBy": "muzzamil",
-                                            "updatedBy": "muzzamil"
+                                            "updatedAt": "4/27/2023",
+                                            "createdAt": "4/27/2023",
+                                            "createdBy": "ishfaque",
+                                            "updatedBy": "ishfaque"
                                           },
                                           "triggerId": "ZEPqVZwm6ZwTnBJjff-Ah",
                                           "conditional": {},
@@ -559,7 +632,7 @@
                                   "type": "20014"
                                 },
                                 "events": [],
-                                "path": "0-0-1-0-0-0-0"
+                                "path": "0-0-2-0-0-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -568,8 +641,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-2-0-0-0"
+                            }
                           }
                         ],
                         "layoutProperties": {
@@ -596,8 +668,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-2-0"
+                    }
                   }
                 ],
                 "allowedContainers": [
@@ -628,7 +699,17 @@
                 },
                 "events": [],
                 "component": { "type": "10001", "content": "Grid layout" },
-                "path": "0-0-2"
+                "path": "0-0-2",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
               }
             ],
             "layoutProperties": {
@@ -652,8 +733,8 @@
     "gitBranchName": "master",
     "_id": "0nEbibakpA9fm3tXqpDPd",
     "createdBy": "ishfaque",
-    "updatedAt": "4/17/2023",
-    "createdAt": "4/17/2023",
+    "updatedAt": "4/27/2023",
+    "createdAt": "4/27/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -680,6 +761,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "ACV75V4t7nsSbr6LEuWAN",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "Ssj8T-VgHPVUnxSXfAnM7",
@@ -812,6 +905,22 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "ACV75V4t7nsSbr6LEuWAN",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "0nEbibakpA9fm3tXqpDPd",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "Ssj8T-VgHPVUnxSXfAnM7",
     "name": "Grid layout",
     "type": "10001",
@@ -902,8 +1011,8 @@
     "layout": null,
     "events": [
       {
-        "triggerId": "M98mY_p7YNDGkDtKo1l3L",
-        "triggerName": "Get Pending Corporate Registration",
+        "triggerId": "tPduol4-lRAnQ5q1jY3fa",
+        "triggerName": "Get Pending Corporate Registration and Clear Data from corporate Pending list",
         "name": "On initialization",
         "type": "1"
       }
@@ -1016,11 +1125,12 @@
             {
               "label": "View Detail",
               "trigger": {
+                "_id": "U9SUbo7qies-E9seOkXW2",
                 "id": "ZEPqVZwm6ZwTnBJjff-Ah",
                 "projectId": "63f349eda070071e283ca270",
                 "gitBranchName": "master",
                 "name": "Navigate and view Corporate Regiistration",
-                "old_name": "",
+                "old_name": "Navigate and view Corporate Regiistration",
                 "status": "ACTIVE",
                 "services": [
                   {
@@ -1116,11 +1226,10 @@
                     }
                   }
                 ],
-                "_id": "U9SUbo7qies-E9seOkXW2",
-                "updatedAt": "4/6/2023",
-                "createdAt": "4/6/2023",
-                "createdBy": "muzzamil",
-                "updatedBy": "muzzamil"
+                "updatedAt": "4/27/2023",
+                "createdAt": "4/27/2023",
+                "createdBy": "ishfaque",
+                "updatedBy": "ishfaque"
               },
               "triggerId": "ZEPqVZwm6ZwTnBJjff-Ah",
               "conditional": {},
@@ -1155,7 +1264,7 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-1-0-0-0-0",
+    "path": "0-0-2-0-0-0-0",
     "screenId": "0nEbibakpA9fm3tXqpDPd",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",

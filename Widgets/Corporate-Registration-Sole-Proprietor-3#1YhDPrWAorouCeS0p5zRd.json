@@ -222,6 +222,21 @@
                                 "path": "0-0-0-0-0-0-0"
                               },
                               {
+                                "id": "IpBrXWbQU0mtelz1OeKyy",
+                                "type": "20031",
+                                "attributes": {
+                                  "widgetId": "yh7RmL0JZW8pAezr854Qd",
+                                  "layoutProperties": {
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  }
+                                },
+                                "component": { "type": "20031" }
+                              },
+                              {
                                 "id": "eX_rXeE69q_gGUqWdUNX9",
                                 "status": "ACTIVE",
                                 "name": "Data table",
@@ -280,17 +295,6 @@
                                     "text-align": "left"
                                   },
                                   "columnDefinition": [
-                                    {
-                                      "type": "checkbox",
-                                      "typeTemp": {
-                                        "name": "Checkbox",
-                                        "type": "checkbox"
-                                      },
-                                      "bindingKeyForSelectedRow": "selectedRows",
-                                      "storeType": 2,
-                                      "field": "",
-                                      "checkboxValue": "account"
-                                    },
                                     {
                                       "type": "text",
                                       "typeTemp": {
@@ -417,7 +421,7 @@
                                   "type": "20014"
                                 },
                                 "events": [],
-                                "path": "0-0-0-0-0-0-1"
+                                "path": "0-0-0-0-1-0-1"
                               }
                             ],
                             "layoutProperties": {
@@ -1172,6 +1176,21 @@
                                         "component": { "type": "20031" }
                                       },
                                       {
+                                        "id": "b_mB5aQYCk7h1eCzo9J_p",
+                                        "type": "20031",
+                                        "attributes": {
+                                          "widgetId": "mKe_qdMoLQnTPVGDHVjHm",
+                                          "layoutProperties": {
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          }
+                                        },
+                                        "component": { "type": "20031" }
+                                      },
+                                      {
                                         "id": "EuCVxokJKj3f3DmX2Bb0D",
                                         "status": "ACTIVE",
                                         "name": "Data table",
@@ -1230,17 +1249,6 @@
                                             "text-align": "left"
                                           },
                                           "columnDefinition": [
-                                            {
-                                              "type": "checkbox",
-                                              "typeTemp": {
-                                                "name": "Checkbox",
-                                                "type": "checkbox"
-                                              },
-                                              "bindingKeyForSelectedRow": "selectedRows",
-                                              "storeType": 2,
-                                              "field": "",
-                                              "checkboxValue": "account"
-                                            },
                                             {
                                               "type": "text",
                                               "typeTemp": {
@@ -1356,7 +1364,7 @@
                                           "type": "20014"
                                         },
                                         "events": [],
-                                        "path": "0-0-1-0-0-0-1-0-0"
+                                        "path": "0-0-1-0-0-0-1-0-1"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2153,6 +2161,21 @@
                                         "component": { "type": "20031" }
                                       },
                                       {
+                                        "id": "M76GaEaUdivsDuc8EzYKj",
+                                        "type": "20031",
+                                        "attributes": {
+                                          "widgetId": "dALb-9qJuWsTfl3kcb-Zy",
+                                          "layoutProperties": {
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          }
+                                        },
+                                        "component": { "type": "20031" }
+                                      },
+                                      {
                                         "id": "dJ9vGKLaWO-rOHcgDrNcd",
                                         "status": "ACTIVE",
                                         "name": "Data table",
@@ -2211,17 +2234,6 @@
                                             "text-align": "left"
                                           },
                                           "columnDefinition": [
-                                            {
-                                              "type": "checkbox",
-                                              "typeTemp": {
-                                                "name": "Checkbox",
-                                                "type": "checkbox"
-                                              },
-                                              "bindingKeyForSelectedRow": "selectedRows",
-                                              "storeType": 2,
-                                              "field": "",
-                                              "checkboxValue": "account"
-                                            },
                                             {
                                               "type": "text",
                                               "typeTemp": {
@@ -2337,7 +2349,7 @@
                                           "type": "20014"
                                         },
                                         "events": [],
-                                        "path": "0-0-2-0-0-0-1-0-0"
+                                        "path": "0-0-2-0-0-0-1-0-1"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2988,8 +3000,8 @@
     "gitBranchName": "master",
     "_id": "1YhDPrWAorouCeS0p5zRd",
     "createdBy": "muzzamil",
-    "updatedAt": "4/13/2023",
-    "createdAt": "4/13/2023",
+    "updatedAt": "4/26/2023",
+    "createdAt": "4/26/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3339,7 +3351,6 @@
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
     },
     "component": { "type": "20031" },
-    "path": "0-0-0-0-0-0-0",
     "screenId": "1YhDPrWAorouCeS0p5zRd",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -3401,14 +3412,6 @@
         "text-align": "left"
       },
       "columnDefinition": [
-        {
-          "type": "checkbox",
-          "typeTemp": { "name": "Checkbox", "type": "checkbox" },
-          "bindingKeyForSelectedRow": "selectedRows",
-          "storeType": 2,
-          "field": "",
-          "checkboxValue": "account"
-        },
         {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
@@ -3507,7 +3510,7 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-0-0-0-0-1",
+    "path": "0-0-0-0-1-0-1",
     "screenId": "1YhDPrWAorouCeS0p5zRd",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -4229,14 +4232,6 @@
       },
       "columnDefinition": [
         {
-          "type": "checkbox",
-          "typeTemp": { "name": "Checkbox", "type": "checkbox" },
-          "bindingKeyForSelectedRow": "selectedRows",
-          "storeType": 2,
-          "field": "",
-          "checkboxValue": "account"
-        },
-        {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
           "field": "nameAsPerCNIC",
@@ -4327,7 +4322,7 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-1-0-0-0-1-0-0",
+    "path": "0-0-1-0-0-0-1-0-1",
     "screenId": "1YhDPrWAorouCeS0p5zRd",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -5052,14 +5047,6 @@
       },
       "columnDefinition": [
         {
-          "type": "checkbox",
-          "typeTemp": { "name": "Checkbox", "type": "checkbox" },
-          "bindingKeyForSelectedRow": "selectedRows",
-          "storeType": 2,
-          "field": "",
-          "checkboxValue": "account"
-        },
-        {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
           "field": "nameAsPerCNIC",
@@ -5150,7 +5137,7 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-2-0-0-0-1-0-0",
+    "path": "0-0-2-0-0-0-1-0-1",
     "screenId": "1YhDPrWAorouCeS0p5zRd",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",

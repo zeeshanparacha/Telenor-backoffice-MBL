@@ -1,0 +1,111 @@
+{
+  "_id": "ET8WHRL6O-Tgm5NuWlLe1",
+  "id": "tPduol4-lRAnQ5q1jY3fa",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Get Pending Corporate Registration and Clear Data from corporate Pending list",
+  "old_name": "Get Pending Corporate Registration and Clear Data from corporate Pending list",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "uydBqqJTWZ6hkexTjAjYu",
+              "name": "Clear Data from corporate Pending List",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "pendingCorporateRegistration",
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "Xj8HviBdYNwzNQH5jFoiN",
+              "updatedAt": "4/26/2023",
+              "createdAt": "4/26/2023",
+              "createdBy": "ishfaque",
+              "updatedBy": "ishfaque"
+            },
+            {
+              "id": "M98mY_p7YNDGkDtKo1l3L",
+              "_id": "e92y3arMEpgovqJu0Q4Pm",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "name": "Get Pending Corporate Registration",
+              "old_name": "Get Pending Corporate Registration",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "pendingCorporateRegistration",
+                      "responseReturnValue": "data.result.list",
+                      "url": "/corporate-registration/pending-requests",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageNumber",
+                          "value": "1"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageSize",
+                          "value": "5"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "4/6/2023",
+              "createdAt": "4/6/2023",
+              "createdBy": "muzzamil",
+              "updatedBy": "muzzamil"
+            }
+          ],
+          "triggerIds": ["uydBqqJTWZ6hkexTjAjYu", "M98mY_p7YNDGkDtKo1l3L"]
+        }
+      }
+    }
+  ],
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
+  "createdBy": "ishfaque",
+  "updatedBy": "ishfaque"
+}

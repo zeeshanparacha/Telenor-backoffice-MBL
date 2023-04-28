@@ -2613,7 +2613,7 @@
                                 },
                                 "events": [
                                   {
-                                    "triggerId": "Bn1GzvQaok_ztS7IxAwKs",
+                                    "triggerId": "6zo8mmpEiuPaJrM8jXlxQ",
                                     "triggerName": "Download Pay Order Excel",
                                     "serviceType": "8",
                                     "attributes": {
@@ -2650,7 +2650,7 @@
                                     "name": "On click"
                                   }
                                 ],
-                                "path": "0-0-2-1-0-0-0",
+                                "path": "0-0-3-1-0-0-0",
                                 "version": "1.0.0"
                               }
                             ],
@@ -2766,7 +2766,7 @@
                                 },
                                 "events": [
                                   {
-                                    "triggerId": "XEXGpBvA1vHljadRs0h3k",
+                                    "triggerId": "hKLCBYOch5uqtokl-SWqw",
                                     "triggerName": "Download Pay Order PDF",
                                     "serviceType": "8",
                                     "attributes": {
@@ -2803,7 +2803,7 @@
                                     "name": "On click"
                                   }
                                 ],
-                                "path": "0-0-2-2-0-0-0",
+                                "path": "0-0-3-2-0-0-0",
                                 "version": "1.0.0"
                               }
                             ],
@@ -3280,7 +3280,7 @@
                                   "rowDefinition": [],
                                   "debug": false,
                                   "pagination": true,
-                                  "paginationPageSize": "100",
+                                  "paginationPageSize": "5",
                                   "suppressCsvExport": false,
                                   "suppressExcelExport": true,
                                   "name": "Data Grid",
@@ -3303,7 +3303,7 @@
                                   "type": "20014"
                                 },
                                 "events": [],
-                                "path": "0-0-3-0-0-0-0"
+                                "path": "0-0-4-0-0-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -3406,8 +3406,8 @@
     "gitBranchName": "master",
     "_id": "ObzhilX1ImVafJIqsLOXY",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/20/2023",
-    "createdAt": "4/20/2023",
+    "updatedAt": "4/28/2023",
+    "createdAt": "4/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5556,14 +5556,14 @@
     },
     "events": [
       {
-        "triggerId": "Bn1GzvQaok_ztS7IxAwKs",
+        "triggerId": "6zo8mmpEiuPaJrM8jXlxQ",
         "triggerName": "Download Pay Order Excel",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
       }
     ],
-    "path": "0-0-2-1-0-0-0",
+    "path": "0-0-3-1-0-0-0",
     "version": "1.0.0",
     "screenId": "ObzhilX1ImVafJIqsLOXY",
     "subType": "component",
@@ -5645,14 +5645,14 @@
     },
     "events": [
       {
-        "triggerId": "XEXGpBvA1vHljadRs0h3k",
+        "triggerId": "hKLCBYOch5uqtokl-SWqw",
         "triggerName": "Download Pay Order PDF",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
       }
     ],
-    "path": "0-0-2-2-0-0-0",
+    "path": "0-0-3-2-0-0-0",
     "version": "1.0.0",
     "screenId": "ObzhilX1ImVafJIqsLOXY",
     "subType": "component",
@@ -5924,7 +5924,7 @@
       "rowDefinition": [],
       "debug": false,
       "pagination": true,
-      "paginationPageSize": "100",
+      "paginationPageSize": "5",
       "suppressCsvExport": false,
       "suppressExcelExport": true,
       "name": "Data Grid",
@@ -5944,7 +5944,7 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-3-0-0-0-0",
+    "path": "0-0-4-0-0-0-0",
     "screenId": "ObzhilX1ImVafJIqsLOXY",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",

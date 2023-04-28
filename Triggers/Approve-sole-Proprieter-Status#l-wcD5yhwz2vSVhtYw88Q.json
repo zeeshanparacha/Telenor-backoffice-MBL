@@ -14,7 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "approveStatus",
+          "responseStateKey": "response",
           "url": "/corporate-registration/approve",
           "checksum": true,
           "encryption": true,
@@ -39,8 +39,8 @@
           {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Open Success Modal",
-            "triggerId": "7qK4zY9-Va6XZGtImuOcg"
+            "triggerName": "Corporate Registration to pending Registration",
+            "triggerId": "gJ2tNGmdqDsUar993ioxW"
           },
           {
             "logic": { "==": [{ "var": "status" }, 0] },
@@ -51,15 +51,15 @@
           {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Corporate Registration to pending",
-            "triggerId": "7TkcGJ0idln-s5agyc0fN"
+            "triggerName": "Open Success Modal",
+            "triggerId": "7qK4zY9-Va6XZGtImuOcg"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/11/2023",
-  "createdAt": "4/11/2023",
-  "createdBy": "muzzamil",
-  "updatedBy": "muzzamil"
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
+  "createdBy": "ishfaque",
+  "updatedBy": "ishfaque"
 }

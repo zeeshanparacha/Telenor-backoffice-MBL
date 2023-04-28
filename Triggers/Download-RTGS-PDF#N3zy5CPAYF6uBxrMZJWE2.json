@@ -18,7 +18,7 @@
           "url": "/rtgs/list/export/pdf",
           "checksum": true,
           "encryption": true,
-          "fileName": "Pay Order Report.pdf",
+          "fileName": "RTGS Report.pdf",
           "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
@@ -31,7 +31,31 @@
             "locale": "en-ltr"
           },
           "requestBody": [
-            { "type": 1, "name": "Form", "key": "status", "value": "status" }
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "status.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyId",
+              "value": "company.companyId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "fromDate",
+              "value": "fromDate"
+            },
+            { "type": 1, "name": "Form", "key": "toDate", "value": "toDate" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "rtgsNumber",
+              "value": "rtgsNumber"
+            }
           ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
@@ -40,8 +64,8 @@
       }
     }
   ],
-  "updatedAt": "3/21/2023",
-  "createdAt": "3/21/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "4/28/2023",
+  "createdAt": "4/28/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

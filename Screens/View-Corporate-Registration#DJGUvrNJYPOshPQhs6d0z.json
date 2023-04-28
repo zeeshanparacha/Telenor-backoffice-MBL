@@ -8553,7 +8553,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "C6b9ZwbzTVcoZ-4bs-s_W",
+                            "id": "rcj5pAgIYuHfiOu_oPBbk",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -8562,7 +8562,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "SK5gYQe0H2jPcmIXPYuji",
+                                    "id": "dFkPrQmvuhoYTQvTy3zOM",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -8604,7 +8604,7 @@
                                                                         "gridProps": [
                                                                           {
                                                                             "type": "column",
-                                                                            "id": "5boL7sWEBWS9jLDN2CgBL",
+                                                                            "id": "EIYIXn6AExhNRsHmQ2wpI",
                                                                             "gridProps": [
                                                                               {
                                                                                 "type": "10001",
@@ -8713,22 +8713,23 @@
                                                                               {
                                                                                 "type": "10001",
                                                                                 "name": "Grid layout",
-                                                                                "id": "Pr1GURlPSXrScwMfmO6az",
+                                                                                "id": "f8GT2w8W0DmY5PakRzIuF",
                                                                                 "gridProps": [
                                                                                   {
                                                                                     "type": "column",
-                                                                                    "id": "3LB7U8S27IdH87oypcR2C",
+                                                                                    "id": "-H5zFHoWevjLfN1sYckjP",
                                                                                     "gridProps": [
                                                                                       {
-                                                                                        "id": "xvnGqiIKo1_0SEhYjdY03",
+                                                                                        "id": "DIxy9NeVLksnCaRKc4HCp",
                                                                                         "status": "ACTIVE",
-                                                                                        "name": "Text Box",
+                                                                                        "name": "Text area",
                                                                                         "attributes": {
-                                                                                          "name": "Text box",
+                                                                                          "stateName": "discrepantComment",
+                                                                                          "name": "Text Area",
+                                                                                          "minRows": 4,
+                                                                                          "rows": "5",
                                                                                           "label-locale-key": "",
-                                                                                          "maxLength": 20,
-                                                                                          "type": "text",
-                                                                                          "variant": "standard",
+                                                                                          "variant": "outlined",
                                                                                           "value": "",
                                                                                           "readOnly": false,
                                                                                           "tooltip": "",
@@ -8749,36 +8750,12 @@
                                                                                             "sm": 12,
                                                                                             "xs": 12
                                                                                           },
-                                                                                          "validate": {
-                                                                                            "required": false,
-                                                                                            "errorMsg": "This field is required"
-                                                                                          },
                                                                                           "placeholder": "",
-                                                                                          "stateName": "discrepantComment",
-                                                                                          "cssClassNames": [
-                                                                                            {
-                                                                                              "cssClassName": "emptyTextField"
-                                                                                            }
-                                                                                          ],
-                                                                                          "disableUnderline": true,
-                                                                                          "disableCondition": {
-                                                                                            "logic": {
-                                                                                              "in": [
-                                                                                                {
-                                                                                                  "var": "currentScreen.selectedObject.status"
-                                                                                                },
-                                                                                                [
-                                                                                                  "APPROVED",
-                                                                                                  "REJECTED",
-                                                                                                  "DISCREPANT"
-                                                                                                ]
-                                                                                              ]
-                                                                                            }
-                                                                                          }
+                                                                                          "disableUnderline": true
                                                                                         },
-                                                                                        "icon": "FaWindowMinimize",
+                                                                                        "icon": "FaTextWidth",
                                                                                         "group": "Form",
-                                                                                        "type": "20004",
+                                                                                        "type": "20037",
                                                                                         "Documentation": "<div>components 12344</div>",
                                                                                         "updatedAt": "23-Aug-2021",
                                                                                         "createdAt": "23-Aug-2021",
@@ -8787,8 +8764,8 @@
                                                                                         "isLatest": true,
                                                                                         "projectType": "web",
                                                                                         "component": {
-                                                                                          "content": "Text Box",
-                                                                                          "type": "20004"
+                                                                                          "content": "Text area",
+                                                                                          "type": "20037"
                                                                                         },
                                                                                         "events": [],
                                                                                         "path": "0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0"
@@ -8842,8 +8819,7 @@
                                                                               "md": 12,
                                                                               "sm": 12,
                                                                               "xs": 12
-                                                                            },
-                                                                            "path": "0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0"
+                                                                            }
                                                                           }
                                                                         ],
                                                                         "path": "0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
@@ -8878,7 +8854,17 @@
                                                                           "20010",
                                                                           "widget"
                                                                         ],
-                                                                        "name": "Grid layout"
+                                                                        "name": "Grid layout",
+                                                                        "dimensions": {
+                                                                          "rows": 1,
+                                                                          "columns": 1,
+                                                                          "colSize0xs": 12,
+                                                                          "colSize0sm": 12,
+                                                                          "colSize0md": 12,
+                                                                          "colSize0lg": 12,
+                                                                          "colSize0xl": 12
+                                                                        },
+                                                                        "readOnly": true
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -9091,8 +9077,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-3-0-0-0-0-0"
+                                    }
                                   }
                                 ],
                                 "allowedContainers": [
@@ -9119,8 +9104,9 @@
                                     "alignItems": "flex-start"
                                   },
                                   "direction": "row",
-                                  "name": "SOLE PROPRITER WIDGET ONE",
-                                  "isSwappable": true
+                                  "name": "SOLO ",
+                                  "isSwappable": true,
+                                  "hideCondition": {}
                                 },
                                 "events": [],
                                 "component": {
@@ -9146,8 +9132,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-3-0-0-0"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -9174,14 +9159,34 @@
                             "alignItems": "flex-start"
                           },
                           "direction": "row",
-                          "name": "Grid layout"
+                          "name": "Grid layout",
+                          "hideCondition": {
+                            "logic": {
+                              "in": [
+                                {
+                                  "var": "currentScreen.selectedObject.status"
+                                },
+                                ["APPROVED", "REJECTED", "DISCREPANT"]
+                              ]
+                            }
+                          }
                         },
                         "events": [],
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "0-0-3-0-0"
+                        "path": "0-0-3-0-0",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 1,
+                          "colSize0xs": 12,
+                          "colSize0sm": 12,
+                          "colSize0md": 12,
+                          "colSize0lg": 12,
+                          "colSize0xl": 12
+                        },
+                        "readOnly": true
                       }
                     ],
                     "layoutProperties": {
@@ -9246,8 +9251,8 @@
     "gitBranchName": "master",
     "_id": "DJGUvrNJYPOshPQhs6d0z",
     "createdBy": "ishfaque",
-    "updatedAt": "4/17/2023",
-    "createdAt": "4/17/2023",
+    "updatedAt": "4/28/2023",
+    "createdAt": "4/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -16991,7 +16996,15 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "in": [
+            { "var": "currentScreen.selectedObject.status" },
+            ["APPROVED", "REJECTED", "DISCREPANT"]
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -17043,8 +17056,9 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "SOLE PROPRITER WIDGET ONE",
-      "isSwappable": true
+      "name": "SOLO ",
+      "isSwappable": true,
+      "hideCondition": {}
     },
     "layout": null,
     "events": [],
@@ -17290,11 +17304,11 @@
           }
         },
         {
-          "componentId": "Pr1GURlPSXrScwMfmO6az",
+          "componentId": "f8GT2w8W0DmY5PakRzIuF",
           "componentType": "10001",
-          "id": "Pr1GURlPSXrScwMfmO6az",
+          "id": "f8GT2w8W0DmY5PakRzIuF",
           "position": {
-            "i": "Pr1GURlPSXrScwMfmO6az",
+            "i": "f8GT2w8W0DmY5PakRzIuF",
             "x": null,
             "y": null,
             "w": null,
@@ -17424,7 +17438,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "Pr1GURlPSXrScwMfmO6az",
+    "id": "f8GT2w8W0DmY5PakRzIuF",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -17437,8 +17451,8 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "xvnGqiIKo1_0SEhYjdY03",
-          "componentType": "20004",
+          "componentId": "DIxy9NeVLksnCaRKc4HCp",
+          "componentType": "20037",
           "order": 1
         }
       ],
@@ -17469,15 +17483,16 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "xvnGqiIKo1_0SEhYjdY03",
+    "id": "DIxy9NeVLksnCaRKc4HCp",
     "status": "ACTIVE",
-    "name": "Text Box",
+    "name": "Text area",
     "attributes": {
-      "name": "Text box",
+      "stateName": "discrepantComment",
+      "name": "Text Area",
+      "minRows": 4,
+      "rows": "5",
       "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
-      "variant": "standard",
+      "variant": "outlined",
       "value": "",
       "readOnly": false,
       "tooltip": "",
@@ -17494,23 +17509,12 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": false, "errorMsg": "This field is required" },
       "placeholder": "",
-      "stateName": "discrepantComment",
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "disableUnderline": true,
-      "disableCondition": {
-        "logic": {
-          "in": [
-            { "var": "currentScreen.selectedObject.status" },
-            ["APPROVED", "REJECTED", "DISCREPANT"]
-          ]
-        }
-      }
+      "disableUnderline": true
     },
-    "icon": "FaWindowMinimize",
+    "icon": "FaTextWidth",
     "group": "Form",
-    "type": "20004",
+    "type": "20037",
     "Documentation": "<div>components 12344</div>",
     "updatedAt": "23-Aug-2021",
     "createdAt": "23-Aug-2021",
@@ -17518,7 +17522,7 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Text Box", "type": "20004" },
+    "component": { "content": "Text area", "type": "20037" },
     "events": [],
     "path": "0-0-3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0",
     "screenId": "DJGUvrNJYPOshPQhs6d0z",

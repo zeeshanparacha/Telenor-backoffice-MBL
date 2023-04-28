@@ -1,10 +1,10 @@
 {
-  "id": "7tSRLHZZj5tcO4uIO7t2u",
-  "_id": "RBQyMWZTv1og8SKWzCfco",
+  "id": "jkeSavfHR_IitRnaQ0ccg",
+  "_id": "Ng0fYs4nW6fccbPCN_eCf",
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
-  "name": "Get View Corporate Registration",
-  "old_name": "Get View Corporate Registration",
+  "name": "Get Corporate Registration for Comment API ",
+  "old_name": "Get Corporate Registration for Comment API ",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,8 +14,8 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "corporateReg",
-          "responseReturnValue": "data.corporate_offline.data",
+          "responseStateKey": "corporateRegforComment",
+          "responseReturnValue": "data.corporate_offline",
           "url": "/corporate-registration/view",
           "checksum": true,
           "encryption": true,

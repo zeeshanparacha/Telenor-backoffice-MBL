@@ -53,13 +53,19 @@
             "httpStatus": 400,
             "triggerName": "Show 400 Error Modal",
             "triggerId": "85PQi-TP493MrVTUwO2Ay"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Corporate Registration to pending",
+            "triggerId": "7TkcGJ0idln-s5agyc0fN"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/17/2023",
-  "createdAt": "4/17/2023",
-  "createdBy": "muzzamil",
-  "updatedBy": "muzzamil"
+  "updatedAt": "4/26/2023",
+  "createdAt": "4/26/2023",
+  "createdBy": "ishfaque",
+  "updatedBy": "ishfaque"
 }

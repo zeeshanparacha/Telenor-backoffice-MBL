@@ -1,24 +1,23 @@
 {
-  "id": "hKLCBYOch5uqtokl-SWqw",
-  "_id": "emZV-4XtGppiPpUhV_aPB",
+  "id": "REzPplV8XQLDxw9IlS3aQ",
+  "_id": "xhV_goPPLYSsp6-aEuWXN",
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
-  "name": "Download Pay Order PDF",
-  "old_name": "Download Pay Order PDF",
+  "name": "pay dues api",
+  "old_name": "pay dues api",
   "status": "ACTIVE",
   "services": [
     {
       "type": "8",
       "command": {
-        "type": "2",
+        "type": "1",
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "response",
-          "url": "/po/list/export/pdf",
+          "responseStateKey": "duesResponse",
+          "url": "/collections/pay-dues",
           "checksum": true,
           "encryption": true,
-          "fileName": "PO Report.pdf",
           "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
@@ -34,32 +33,50 @@
             {
               "type": 1,
               "name": "Form",
-              "key": "status",
-              "value": "status.code"
+              "key": "branchCode",
+              "value": "branchCode"
             },
             {
               "type": 1,
               "name": "Form",
-              "key": "companyId",
-              "value": "company.companyId"
+              "key": "branchUserPassword",
+              "value": "branchUserPassword"
             },
             {
               "type": 1,
               "name": "Form",
-              "key": "fromDate",
-              "value": "fromDate"
+              "key": "branchUserUsername",
+              "value": "branchUserUsername"
             },
-            { "type": 1, "name": "Form", "key": "toDate", "value": "toDate" }
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "invoiceNumber",
+              "value": "invoiceNo"
+            }
           ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
         },
-        "responseHandler": []
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "triggerName": "Clear Form Data",
+            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "7qK4zY9-Va6XZGtImuOcg"
+          }
+        ]
       }
     }
   ],
   "updatedAt": "4/28/2023",
   "createdAt": "4/28/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
 }
