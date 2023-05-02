@@ -36,7 +36,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "C0J74B5anni9tjTPQ584j",
+                    "id": "D2sU0jgnwPItG--o7LbGf",
                     "gridProps": [
                       {
                         "id": "HaTIvD5_SweeKKDvG2KQl",
@@ -86,12 +86,11 @@
                       "md": 10,
                       "sm": 10,
                       "xs": 10
-                    },
-                    "path": "0-0-0-0"
+                    }
                   },
                   {
                     "type": "column",
-                    "id": "XPORQwNcTO0Noulza_ymM",
+                    "id": "VWQ6wnQf4j0FkGpntUTr2",
                     "gridProps": [],
                     "layoutProperties": {
                       "xl": 1,
@@ -99,12 +98,11 @@
                       "md": 1,
                       "sm": 1,
                       "xs": 1
-                    },
-                    "path": "0-0-0-1"
+                    }
                   },
                   {
                     "type": "column",
-                    "id": "DjqDqMVHm9yuK5v-nZKAe",
+                    "id": "50jEiXqgilzRoGK1CfTGk",
                     "gridProps": [],
                     "layoutProperties": {
                       "xl": 1,
@@ -112,8 +110,7 @@
                       "md": 1,
                       "sm": 1,
                       "xs": 1
-                    },
-                    "path": "0-0-0-2"
+                    }
                   }
                 ],
                 "path": "0-0-0",
@@ -135,7 +132,8 @@
                     "alignItems": "flex-start"
                   },
                   "direction": "row",
-                  "name": "Grid layout"
+                  "name": "Grid layout",
+                  "cssClassNames": [{ "cssClassName": "pageTitleBorder" }]
                 },
                 "component": { "type": "10001", "content": "Grid layout" },
                 "allowedContainers": [
@@ -145,7 +143,27 @@
                   "20010",
                   "widget"
                 ],
-                "name": "Grid layout"
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 3,
+                  "colSize0xs": 10,
+                  "colSize0sm": 10,
+                  "colSize0md": 10,
+                  "colSize0lg": 10,
+                  "colSize0xl": 10,
+                  "colSize1xs": 1,
+                  "colSize1sm": 1,
+                  "colSize1md": 1,
+                  "colSize1lg": 1,
+                  "colSize1xl": 1,
+                  "colSize2xs": 1,
+                  "colSize2sm": 1,
+                  "colSize2md": 1,
+                  "colSize2lg": 1,
+                  "colSize2xl": 1
+                },
+                "readOnly": true
               },
               {
                 "type": "10001",
@@ -1753,8 +1771,8 @@
     "gitBranchName": "master",
     "_id": "bivtvXFc3Nhh14pHD5Lpi",
     "createdBy": "ishfaque",
-    "updatedAt": "4/13/2023",
-    "createdAt": "4/13/2023",
+    "updatedAt": "5/2/2023",
+    "createdAt": "5/2/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1863,7 +1881,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "cssClassNames": [{ "cssClassName": "pageTitleBorder" }]
     },
     "layout": null,
     "events": [],

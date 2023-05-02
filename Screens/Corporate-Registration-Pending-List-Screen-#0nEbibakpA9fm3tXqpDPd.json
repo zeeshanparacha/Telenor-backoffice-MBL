@@ -197,7 +197,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "TrBV4TsF3P0q3JRKFyar8",
+                    "id": "JpfzRbZTUeKTpNOmV2N6L",
                     "gridProps": [
                       {
                         "id": "X7BEDiGcLF7USYMQEmVZm",
@@ -412,17 +412,6 @@
                                   },
                                   "columnDefinition": [
                                     {
-                                      "type": "checkbox",
-                                      "typeTemp": {
-                                        "name": "Checkbox",
-                                        "type": "checkbox"
-                                      },
-                                      "bindingKeyForSelectedRow": "selectedRows",
-                                      "storeType": 2,
-                                      "field": "",
-                                      "checkboxValue": "account"
-                                    },
-                                    {
                                       "type": "text",
                                       "typeTemp": {
                                         "name": "Text",
@@ -614,7 +603,7 @@
                                   "debug": false,
                                   "pagination": true,
                                   "paginationPageSize": 5,
-                                  "suppressCsvExport": true,
+                                  "suppressCsvExport": false,
                                   "suppressExcelExport": true,
                                   "name": "Data Grid",
                                   "storeType": 2
@@ -733,8 +722,8 @@
     "gitBranchName": "master",
     "_id": "0nEbibakpA9fm3tXqpDPd",
     "createdBy": "ishfaque",
-    "updatedAt": "4/27/2023",
-    "createdAt": "4/27/2023",
+    "updatedAt": "5/2/2023",
+    "createdAt": "5/2/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1079,14 +1068,6 @@
       },
       "columnDefinition": [
         {
-          "type": "checkbox",
-          "typeTemp": { "name": "Checkbox", "type": "checkbox" },
-          "bindingKeyForSelectedRow": "selectedRows",
-          "storeType": 2,
-          "field": "",
-          "checkboxValue": "account"
-        },
-        {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
           "field": "companyName",
@@ -1249,7 +1230,7 @@
       "debug": false,
       "pagination": true,
       "paginationPageSize": 5,
-      "suppressCsvExport": true,
+      "suppressCsvExport": false,
       "suppressExcelExport": true,
       "name": "Data Grid",
       "storeType": 2

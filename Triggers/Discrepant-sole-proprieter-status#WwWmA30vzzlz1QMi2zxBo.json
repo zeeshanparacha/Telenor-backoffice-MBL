@@ -14,7 +14,7 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "discrepantStatus",
+          "responseStateKey": "response",
           "url": "/corporate-registration/discrepant",
           "checksum": true,
           "encryption": true,
@@ -57,15 +57,15 @@
           {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Corporate Registration to pending",
-            "triggerId": "7TkcGJ0idln-s5agyc0fN"
+            "triggerName": "Corporate Registration to pending Registration",
+            "triggerId": "gJ2tNGmdqDsUar993ioxW"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/26/2023",
-  "createdAt": "4/26/2023",
+  "updatedAt": "5/2/2023",
+  "createdAt": "5/2/2023",
   "createdBy": "ishfaque",
   "updatedBy": "ishfaque"
 }
