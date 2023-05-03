@@ -605,11 +605,11 @@
                                                             },
                                                             {
                                                               "code": "COMPLETED",
-                                                              "name": "COMPLETED"
+                                                              "name": "APPROVED"
                                                             },
                                                             {
                                                               "code": "DECLINED",
-                                                              "name": "DECLINED"
+                                                              "name": "REJECTED"
                                                             }
                                                           ],
                                                           "variant": "standard",
@@ -3388,8 +3388,8 @@
     "gitBranchName": "master",
     "_id": "-PAdrcBIMSZ3zTUeJHSvo",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/28/2023",
-    "createdAt": "4/28/2023",
+    "updatedAt": "5/3/2023",
+    "createdAt": "5/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4244,8 +4244,8 @@
       },
       "dropdownOptions": [
         { "code": "PENDING", "name": "PENDING" },
-        { "code": "COMPLETED", "name": "COMPLETED" },
-        { "code": "DECLINED", "name": "DECLINED" }
+        { "code": "COMPLETED", "name": "APPROVED" },
+        { "code": "DECLINED", "name": "REJECTED" }
       ],
       "variant": "standard",
       "disableUnderline": true,

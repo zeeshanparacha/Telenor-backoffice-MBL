@@ -5666,11 +5666,23 @@
                                                           "stateName": "comments",
                                                           "disableCondition": {
                                                             "logic": {
-                                                              "==": [
+                                                              "or": [
                                                                 {
-                                                                  "var": "currentScreen.selectedObject.status"
+                                                                  "==": [
+                                                                    {
+                                                                      "var": "currentScreen.selectedObject.status"
+                                                                    },
+                                                                    "APPROVED"
+                                                                  ]
                                                                 },
-                                                                "COMPLETED"
+                                                                {
+                                                                  "==": [
+                                                                    {
+                                                                      "var": "currentScreen.selectedObject.status"
+                                                                    },
+                                                                    "REJECTED"
+                                                                  ]
+                                                                }
                                                               ]
                                                             }
                                                           }
@@ -5984,7 +5996,7 @@
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "LovgtfOUvkoLYwg74Ki4V",
+                                                    "id": "srYHFueavAo5J6CnlcXXo",
                                                     "gridProps": [
                                                       {
                                                         "id": "lGEZROR4QTsPwWRiRrDiU",
@@ -6099,8 +6111,7 @@
                                                       "md": 12,
                                                       "sm": 12,
                                                       "xs": 12
-                                                    },
-                                                    "path": "1-0-0-0-0-0-5-0-3-2-0-0"
+                                                    }
                                                   }
                                                 ],
                                                 "path": "1-0-0-0-0-0-5-0-3-2-0",
@@ -6125,11 +6136,23 @@
                                                   "name": "Grid layout",
                                                   "hideCondition": {
                                                     "logic": {
-                                                      "==": [
+                                                      "or": [
                                                         {
-                                                          "var": "currentScreen.selectedObject.status"
+                                                          "==": [
+                                                            {
+                                                              "var": "currentScreen.selectedObject.status"
+                                                            },
+                                                            "APPROVED"
+                                                          ]
                                                         },
-                                                        "COMPLETED"
+                                                        {
+                                                          "==": [
+                                                            {
+                                                              "var": "currentScreen.selectedObject.status"
+                                                            },
+                                                            "REJECTED"
+                                                          ]
+                                                        }
                                                       ]
                                                     }
                                                   }
@@ -6177,7 +6200,7 @@
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "HLXC2BSNBowZNhnQxy8DI",
+                                                    "id": "V89t06TiVZMS7KVc9L-H5",
                                                     "gridProps": [
                                                       {
                                                         "id": "xRUNosW8NbiQoC-YCaNId",
@@ -6286,8 +6309,7 @@
                                                       "md": 12,
                                                       "sm": 12,
                                                       "xs": 12
-                                                    },
-                                                    "path": "1-0-0-0-0-0-5-0-3-3-0-0"
+                                                    }
                                                   }
                                                 ],
                                                 "path": "1-0-0-0-0-0-5-0-3-3-0",
@@ -6312,11 +6334,23 @@
                                                   "name": "Grid layout",
                                                   "hideCondition": {
                                                     "logic": {
-                                                      "==": [
+                                                      "or": [
                                                         {
-                                                          "var": "currentScreen.selectedObject.status"
+                                                          "==": [
+                                                            {
+                                                              "var": "currentScreen.selectedObject.status"
+                                                            },
+                                                            "APPROVED"
+                                                          ]
                                                         },
-                                                        "COMPLETED"
+                                                        {
+                                                          "==": [
+                                                            {
+                                                              "var": "currentScreen.selectedObject.status"
+                                                            },
+                                                            "REJECTED"
+                                                          ]
+                                                        }
                                                       ]
                                                     }
                                                   }
@@ -6559,9 +6593,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "yq327VVgsCt8pHoBiWnle",
-    "createdBy": "ajk",
-    "updatedAt": "5/2/2023",
-    "createdAt": "5/2/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/3/2023",
+    "createdAt": "5/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -12120,7 +12154,20 @@
       "stateName": "comments",
       "disableCondition": {
         "logic": {
-          "==": [{ "var": "currentScreen.selectedObject.status" }, "COMPLETED"]
+          "or": [
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "APPROVED"
+              ]
+            },
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "REJECTED"
+              ]
+            }
+          ]
         }
       }
     },
@@ -12391,7 +12438,20 @@
       "name": "Grid layout",
       "hideCondition": {
         "logic": {
-          "==": [{ "var": "currentScreen.selectedObject.status" }, "COMPLETED"]
+          "or": [
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "APPROVED"
+              ]
+            },
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "REJECTED"
+              ]
+            }
+          ]
         }
       }
     },
@@ -12490,7 +12550,20 @@
       "name": "Grid layout",
       "hideCondition": {
         "logic": {
-          "==": [{ "var": "currentScreen.selectedObject.status" }, "COMPLETED"]
+          "or": [
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "APPROVED"
+              ]
+            },
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "REJECTED"
+              ]
+            }
+          ]
         }
       }
     },

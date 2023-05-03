@@ -212,7 +212,7 @@
                                                 "status": "ACTIVE",
                                                 "name": "Label",
                                                 "attributes": {
-                                                  "label": "Beneficiary Detail",
+                                                  "label": "Account Detail",
                                                   "variant": "body1",
                                                   "name": "Label",
                                                   "mandatory": false,
@@ -252,7 +252,7 @@
                                                   "type": "20002"
                                                 },
                                                 "events": [],
-                                                "path": "1-0-0-0-0-0-2-0-0-0-0"
+                                                "path": "1-0-0-0-0-0-0-0-0-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -4175,11 +4175,23 @@
                                                           "stateName": "comments",
                                                           "disableCondition": {
                                                             "logic": {
-                                                              "==": [
+                                                              "or": [
                                                                 {
-                                                                  "var": "currentScreen.selectedObject.status"
+                                                                  "==": [
+                                                                    {
+                                                                      "var": "currentScreen.selectedObject.status"
+                                                                    },
+                                                                    "APPROVED"
+                                                                  ]
                                                                 },
-                                                                "COMPLETED"
+                                                                {
+                                                                  "==": [
+                                                                    {
+                                                                      "var": "currentScreen.selectedObject.status"
+                                                                    },
+                                                                    "REJECTED"
+                                                                  ]
+                                                                }
                                                               ]
                                                             }
                                                           }
@@ -4482,7 +4494,7 @@
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "7ij5ficXKikmJx2h0Df62",
+                                                    "id": "NiSQFnXSUKcMm8QGvNsV4",
                                                     "gridProps": [
                                                       {
                                                         "id": "3BRDPFG0COK3h2eFhyEZI",
@@ -4591,11 +4603,10 @@
                                                       "md": 12,
                                                       "sm": 12,
                                                       "xs": 12
-                                                    },
-                                                    "path": "1-0-0-0-0-0-2-0-5-2-0-0"
+                                                    }
                                                   }
                                                 ],
-                                                "path": "1-0-0-0-0-0-2-0-5-2-0",
+                                                "path": "1-0-0-0-0-0-0-0-5-2-0",
                                                 "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
@@ -4617,11 +4628,23 @@
                                                   "name": "Grid layout",
                                                   "hideCondition": {
                                                     "logic": {
-                                                      "==": [
+                                                      "or": [
                                                         {
-                                                          "var": "currentScreen.selectedObject.status"
+                                                          "==": [
+                                                            {
+                                                              "var": "currentScreen.selectedObject.status"
+                                                            },
+                                                            "APPROVED"
+                                                          ]
                                                         },
-                                                        "COMPLETED"
+                                                        {
+                                                          "==": [
+                                                            {
+                                                              "var": "currentScreen.selectedObject.status"
+                                                            },
+                                                            "REJECTED"
+                                                          ]
+                                                        }
                                                       ]
                                                     }
                                                   }
@@ -4689,11 +4712,23 @@
                                                   "name": "Grid layout",
                                                   "hideCondition": {
                                                     "logic": {
-                                                      "==": [
+                                                      "or": [
                                                         {
-                                                          "var": "currentScreen.selectedObject.status"
+                                                          "==": [
+                                                            {
+                                                              "var": "currentScreen.selectedObject.status"
+                                                            },
+                                                            "APPROVED"
+                                                          ]
                                                         },
-                                                        "COMPLETED"
+                                                        {
+                                                          "==": [
+                                                            {
+                                                              "var": "currentScreen.selectedObject.status"
+                                                            },
+                                                            "REJECTED"
+                                                          ]
+                                                        }
                                                       ]
                                                     }
                                                   }
@@ -4719,11 +4754,11 @@
                                                   "content": "Grid layout",
                                                   "type": "10001"
                                                 },
-                                                "path": "1-0-0-0-0-0-2-0-5-3-0",
+                                                "path": "1-0-0-0-0-0-0-0-5-3-0",
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "xXKlZ0ugV0VSaT-HIbcHL",
+                                                    "id": "BxK_5TnvZk6NyoiMB_AYX",
                                                     "gridProps": [
                                                       {
                                                         "id": "w6sUfCD4Nr2szaOhf7EcX",
@@ -4832,8 +4867,7 @@
                                                       "md": 12,
                                                       "sm": 12,
                                                       "xs": 12
-                                                    },
-                                                    "path": "1-0-0-0-0-0-2-0-5-3-0-0"
+                                                    }
                                                   }
                                                 ],
                                                 "layoutProperties": {
@@ -5069,9 +5103,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "8TpAmeXlan8k3IEn3xQ09",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/2/2023",
-    "createdAt": "5/2/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/3/2023",
+    "createdAt": "5/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5513,7 +5547,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Beneficiary Detail",
+      "label": "Account Detail",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -5546,7 +5580,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "1-0-0-0-0-0-2-0-0-0-0",
+    "path": "1-0-0-0-0-0-0-0-0-0-0",
     "screenId": "8TpAmeXlan8k3IEn3xQ09",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -9292,7 +9326,20 @@
       "stateName": "comments",
       "disableCondition": {
         "logic": {
-          "==": [{ "var": "currentScreen.selectedObject.status" }, "COMPLETED"]
+          "or": [
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "APPROVED"
+              ]
+            },
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "REJECTED"
+              ]
+            }
+          ]
         }
       }
     },
@@ -9563,7 +9610,20 @@
       "name": "Grid layout",
       "hideCondition": {
         "logic": {
-          "==": [{ "var": "currentScreen.selectedObject.status" }, "COMPLETED"]
+          "or": [
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "APPROVED"
+              ]
+            },
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "REJECTED"
+              ]
+            }
+          ]
         }
       }
     },
@@ -9662,7 +9722,20 @@
       "name": "Grid layout",
       "hideCondition": {
         "logic": {
-          "==": [{ "var": "currentScreen.selectedObject.status" }, "COMPLETED"]
+          "or": [
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "APPROVED"
+              ]
+            },
+            {
+              "==": [
+                { "var": "currentScreen.selectedObject.status" },
+                "REJECTED"
+              ]
+            }
+          ]
         }
       }
     },

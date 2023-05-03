@@ -25,7 +25,7 @@
         "id": "x1bMjBKjL8TGX8Guw5Iag",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
-        "name": "Grid layout",
+        "name": "Create Branch Role Screen",
         "icon": "FaGripHorizontal",
         "attributes": {
           "gridProps": [],
@@ -668,11 +668,8 @@
                                                                     "errorMsg": "Role Name is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "_id": "632af6002490c5f5b11f2b8f",
-                                                                        "gitBranchName": "Sprint-1",
-                                                                        "id": "eMX5FT5afFMl85i_ekSwX",
-                                                                        "projectId": "6305eb4fb2d1671fbc4b1de8",
-                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "id": "vgwSr7ryj7inVqK5GCY0j",
+                                                                        "status": "ACTIVE",
                                                                         "attributes": {
                                                                           "label": "Create",
                                                                           "variant": "contained",
@@ -699,29 +696,39 @@
                                                                             }
                                                                           ]
                                                                         },
-                                                                        "createdAt": "2022-09-21T11:31:12.040Z",
-                                                                        "createdBy": "talib",
+                                                                        "name": "Button",
+                                                                        "icon": "FaBimobject",
+                                                                        "group": "Form",
+                                                                        "type": "20006",
+                                                                        "Documentation": "<div>components 12344</div>",
+                                                                        "updatedAt": "23-Aug-2021",
+                                                                        "createdAt": "23-Aug-2021",
+                                                                        "order": 1,
+                                                                        "version": "1.0.0",
+                                                                        "isLatest": true,
+                                                                        "projectType": "web",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "mIA1IyuyPo7Ku7ebCgPLR",
-                                                                            "triggerName": "Filter role ID and create bank user role",
+                                                                            "triggerId": "HAXqmtbTrjKJ1H51o-So4",
+                                                                            "triggerName": "Filter Role Id and Create Branch Role API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "2"
                                                                           }
                                                                         ],
-                                                                        "icon": "FaBimobject",
-                                                                        "name": "Button",
-                                                                        "screenId": "T3u1eKd1cB_3zUn_z2hPB",
-                                                                        "status": "ACTIVE",
+                                                                        "path": "0-0-0-0-4-0-1-2-0-0-0-0-0",
+                                                                        "screenId": "4f5VmfhMQME_D2x_H-AJP",
                                                                         "subType": "component",
-                                                                        "type": "20006",
-                                                                        "updatedBy": "ahmerjavedkhan",
-                                                                        "version": "1.0.0",
+                                                                        "projectId": "63f349eda070071e283ca270",
+                                                                        "gitBranchName": "master",
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       },
                                                                       {
-                                                                        "id": "YC6ORfedpuNsZF9TaEYgq",
+                                                                        "id": "T0KzyhJwqPh8N88_SAC0S",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
                                                                           "label": "Update",
@@ -766,15 +773,15 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "25LlELNGtWSrtR5SB8FO0",
-                                                                            "triggerName": "Filter role ids and update bank role",
+                                                                            "triggerId": "dvBDhr3wOn8HQFlbqEodx",
+                                                                            "triggerName": "Filter role ids and update Branch Role API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "2"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-2-0-2-2-0-0-1-0-0",
-                                                                        "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+                                                                        "path": "0-0-0-0-4-0-1-2-0-0-1-0-0",
+                                                                        "screenId": "4f5VmfhMQME_D2x_H-AJP",
                                                                         "subType": "component",
                                                                         "projectId": "63f349eda070071e283ca270",
                                                                         "gitBranchName": "master",
@@ -1366,7 +1373,7 @@
                                                                     "errorMsg": "Department is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "eMX5FT5afFMl85i_ekSwX",
+                                                                        "id": "vgwSr7ryj7inVqK5GCY0j",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
                                                                           "label": "Create",
@@ -1411,22 +1418,22 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "mIA1IyuyPo7Ku7ebCgPLR",
-                                                                            "triggerName": "Filter role ID and create bank user role",
+                                                                            "triggerId": "HAXqmtbTrjKJ1H51o-So4",
+                                                                            "triggerName": "Filter Role Id and Create Branch Role API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "2"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-2-0-2-2-0-0-0-0-0",
-                                                                        "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+                                                                        "path": "0-0-0-0-4-0-1-2-0-0-0-0-0",
+                                                                        "screenId": "4f5VmfhMQME_D2x_H-AJP",
                                                                         "subType": "component",
                                                                         "projectId": "63f349eda070071e283ca270",
                                                                         "gitBranchName": "master",
                                                                         "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                                       },
                                                                       {
-                                                                        "id": "YC6ORfedpuNsZF9TaEYgq",
+                                                                        "id": "T0KzyhJwqPh8N88_SAC0S",
                                                                         "status": "ACTIVE",
                                                                         "attributes": {
                                                                           "label": "Update",
@@ -1471,15 +1478,15 @@
                                                                         },
                                                                         "events": [
                                                                           {
-                                                                            "triggerId": "25LlELNGtWSrtR5SB8FO0",
-                                                                            "triggerName": "Filter role ids and update bank role",
+                                                                            "triggerId": "dvBDhr3wOn8HQFlbqEodx",
+                                                                            "triggerName": "Filter role ids and update Branch Role API",
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "2"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-2-0-2-2-0-0-1-0-0",
-                                                                        "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+                                                                        "path": "0-0-0-0-4-0-1-2-0-0-1-0-0",
+                                                                        "screenId": "4f5VmfhMQME_D2x_H-AJP",
                                                                         "subType": "component",
                                                                         "projectId": "63f349eda070071e283ca270",
                                                                         "gitBranchName": "master",
@@ -1975,7 +1982,7 @@
                                                             "errorMsg": "This field is required",
                                                             "bindButton": [
                                                               {
-                                                                "id": "eMX5FT5afFMl85i_ekSwX",
+                                                                "id": "vgwSr7ryj7inVqK5GCY0j",
                                                                 "status": "ACTIVE",
                                                                 "attributes": {
                                                                   "label": "Create",
@@ -2020,22 +2027,22 @@
                                                                 },
                                                                 "events": [
                                                                   {
-                                                                    "triggerId": "mIA1IyuyPo7Ku7ebCgPLR",
-                                                                    "triggerName": "Filter role ID and create bank user role",
+                                                                    "triggerId": "HAXqmtbTrjKJ1H51o-So4",
+                                                                    "triggerName": "Filter Role Id and Create Branch Role API",
                                                                     "name": "On Submit",
                                                                     "type": "4",
                                                                     "serviceType": "2"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-2-0-2-2-0-0-0-0-0",
-                                                                "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+                                                                "path": "0-0-0-0-4-0-1-2-0-0-0-0-0",
+                                                                "screenId": "4f5VmfhMQME_D2x_H-AJP",
                                                                 "subType": "component",
                                                                 "projectId": "63f349eda070071e283ca270",
                                                                 "gitBranchName": "master",
                                                                 "updatedTimestamp": "0000-00-00T00:00:00+00:00"
                                                               },
                                                               {
-                                                                "id": "YC6ORfedpuNsZF9TaEYgq",
+                                                                "id": "T0KzyhJwqPh8N88_SAC0S",
                                                                 "status": "ACTIVE",
                                                                 "attributes": {
                                                                   "label": "Update",
@@ -2080,15 +2087,15 @@
                                                                 },
                                                                 "events": [
                                                                   {
-                                                                    "triggerId": "25LlELNGtWSrtR5SB8FO0",
-                                                                    "triggerName": "Filter role ids and update bank role",
+                                                                    "triggerId": "dvBDhr3wOn8HQFlbqEodx",
+                                                                    "triggerName": "Filter role ids and update Branch Role API",
                                                                     "name": "On Submit",
                                                                     "type": "4",
                                                                     "serviceType": "2"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-2-0-2-2-0-0-1-0-0",
-                                                                "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+                                                                "path": "0-0-0-0-4-0-1-2-0-0-1-0-0",
+                                                                "screenId": "4f5VmfhMQME_D2x_H-AJP",
                                                                 "subType": "component",
                                                                 "projectId": "63f349eda070071e283ca270",
                                                                 "gitBranchName": "master",
@@ -5147,13 +5154,13 @@
     "gitBranchName": "master",
     "_id": "4f5VmfhMQME_D2x_H-AJP",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/14/2023",
-    "createdAt": "3/14/2023",
+    "updatedAt": "5/3/2023",
+    "createdAt": "5/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "x1bMjBKjL8TGX8Guw5Iag",
-    "name": "Grid layout",
+    "name": "Create Branch Role Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -6092,11 +6099,8 @@
         "errorMsg": "Role Name is required",
         "bindButton": [
           {
-            "_id": "632af6002490c5f5b11f2b8f",
-            "gitBranchName": "Sprint-1",
-            "id": "eMX5FT5afFMl85i_ekSwX",
-            "projectId": "6305eb4fb2d1671fbc4b1de8",
-            "Documentation": "<div>components 12344</div>",
+            "id": "vgwSr7ryj7inVqK5GCY0j",
+            "status": "ACTIVE",
             "attributes": {
               "label": "Create",
               "variant": "contained",
@@ -6117,29 +6121,36 @@
               },
               "cssClassNames": [{ "cssClassName": "CardButton" }]
             },
-            "createdAt": "2022-09-21T11:31:12.040Z",
-            "createdBy": "talib",
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "mIA1IyuyPo7Ku7ebCgPLR",
-                "triggerName": "Filter role ID and create bank user role",
+                "triggerId": "HAXqmtbTrjKJ1H51o-So4",
+                "triggerName": "Filter Role Id and Create Branch Role API",
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "2"
               }
             ],
-            "icon": "FaBimobject",
-            "name": "Button",
-            "screenId": "T3u1eKd1cB_3zUn_z2hPB",
-            "status": "ACTIVE",
+            "path": "0-0-0-0-4-0-1-2-0-0-0-0-0",
+            "screenId": "4f5VmfhMQME_D2x_H-AJP",
             "subType": "component",
-            "type": "20006",
-            "updatedBy": "ahmerjavedkhan",
-            "version": "1.0.0",
+            "projectId": "63f349eda070071e283ca270",
+            "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           },
           {
-            "id": "YC6ORfedpuNsZF9TaEYgq",
+            "id": "T0KzyhJwqPh8N88_SAC0S",
             "status": "ACTIVE",
             "attributes": {
               "label": "Update",
@@ -6175,15 +6186,15 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "25LlELNGtWSrtR5SB8FO0",
-                "triggerName": "Filter role ids and update bank role",
+                "triggerId": "dvBDhr3wOn8HQFlbqEodx",
+                "triggerName": "Filter role ids and update Branch Role API",
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "2"
               }
             ],
-            "path": "0-0-2-0-2-2-0-0-1-0-0",
-            "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+            "path": "0-0-0-0-4-0-1-2-0-0-1-0-0",
+            "screenId": "4f5VmfhMQME_D2x_H-AJP",
             "subType": "component",
             "projectId": "63f349eda070071e283ca270",
             "gitBranchName": "master",
@@ -6583,7 +6594,7 @@
         "errorMsg": "Department is required",
         "bindButton": [
           {
-            "id": "eMX5FT5afFMl85i_ekSwX",
+            "id": "vgwSr7ryj7inVqK5GCY0j",
             "status": "ACTIVE",
             "attributes": {
               "label": "Create",
@@ -6619,22 +6630,22 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "mIA1IyuyPo7Ku7ebCgPLR",
-                "triggerName": "Filter role ID and create bank user role",
+                "triggerId": "HAXqmtbTrjKJ1H51o-So4",
+                "triggerName": "Filter Role Id and Create Branch Role API",
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "2"
               }
             ],
-            "path": "0-0-2-0-2-2-0-0-0-0-0",
-            "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+            "path": "0-0-0-0-4-0-1-2-0-0-0-0-0",
+            "screenId": "4f5VmfhMQME_D2x_H-AJP",
             "subType": "component",
             "projectId": "63f349eda070071e283ca270",
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           },
           {
-            "id": "YC6ORfedpuNsZF9TaEYgq",
+            "id": "T0KzyhJwqPh8N88_SAC0S",
             "status": "ACTIVE",
             "attributes": {
               "label": "Update",
@@ -6670,15 +6681,15 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "25LlELNGtWSrtR5SB8FO0",
-                "triggerName": "Filter role ids and update bank role",
+                "triggerId": "dvBDhr3wOn8HQFlbqEodx",
+                "triggerName": "Filter role ids and update Branch Role API",
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "2"
               }
             ],
-            "path": "0-0-2-0-2-2-0-0-1-0-0",
-            "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+            "path": "0-0-0-0-4-0-1-2-0-0-1-0-0",
+            "screenId": "4f5VmfhMQME_D2x_H-AJP",
             "subType": "component",
             "projectId": "63f349eda070071e283ca270",
             "gitBranchName": "master",
@@ -7079,7 +7090,7 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "eMX5FT5afFMl85i_ekSwX",
+            "id": "vgwSr7ryj7inVqK5GCY0j",
             "status": "ACTIVE",
             "attributes": {
               "label": "Create",
@@ -7115,22 +7126,22 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "mIA1IyuyPo7Ku7ebCgPLR",
-                "triggerName": "Filter role ID and create bank user role",
+                "triggerId": "HAXqmtbTrjKJ1H51o-So4",
+                "triggerName": "Filter Role Id and Create Branch Role API",
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "2"
               }
             ],
-            "path": "0-0-2-0-2-2-0-0-0-0-0",
-            "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+            "path": "0-0-0-0-4-0-1-2-0-0-0-0-0",
+            "screenId": "4f5VmfhMQME_D2x_H-AJP",
             "subType": "component",
             "projectId": "63f349eda070071e283ca270",
             "gitBranchName": "master",
             "updatedTimestamp": "0000-00-00T00:00:00+00:00"
           },
           {
-            "id": "YC6ORfedpuNsZF9TaEYgq",
+            "id": "T0KzyhJwqPh8N88_SAC0S",
             "status": "ACTIVE",
             "attributes": {
               "label": "Update",
@@ -7166,15 +7177,15 @@
             "component": { "content": "Button", "type": "20006" },
             "events": [
               {
-                "triggerId": "25LlELNGtWSrtR5SB8FO0",
-                "triggerName": "Filter role ids and update bank role",
+                "triggerId": "dvBDhr3wOn8HQFlbqEodx",
+                "triggerName": "Filter role ids and update Branch Role API",
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "2"
               }
             ],
-            "path": "0-0-2-0-2-2-0-0-1-0-0",
-            "screenId": "T3u1eKd1cB_3zUn_z2hPB",
+            "path": "0-0-0-0-4-0-1-2-0-0-1-0-0",
+            "screenId": "4f5VmfhMQME_D2x_H-AJP",
             "subType": "component",
             "projectId": "63f349eda070071e283ca270",
             "gitBranchName": "master",
