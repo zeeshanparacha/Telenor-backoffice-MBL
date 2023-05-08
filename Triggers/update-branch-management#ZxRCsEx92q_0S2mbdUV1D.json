@@ -1,24 +1,23 @@
 {
-  "id": "IFilSDZlG3nJ2l0Km5xWR",
-  "_id": "qxbhXmuEJ1WRCKMa-vvZz",
+  "id": "9hwMfXqHFvyBL5Ja8H3iP",
+  "_id": "ZxRCsEx92q_0S2mbdUV1D",
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
-  "name": "CERTIFICATE OF INCORPORATION DOWNLOAD",
-  "old_name": "CERTIFICATE OF INCORPORATION DOWNLOAD",
+  "name": "update branch management",
+  "old_name": "update branch management",
   "status": "ACTIVE",
   "services": [
     {
       "type": "8",
       "command": {
-        "type": "2",
+        "type": "1",
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "certificateOfIncorporationDoc",
-          "url": "/corporate-registration/download-documents",
+          "responseStateKey": "updateResponse",
+          "url": "/branches/maker-request/update",
           "checksum": true,
           "encryption": true,
-          "fileName": "certificate Of Incorporation.pdf",
           "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
@@ -31,22 +30,27 @@
             "locale": "en-ltr"
           },
           "requestBody": [
-            {
-              "type": 2,
-              "name": "Current screen",
-              "key": "document",
-              "value": "corporateReg.privateorPublicLimited.zakatExemptionDocId"
-            }
+            { "type": 1, "name": "Form", "key": "id", "value": "id" },
+            { "type": 1, "name": "Form", "key": "code", "value": "code" },
+            { "type": 1, "name": "Form", "key": "name", "value": "name" },
+            { "type": 1, "name": "Form", "key": "region", "value": "region" }
           ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
         },
-        "responseHandler": []
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "7qK4zY9-Va6XZGtImuOcg"
+          }
+        ]
       }
     }
   ],
   "updatedAt": "5/5/2023",
   "createdAt": "5/5/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
 }

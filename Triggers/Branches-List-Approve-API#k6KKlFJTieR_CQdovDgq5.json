@@ -1,10 +1,10 @@
 {
-  "id": "REzPplV8XQLDxw9IlS3aQ",
-  "_id": "xhV_goPPLYSsp6-aEuWXN",
+  "id": "FDiNva3TmC5MyYHC_lZ7H",
+  "_id": "k6KKlFJTieR_CQdovDgq5",
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
-  "name": "pay dues api",
-  "old_name": "pay dues api",
+  "name": "Branches List Approve API",
+  "old_name": "Branches List Approve API",
   "status": "ACTIVE",
   "services": [
     {
@@ -15,7 +15,7 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "response",
-          "url": "/collections/pay-dues",
+          "url": "/branches/check-request/approve",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -31,28 +31,16 @@
           },
           "requestBody": [
             {
-              "type": 1,
-              "name": "Form",
-              "key": "branchCode",
-              "value": "branchCode"
+              "type": 2,
+              "name": "Current screen",
+              "key": "comments",
+              "value": "selectedObject.comments"
             },
             {
-              "type": 1,
-              "name": "Form",
-              "key": "branchUserPassword",
-              "value": "branchUserPassword"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "branchUserUsername",
-              "value": "branchUserUsername"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "invoiceNumber",
-              "value": "invoiceNo"
+              "type": 2,
+              "name": "Current screen",
+              "key": "makerCheckerId",
+              "value": "selectedObject.id"
             }
           ],
           "baseURL": "634555d068954540043d6820",
@@ -61,22 +49,28 @@
         "responseHandler": [
           {
             "httpStatus": 200,
+            "triggerName": "Open Success Modal",
+            "triggerId": "7qK4zY9-Va6XZGtImuOcg",
+            "logic": { "==": [{ "var": "status" }, 1] }
+          },
+          {
             "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
             "triggerName": "Clear Form Data",
             "triggerId": "C9VAY5AImRfVpeNy7pz65"
           },
           {
             "logic": { "==": [{ "var": "status" }, 1] },
             "httpStatus": 200,
-            "triggerName": "Open Success Modal",
-            "triggerId": "7qK4zY9-Va6XZGtImuOcg"
+            "triggerName": "Navigate to Branches Pending List",
+            "triggerId": "LzdGLf7UZ99ISOhiI_A4K"
           }
         ]
       }
     }
   ],
-  "updatedAt": "5/4/2023",
-  "createdAt": "5/4/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "5/5/2023",
+  "createdAt": "5/5/2023",
+  "createdBy": "ishfaque",
+  "updatedBy": "ishfaque"
 }

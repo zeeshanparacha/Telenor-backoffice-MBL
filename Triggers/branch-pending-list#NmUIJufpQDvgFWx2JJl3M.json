@@ -1,24 +1,24 @@
 {
-  "id": "IFilSDZlG3nJ2l0Km5xWR",
-  "_id": "qxbhXmuEJ1WRCKMa-vvZz",
+  "id": "-NiBEO_9UbwncVStawORW",
+  "_id": "NmUIJufpQDvgFWx2JJl3M",
   "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
-  "name": "CERTIFICATE OF INCORPORATION DOWNLOAD",
-  "old_name": "CERTIFICATE OF INCORPORATION DOWNLOAD",
+  "name": "branch pending list",
+  "old_name": "branch pending list",
   "status": "ACTIVE",
   "services": [
     {
       "type": "8",
       "command": {
-        "type": "2",
+        "type": "1",
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "certificateOfIncorporationDoc",
-          "url": "/corporate-registration/download-documents",
+          "responseStateKey": "pendingListResponse",
+          "responseReturnValue": "data.branches",
+          "url": "/branches/list",
           "checksum": true,
           "encryption": true,
-          "fileName": "certificate Of Incorporation.pdf",
           "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
@@ -30,14 +30,7 @@
             "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
             "locale": "en-ltr"
           },
-          "requestBody": [
-            {
-              "type": 2,
-              "name": "Current screen",
-              "key": "document",
-              "value": "corporateReg.privateorPublicLimited.zakatExemptionDocId"
-            }
-          ],
+          "requestBody": [],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
         },
@@ -47,6 +40,6 @@
   ],
   "updatedAt": "5/5/2023",
   "createdAt": "5/5/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
 }

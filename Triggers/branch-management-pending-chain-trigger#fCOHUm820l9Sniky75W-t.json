@@ -1,0 +1,129 @@
+{
+  "_id": "fCOHUm820l9Sniky75W-t",
+  "id": "f5x-2oUxZ8jDldxIMIHIB",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "branch management pending chain trigger",
+  "old_name": "branch management pending chain trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "63247a318c5ded569ce08e69",
+              "id": "C9VAY5AImRfVpeNy7pz65",
+              "name": "Clear Form Data",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "1"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true,
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master"
+            },
+            {
+              "id": "HrBdZO3c47x3DojIbRKgg",
+              "name": "clear branch management pending Binding Key",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "xx",
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "UMmovJ2ubNtl_8DTZMQa2",
+              "updatedAt": "5/5/2023",
+              "createdAt": "5/5/2023",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            },
+            {
+              "id": "-NiBEO_9UbwncVStawORW",
+              "_id": "NmUIJufpQDvgFWx2JJl3M",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "name": "branch pending list",
+              "old_name": "branch pending list",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "pendingListResponse",
+                      "responseReturnValue": "data.branches",
+                      "url": "/branches/list",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "updatedAt": "5/5/2023",
+              "createdAt": "5/5/2023",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            }
+          ],
+          "triggerIds": [
+            "C9VAY5AImRfVpeNy7pz65",
+            "HrBdZO3c47x3DojIbRKgg",
+            "-NiBEO_9UbwncVStawORW"
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/5/2023",
+  "createdAt": "5/5/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}
