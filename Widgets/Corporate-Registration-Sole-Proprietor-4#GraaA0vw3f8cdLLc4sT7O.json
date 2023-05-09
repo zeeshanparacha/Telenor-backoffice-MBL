@@ -4922,7 +4922,6 @@
                                           "name": "Drop down",
                                           "stateName": "submitStatus",
                                           "allValues": true,
-                                          "label": "Submit type",
                                           "dataSource": "",
                                           "dataKey": "",
                                           "dataValue": "",
@@ -4967,7 +4966,8 @@
                                           "cssClassNames": [
                                             { "cssClassName": "card_dropdown" }
                                           ],
-                                          "disableUnderline": true
+                                          "disableUnderline": true,
+                                          "placeholder": "Mark Status"
                                         },
                                         "type": "20003",
                                         "events": [],
@@ -5960,9 +5960,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GraaA0vw3f8cdLLc4sT7O",
-    "createdBy": "ishfaque",
-    "updatedAt": "5/2/2023",
-    "createdAt": "5/2/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/9/2023",
+    "createdAt": "5/9/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -9736,7 +9736,6 @@
       "name": "Drop down",
       "stateName": "submitStatus",
       "allValues": true,
-      "label": "Submit type",
       "dataSource": "",
       "dataKey": "",
       "dataValue": "",
@@ -9765,7 +9764,8 @@
       "variant": "outlined",
       "selectedDataType": 1,
       "cssClassNames": [{ "cssClassName": "card_dropdown" }],
-      "disableUnderline": true
+      "disableUnderline": true,
+      "placeholder": "Mark Status"
     },
     "type": "20003",
     "events": [],

@@ -1169,28 +1169,29 @@
                                                             "id": "1NDt8YpE_zjg_dnqRf1rv",
                                                             "gridProps": [
                                                               {
-                                                                "id": "QJUgSaWXJrmJ1McKLhadt",
+                                                                "id": "mnJ3ArXNeoPxlv-J9R-cY",
                                                                 "status": "ACTIVE",
-                                                                "name": "Text Box",
+                                                                "name": "Password",
+                                                                "icon": "FaKey",
+                                                                "group": "Form",
                                                                 "attributes": {
-                                                                  "label": "",
-                                                                  "name": "Text box",
-                                                                  "label-locale-key": "",
-                                                                  "maxLength": 20,
-                                                                  "type": "text",
                                                                   "variant": "standard",
-                                                                  "value": "",
+                                                                  "stateName": "branchUserPassword",
+                                                                  "label-locale-key": "",
+                                                                  "maxLength": "100",
                                                                   "readOnly": false,
                                                                   "tooltip": "",
                                                                   "font-family": "Verdana",
                                                                   "mandatory": true,
+                                                                  "storeType": 0,
+                                                                  "name": "Password",
                                                                   "tooltipState": "",
                                                                   "layoutProperties": {
                                                                     "textField": {
-                                                                      "//": "Use this class to style text field component."
+                                                                      "//": "Use this class to style password field component."
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style  text field element.",
+                                                                      "//": "Use this class to style password field element.",
                                                                       "paddingLeft": "15px"
                                                                     },
                                                                     "mainContainer": "textField",
@@ -1202,11 +1203,16 @@
                                                                   },
                                                                   "validate": {
                                                                     "required": true,
-                                                                    "errorMsg": "This field is required",
+                                                                    "errorMsg": "Password is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "UsNaM-7pyrle5CDUyIexU",
-                                                                        "status": "ACTIVE",
+                                                                        "id": "PWg1vcHCPDhxRLLfrfDle",
+                                                                        "type": "20006",
+                                                                        "name": "Button",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
                                                                         "attributes": {
                                                                           "label": "SubMIT",
                                                                           "variant": "contained",
@@ -1233,21 +1239,6 @@
                                                                             }
                                                                           ]
                                                                         },
-                                                                        "name": "Button",
-                                                                        "icon": "FaBimobject",
-                                                                        "group": "Form",
-                                                                        "type": "20006",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 1,
-                                                                        "version": "1.0.0",
-                                                                        "isLatest": true,
-                                                                        "projectType": "web",
-                                                                        "component": {
-                                                                          "content": "Button",
-                                                                          "type": "20006"
-                                                                        },
                                                                         "events": [
                                                                           {
                                                                             "triggerId": "REzPplV8XQLDxw9IlS3aQ",
@@ -1257,7 +1248,8 @@
                                                                             "serviceType": "8"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-2-0-1-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
+                                                                        "version": "1.0.0",
                                                                         "screenId": "Q_UpFH74bRpDlg1uOxjtX",
                                                                         "subType": "component",
                                                                         "projectId": "63f349eda070071e283ca270",
@@ -1266,28 +1258,23 @@
                                                                       }
                                                                     ]
                                                                   },
-                                                                  "placeholder": "",
                                                                   "disableUnderline": true,
                                                                   "cssClassNames": [
                                                                     {
                                                                       "cssClassName": "emptyTextField"
                                                                     }
-                                                                  ],
-                                                                  "stateName": "branchUserPassword"
+                                                                  ]
                                                                 },
-                                                                "icon": "FaWindowMinimize",
-                                                                "group": "Form",
-                                                                "type": "20004",
-                                                                "Documentation": "<div>components 12344</div>",
                                                                 "updatedAt": "23-Aug-2021",
                                                                 "createdAt": "23-Aug-2021",
-                                                                "order": 20,
+                                                                "type": "20008",
+                                                                "order": 11,
                                                                 "version": "1.0.0",
                                                                 "isLatest": true,
                                                                 "projectType": "web",
                                                                 "component": {
-                                                                  "content": "Text Box",
-                                                                  "type": "20004"
+                                                                  "content": "Password",
+                                                                  "type": "20008"
                                                                 },
                                                                 "events": [],
                                                                 "path": "0-0-0-0-0-0-2-0-0-0-0-0-1-0-0"
@@ -1968,9 +1955,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q_UpFH74bRpDlg1uOxjtX",
-    "createdBy": "areeb",
-    "updatedAt": "4/28/2023",
-    "createdAt": "4/28/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/9/2023",
+    "createdAt": "5/9/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3326,8 +3313,8 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "QJUgSaWXJrmJ1McKLhadt",
-          "componentType": "20004",
+          "componentId": "mnJ3ArXNeoPxlv-J9R-cY",
+          "componentType": "20008",
           "order": 1
         }
       ],
@@ -3358,26 +3345,29 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "QJUgSaWXJrmJ1McKLhadt",
+    "id": "mnJ3ArXNeoPxlv-J9R-cY",
     "status": "ACTIVE",
-    "name": "Text Box",
+    "name": "Password",
+    "icon": "FaKey",
+    "group": "Form",
     "attributes": {
-      "label": "",
-      "name": "Text box",
-      "label-locale-key": "",
-      "maxLength": 20,
-      "type": "text",
       "variant": "standard",
-      "value": "",
+      "stateName": "branchUserPassword",
+      "label-locale-key": "",
+      "maxLength": "100",
       "readOnly": false,
       "tooltip": "",
       "font-family": "Verdana",
       "mandatory": true,
+      "storeType": 0,
+      "name": "Password",
       "tooltipState": "",
       "layoutProperties": {
-        "textField": { "//": "Use this class to style text field component." },
+        "textField": {
+          "//": "Use this class to style password field component."
+        },
         "inputProps": {
-          "//": "Use this class to style  text field element.",
+          "//": "Use this class to style password field element.",
           "paddingLeft": "15px"
         },
         "mainContainer": "textField",
@@ -3389,11 +3379,13 @@
       },
       "validate": {
         "required": true,
-        "errorMsg": "This field is required",
+        "errorMsg": "Password is required",
         "bindButton": [
           {
-            "id": "UsNaM-7pyrle5CDUyIexU",
-            "status": "ACTIVE",
+            "id": "PWg1vcHCPDhxRLLfrfDle",
+            "type": "20006",
+            "name": "Button",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
               "label": "SubMIT",
               "variant": "contained",
@@ -3414,18 +3406,6 @@
               },
               "cssClassNames": [{ "cssClassName": "CardButton" }]
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
                 "triggerId": "REzPplV8XQLDxw9IlS3aQ",
@@ -3435,7 +3415,8 @@
                 "serviceType": "8"
               }
             ],
-            "path": "0-0-0-0-0-0-2-0-1-2-0-0-0",
+            "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "Q_UpFH74bRpDlg1uOxjtX",
             "subType": "component",
             "projectId": "63f349eda070071e283ca270",
@@ -3444,26 +3425,21 @@
           }
         ]
       },
-      "placeholder": "",
       "disableUnderline": true,
-      "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "stateName": "branchUserPassword"
+      "cssClassNames": [{ "cssClassName": "emptyTextField" }]
     },
-    "icon": "FaWindowMinimize",
-    "group": "Form",
-    "type": "20004",
-    "Documentation": "<div>components 12344</div>",
     "updatedAt": "23-Aug-2021",
     "createdAt": "23-Aug-2021",
-    "order": 20,
+    "type": "20008",
+    "order": 11,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Text Box", "type": "20004" },
+    "subType": "component",
+    "component": { "content": "Password", "type": "20008" },
     "events": [],
     "path": "0-0-0-0-0-0-2-0-0-0-0-0-1-0-0",
     "screenId": "Q_UpFH74bRpDlg1uOxjtX",
-    "subType": "component",
     "projectId": "63f349eda070071e283ca270",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
