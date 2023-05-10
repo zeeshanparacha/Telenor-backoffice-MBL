@@ -71,7 +71,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "mYdgPREu_wHrEjJqGhN0R",
+                    "id": "H-7QlX4Wdsrjnv6U6BKsA",
                     "gridProps": [
                       {
                         "id": "ijcBVlvv0VD4YJaqjzs4q",
@@ -223,28 +223,12 @@
                                 "path": "0-0-0-0-1-0-0"
                               },
                               {
-                                "id": "IpBrXWbQU0mtelz1OeKyy",
-                                "type": "20031",
-                                "attributes": {
-                                  "widgetId": "yh7RmL0JZW8pAezr854Qd",
-                                  "layoutProperties": {
-                                    "xl": 12,
-                                    "lg": 12,
-                                    "md": 12,
-                                    "sm": 12,
-                                    "xs": 12
-                                  }
-                                },
-                                "component": { "type": "20031" },
-                                "path": "0-0-0-0-1-0-1"
-                              },
-                              {
                                 "id": "eX_rXeE69q_gGUqWdUNX9",
                                 "status": "ACTIVE",
                                 "name": "Data table",
                                 "type": "20014",
                                 "attributes": {
-                                  "responseStateKey": "corporateReg.soleProprietor.signatories",
+                                  "responseStateKey": "corporateReg.data.soleProprietor.signatories",
                                   "layoutProperties": {
                                     "container": {
                                       "//": "Use this class to style data table container."
@@ -937,8 +921,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-0-0"
+                    }
                   }
                 ],
                 "allowedContainers": [
@@ -970,7 +953,7 @@
                     "logic": {
                       "!=": [
                         {
-                          "var": "currentScreen.corporateReg.isSoleProprietor"
+                          "var": "currentScreen.corporateReg.data.isSoleProprietor"
                         },
                         true
                       ]
@@ -1007,7 +990,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "8eHq5eNzwtnL-f68-2Kw4",
+                            "id": "Eb-S6uz_BNyKkPw_Xc_l5",
                             "gridProps": [
                               {
                                 "id": "huicYBRv10gRPcTy7RSou",
@@ -2627,30 +2610,12 @@
                                                                 "path": "0-0-1-0-0-0-0-0-0-0-0-0-3-0-0"
                                                               },
                                                               {
-                                                                "id": "b_mB5aQYCk7h1eCzo9J_p",
-                                                                "type": "20031",
-                                                                "attributes": {
-                                                                  "widgetId": "mKe_qdMoLQnTPVGDHVjHm",
-                                                                  "layoutProperties": {
-                                                                    "xl": 12,
-                                                                    "lg": 12,
-                                                                    "md": 12,
-                                                                    "sm": 12,
-                                                                    "xs": 12
-                                                                  }
-                                                                },
-                                                                "component": {
-                                                                  "type": "20031"
-                                                                },
-                                                                "path": "0-0-1-0-0-0-0-0-0-0-0-0-3-0-1"
-                                                              },
-                                                              {
                                                                 "id": "EuCVxokJKj3f3DmX2Bb0D",
                                                                 "status": "ACTIVE",
                                                                 "name": "Data table",
                                                                 "type": "20014",
                                                                 "attributes": {
-                                                                  "responseStateKey": "corporateReg.partnership.directorInformation",
+                                                                  "responseStateKey": "corporateReg.data.partnership.directorInformation",
                                                                   "layoutProperties": {
                                                                     "container": {
                                                                       "//": "Use this class to style data table container."
@@ -3422,8 +3387,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-1-0-0-0"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -3455,7 +3419,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.corporateReg.isPartnership"
+                                  "var": "currentScreen.corporateReg.data.isPartnership"
                                 },
                                 true
                               ]
@@ -3536,7 +3500,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "h-1j_7mCngYiAolUuahTB",
+                            "id": "UUiZLTQc4Y9LO1q73nGTN",
                             "gridProps": [
                               {
                                 "id": "yHv_8qj9a5b53CJUZ52Rf",
@@ -5156,30 +5120,12 @@
                                                                 "path": "0-0-2-0-0-0-0-0-0-0-0-0-3-0-0"
                                                               },
                                                               {
-                                                                "id": "M76GaEaUdivsDuc8EzYKj",
-                                                                "type": "20031",
-                                                                "attributes": {
-                                                                  "widgetId": "dALb-9qJuWsTfl3kcb-Zy",
-                                                                  "layoutProperties": {
-                                                                    "xl": 12,
-                                                                    "lg": 12,
-                                                                    "md": 12,
-                                                                    "sm": 12,
-                                                                    "xs": 12
-                                                                  }
-                                                                },
-                                                                "component": {
-                                                                  "type": "20031"
-                                                                },
-                                                                "path": "0-0-2-0-0-0-0-0-0-0-0-0-3-0-1"
-                                                              },
-                                                              {
                                                                 "id": "dJ9vGKLaWO-rOHcgDrNcd",
                                                                 "status": "ACTIVE",
                                                                 "name": "Data table",
                                                                 "type": "20014",
                                                                 "attributes": {
-                                                                  "responseStateKey": "corporateReg.privateorPublicLimited.directorInformation",
+                                                                  "responseStateKey": "corporateReg.data.privateorPublicLimited.directorInformation",
                                                                   "layoutProperties": {
                                                                     "container": {
                                                                       "//": "Use this class to style data table container."
@@ -5351,7 +5297,7 @@
                                                                   "type": "20014"
                                                                 },
                                                                 "events": [],
-                                                                "path": "0-0-2-0-0-0-0-0-0-0-0-0-3-0-2"
+                                                                "path": "0-0-2-0-0-0-0-0-0-0-0-0-3-0-1"
                                                               }
                                                             ],
                                                             "layoutProperties": {
@@ -5951,8 +5897,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-2-0-0-0"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -5984,7 +5929,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.corporateReg.isPrivateOrPublic"
+                                  "var": "currentScreen.corporateReg.data.isPrivateOrPublic"
                                 },
                                 true
                               ]
@@ -6070,9 +6015,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "1YhDPrWAorouCeS0p5zRd",
-    "createdBy": "ajk",
-    "updatedAt": "5/9/2023",
-    "createdAt": "5/9/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6247,7 +6192,10 @@
       "name": "Grid layout",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isSoleProprietor" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isSoleProprietor" },
+            true
+          ]
         }
       }
     },
@@ -6415,7 +6363,7 @@
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
     },
     "component": { "type": "20031" },
-    "path": "0-0-0-0-1-0-1",
+    "path": "0-0-0-0-1-0-0",
     "screenId": "1YhDPrWAorouCeS0p5zRd",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -6429,7 +6377,7 @@
     "name": "Data table",
     "type": "20014",
     "attributes": {
-      "responseStateKey": "corporateReg.soleProprietor.signatories",
+      "responseStateKey": "corporateReg.data.soleProprietor.signatories",
       "layoutProperties": {
         "container": { "//": "Use this class to style data table container." },
         "rowStyle": {
@@ -7041,7 +6989,10 @@
       "name": "solo 3",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isPartnership" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isPartnership" },
+            true
+          ]
         }
       }
     },
@@ -8572,7 +8523,7 @@
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
     },
     "component": { "type": "20031" },
-    "path": "0-0-1-0-0-0-0-0-0-0-0-0-3-0-1",
+    "path": "0-0-1-0-0-0-0-0-0-0-0-0-3-0-0",
     "screenId": "1YhDPrWAorouCeS0p5zRd",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -8586,7 +8537,7 @@
     "name": "Data table",
     "type": "20014",
     "attributes": {
-      "responseStateKey": "corporateReg.partnership.directorInformation",
+      "responseStateKey": "corporateReg.data.partnership.directorInformation",
       "layoutProperties": {
         "container": { "//": "Use this class to style data table container." },
         "rowStyle": {
@@ -9192,7 +9143,7 @@
       "hideCondition": {
         "logic": {
           "!=": [
-            { "var": "currentScreen.corporateReg.isPrivateOrPublic" },
+            { "var": "currentScreen.corporateReg.data.isPrivateOrPublic" },
             true
           ]
         }
@@ -10725,7 +10676,7 @@
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
     },
     "component": { "type": "20031" },
-    "path": "0-0-2-0-0-0-0-0-0-0-0-0-3-0-1",
+    "path": "0-0-2-0-0-0-0-0-0-0-0-0-3-0-0",
     "screenId": "1YhDPrWAorouCeS0p5zRd",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
@@ -10739,7 +10690,7 @@
     "name": "Data table",
     "type": "20014",
     "attributes": {
-      "responseStateKey": "corporateReg.privateorPublicLimited.directorInformation",
+      "responseStateKey": "corporateReg.data.privateorPublicLimited.directorInformation",
       "layoutProperties": {
         "container": { "//": "Use this class to style data table container." },
         "rowStyle": {
@@ -10878,7 +10829,7 @@
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "0-0-2-0-0-0-0-0-0-0-0-0-3-0-2",
+    "path": "0-0-2-0-0-0-0-0-0-0-0-0-3-0-1",
     "screenId": "1YhDPrWAorouCeS0p5zRd",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",

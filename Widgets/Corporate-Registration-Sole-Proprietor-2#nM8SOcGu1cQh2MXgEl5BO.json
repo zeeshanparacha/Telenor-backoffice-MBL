@@ -70,7 +70,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "5RwCKlNd41VhmEcuLOuvd",
+                    "id": "-vzVpldo4wKiej_MazdR0",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -9463,8 +9463,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-0-0"
+                    }
                   }
                 ],
                 "path": "0-0-0",
@@ -9491,7 +9490,7 @@
                     "logic": {
                       "!=": [
                         {
-                          "var": "currentScreen.corporateReg.isSoleProprietor"
+                          "var": "currentScreen.corporateReg.data.isSoleProprietor"
                         },
                         true
                       ]
@@ -9533,7 +9532,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "qj2gAym8TG2lmULLQfm6Q",
+                            "id": "G8BGBBuSqXmZh7vIAoWZk",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -21141,8 +21140,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-1-0-0-0"
+                            }
                           }
                         ],
                         "path": "0-0-1-0-0",
@@ -21169,7 +21167,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.corporateReg.isPartnership"
+                                  "var": "currentScreen.corporateReg.data.isPartnership"
                                 },
                                 true
                               ]
@@ -21255,7 +21253,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "qnnWUIdimnq2uay-W-Gp3",
+                            "id": "L8Fj87zlxUBDbqHYrvCSS",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -32863,8 +32861,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-2-0-0-0"
+                            }
                           }
                         ],
                         "path": "0-0-2-0-0",
@@ -32891,7 +32888,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.corporateReg.isPrivateOrPublic"
+                                  "var": "currentScreen.corporateReg.data.isPrivateOrPublic"
                                 },
                                 true
                               ]
@@ -32983,9 +32980,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "nM8SOcGu1cQh2MXgEl5BO",
-    "createdBy": "ajk",
-    "updatedAt": "5/9/2023",
-    "createdAt": "5/9/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -33122,7 +33119,10 @@
       "name": "Corporate Registration Sole Proprietor 2",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isSoleProprietor" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isSoleProprietor" },
+            true
+          ]
         }
       }
     },
@@ -41915,7 +41915,10 @@
       "name": "solo 2",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isPartnership" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isPartnership" },
+            true
+          ]
         }
       }
     },
@@ -52256,7 +52259,7 @@
       "hideCondition": {
         "logic": {
           "!=": [
-            { "var": "currentScreen.corporateReg.isPrivateOrPublic" },
+            { "var": "currentScreen.corporateReg.data.isPrivateOrPublic" },
             true
           ]
         }

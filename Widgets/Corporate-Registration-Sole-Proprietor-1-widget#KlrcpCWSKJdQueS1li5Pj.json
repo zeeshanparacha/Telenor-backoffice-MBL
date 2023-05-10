@@ -37,7 +37,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "iZq2WMQ8g3gZ6MEFt_3vP",
+                    "id": "_-UqXV_nLqBIQzLpmSOJ3",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2327,7 +2327,7 @@
                     "logic": {
                       "!=": [
                         {
-                          "var": "currentScreen.corporateReg.isSoleProprietor"
+                          "var": "currentScreen.corporateReg.data.isSoleProprietor"
                         },
                         true
                       ]
@@ -2364,7 +2364,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "IyoFIDaa2k4MHxJ3JMLek",
+                            "id": "eNDYhHKLLbq-HiBVcI0WF",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -4775,8 +4775,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-1-0-0-0"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -4809,7 +4808,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.corporateReg.isPartnership"
+                                  "var": "currentScreen.corporateReg.data.isPartnership"
                                 },
                                 true
                               ]
@@ -4890,7 +4889,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "lzHYXNH_pAA27WkQdGU_b",
+                            "id": "9H2yizLvNZcxty-1XRWm3",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -7301,8 +7300,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "0-0-2-0-0-0"
+                            }
                           }
                         ],
                         "allowedContainers": [
@@ -7335,7 +7333,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.corporateReg.isPrivateOrPublic"
+                                  "var": "currentScreen.corporateReg.data.isPrivateOrPublic"
                                 },
                                 true
                               ]
@@ -7454,9 +7452,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "KlrcpCWSKJdQueS1li5Pj",
-    "createdBy": "ishfaque",
-    "updatedAt": "4/13/2023",
-    "createdAt": "4/13/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7633,7 +7631,10 @@
       "isSwappable": false,
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isSoleProprietor" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isSoleProprietor" },
+            true
+          ]
         }
       }
     },
@@ -9785,7 +9786,10 @@
       "isSwappable": false,
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isPartnership" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isPartnership" },
+            true
+          ]
         }
       }
     },
@@ -12083,7 +12087,7 @@
       "hideCondition": {
         "logic": {
           "!=": [
-            { "var": "currentScreen.corporateReg.isPrivateOrPublic" },
+            { "var": "currentScreen.corporateReg.data.isPrivateOrPublic" },
             true
           ]
         }

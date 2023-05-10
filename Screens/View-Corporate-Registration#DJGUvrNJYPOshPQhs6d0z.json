@@ -70,7 +70,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "Ez2mX79YUfleXJRs4Em5G",
+                    "id": "foxbWmSRHK2WZOeOuDsFf",
                     "gridProps": [
                       {
                         "id": "8GB7UQs-owC436GOfPDBq",
@@ -2840,8 +2840,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-0-0"
+                    }
                   }
                 ],
                 "path": "0-0-0",
@@ -2868,7 +2867,7 @@
                     "logic": {
                       "!=": [
                         {
-                          "var": "currentScreen.corporateReg.isSoleProprietor"
+                          "var": "currentScreen.corporateReg.data.isSoleProprietor"
                         },
                         true
                       ]
@@ -2883,7 +2882,17 @@
                   "20010",
                   "widget"
                 ],
-                "name": "View Corporate Registration"
+                "name": "View Corporate Registration",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
               },
               {
                 "type": "10001",
@@ -2891,7 +2900,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "Ns6-JlRXwLmtqztHAD2BB",
+                    "id": "rX9awgryp9ModdT1uwi_T",
                     "gridProps": [
                       {
                         "id": "LC-ixuPH8k87XO3gYmMEz",
@@ -5662,8 +5671,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-1-0"
+                    }
                   }
                 ],
                 "path": "0-0-1",
@@ -5689,7 +5697,9 @@
                   "hideCondition": {
                     "logic": {
                       "!=": [
-                        { "var": "currentScreen.corporateReg.isPartnership" },
+                        {
+                          "var": "currentScreen.corporateReg.data.isPartnership"
+                        },
                         true
                       ]
                     }
@@ -5721,7 +5731,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "g8gxEos3K7dnr895HM5D3",
+                    "id": "UjOq-FxjrBE1gZTgrmUq8",
                     "gridProps": [
                       {
                         "id": "Pdbu9EvWIfrPo15B5xDxZ",
@@ -8492,8 +8502,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-2-0"
+                    }
                   }
                 ],
                 "path": "0-0-2",
@@ -8520,7 +8529,7 @@
                     "logic": {
                       "!=": [
                         {
-                          "var": "currentScreen.corporateReg.isPrivateOrPublic"
+                          "var": "currentScreen.corporateReg.data.isPrivateOrPublic"
                         },
                         true
                       ]
@@ -8535,7 +8544,17 @@
                   "20010",
                   "widget"
                 ],
-                "name": "Grid layout"
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
               },
               {
                 "type": "10001",
@@ -8553,7 +8572,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "rcj5pAgIYuHfiOu_oPBbk",
+                            "id": "zGbH-kbn__nVMSwfmTtyB",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -8751,7 +8770,21 @@
                                                                                             "xs": 12
                                                                                           },
                                                                                           "placeholder": "",
-                                                                                          "disableUnderline": true
+                                                                                          "disableUnderline": true,
+                                                                                          "disableCondition": {
+                                                                                            "logic": {
+                                                                                              "in": [
+                                                                                                {
+                                                                                                  "var": "currentScreen.selectedObject.status"
+                                                                                                },
+                                                                                                [
+                                                                                                  "APPROVED",
+                                                                                                  "REJECTED",
+                                                                                                  "DISCREPANT"
+                                                                                                ]
+                                                                                              ]
+                                                                                            }
+                                                                                          }
                                                                                         },
                                                                                         "icon": "FaTextWidth",
                                                                                         "group": "Form",
@@ -9160,16 +9193,7 @@
                           },
                           "direction": "row",
                           "name": "Grid layout",
-                          "hideCondition": {
-                            "logic": {
-                              "in": [
-                                {
-                                  "var": "currentScreen.selectedObject.status"
-                                },
-                                ["APPROVED", "REJECTED", "DISCREPANT"]
-                              ]
-                            }
-                          }
+                          "hideCondition": {}
                         },
                         "events": [],
                         "component": {
@@ -9250,9 +9274,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "DJGUvrNJYPOshPQhs6d0z",
-    "createdBy": "ishfaque",
-    "updatedAt": "5/2/2023",
-    "createdAt": "5/2/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -9427,7 +9451,10 @@
       "name": "View Corporate Registration",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isSoleProprietor" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isSoleProprietor" },
+            true
+          ]
         }
       }
     },
@@ -11939,7 +11966,10 @@
       "name": "Grid layout",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isPartnership" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isPartnership" },
+            true
+          ]
         }
       }
     },
@@ -14452,7 +14482,7 @@
       "hideCondition": {
         "logic": {
           "!=": [
-            { "var": "currentScreen.corporateReg.isPrivateOrPublic" },
+            { "var": "currentScreen.corporateReg.data.isPrivateOrPublic" },
             true
           ]
         }
@@ -16997,14 +17027,7 @@
       },
       "direction": "row",
       "name": "Grid layout",
-      "hideCondition": {
-        "logic": {
-          "in": [
-            { "var": "currentScreen.selectedObject.status" },
-            ["APPROVED", "REJECTED", "DISCREPANT"]
-          ]
-        }
-      }
+      "hideCondition": {}
     },
     "layout": null,
     "events": [],
@@ -17510,7 +17533,15 @@
         "xs": 12
       },
       "placeholder": "",
-      "disableUnderline": true
+      "disableUnderline": true,
+      "disableCondition": {
+        "logic": {
+          "in": [
+            { "var": "currentScreen.selectedObject.status" },
+            ["APPROVED", "REJECTED", "DISCREPANT"]
+          ]
+        }
+      }
     },
     "icon": "FaTextWidth",
     "group": "Form",

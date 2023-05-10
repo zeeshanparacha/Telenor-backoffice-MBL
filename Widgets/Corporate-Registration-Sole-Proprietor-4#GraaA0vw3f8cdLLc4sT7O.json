@@ -80,7 +80,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "sVZaOnsTwiTvVaTq9I_1U",
+                            "id": "82uM-kqa_N4uxK747f9yG",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -1347,7 +1347,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.corporateReg.isSoleProprietor"
+                                  "var": "currentScreen.corporateReg.data.isSoleProprietor"
                                 },
                                 true
                               ]
@@ -1378,7 +1378,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "o6NLfsVm1hdP6_HIYRIfA",
+                            "id": "EzfuozgtUf0HCXjQn5pdx",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -2795,7 +2795,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.corporateReg.isPartnership"
+                                  "var": "currentScreen.corporateReg.data.isPartnership"
                                 },
                                 true
                               ]
@@ -2826,7 +2826,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "lKJro-MS9Zxk50RpQEjZD",
+                            "id": "6iJ6K6Cly73N4IRK0ci0A",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -4868,7 +4868,7 @@
                             "logic": {
                               "!=": [
                                 {
-                                  "var": "currentScreen.corporateReg.isPrivateOrPublic"
+                                  "var": "currentScreen.corporateReg.data.isPrivateOrPublic"
                                 },
                                 true
                               ]
@@ -5961,8 +5961,8 @@
     "gitBranchName": "master",
     "_id": "GraaA0vw3f8cdLLc4sT7O",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/9/2023",
-    "createdAt": "5/9/2023",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6208,7 +6208,10 @@
       "name": "Grid layout",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isSoleProprietor" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isSoleProprietor" },
+            true
+          ]
         }
       }
     },
@@ -7139,7 +7142,10 @@
       "name": "Grid layout",
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isPartnership" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isPartnership" },
+            true
+          ]
         }
       }
     },
@@ -8196,7 +8202,7 @@
       "hideCondition": {
         "logic": {
           "!=": [
-            { "var": "currentScreen.corporateReg.isPrivateOrPublic" },
+            { "var": "currentScreen.corporateReg.data.isPrivateOrPublic" },
             true
           ]
         }
