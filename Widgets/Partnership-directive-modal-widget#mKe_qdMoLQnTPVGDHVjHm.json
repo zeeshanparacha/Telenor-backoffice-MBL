@@ -28,7 +28,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "TvT1_nettHjF17AmeklVj",
+            "id": "1dVgItZx7VLOXn1S9MxXv",
             "gridProps": [
               {
                 "type": "10001",
@@ -37,7 +37,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "2kysL4am6n-jGzI09WVCw",
+                    "id": "rBo8a-drXPL1NfFHJuCRt",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2789,8 +2789,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-1-0-0-0"
+                    }
                   }
                 ],
                 "allowedContainers": [
@@ -2806,7 +2805,7 @@
                   "layoutProperties": {
                     "gridLayout": {
                       "//": "Use this class to style grid layout component.",
-                      "padding": "5px",
+                      "padding": "0px",
                       "spacing": 0
                     },
                     "mainContainer": "gridLayout"
@@ -2822,7 +2821,9 @@
                   "hideCondition": {
                     "logic": {
                       "!=": [
-                        { "var": "currentScreen.corporateReg.isPartnership" },
+                        {
+                          "var": "currentScreen.corporateReg.data.isPartnership"
+                        },
                         true
                       ]
                     }
@@ -2830,7 +2831,7 @@
                 },
                 "events": [],
                 "component": { "type": "10001", "content": "Grid layout" },
-                "path": "0-0-1-0-0",
+                "path": "0-0-0",
                 "dimensions": {
                   "rows": 1,
                   "columns": 1,
@@ -2859,7 +2860,7 @@
           "layoutProperties": {
             "gridLayout": {
               "//": "Use this class to style grid layout component.",
-              "padding": "5px",
+              "padding": "0px",
               "spacing": 0
             },
             "mainContainer": "gridLayout"
@@ -2874,7 +2875,7 @@
         },
         "events": [],
         "component": { "type": "10001", "content": "Grid layout" },
-        "path": "0-0-1",
+        "path": "0",
         "dimensions": {
           "rows": 1,
           "columns": 1,
@@ -2894,9 +2895,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "mKe_qdMoLQnTPVGDHVjHm",
-    "createdBy": "ishfaque",
-    "updatedAt": "4/26/2023",
-    "createdAt": "4/26/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2929,7 +2930,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
+          "padding": "0px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -3133,7 +3134,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
+          "padding": "0px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -3148,7 +3149,10 @@
       "isSwappable": false,
       "hideCondition": {
         "logic": {
-          "!=": [{ "var": "currentScreen.corporateReg.isPartnership" }, true]
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isPartnership" },
+            true
+          ]
         }
       }
     },

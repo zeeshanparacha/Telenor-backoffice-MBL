@@ -28,7 +28,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "aOZXbxIEKQdvbD1VXK97V",
+            "id": "3TGUVCe1_qVlLSYIta4ay",
             "gridProps": [
               {
                 "type": "10001",
@@ -37,7 +37,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "70WsQ38aHbWfWBf1HZ0cE",
+                    "id": "1AxTIeLJOJkK9QvVcteum",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -2792,7 +2792,7 @@
                   "layoutProperties": {
                     "gridLayout": {
                       "//": "Use this class to style grid layout component.",
-                      "padding": "5px",
+                      "padding": "0px",
                       "spacing": 0
                     },
                     "mainContainer": "gridLayout"
@@ -2805,7 +2805,16 @@
                   "direction": "row",
                   "name": "signatories",
                   "isSwappable": false,
-                  "hideCondition": { "logic": { "!=": [1, 1] } }
+                  "hideCondition": {
+                    "logic": {
+                      "!=": [
+                        {
+                          "var": "currentScreen.corporateReg.data.isPrivateOrPublic"
+                        },
+                        true
+                      ]
+                    }
+                  }
                 },
                 "events": [],
                 "component": { "type": "10001", "content": "Grid layout" },
@@ -2838,7 +2847,7 @@
           "layoutProperties": {
             "gridLayout": {
               "//": "Use this class to style grid layout component.",
-              "padding": "5px",
+              "padding": "0px",
               "spacing": 0
             },
             "mainContainer": "gridLayout"
@@ -2853,7 +2862,7 @@
         },
         "events": [],
         "component": { "type": "10001", "content": "Grid layout" },
-        "path": "0-0-1-0-1",
+        "path": "0",
         "dimensions": {
           "rows": 1,
           "columns": 1,
@@ -2861,7 +2870,8 @@
           "colSize0sm": 12,
           "colSize0md": 12,
           "colSize0lg": 12,
-          "colSize0xl": 12
+          "colSize0xl": 12,
+          "layoutProperties": null
         },
         "readOnly": true
       }
@@ -2873,9 +2883,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "dALb-9qJuWsTfl3kcb-Zy",
-    "createdBy": "muzzamil",
-    "updatedAt": "4/13/2023",
-    "createdAt": "4/13/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2908,7 +2918,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
+          "padding": "0px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -3112,7 +3122,7 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "5px",
+          "padding": "0px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -3125,7 +3135,14 @@
       "direction": "row",
       "name": "signatories",
       "isSwappable": false,
-      "hideCondition": { "logic": { "!=": [1, 1] } }
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            { "var": "currentScreen.corporateReg.data.isPrivateOrPublic" },
+            true
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
