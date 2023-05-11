@@ -235,7 +235,8 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    }
+                                    },
+                                    "path": "0-0-0-0-0-0-0-0"
                                   },
                                   {
                                     "type": "column",
@@ -386,7 +387,8 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    }
+                                    },
+                                    "path": "0-0-0-0-0-0-0-1"
                                   },
                                   {
                                     "type": "column",
@@ -537,7 +539,8 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    }
+                                    },
+                                    "path": "0-0-0-0-0-0-0-2"
                                   }
                                 ],
                                 "path": "0-0-0-0-0-0-0",
@@ -1315,7 +1318,8 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            }
+                            },
+                            "path": "0-0-0-0-0-0"
                           }
                         ],
                         "allowedContainers": [
@@ -1543,14 +1547,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "l0fWmVsS0b5BaPFV9U8Zm",
+                                        "id": "qPjW2V4FmGwsUGaXYGr8H",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "jUBXUcIfgzcH6w86McPoE",
+                                            "id": "_JaN0I_LiOfkNjVXsCDxB",
                                             "gridProps": [
                                               {
-                                                "id": "24q4U-hyHIpG87dWLLFkf",
+                                                "id": "mICDchh2kHlGs66oDgTD_",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -1558,7 +1562,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "ZAKAT EXEMPTION",
+                                                  "label": "REGISTRATION CERTIFICATE ",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -1590,8 +1594,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "gYs_ZbzRQBXGT55l88Jjb",
-                                                    "triggerName": "zakat exemption for partnership",
+                                                    "triggerId": "IopYeDxmjSsqrYu3ni7nW",
+                                                    "triggerName": "REGISTRATION_CERTIFICATE Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -1600,11 +1604,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "zakatExemptionDoc",
-                                                      "url": "corporateReg.partnership.zakatExemptionDocId",
+                                                      "responseStateKey": "registrationCertificateDoc",
+                                                      "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "zakat Exemption",
+                                                      "fileName": "Registration Certificate",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -1621,7 +1625,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.partnership.zakatExemptionDocId"
+                                                          "value": "corporateReg.soleProprietor.registrationCertificateDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -2038,14 +2042,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "CvMMmbxdPbm5zf2w7gl75",
+                                        "id": "H-onKNTtjD7FADkBLAKi_",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "n6hbT3zVyeDF2shjaviBT",
+                                            "id": "u6yBTEQfcAo4v9I8w_dyS",
                                             "gridProps": [
                                               {
-                                                "id": "hy3RaJ5Uilm8XsYdIivOQ",
+                                                "id": "ENrg-H3Pj4sl9r_SDWjP0",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -2053,7 +2057,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "TAX EXEMPTION",
+                                                  "label": "CRS",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -2085,8 +2089,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "j5xsQVNfTyI4aNg0aWgMd",
-                                                    "triggerName": "Tax exemp for partnership",
+                                                    "triggerId": "rCcdwLMlGGNPHi0gx7mBq",
+                                                    "triggerName": "CRS for partnership",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -2095,11 +2099,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "taxExemptionDoc",
-                                                      "url": " /corporate-registration/download-documents",
+                                                      "responseStateKey": "crsDoc",
+                                                      "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "Tax Exemption",
+                                                      "fileName": "CRS",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -2116,7 +2120,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.partnership.taxExemptionDocId"
+                                                          "value": " corporateReg.partnership.crsDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -2391,15 +2395,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "name": "Grid layout",
-                                        "id": "qPjW2V4FmGwsUGaXYGr8H",
+                                        "id": "l0fWmVsS0b5BaPFV9U8Zm",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "_JaN0I_LiOfkNjVXsCDxB",
+                                            "id": "xl9RA-bZHjc0CHLF5IVjW",
                                             "gridProps": [
                                               {
-                                                "id": "mICDchh2kHlGs66oDgTD_",
+                                                "id": "24q4U-hyHIpG87dWLLFkf",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -2407,7 +2410,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "REGISTRATION CERTIFICATE ",
+                                                  "label": "ZAKAT EXEMPTION",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -2439,8 +2442,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "IopYeDxmjSsqrYu3ni7nW",
-                                                    "triggerName": "REGISTRATION_CERTIFICATE Download",
+                                                    "triggerId": "gYs_ZbzRQBXGT55l88Jjb",
+                                                    "triggerName": "zakat exemption for partnership",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -2449,11 +2452,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "registrationCertificateDoc",
-                                                      "url": "/corporate-registration/download-documents",
+                                                      "responseStateKey": "zakatExemptionDoc",
+                                                      "url": "corporateReg.partnership.zakatExemptionDocId",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "Registration Certificate",
+                                                      "fileName": "zakat Exemption",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -2470,7 +2473,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.soleProprietor.registrationCertificateDocId"
+                                                          "value": "corporateReg.partnership.zakatExemptionDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -2494,13 +2497,8 @@
                                             "path": "0-0-0-0-1-0-2-0-0-0"
                                           }
                                         ],
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
+                                        "path": "0-0-0-0-1-0-2-0-0",
+                                        "events": [],
                                         "attributes": {
                                           "gridProps": [],
                                           "label": "Header",
@@ -2518,14 +2516,40 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "!=": [
+                                                {
+                                                  "var": "currentScreen.form.partnership.zakatExemption"
+                                                },
+                                                "Yes"
+                                              ]
+                                            }
+                                          }
                                         },
-                                        "events": [],
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-0-0-1-0-2-0-0"
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2534,7 +2558,8 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    }
+                                    },
+                                    "path": "0-0-0-0-1-0-2-0"
                                   },
                                   {
                                     "type": "column",
@@ -2542,15 +2567,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "name": "Grid layout",
-                                        "id": "H-onKNTtjD7FADkBLAKi_",
+                                        "id": "CvMMmbxdPbm5zf2w7gl75",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "u6yBTEQfcAo4v9I8w_dyS",
+                                            "id": "P3uwdsl5EwCW0dYBLQzJO",
                                             "gridProps": [
                                               {
-                                                "id": "ENrg-H3Pj4sl9r_SDWjP0",
+                                                "id": "hy3RaJ5Uilm8XsYdIivOQ",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -2558,7 +2582,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "CRS",
+                                                  "label": "TAX EXEMPTION",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -2590,8 +2614,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "rCcdwLMlGGNPHi0gx7mBq",
-                                                    "triggerName": "CRS for partnership",
+                                                    "triggerId": "j5xsQVNfTyI4aNg0aWgMd",
+                                                    "triggerName": "Tax exemp for partnership",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -2600,11 +2624,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "crsDoc",
-                                                      "url": "/corporate-registration/download-documents",
+                                                      "responseStateKey": "taxExemptionDoc",
+                                                      "url": " /corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "CRS",
+                                                      "fileName": "Tax Exemption",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -2621,7 +2645,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": " corporateReg.partnership.crsDocId"
+                                                          "value": "corporateReg.partnership.taxExemptionDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -2645,13 +2669,8 @@
                                             "path": "0-0-0-0-1-0-2-1-0-0"
                                           }
                                         ],
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
+                                        "path": "0-0-0-0-1-0-2-1-0",
+                                        "events": [],
                                         "attributes": {
                                           "gridProps": [],
                                           "label": "Header",
@@ -2669,14 +2688,40 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "!=": [
+                                                {
+                                                  "var": "currentScreen.form.partnership.taxExemption"
+                                                },
+                                                "Yes"
+                                              ]
+                                            }
+                                          }
                                         },
-                                        "events": [],
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-0-0-1-0-2-1-0"
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2685,7 +2730,8 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    }
+                                    },
+                                    "path": "0-0-0-0-1-0-2-1"
                                   },
                                   {
                                     "type": "column",
@@ -2697,7 +2743,8 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    }
+                                    },
+                                    "path": "0-0-0-0-1-0-2-2"
                                   }
                                 ],
                                 "path": "0-0-0-0-1-0-2",
@@ -2763,7 +2810,8 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            }
+                            },
+                            "path": "0-0-0-0-1-0"
                           }
                         ],
                         "allowedContainers": [
@@ -3334,14 +3382,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "x1p7MpjiO_Rzb78-z8n8O",
+                                        "id": "PF_U_4aIRkzdoJyrEzN_u",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "iFu7HWjwqnfoJRdiGUM9d",
+                                            "id": "uakLaImwEG9OSyDE4xbtx",
                                             "gridProps": [
                                               {
-                                                "id": "dSEUpZJWJcL5X8wCdOv4G",
+                                                "id": "aijFsq6JSeb7XVPNByX0O",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -3349,7 +3397,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "CZ ",
+                                                  "label": "DECLARATION OF CHANGES",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -3381,8 +3429,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "rCR6CcX9vkQaaxr4qOPde",
-                                                    "triggerName": "CZ for Public",
+                                                    "triggerId": "OAPGa5tQ_MXOf2wwILqKY",
+                                                    "triggerName": "DECLARATION OF CHANGES Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -3391,11 +3439,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "czDog",
+                                                      "responseStateKey": "declarationDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "CZ",
+                                                      "fileName": "Declaration",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -3407,7 +3455,14 @@
                                                         "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
                                                         "locale": "en-ltr"
                                                       },
-                                                      "requestBody": [],
+                                                      "requestBody": [
+                                                        {
+                                                          "type": 2,
+                                                          "name": "Current screen",
+                                                          "key": "document",
+                                                          "value": "corporateReg.privateorPublicLimited..declarationDocId"
+                                                        }
+                                                      ],
                                                       "baseURL": "634555d068954540043d6820",
                                                       "storeType": 2
                                                     },
@@ -3985,14 +4040,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "jxQ6mQ6AjNe4DmPLfdsGH",
+                                        "id": "Yu_SHqzkw3ekNCPDUcym4",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "TKCMsdzI57-v7YINIbaUd",
+                                            "id": "B2gmgFsBbdmifUrIdUh63",
                                             "gridProps": [
                                               {
-                                                "id": "xvVd1bAzlQiH91CgYkxIj",
+                                                "id": "kvDdJCkbl6co4RZ4Wj1By",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -4000,7 +4055,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "ZAKAT EXEMPTION",
+                                                  "label": "FORM",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -4032,8 +4087,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "DJhUVOT76XklsQH1C4LyU",
-                                                    "triggerName": "Zakat exemp for public",
+                                                    "triggerId": "cLe-nsZ6CHnSsCeqYTtId",
+                                                    "triggerName": "formA Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -4042,11 +4097,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "ZakatDocId",
-                                                      "url": "/corporate-registration/download-documents",
+                                                      "responseStateKey": "formADoc",
+                                                      "url": " /corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "Zakat Exemption",
+                                                      "fileName": "form",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -4063,7 +4118,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.privateorPublicLimited.zakatExemptionDocId"
+                                                          "value": "corporateReg.soleProprietor.formADocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -4327,15 +4382,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "name": "Grid layout",
-                                        "id": "Yu_SHqzkw3ekNCPDUcym4",
+                                        "id": "x1p7MpjiO_Rzb78-z8n8O",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "B2gmgFsBbdmifUrIdUh63",
+                                            "id": "iFu7HWjwqnfoJRdiGUM9d",
                                             "gridProps": [
                                               {
-                                                "id": "kvDdJCkbl6co4RZ4Wj1By",
+                                                "id": "dSEUpZJWJcL5X8wCdOv4G",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -4343,7 +4397,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "FORM",
+                                                  "label": "CZ",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -4375,8 +4429,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "cLe-nsZ6CHnSsCeqYTtId",
-                                                    "triggerName": "formA Download",
+                                                    "triggerId": "rCR6CcX9vkQaaxr4qOPde",
+                                                    "triggerName": "CZ for Public",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -4385,11 +4439,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "formADoc",
-                                                      "url": " /corporate-registration/download-documents",
+                                                      "responseStateKey": "czDog",
+                                                      "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "form",
+                                                      "fileName": "CZ",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -4401,14 +4455,7 @@
                                                         "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
                                                         "locale": "en-ltr"
                                                       },
-                                                      "requestBody": [
-                                                        {
-                                                          "type": 2,
-                                                          "name": "Current screen",
-                                                          "key": "document",
-                                                          "value": "corporateReg.soleProprietor.formADocId"
-                                                        }
-                                                      ],
+                                                      "requestBody": [],
                                                       "baseURL": "634555d068954540043d6820",
                                                       "storeType": 2
                                                     },
@@ -4430,13 +4477,8 @@
                                             "path": "0-0-0-0-2-0-3-0-0-0"
                                           }
                                         ],
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
+                                        "path": "0-0-0-0-2-0-3-0-0",
+                                        "events": [],
                                         "attributes": {
                                           "gridProps": [],
                                           "label": "Header",
@@ -4456,12 +4498,18 @@
                                           "direction": "row",
                                           "name": "Grid layout"
                                         },
-                                        "events": [],
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-0-0-2-0-3-0-0"
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
+                                        "name": "Grid layout"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -4470,7 +4518,8 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    }
+                                    },
+                                    "path": "0-0-0-0-2-0-3-0"
                                   },
                                   {
                                     "type": "column",
@@ -4478,12 +4527,182 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
+                                        "id": "jxQ6mQ6AjNe4DmPLfdsGH",
+                                        "gridProps": [
+                                          {
+                                            "type": "column",
+                                            "id": "KCZiTRIP-TKXXkt--UoEo",
+                                            "gridProps": [
+                                              {
+                                                "id": "xvVd1bAzlQiH91CgYkxIj",
+                                                "type": "20006",
+                                                "name": "Button",
+                                                "component": {
+                                                  "content": "Button",
+                                                  "type": "20006"
+                                                },
+                                                "attributes": {
+                                                  "label": "ZAKAT EXEMPTION",
+                                                  "variant": "contained",
+                                                  "name": "Button",
+                                                  "label-locale-key": "",
+                                                  "fullWidth": true,
+                                                  "layoutProperties": {
+                                                    "button": {
+                                                      "//": "Use this class to style button component.",
+                                                      "color": "#da0006"
+                                                    },
+                                                    "inputProps": {
+                                                      "//": "Use this class to style button element."
+                                                    },
+                                                    "mainContainer": "button",
+                                                    "xl": 12,
+                                                    "lg": 12,
+                                                    "md": 12,
+                                                    "sm": 12,
+                                                    "xs": 12
+                                                  },
+                                                  "buttonIconPosition": "end",
+                                                  "asset": null,
+                                                  "iconname": "FaFileExcel",
+                                                  "iconName": "FaFileExcel",
+                                                  "cssClassNames": [
+                                                    {
+                                                      "cssClassName": "iconButtonWhite"
+                                                    }
+                                                  ]
+                                                },
+                                                "events": [
+                                                  {
+                                                    "triggerId": "DJhUVOT76XklsQH1C4LyU",
+                                                    "triggerName": "Zakat exemp for public",
+                                                    "serviceType": "8",
+                                                    "attributes": {
+                                                      "loaderWidgetIds": [
+                                                        906070
+                                                      ],
+                                                      "messageWidgetIds": [
+                                                        906070
+                                                      ],
+                                                      "responseStateKey": "ZakatDocId",
+                                                      "url": "/corporate-registration/download-documents",
+                                                      "checksum": true,
+                                                      "encryption": true,
+                                                      "fileName": "Zakat Exemption",
+                                                      "isDeviceDetails": true,
+                                                      "loginTrigger": false,
+                                                      "formData": false,
+                                                      "logoutTrigger": false,
+                                                      "headers": {
+                                                        "Content-Type": "application/json",
+                                                        "Accept": "application/json",
+                                                        "channel_key": "001",
+                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                        "locale": "en-ltr"
+                                                      },
+                                                      "requestBody": [
+                                                        {
+                                                          "type": 2,
+                                                          "name": "Current screen",
+                                                          "key": "document",
+                                                          "value": "corporateReg.privateorPublicLimited.zakatExemptionDocId"
+                                                        }
+                                                      ],
+                                                      "baseURL": "634555d068954540043d6820",
+                                                      "storeType": 2
+                                                    },
+                                                    "type": "2",
+                                                    "name": "On click"
+                                                  }
+                                                ],
+                                                "path": "0-0-0-0-2-0-3-1-0-0-0",
+                                                "version": "1.0.0"
+                                              }
+                                            ],
+                                            "layoutProperties": {
+                                              "xl": 12,
+                                              "lg": 12,
+                                              "md": 12,
+                                              "sm": 12,
+                                              "xs": 12
+                                            }
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-2-0-3-1-0",
+                                        "events": [],
+                                        "attributes": {
+                                          "gridProps": [],
+                                          "label": "Header",
+                                          "layoutProperties": {
+                                            "gridLayout": {
+                                              "//": "Use this class to style grid layout component.",
+                                              "padding": "5px",
+                                              "spacing": 0
+                                            },
+                                            "mainContainer": "gridLayout"
+                                          },
+                                          "layoutProps": {
+                                            "direction": "row",
+                                            "justifyContent": "flex-start",
+                                            "alignItems": "flex-start"
+                                          },
+                                          "direction": "row",
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "!=": [
+                                                {
+                                                  "var": "currentScreen.form.privateorPublicLimited.zakatExemption"
+                                                },
+                                                "Yes"
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "component": {
+                                          "type": "10001",
+                                          "content": "Grid layout"
+                                        },
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
                                         "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    },
+                                    "path": "0-0-0-0-2-0-3-1"
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "DUaVAEUyAxIOn6-yYGdmT",
+                                    "gridProps": [
+                                      {
+                                        "type": "10001",
                                         "id": "00XeR5X0anViUPmaSUwhf",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "4xOZFSZ63-9k2Up3pHiQb",
+                                            "id": "uZuWqvLhC8Y_HRjOPwRYd",
                                             "gridProps": [
                                               {
                                                 "id": "qNL_ZXPfeXs9SnepTNdWf",
@@ -4567,157 +4786,6 @@
                                                     "name": "On click"
                                                   }
                                                 ],
-                                                "path": "0-0-0-0-2-0-3-1-0-0-0",
-                                                "version": "1.0.0"
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 12,
-                                              "lg": 12,
-                                              "md": 12,
-                                              "sm": 12,
-                                              "xs": 12
-                                            },
-                                            "path": "0-0-0-0-2-0-3-1-0-0"
-                                          }
-                                        ],
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
-                                        "attributes": {
-                                          "gridProps": [],
-                                          "label": "Header",
-                                          "layoutProperties": {
-                                            "gridLayout": {
-                                              "//": "Use this class to style grid layout component.",
-                                              "padding": "5px",
-                                              "spacing": 0
-                                            },
-                                            "mainContainer": "gridLayout"
-                                          },
-                                          "layoutProps": {
-                                            "direction": "row",
-                                            "justifyContent": "flex-start",
-                                            "alignItems": "flex-start"
-                                          },
-                                          "direction": "row",
-                                          "name": "Grid layout"
-                                        },
-                                        "events": [],
-                                        "component": {
-                                          "type": "10001",
-                                          "content": "Grid layout"
-                                        },
-                                        "path": "0-0-0-0-2-0-3-1-0"
-                                      }
-                                    ],
-                                    "layoutProperties": {
-                                      "xl": 4,
-                                      "lg": 4,
-                                      "md": 4,
-                                      "sm": 4,
-                                      "xs": 4
-                                    }
-                                  },
-                                  {
-                                    "type": "column",
-                                    "id": "DUaVAEUyAxIOn6-yYGdmT",
-                                    "gridProps": [
-                                      {
-                                        "type": "10001",
-                                        "name": "Grid layout",
-                                        "id": "PF_U_4aIRkzdoJyrEzN_u",
-                                        "gridProps": [
-                                          {
-                                            "type": "column",
-                                            "id": "uakLaImwEG9OSyDE4xbtx",
-                                            "gridProps": [
-                                              {
-                                                "id": "aijFsq6JSeb7XVPNByX0O",
-                                                "type": "20006",
-                                                "name": "Button",
-                                                "component": {
-                                                  "content": "Button",
-                                                  "type": "20006"
-                                                },
-                                                "attributes": {
-                                                  "label": "DECLARATION OF CHANGES",
-                                                  "variant": "contained",
-                                                  "name": "Button",
-                                                  "label-locale-key": "",
-                                                  "fullWidth": true,
-                                                  "layoutProperties": {
-                                                    "button": {
-                                                      "//": "Use this class to style button component.",
-                                                      "color": "#da0006"
-                                                    },
-                                                    "inputProps": {
-                                                      "//": "Use this class to style button element."
-                                                    },
-                                                    "mainContainer": "button",
-                                                    "xl": 12,
-                                                    "lg": 12,
-                                                    "md": 12,
-                                                    "sm": 12,
-                                                    "xs": 12
-                                                  },
-                                                  "buttonIconPosition": "end",
-                                                  "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
-                                                  "cssClassNames": [
-                                                    {
-                                                      "cssClassName": "iconButtonWhite"
-                                                    }
-                                                  ]
-                                                },
-                                                "events": [
-                                                  {
-                                                    "triggerId": "OAPGa5tQ_MXOf2wwILqKY",
-                                                    "triggerName": "DECLARATION OF CHANGES Download",
-                                                    "serviceType": "8",
-                                                    "attributes": {
-                                                      "loaderWidgetIds": [
-                                                        906070
-                                                      ],
-                                                      "messageWidgetIds": [
-                                                        906070
-                                                      ],
-                                                      "responseStateKey": "declarationDoc",
-                                                      "url": "/corporate-registration/download-documents",
-                                                      "checksum": true,
-                                                      "encryption": true,
-                                                      "fileName": "Declaration",
-                                                      "isDeviceDetails": true,
-                                                      "loginTrigger": false,
-                                                      "formData": false,
-                                                      "logoutTrigger": false,
-                                                      "headers": {
-                                                        "Content-Type": "application/json",
-                                                        "Accept": "application/json",
-                                                        "channel_key": "001",
-                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                        "locale": "en-ltr"
-                                                      },
-                                                      "requestBody": [
-                                                        {
-                                                          "type": 2,
-                                                          "name": "Current screen",
-                                                          "key": "document",
-                                                          "value": "corporateReg.privateorPublicLimited..declarationDocId"
-                                                        }
-                                                      ],
-                                                      "baseURL": "634555d068954540043d6820",
-                                                      "storeType": 2
-                                                    },
-                                                    "type": "2",
-                                                    "name": "On click"
-                                                  }
-                                                ],
                                                 "path": "0-0-0-0-2-0-3-2-0-0-0",
                                                 "version": "1.0.0"
                                               }
@@ -4731,13 +4799,8 @@
                                             }
                                           }
                                         ],
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
+                                        "path": "0-0-0-0-2-0-3-2-0",
+                                        "events": [],
                                         "attributes": {
                                           "gridProps": [],
                                           "label": "Header",
@@ -4755,13 +4818,40 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "!=": [
+                                                {
+                                                  "var": "currentScreen.form.privateorPublicLimited.taxExemption"
+                                                },
+                                                "Yes"
+                                              ]
+                                            }
+                                          }
                                         },
-                                        "events": [],
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
-                                        }
+                                        },
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -4770,7 +4860,8 @@
                                       "md": 4,
                                       "sm": 4,
                                       "xs": 4
-                                    }
+                                    },
+                                    "path": "0-0-0-0-2-0-3-2"
                                   }
                                 ],
                                 "path": "0-0-0-0-2-0-3",
@@ -4836,7 +4927,8 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            }
+                            },
+                            "path": "0-0-0-0-2-0"
                           }
                         ],
                         "allowedContainers": [
@@ -4988,7 +5080,8 @@
                                       "md": 6,
                                       "sm": 6,
                                       "xs": 6
-                                    }
+                                    },
+                                    "path": "0-0-0-0-3-0-0-0"
                                   },
                                   {
                                     "type": "column",
@@ -5000,7 +5093,8 @@
                                       "md": 6,
                                       "sm": 6,
                                       "xs": 6
-                                    }
+                                    },
+                                    "path": "0-0-0-0-3-0-0-1"
                                   }
                                 ],
                                 "allowedContainers": [
@@ -5960,9 +6054,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GraaA0vw3f8cdLLc4sT7O",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/10/2023",
-    "createdAt": "5/10/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/11/2023",
+    "createdAt": "5/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7178,11 +7272,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "l0fWmVsS0b5BaPFV9U8Zm",
+          "componentId": "qPjW2V4FmGwsUGaXYGr8H",
           "componentType": "10001",
-          "id": "l0fWmVsS0b5BaPFV9U8Zm",
+          "id": "qPjW2V4FmGwsUGaXYGr8H",
           "position": {
-            "i": "l0fWmVsS0b5BaPFV9U8Zm",
+            "i": "qPjW2V4FmGwsUGaXYGr8H",
             "x": null,
             "y": null,
             "w": null,
@@ -7323,7 +7417,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "l0fWmVsS0b5BaPFV9U8Zm",
+    "id": "qPjW2V4FmGwsUGaXYGr8H",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -7336,7 +7430,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "24q4U-hyHIpG87dWLLFkf",
+          "componentId": "mICDchh2kHlGs66oDgTD_",
           "componentType": "20006",
           "order": 1
         }
@@ -7368,12 +7462,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "24q4U-hyHIpG87dWLLFkf",
+    "id": "mICDchh2kHlGs66oDgTD_",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "ZAKAT EXEMPTION",
+      "label": "REGISTRATION CERTIFICATE ",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7399,8 +7493,8 @@
     },
     "events": [
       {
-        "triggerId": "gYs_ZbzRQBXGT55l88Jjb",
-        "triggerName": "zakat exemption for partnership",
+        "triggerId": "IopYeDxmjSsqrYu3ni7nW",
+        "triggerName": "REGISTRATION_CERTIFICATE Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -7526,11 +7620,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "CvMMmbxdPbm5zf2w7gl75",
+          "componentId": "H-onKNTtjD7FADkBLAKi_",
           "componentType": "10001",
-          "id": "CvMMmbxdPbm5zf2w7gl75",
+          "id": "H-onKNTtjD7FADkBLAKi_",
           "position": {
-            "i": "CvMMmbxdPbm5zf2w7gl75",
+            "i": "H-onKNTtjD7FADkBLAKi_",
             "x": null,
             "y": null,
             "w": null,
@@ -7672,7 +7766,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "CvMMmbxdPbm5zf2w7gl75",
+    "id": "H-onKNTtjD7FADkBLAKi_",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -7685,7 +7779,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "hy3RaJ5Uilm8XsYdIivOQ",
+          "componentId": "ENrg-H3Pj4sl9r_SDWjP0",
           "componentType": "20006",
           "order": 1
         }
@@ -7717,12 +7811,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "hy3RaJ5Uilm8XsYdIivOQ",
+    "id": "ENrg-H3Pj4sl9r_SDWjP0",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "TAX EXEMPTION",
+      "label": "CRS",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7748,8 +7842,8 @@
     },
     "events": [
       {
-        "triggerId": "j5xsQVNfTyI4aNg0aWgMd",
-        "triggerName": "Tax exemp for partnership",
+        "triggerId": "rCcdwLMlGGNPHi0gx7mBq",
+        "triggerName": "CRS for partnership",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -7862,11 +7956,11 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "qPjW2V4FmGwsUGaXYGr8H",
+          "componentId": "l0fWmVsS0b5BaPFV9U8Zm",
           "componentType": "10001",
-          "id": "qPjW2V4FmGwsUGaXYGr8H",
+          "id": "l0fWmVsS0b5BaPFV9U8Zm",
           "position": {
-            "i": "qPjW2V4FmGwsUGaXYGr8H",
+            "i": "l0fWmVsS0b5BaPFV9U8Zm",
             "x": null,
             "y": null,
             "w": null,
@@ -7875,11 +7969,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "H-onKNTtjD7FADkBLAKi_",
+          "componentId": "CvMMmbxdPbm5zf2w7gl75",
           "componentType": "10001",
-          "id": "H-onKNTtjD7FADkBLAKi_",
+          "id": "CvMMmbxdPbm5zf2w7gl75",
           "position": {
-            "i": "H-onKNTtjD7FADkBLAKi_",
+            "i": "CvMMmbxdPbm5zf2w7gl75",
             "x": null,
             "y": null,
             "w": null,
@@ -7917,7 +8011,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "qPjW2V4FmGwsUGaXYGr8H",
+    "id": "l0fWmVsS0b5BaPFV9U8Zm",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -7930,7 +8024,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "mICDchh2kHlGs66oDgTD_",
+          "componentId": "24q4U-hyHIpG87dWLLFkf",
           "componentType": "20006",
           "order": 1
         }
@@ -7950,7 +8044,15 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            { "var": "currentScreen.form.partnership.zakatExemption" },
+            "Yes"
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -7962,12 +8064,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "mICDchh2kHlGs66oDgTD_",
+    "id": "24q4U-hyHIpG87dWLLFkf",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "REGISTRATION CERTIFICATE ",
+      "label": "ZAKAT EXEMPTION",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7993,8 +8095,8 @@
     },
     "events": [
       {
-        "triggerId": "IopYeDxmjSsqrYu3ni7nW",
-        "triggerName": "REGISTRATION_CERTIFICATE Download",
+        "triggerId": "gYs_ZbzRQBXGT55l88Jjb",
+        "triggerName": "zakat exemption for partnership",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -8009,7 +8111,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "H-onKNTtjD7FADkBLAKi_",
+    "id": "CvMMmbxdPbm5zf2w7gl75",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -8022,7 +8124,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "ENrg-H3Pj4sl9r_SDWjP0",
+          "componentId": "hy3RaJ5Uilm8XsYdIivOQ",
           "componentType": "20006",
           "order": 1
         }
@@ -8042,7 +8144,15 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            { "var": "currentScreen.form.partnership.taxExemption" },
+            "Yes"
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -8054,12 +8164,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "ENrg-H3Pj4sl9r_SDWjP0",
+    "id": "hy3RaJ5Uilm8XsYdIivOQ",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "CRS",
+      "label": "TAX EXEMPTION",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -8085,8 +8195,8 @@
     },
     "events": [
       {
-        "triggerId": "rCcdwLMlGGNPHi0gx7mBq",
-        "triggerName": "CRS for partnership",
+        "triggerId": "j5xsQVNfTyI4aNg0aWgMd",
+        "triggerName": "Tax exemp for partnership",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -8572,11 +8682,11 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "x1p7MpjiO_Rzb78-z8n8O",
+          "componentId": "PF_U_4aIRkzdoJyrEzN_u",
           "componentType": "10001",
-          "id": "x1p7MpjiO_Rzb78-z8n8O",
+          "id": "PF_U_4aIRkzdoJyrEzN_u",
           "position": {
-            "i": "x1p7MpjiO_Rzb78-z8n8O",
+            "i": "PF_U_4aIRkzdoJyrEzN_u",
             "x": null,
             "y": null,
             "w": null,
@@ -8639,7 +8749,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "x1p7MpjiO_Rzb78-z8n8O",
+    "id": "PF_U_4aIRkzdoJyrEzN_u",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -8652,7 +8762,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "dSEUpZJWJcL5X8wCdOv4G",
+          "componentId": "aijFsq6JSeb7XVPNByX0O",
           "componentType": "20006",
           "order": 1
         }
@@ -8684,12 +8794,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "dSEUpZJWJcL5X8wCdOv4G",
+    "id": "aijFsq6JSeb7XVPNByX0O",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "CZ ",
+      "label": "DECLARATION OF CHANGES",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -8715,8 +8825,8 @@
     },
     "events": [
       {
-        "triggerId": "rCR6CcX9vkQaaxr4qOPde",
-        "triggerName": "CZ for Public",
+        "triggerId": "OAPGa5tQ_MXOf2wwILqKY",
+        "triggerName": "DECLARATION OF CHANGES Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -8934,11 +9044,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "jxQ6mQ6AjNe4DmPLfdsGH",
+          "componentId": "Yu_SHqzkw3ekNCPDUcym4",
           "componentType": "10001",
-          "id": "jxQ6mQ6AjNe4DmPLfdsGH",
+          "id": "Yu_SHqzkw3ekNCPDUcym4",
           "position": {
-            "i": "jxQ6mQ6AjNe4DmPLfdsGH",
+            "i": "Yu_SHqzkw3ekNCPDUcym4",
             "x": null,
             "y": null,
             "w": null,
@@ -9079,7 +9189,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "jxQ6mQ6AjNe4DmPLfdsGH",
+    "id": "Yu_SHqzkw3ekNCPDUcym4",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -9092,7 +9202,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "xvVd1bAzlQiH91CgYkxIj",
+          "componentId": "kvDdJCkbl6co4RZ4Wj1By",
           "componentType": "20006",
           "order": 1
         }
@@ -9124,12 +9234,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "xvVd1bAzlQiH91CgYkxIj",
+    "id": "kvDdJCkbl6co4RZ4Wj1By",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "ZAKAT EXEMPTION",
+      "label": "FORM",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -9155,8 +9265,8 @@
     },
     "events": [
       {
-        "triggerId": "DJhUVOT76XklsQH1C4LyU",
-        "triggerName": "Zakat exemp for public",
+        "triggerId": "cLe-nsZ6CHnSsCeqYTtId",
+        "triggerName": "formA Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -9269,11 +9379,24 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "Yu_SHqzkw3ekNCPDUcym4",
+          "componentId": "x1p7MpjiO_Rzb78-z8n8O",
           "componentType": "10001",
-          "id": "Yu_SHqzkw3ekNCPDUcym4",
+          "id": "x1p7MpjiO_Rzb78-z8n8O",
           "position": {
-            "i": "Yu_SHqzkw3ekNCPDUcym4",
+            "i": "x1p7MpjiO_Rzb78-z8n8O",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        },
+        {
+          "componentId": "jxQ6mQ6AjNe4DmPLfdsGH",
+          "componentType": "10001",
+          "id": "jxQ6mQ6AjNe4DmPLfdsGH",
+          "position": {
+            "i": "jxQ6mQ6AjNe4DmPLfdsGH",
             "x": null,
             "y": null,
             "w": null,
@@ -9287,19 +9410,6 @@
           "id": "00XeR5X0anViUPmaSUwhf",
           "position": {
             "i": "00XeR5X0anViUPmaSUwhf",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
-        },
-        {
-          "componentId": "PF_U_4aIRkzdoJyrEzN_u",
-          "componentType": "10001",
-          "id": "PF_U_4aIRkzdoJyrEzN_u",
-          "position": {
-            "i": "PF_U_4aIRkzdoJyrEzN_u",
             "x": null,
             "y": null,
             "w": null,
@@ -9337,7 +9447,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "Yu_SHqzkw3ekNCPDUcym4",
+    "id": "x1p7MpjiO_Rzb78-z8n8O",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -9350,7 +9460,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "kvDdJCkbl6co4RZ4Wj1By",
+          "componentId": "dSEUpZJWJcL5X8wCdOv4G",
           "componentType": "20006",
           "order": 1
         }
@@ -9382,12 +9492,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "kvDdJCkbl6co4RZ4Wj1By",
+    "id": "dSEUpZJWJcL5X8wCdOv4G",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "FORM",
+      "label": "CZ",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -9413,14 +9523,116 @@
     },
     "events": [
       {
-        "triggerId": "cLe-nsZ6CHnSsCeqYTtId",
-        "triggerName": "formA Download",
+        "triggerId": "rCR6CcX9vkQaaxr4qOPde",
+        "triggerName": "CZ for Public",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
       }
     ],
     "path": "0-0-0-0-2-0-3-0-0-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "jxQ6mQ6AjNe4DmPLfdsGH",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "xvVd1bAzlQiH91CgYkxIj",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            {
+              "var": "currentScreen.form.privateorPublicLimited.zakatExemption"
+            },
+            "Yes"
+          ]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "xvVd1bAzlQiH91CgYkxIj",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "ZAKAT EXEMPTION",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": {
+          "//": "Use this class to style button component.",
+          "color": "#da0006"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "FaFileExcel",
+      "iconName": "FaFileExcel",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "DJhUVOT76XklsQH1C4LyU",
+        "triggerName": "Zakat exemp for public",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-2-0-3-1-0-0-0",
     "version": "1.0.0",
     "screenId": "GraaA0vw3f8cdLLc4sT7O",
     "subType": "component",
@@ -9462,7 +9674,15 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            { "var": "currentScreen.form.privateorPublicLimited.taxExemption" },
+            "Yes"
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -9507,98 +9727,6 @@
       {
         "triggerId": "p27R2zfKRDbIXeSoH2oUB",
         "triggerName": "Tax exemp for public",
-        "name": "On click",
-        "type": "2",
-        "serviceType": "8"
-      }
-    ],
-    "path": "0-0-0-0-2-0-3-1-0-0-0",
-    "version": "1.0.0",
-    "screenId": "GraaA0vw3f8cdLLc4sT7O",
-    "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "PF_U_4aIRkzdoJyrEzN_u",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "aijFsq6JSeb7XVPNByX0O",
-          "componentType": "20006",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "GraaA0vw3f8cdLLc4sT7O",
-    "projectId": "63f349eda070071e283ca270",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "aijFsq6JSeb7XVPNByX0O",
-    "type": "20006",
-    "name": "Button",
-    "component": { "content": "Button", "type": "20006" },
-    "attributes": {
-      "label": "DECLARATION OF CHANGES",
-      "variant": "contained",
-      "name": "Button",
-      "label-locale-key": "",
-      "fullWidth": true,
-      "layoutProperties": {
-        "button": {
-          "//": "Use this class to style button component.",
-          "color": "#da0006"
-        },
-        "inputProps": { "//": "Use this class to style button element." },
-        "mainContainer": "button",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "buttonIconPosition": "end",
-      "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
-      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
-    },
-    "events": [
-      {
-        "triggerId": "OAPGa5tQ_MXOf2wwILqKY",
-        "triggerName": "DECLARATION OF CHANGES Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"

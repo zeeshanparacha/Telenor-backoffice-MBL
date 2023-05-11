@@ -48,7 +48,7 @@
                 "name": "Label",
                 "component": { "content": "Label", "type": "20002" },
                 "attributes": {
-                  "label": "View PO Details",
+                  "label": "View Banker's Cheque Details",
                   "variant": "body1",
                   "name": "Label",
                   "mandatory": false,
@@ -212,7 +212,7 @@
                                                 "status": "ACTIVE",
                                                 "name": "Label",
                                                 "attributes": {
-                                                  "label": "Applicant Account Detail",
+                                                  "label": "Request Details",
                                                   "variant": "body1",
                                                   "name": "Label",
                                                   "mandatory": false,
@@ -328,7 +328,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Name",
+                                                                  "label": "Beneficiary Name",
                                                                   "variant": "caption",
                                                                   "name": "Label",
                                                                   "mandatory": false,
@@ -1075,7 +1075,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Contact No",
+                                                                  "label": "Beneficiary Contact No",
                                                                   "variant": "caption",
                                                                   "name": "Label",
                                                                   "mandatory": false,
@@ -1333,7 +1333,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Account Title",
+                                                                  "label": "From Account Title",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": false,
@@ -2049,7 +2049,7 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "Account Number",
+                                                                  "label": "From Account Number",
                                                                   "variant": "body1",
                                                                   "name": "Label",
                                                                   "mandatory": false,
@@ -5152,9 +5152,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "kEfl5A_9Hvl1rEX-7OGbq",
-    "createdBy": "ajk",
-    "updatedAt": "5/9/2023",
-    "createdAt": "5/9/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/10/2023",
+    "createdAt": "5/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5209,7 +5209,7 @@
     "name": "Label",
     "component": { "content": "Label", "type": "20002" },
     "attributes": {
-      "label": "View PO Details",
+      "label": "View Banker's Cheque Details",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -5596,7 +5596,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Applicant Account Detail",
+      "label": "Request Details",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -5905,7 +5905,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Name",
+      "label": "Beneficiary Name",
       "variant": "caption",
       "name": "Label",
       "mandatory": false,
@@ -6610,7 +6610,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Contact No",
+      "label": "Beneficiary Contact No",
       "variant": "caption",
       "name": "Label",
       "mandatory": false,
@@ -6798,7 +6798,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Account Title",
+      "label": "From Account Title",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -7517,7 +7517,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "Account Number",
+      "label": "From Account Number",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
