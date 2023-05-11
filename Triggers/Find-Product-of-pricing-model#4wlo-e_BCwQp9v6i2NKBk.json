@@ -1,0 +1,44 @@
+{
+  "id": "DJzYdXoFz9ss9xH_iRmgQ",
+  "_id": "4wlo-e_BCwQp9v6i2NKBk",
+  "name": "Find Product of pricing model",
+  "old_name": "Find Product of pricing model",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "9",
+        "attributes": {
+          "stateName": "a",
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "productId",
+          "sourceBindingKey": "pricingModel",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": {
+            "if": [
+              {
+                "==": [
+                  { "var": "currentScreen.form.productId" },
+                  { "var": "id" }
+                ]
+              },
+              true,
+              false
+            ]
+          },
+          "targetValue": "c"
+        }
+      }
+    }
+  ],
+  "updatedAt": "5/12/2023",
+  "createdAt": "5/12/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

@@ -90,15 +90,106 @@
               "createdAt": "4/6/2023",
               "createdBy": "muzzamil",
               "updatedBy": "muzzamil"
+            },
+            {
+              "id": "y-xxaa-eE2mnonVhOse0x",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "name": "pricing model Product",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "pricingModel",
+                      "responseReturnValue": "data.products",
+                      "url": "/products/view",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "_id": "DVTUTR3ksJY08s7eMOavg",
+              "updatedAt": "5/12/2023",
+              "createdAt": "5/12/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "DJzYdXoFz9ss9xH_iRmgQ",
+              "_id": "4wlo-e_BCwQp9v6i2NKBk",
+              "name": "Find Product of pricing model",
+              "old_name": "Find Product of pricing modal",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "9",
+                    "attributes": {
+                      "stateName": "a",
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "productId",
+                      "sourceBindingKey": "pricingModel",
+                      "sourceStoreType": 1,
+                      "logic": {
+                        "if": [
+                          {
+                            "==": [
+                              { "var": "currentScreen.form.productId" },
+                              { "var": "id" }
+                            ]
+                          },
+                          true,
+                          false
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "updatedAt": "5/12/2023",
+              "createdAt": "5/12/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
             }
           ],
-          "triggerIds": ["7tSRLHZZj5tcO4uIO7t2u", "xie_VkXdd6Yc5ZOb3Au9n"]
+          "triggerIds": [
+            "7tSRLHZZj5tcO4uIO7t2u",
+            "xie_VkXdd6Yc5ZOb3Au9n",
+            "y-xxaa-eE2mnonVhOse0x",
+            "DJzYdXoFz9ss9xH_iRmgQ"
+          ]
         }
       }
     }
   ],
-  "updatedAt": "4/27/2023",
-  "createdAt": "4/27/2023",
-  "createdBy": "ishfaque",
-  "updatedBy": "ishfaque"
+  "updatedAt": "5/12/2023",
+  "createdAt": "5/12/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }
