@@ -1120,7 +1120,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "CZ ",
+                                                  "label": "Others",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -1890,14 +1890,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "uteSVhpF5hGhQtDCM9k9T",
+                                        "id": "LXuRQckuaIw7ZArPq-No5",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "EcK55x1umfJ8kSVTU4nQN",
+                                            "id": "WK2Kxmu40m9w8ONB6-Q7Y",
                                             "gridProps": [
                                               {
-                                                "id": "MP4jSzPo_BGTJOokAM2iZ",
+                                                "id": "HRRvevi3iC6T6taYsdRm5",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -1905,7 +1905,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "CZ ",
+                                                  "label": "fatca ",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -1937,8 +1937,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "2Tsd52jedzrr0_V_s0q2G",
-                                                    "triggerName": "cz for partnership",
+                                                    "triggerId": "oOS56E1V7_ODTB26TpJ1l",
+                                                    "triggerName": "FATCA FOR PARTNERSHIP",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -1947,11 +1947,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "czDoc",
+                                                      "responseStateKey": "fatcaDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "CZ",
+                                                      "fileName": "FATCA",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -1968,7 +1968,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.partnership.czDocId"
+                                                          "value": "corporateReg.partnership.fatcaDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -2194,14 +2194,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "LXuRQckuaIw7ZArPq-No5",
+                                        "id": "uteSVhpF5hGhQtDCM9k9T",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "WK2Kxmu40m9w8ONB6-Q7Y",
+                                            "id": "EcK55x1umfJ8kSVTU4nQN",
                                             "gridProps": [
                                               {
-                                                "id": "HRRvevi3iC6T6taYsdRm5",
+                                                "id": "MP4jSzPo_BGTJOokAM2iZ",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -2209,7 +2209,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "fatca ",
+                                                  "label": "CZ ",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -2241,8 +2241,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "oOS56E1V7_ODTB26TpJ1l",
-                                                    "triggerName": "FATCA FOR PARTNERSHIP",
+                                                    "triggerId": "2Tsd52jedzrr0_V_s0q2G",
+                                                    "triggerName": "cz for partnership",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -2251,11 +2251,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "fatcaDoc",
+                                                      "responseStateKey": "czDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "FATCA",
+                                                      "fileName": "CZ",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -2272,7 +2272,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.partnership.fatcaDocId"
+                                                          "value": "corporateReg.partnership.czDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -4625,7 +4625,8 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            }
+                                            },
+                                            "path": "0-0-0-0-2-0-3-1-0-0"
                                           }
                                         ],
                                         "path": "0-0-0-0-2-0-3-1-0",
@@ -4796,7 +4797,8 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            }
+                                            },
+                                            "path": "0-0-0-0-2-0-3-2-0-0"
                                           }
                                         ],
                                         "path": "0-0-0-0-2-0-3-2-0",
@@ -6055,8 +6057,8 @@
     "gitBranchName": "master",
     "_id": "GraaA0vw3f8cdLLc4sT7O",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/13/2023",
-    "createdAt": "5/13/2023",
+    "updatedAt": "5/18/2023",
+    "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -7113,7 +7115,7 @@
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "CZ ",
+      "label": "Others",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7607,11 +7609,11 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "uteSVhpF5hGhQtDCM9k9T",
+          "componentId": "LXuRQckuaIw7ZArPq-No5",
           "componentType": "10001",
-          "id": "uteSVhpF5hGhQtDCM9k9T",
+          "id": "LXuRQckuaIw7ZArPq-No5",
           "position": {
-            "i": "uteSVhpF5hGhQtDCM9k9T",
+            "i": "LXuRQckuaIw7ZArPq-No5",
             "x": null,
             "y": null,
             "w": null,
@@ -7633,11 +7635,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "LXuRQckuaIw7ZArPq-No5",
+          "componentId": "uteSVhpF5hGhQtDCM9k9T",
           "componentType": "10001",
-          "id": "LXuRQckuaIw7ZArPq-No5",
+          "id": "uteSVhpF5hGhQtDCM9k9T",
           "position": {
-            "i": "LXuRQckuaIw7ZArPq-No5",
+            "i": "uteSVhpF5hGhQtDCM9k9T",
             "x": null,
             "y": null,
             "w": null,
@@ -7674,7 +7676,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "uteSVhpF5hGhQtDCM9k9T",
+    "id": "LXuRQckuaIw7ZArPq-No5",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -7687,7 +7689,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "MP4jSzPo_BGTJOokAM2iZ",
+          "componentId": "HRRvevi3iC6T6taYsdRm5",
           "componentType": "20006",
           "order": 1
         }
@@ -7719,12 +7721,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "MP4jSzPo_BGTJOokAM2iZ",
+    "id": "HRRvevi3iC6T6taYsdRm5",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "CZ ",
+      "label": "fatca ",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7750,8 +7752,8 @@
     },
     "events": [
       {
-        "triggerId": "2Tsd52jedzrr0_V_s0q2G",
-        "triggerName": "cz for partnership",
+        "triggerId": "oOS56E1V7_ODTB26TpJ1l",
+        "triggerName": "FATCA FOR PARTNERSHIP",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -7858,7 +7860,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "LXuRQckuaIw7ZArPq-No5",
+    "id": "uteSVhpF5hGhQtDCM9k9T",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -7871,7 +7873,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "HRRvevi3iC6T6taYsdRm5",
+          "componentId": "MP4jSzPo_BGTJOokAM2iZ",
           "componentType": "20006",
           "order": 1
         }
@@ -7903,12 +7905,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "HRRvevi3iC6T6taYsdRm5",
+    "id": "MP4jSzPo_BGTJOokAM2iZ",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "fatca ",
+      "label": "CZ ",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7934,8 +7936,8 @@
     },
     "events": [
       {
-        "triggerId": "oOS56E1V7_ODTB26TpJ1l",
-        "triggerName": "FATCA FOR PARTNERSHIP",
+        "triggerId": "2Tsd52jedzrr0_V_s0q2G",
+        "triggerName": "cz for partnership",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
