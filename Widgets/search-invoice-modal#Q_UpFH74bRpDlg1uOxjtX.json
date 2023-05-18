@@ -1967,6 +1967,16 @@
                                                             },
                                                             "type": "4",
                                                             "name": "On Submit"
+                                                          },
+                                                          {
+                                                            "triggerId": "UJSP1h8PZcVOoTfjVwgZw",
+                                                            "triggerName": "Hide Modal",
+                                                            "serviceType": "9",
+                                                            "attributes": {
+                                                              "modalId": "C1eoxmoOcg6UZHi3o-l7a"
+                                                            },
+                                                            "type": "4",
+                                                            "name": "On Submit"
                                                           }
                                                         ],
                                                         "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
@@ -2316,7 +2326,7 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q_UpFH74bRpDlg1uOxjtX",
-    "createdBy": "ahmerjavedkhan",
+    "createdBy": "ajk",
     "updatedAt": "5/18/2023",
     "createdAt": "5/18/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -4302,6 +4312,13 @@
         "name": "On Submit",
         "type": "4",
         "serviceType": "8"
+      },
+      {
+        "triggerId": "UJSP1h8PZcVOoTfjVwgZw",
+        "triggerName": "Hide Modal",
+        "name": "On Submit",
+        "type": "4",
+        "serviceType": "9"
       }
     ],
     "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",

@@ -71,6 +71,12 @@
             "httpStatus": 200,
             "triggerName": "Open Success Modal",
             "triggerId": "7qK4zY9-Va6XZGtImuOcg"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "httpStatus": 200,
+            "triggerName": "Show Error Modal",
+            "triggerId": "zj5wU451q42rOfjv-NNhD"
           }
         ]
       }
@@ -78,6 +84,6 @@
   ],
   "updatedAt": "5/18/2023",
   "createdAt": "5/18/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }
