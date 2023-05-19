@@ -88,7 +88,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "MBuU2XOUQUtAX3r8WdN76",
+                                    "id": "YHbQrBBXBSXv0CoE6Xczy",
                                     "gridProps": [
                                       {
                                         "type": "10001",
@@ -196,8 +196,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "0-0-0-0-0-0-0-0"
+                                    }
                                   }
                                 ],
                                 "path": "0-0-0-0-0-0-0",
@@ -209,7 +208,6 @@
                                     "gridLayout": {
                                       "//": "Use this class to style grid layout component.",
                                       "padding": "0px",
-                                      "marginTop": "20px",
                                       "spacing": 0
                                     },
                                     "mainContainer": "gridLayout"
@@ -508,6 +506,13 @@
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "8"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "nxG9VEpb7rO_pI34U70_a",
+                                                                            "triggerName": "Hide Modal 1",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "9"
                                                                           }
                                                                         ],
                                                                         "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
@@ -821,6 +826,13 @@
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "8"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "nxG9VEpb7rO_pI34U70_a",
+                                                                            "triggerName": "Hide Modal 1",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "9"
                                                                           }
                                                                         ],
                                                                         "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
@@ -1216,8 +1228,13 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "UsNaM-7pyrle5CDUyIexU",
-                                                                        "status": "ACTIVE",
+                                                                        "id": "PWg1vcHCPDhxRLLfrfDle",
+                                                                        "type": "20006",
+                                                                        "name": "Button",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
                                                                         "attributes": {
                                                                           "label": "SubMIT",
                                                                           "variant": "contained",
@@ -1244,21 +1261,6 @@
                                                                             }
                                                                           ]
                                                                         },
-                                                                        "name": "Button",
-                                                                        "icon": "FaBimobject",
-                                                                        "group": "Form",
-                                                                        "type": "20006",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 1,
-                                                                        "version": "1.0.0",
-                                                                        "isLatest": true,
-                                                                        "projectType": "web",
-                                                                        "component": {
-                                                                          "content": "Button",
-                                                                          "type": "20006"
-                                                                        },
                                                                         "events": [
                                                                           {
                                                                             "triggerId": "REzPplV8XQLDxw9IlS3aQ",
@@ -1266,9 +1268,17 @@
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "8"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "nxG9VEpb7rO_pI34U70_a",
+                                                                            "triggerName": "Hide Modal 1",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "9"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-2-0-1-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
+                                                                        "version": "1.0.0",
                                                                         "screenId": "Q_UpFH74bRpDlg1uOxjtX",
                                                                         "subType": "component",
                                                                         "projectId": "63f349eda070071e283ca270",
@@ -1555,8 +1565,13 @@
                                                                     "errorMsg": "This field is required",
                                                                     "bindButton": [
                                                                       {
-                                                                        "id": "UsNaM-7pyrle5CDUyIexU",
-                                                                        "status": "ACTIVE",
+                                                                        "id": "PWg1vcHCPDhxRLLfrfDle",
+                                                                        "type": "20006",
+                                                                        "name": "Button",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
                                                                         "attributes": {
                                                                           "label": "SubMIT",
                                                                           "variant": "contained",
@@ -1583,21 +1598,6 @@
                                                                             }
                                                                           ]
                                                                         },
-                                                                        "name": "Button",
-                                                                        "icon": "FaBimobject",
-                                                                        "group": "Form",
-                                                                        "type": "20006",
-                                                                        "Documentation": "<div>components 12344</div>",
-                                                                        "updatedAt": "23-Aug-2021",
-                                                                        "createdAt": "23-Aug-2021",
-                                                                        "order": 1,
-                                                                        "version": "1.0.0",
-                                                                        "isLatest": true,
-                                                                        "projectType": "web",
-                                                                        "component": {
-                                                                          "content": "Button",
-                                                                          "type": "20006"
-                                                                        },
                                                                         "events": [
                                                                           {
                                                                             "triggerId": "REzPplV8XQLDxw9IlS3aQ",
@@ -1605,9 +1605,17 @@
                                                                             "name": "On Submit",
                                                                             "type": "4",
                                                                             "serviceType": "8"
+                                                                          },
+                                                                          {
+                                                                            "triggerId": "nxG9VEpb7rO_pI34U70_a",
+                                                                            "triggerName": "Hide Modal 1",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "9"
                                                                           }
                                                                         ],
-                                                                        "path": "0-0-0-0-0-0-2-0-1-2-0-0-0",
+                                                                        "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
+                                                                        "version": "1.0.0",
                                                                         "screenId": "Q_UpFH74bRpDlg1uOxjtX",
                                                                         "subType": "component",
                                                                         "projectId": "63f349eda070071e283ca270",
@@ -1969,11 +1977,11 @@
                                                             "name": "On Submit"
                                                           },
                                                           {
-                                                            "triggerId": "UJSP1h8PZcVOoTfjVwgZw",
-                                                            "triggerName": "Hide Modal",
+                                                            "triggerId": "nxG9VEpb7rO_pI34U70_a",
+                                                            "triggerName": "Hide Modal 1",
                                                             "serviceType": "9",
                                                             "attributes": {
-                                                              "modalId": "C1eoxmoOcg6UZHi3o-l7a"
+                                                              "modalId": "vsbYVb3q-PbL2DbcbpSx8"
                                                             },
                                                             "type": "4",
                                                             "name": "On Submit"
@@ -2326,9 +2334,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q_UpFH74bRpDlg1uOxjtX",
-    "createdBy": "ajk",
-    "updatedAt": "5/18/2023",
-    "createdAt": "5/18/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "5/19/2023",
+    "createdAt": "5/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2558,7 +2566,6 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "padding": "0px",
-          "marginTop": "20px",
           "spacing": 0
         },
         "mainContainer": "gridLayout"
@@ -3048,6 +3055,13 @@
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "8"
+              },
+              {
+                "triggerId": "nxG9VEpb7rO_pI34U70_a",
+                "triggerName": "Hide Modal 1",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "9"
               }
             ],
             "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
@@ -3352,6 +3366,13 @@
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "8"
+              },
+              {
+                "triggerId": "nxG9VEpb7rO_pI34U70_a",
+                "triggerName": "Hide Modal 1",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "9"
               }
             ],
             "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
@@ -3747,8 +3768,10 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "UsNaM-7pyrle5CDUyIexU",
-            "status": "ACTIVE",
+            "id": "PWg1vcHCPDhxRLLfrfDle",
+            "type": "20006",
+            "name": "Button",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
               "label": "SubMIT",
               "variant": "contained",
@@ -3769,18 +3792,6 @@
               },
               "cssClassNames": [{ "cssClassName": "CardButton" }]
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
                 "triggerId": "REzPplV8XQLDxw9IlS3aQ",
@@ -3788,9 +3799,17 @@
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "8"
+              },
+              {
+                "triggerId": "nxG9VEpb7rO_pI34U70_a",
+                "triggerName": "Hide Modal 1",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "9"
               }
             ],
-            "path": "0-0-0-0-0-0-2-0-1-2-0-0-0",
+            "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "Q_UpFH74bRpDlg1uOxjtX",
             "subType": "component",
             "projectId": "63f349eda070071e283ca270",
@@ -4057,8 +4076,10 @@
         "errorMsg": "This field is required",
         "bindButton": [
           {
-            "id": "UsNaM-7pyrle5CDUyIexU",
-            "status": "ACTIVE",
+            "id": "PWg1vcHCPDhxRLLfrfDle",
+            "type": "20006",
+            "name": "Button",
+            "component": { "content": "Button", "type": "20006" },
             "attributes": {
               "label": "SubMIT",
               "variant": "contained",
@@ -4079,18 +4100,6 @@
               },
               "cssClassNames": [{ "cssClassName": "CardButton" }]
             },
-            "name": "Button",
-            "icon": "FaBimobject",
-            "group": "Form",
-            "type": "20006",
-            "Documentation": "<div>components 12344</div>",
-            "updatedAt": "23-Aug-2021",
-            "createdAt": "23-Aug-2021",
-            "order": 1,
-            "version": "1.0.0",
-            "isLatest": true,
-            "projectType": "web",
-            "component": { "content": "Button", "type": "20006" },
             "events": [
               {
                 "triggerId": "REzPplV8XQLDxw9IlS3aQ",
@@ -4098,9 +4107,17 @@
                 "name": "On Submit",
                 "type": "4",
                 "serviceType": "8"
+              },
+              {
+                "triggerId": "nxG9VEpb7rO_pI34U70_a",
+                "triggerName": "Hide Modal 1",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "9"
               }
             ],
-            "path": "0-0-0-0-0-0-2-0-1-2-0-0-0",
+            "path": "0-0-0-0-0-0-2-0-1-1-0-0-0",
+            "version": "1.0.0",
             "screenId": "Q_UpFH74bRpDlg1uOxjtX",
             "subType": "component",
             "projectId": "63f349eda070071e283ca270",
@@ -4314,8 +4331,8 @@
         "serviceType": "8"
       },
       {
-        "triggerId": "UJSP1h8PZcVOoTfjVwgZw",
-        "triggerName": "Hide Modal",
+        "triggerId": "nxG9VEpb7rO_pI34U70_a",
+        "triggerName": "Hide Modal 1",
         "name": "On Submit",
         "type": "4",
         "serviceType": "9"

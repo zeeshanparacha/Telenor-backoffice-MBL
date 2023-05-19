@@ -129,8 +129,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -244,15 +244,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "name": "Grid layout",
-                                        "id": "3-5IDw-Bu7-blmzcWGXdC",
+                                        "id": "zT7MPcyRUfUJpH6cS6sbP",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "rUStsf6G7Rx5u487Qaj55",
+                                            "id": "HYS_2fIXc8n8tHmsRSK-Z",
                                             "gridProps": [
                                               {
-                                                "id": "A-9MZK_v6nn8rLwecJZws",
+                                                "id": "CiJgn0aT0GMlSVaQXrv1i",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -260,7 +259,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "TAX EXEMPTION",
+                                                  "label": "NTN REGISTRATION CERTIFICATE",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -282,8 +281,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -292,8 +291,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "oQviksSQuriasFAuMatKn",
-                                                    "triggerName": "Tax Exemption Download",
+                                                    "triggerId": "MdKDN3eXMhRK7jIW-XjRa",
+                                                    "triggerName": "NTN Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -302,11 +301,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "taxExemptionDoc",
+                                                      "responseStateKey": "ntnDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "Tax Exemption",
+                                                      "fileName": "NTN",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -323,7 +322,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "currentScreen.corporateReg.soleProprietor.taxExemptionDocId"
+                                                          "value": "corporateReg.soleProprietor.ntnDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -347,13 +346,8 @@
                                             "path": "0-0-0-0-0-0-0-1-0-0"
                                           }
                                         ],
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
+                                        "path": "0-0-0-0-0-0-0-1-0",
+                                        "events": [],
                                         "attributes": {
                                           "gridProps": [],
                                           "label": "Header",
@@ -373,12 +367,18 @@
                                           "direction": "row",
                                           "name": "Grid layout"
                                         },
-                                        "events": [],
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-0-0-0-0-0-1-0"
+                                        "allowedContainers": [
+                                          "10001",
+                                          "20030",
+                                          "noLayout",
+                                          "20010",
+                                          "widget"
+                                        ],
+                                        "name": "Grid layout"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -434,8 +434,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -610,14 +610,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "0_TUwgY_zehmUDeNp7nco",
+                                        "id": "bIdo-93eXX2DtkZWES_Qn",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "4nkFRYuIjXJNtZDpzqo86",
+                                            "id": "XAmEgOd36_B-nlnjag_0v",
                                             "gridProps": [
                                               {
-                                                "id": "gIEJeAMmHFEZABINtowOd",
+                                                "id": "a7KwpWAS-0vtZQ0J8FkRd",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -625,7 +625,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "ZAKAT EXEMPTION",
+                                                  "label": "CRS",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -647,8 +647,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -657,8 +657,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "NVc8JOG0JzqjS1kfr2HEk",
-                                                    "triggerName": "zakat Exemption Download",
+                                                    "triggerId": "unO527Jvqr_iItxyl3DB_",
+                                                    "triggerName": "crs Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -667,11 +667,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "zakatExemptionDoc",
+                                                      "responseStateKey": "crsDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "zakatExemption",
+                                                      "fileName": "CRS",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -688,7 +688,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.soleProprietor.zakatExemptionDocId"
+                                                          "value": "corporateReg.soleProprietor.crsDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -762,14 +762,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "zT7MPcyRUfUJpH6cS6sbP",
+                                        "id": "R1QdpoUwtwRfRZ1sbEVRi",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "HYS_2fIXc8n8tHmsRSK-Z",
+                                            "id": "fDdGeIsXoG8vghI8UXA9t",
                                             "gridProps": [
                                               {
-                                                "id": "CiJgn0aT0GMlSVaQXrv1i",
+                                                "id": "kGFYFxUSTZZmvs6Y0ZyB_",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -777,7 +777,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "NTN REGISTRATION CERTIFICATE",
+                                                  "label": "Others",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -799,8 +799,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -809,8 +809,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "MdKDN3eXMhRK7jIW-XjRa",
-                                                    "triggerName": "NTN Download",
+                                                    "triggerId": "6CviLyLwhv2GVVybMNsTu",
+                                                    "triggerName": "CZ Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -819,11 +819,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "ntnDoc",
+                                                      "responseStateKey": "czDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "NTN",
+                                                      "fileName": "CZ",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -840,7 +840,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.soleProprietor.ntnDocId"
+                                                          "value": "corporateReg.czDocIdsoleProprieto"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -914,14 +914,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "bIdo-93eXX2DtkZWES_Qn",
+                                        "id": "0_TUwgY_zehmUDeNp7nco",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "XAmEgOd36_B-nlnjag_0v",
+                                            "id": "4nkFRYuIjXJNtZDpzqo86",
                                             "gridProps": [
                                               {
-                                                "id": "a7KwpWAS-0vtZQ0J8FkRd",
+                                                "id": "gIEJeAMmHFEZABINtowOd",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -929,7 +929,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "CRS",
+                                                  "label": "ZAKAT EXEMPTION",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -951,8 +951,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -961,8 +961,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "unO527Jvqr_iItxyl3DB_",
-                                                    "triggerName": "crs Download",
+                                                    "triggerId": "NVc8JOG0JzqjS1kfr2HEk",
+                                                    "triggerName": "zakat Exemption Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -971,11 +971,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "crsDoc",
+                                                      "responseStateKey": "zakatExemptionDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "CRS",
+                                                      "fileName": "zakatExemption",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -992,7 +992,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.soleProprietor.crsDocId"
+                                                          "value": "corporateReg.soleProprietor.zakatExemptionDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -1105,14 +1105,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "R1QdpoUwtwRfRZ1sbEVRi",
+                                        "id": "3-5IDw-Bu7-blmzcWGXdC",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "fDdGeIsXoG8vghI8UXA9t",
+                                            "id": "rUStsf6G7Rx5u487Qaj55",
                                             "gridProps": [
                                               {
-                                                "id": "kGFYFxUSTZZmvs6Y0ZyB_",
+                                                "id": "A-9MZK_v6nn8rLwecJZws",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -1120,7 +1120,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "Others",
+                                                  "label": "TAX EXEMPTION",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -1142,8 +1142,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -1152,8 +1152,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "6CviLyLwhv2GVVybMNsTu",
-                                                    "triggerName": "CZ Download",
+                                                    "triggerId": "oQviksSQuriasFAuMatKn",
+                                                    "triggerName": "Tax Exemption Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -1162,11 +1162,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "czDoc",
+                                                      "responseStateKey": "taxExemptionDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "CZ",
+                                                      "fileName": "Tax Exemption",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -1183,7 +1183,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.czDocIdsoleProprieto"
+                                                          "value": "currentScreen.corporateReg.soleProprietor.taxExemptionDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -1432,8 +1432,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -1562,7 +1562,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "REGISTRATION CERTIFICATE ",
+                                                  "label": "Registration certificate (Form C)",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -1584,8 +1584,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -1736,8 +1736,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -1927,8 +1927,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -2079,8 +2079,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -2209,7 +2209,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "CZ ",
+                                                  "label": "Others",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -2231,8 +2231,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -2432,8 +2432,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -2604,8 +2604,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -2924,8 +2924,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -3076,8 +3076,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -3206,7 +3206,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "NTN REGISTRATION",
+                                                  "label": "NTN/CNIC/Registration Certificate",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -3228,8 +3228,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -3419,8 +3419,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -3571,8 +3571,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -3723,8 +3723,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -3925,8 +3925,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -4077,8 +4077,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -4229,8 +4229,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -4397,7 +4397,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "CZ",
+                                                  "label": "Others",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -4419,8 +4419,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -4564,8 +4564,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -4736,8 +4736,8 @@
                                                   },
                                                   "buttonIconPosition": "end",
                                                   "asset": null,
-                                                  "iconname": "FaFileExcel",
-                                                  "iconName": "FaFileExcel",
+                                                  "iconname": "FaFilePdf",
+                                                  "iconName": "FaFilePdf",
                                                   "cssClassNames": [
                                                     {
                                                       "cssClassName": "iconButtonWhite"
@@ -6056,9 +6056,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "GraaA0vw3f8cdLLc4sT7O",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/18/2023",
-    "createdAt": "5/18/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/19/2023",
+    "createdAt": "5/19/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6340,11 +6340,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "3-5IDw-Bu7-blmzcWGXdC",
+          "componentId": "zT7MPcyRUfUJpH6cS6sbP",
           "componentType": "10001",
-          "id": "3-5IDw-Bu7-blmzcWGXdC",
+          "id": "zT7MPcyRUfUJpH6cS6sbP",
           "position": {
-            "i": "3-5IDw-Bu7-blmzcWGXdC",
+            "i": "zT7MPcyRUfUJpH6cS6sbP",
             "x": null,
             "y": null,
             "w": null,
@@ -6465,8 +6465,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -6487,7 +6487,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "3-5IDw-Bu7-blmzcWGXdC",
+    "id": "zT7MPcyRUfUJpH6cS6sbP",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -6500,7 +6500,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "A-9MZK_v6nn8rLwecJZws",
+          "componentId": "CiJgn0aT0GMlSVaQXrv1i",
           "componentType": "20006",
           "order": 1
         }
@@ -6532,12 +6532,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "A-9MZK_v6nn8rLwecJZws",
+    "id": "CiJgn0aT0GMlSVaQXrv1i",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "TAX EXEMPTION",
+      "label": "NTN REGISTRATION CERTIFICATE",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -6557,14 +6557,14 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
       {
-        "triggerId": "oQviksSQuriasFAuMatKn",
-        "triggerName": "Tax Exemption Download",
+        "triggerId": "MdKDN3eXMhRK7jIW-XjRa",
+        "triggerName": "NTN Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -6649,8 +6649,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -6677,32 +6677,6 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "0_TUwgY_zehmUDeNp7nco",
-          "componentType": "10001",
-          "id": "0_TUwgY_zehmUDeNp7nco",
-          "position": {
-            "i": "0_TUwgY_zehmUDeNp7nco",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
-        },
-        {
-          "componentId": "zT7MPcyRUfUJpH6cS6sbP",
-          "componentType": "10001",
-          "id": "zT7MPcyRUfUJpH6cS6sbP",
-          "position": {
-            "i": "zT7MPcyRUfUJpH6cS6sbP",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
-        },
-        {
           "componentId": "bIdo-93eXX2DtkZWES_Qn",
           "componentType": "10001",
           "id": "bIdo-93eXX2DtkZWES_Qn",
@@ -6714,143 +6688,32 @@
             "h": null
           },
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
         },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "GraaA0vw3f8cdLLc4sT7O",
-    "projectId": "63f349eda070071e283ca270",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "0_TUwgY_zehmUDeNp7nco",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
         {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
+          "componentId": "R1QdpoUwtwRfRZ1sbEVRi",
+          "componentType": "10001",
+          "id": "R1QdpoUwtwRfRZ1sbEVRi",
+          "position": {
+            "i": "R1QdpoUwtwRfRZ1sbEVRi",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
           },
-          "componentId": "gIEJeAMmHFEZABINtowOd",
-          "componentType": "20006",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "GraaA0vw3f8cdLLc4sT7O",
-    "projectId": "63f349eda070071e283ca270",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "gIEJeAMmHFEZABINtowOd",
-    "type": "20006",
-    "name": "Button",
-    "component": { "content": "Button", "type": "20006" },
-    "attributes": {
-      "label": "ZAKAT EXEMPTION",
-      "variant": "contained",
-      "name": "Button",
-      "label-locale-key": "",
-      "fullWidth": true,
-      "layoutProperties": {
-        "button": {
-          "//": "Use this class to style button component.",
-          "color": "#da0006"
-        },
-        "inputProps": { "//": "Use this class to style button element." },
-        "mainContainer": "button",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "buttonIconPosition": "end",
-      "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
-      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
-    },
-    "events": [
-      {
-        "triggerId": "NVc8JOG0JzqjS1kfr2HEk",
-        "triggerName": "zakat Exemption Download",
-        "name": "On click",
-        "type": "2",
-        "serviceType": "8"
-      }
-    ],
-    "path": "0-0-0-0-0-0-1-0-0-0-0",
-    "version": "1.0.0",
-    "screenId": "GraaA0vw3f8cdLLc4sT7O",
-    "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "zT7MPcyRUfUJpH6cS6sbP",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
         {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
+          "componentId": "0_TUwgY_zehmUDeNp7nco",
+          "componentType": "10001",
+          "id": "0_TUwgY_zehmUDeNp7nco",
+          "position": {
+            "i": "0_TUwgY_zehmUDeNp7nco",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
           },
-          "componentId": "CiJgn0aT0GMlSVaQXrv1i",
-          "componentType": "20006",
-          "order": 1
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         }
       ],
       "label": "Header",
@@ -6876,53 +6739,6 @@
     "screenId": "GraaA0vw3f8cdLLc4sT7O",
     "projectId": "63f349eda070071e283ca270",
     "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "CiJgn0aT0GMlSVaQXrv1i",
-    "type": "20006",
-    "name": "Button",
-    "component": { "content": "Button", "type": "20006" },
-    "attributes": {
-      "label": "NTN REGISTRATION CERTIFICATE",
-      "variant": "contained",
-      "name": "Button",
-      "label-locale-key": "",
-      "fullWidth": true,
-      "layoutProperties": {
-        "button": {
-          "//": "Use this class to style button component.",
-          "color": "#da0006"
-        },
-        "inputProps": { "//": "Use this class to style button element." },
-        "mainContainer": "button",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "buttonIconPosition": "end",
-      "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
-      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
-    },
-    "events": [
-      {
-        "triggerId": "MdKDN3eXMhRK7jIW-XjRa",
-        "triggerName": "NTN Download",
-        "name": "On click",
-        "type": "2",
-        "serviceType": "8"
-      }
-    ],
-    "path": "0-0-0-0-0-0-1-1-0-0-0",
-    "version": "1.0.0",
-    "screenId": "GraaA0vw3f8cdLLc4sT7O",
-    "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -6997,8 +6813,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -7010,57 +6826,11 @@
         "serviceType": "8"
       }
     ],
-    "path": "0-0-0-0-0-0-1-2-0-0-0",
+    "path": "0-0-0-0-0-0-1-0-0-0-0",
     "version": "1.0.0",
     "screenId": "GraaA0vw3f8cdLLc4sT7O",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "3i1LGIXwpYhZJ8JlWSlEs",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "componentId": "R1QdpoUwtwRfRZ1sbEVRi",
-          "componentType": "10001",
-          "id": "R1QdpoUwtwRfRZ1sbEVRi",
-          "position": {
-            "i": "R1QdpoUwtwRfRZ1sbEVRi",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "padding": "5px",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout"
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "GraaA0vw3f8cdLLc4sT7O",
-    "projectId": "63f349eda070071e283ca270",
-    "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -7135,14 +6905,244 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
       {
         "triggerId": "6CviLyLwhv2GVVybMNsTu",
         "triggerName": "CZ Download",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-1-1-0-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "0_TUwgY_zehmUDeNp7nco",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "gIEJeAMmHFEZABINtowOd",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "gIEJeAMmHFEZABINtowOd",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "ZAKAT EXEMPTION",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": {
+          "//": "Use this class to style button component.",
+          "color": "#da0006"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "NVc8JOG0JzqjS1kfr2HEk",
+        "triggerName": "zakat Exemption Download",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "8"
+      }
+    ],
+    "path": "0-0-0-0-0-0-1-2-0-0-0",
+    "version": "1.0.0",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "subType": "component",
+    "projectId": "63f349eda070071e283ca270",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "3i1LGIXwpYhZJ8JlWSlEs",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "3-5IDw-Bu7-blmzcWGXdC",
+          "componentType": "10001",
+          "id": "3-5IDw-Bu7-blmzcWGXdC",
+          "position": {
+            "i": "3-5IDw-Bu7-blmzcWGXdC",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "3-5IDw-Bu7-blmzcWGXdC",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "A-9MZK_v6nn8rLwecJZws",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "GraaA0vw3f8cdLLc4sT7O",
+    "projectId": "63f349eda070071e283ca270",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "A-9MZK_v6nn8rLwecJZws",
+    "type": "20006",
+    "name": "Button",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "TAX EXEMPTION",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": {
+          "//": "Use this class to style button component.",
+          "color": "#da0006"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "buttonIconPosition": "end",
+      "asset": null,
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
+      "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
+    },
+    "events": [
+      {
+        "triggerId": "oQviksSQuriasFAuMatKn",
+        "triggerName": "Tax Exemption Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -7397,8 +7397,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -7469,7 +7469,7 @@
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "REGISTRATION CERTIFICATE ",
+      "label": "Registration certificate (Form C)",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7489,8 +7489,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -7581,8 +7581,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -7746,8 +7746,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -7838,8 +7838,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -7910,7 +7910,7 @@
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "CZ ",
+      "label": "Others",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7930,8 +7930,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -8091,8 +8091,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -8191,8 +8191,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -8472,8 +8472,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -8564,8 +8564,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -8636,7 +8636,7 @@
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "NTN REGISTRATION",
+      "label": "NTN/CNIC/Registration Certificate",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -8656,8 +8656,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -8821,8 +8821,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -8913,8 +8913,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -9005,8 +9005,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -9169,8 +9169,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -9261,8 +9261,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -9353,8 +9353,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -9499,7 +9499,7 @@
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "CZ",
+      "label": "Others",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -9519,8 +9519,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -9621,8 +9621,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
@@ -9721,8 +9721,8 @@
       },
       "buttonIconPosition": "end",
       "asset": null,
-      "iconname": "FaFileExcel",
-      "iconName": "FaFileExcel",
+      "iconname": "FaFilePdf",
+      "iconName": "FaFilePdf",
       "cssClassNames": [{ "cssClassName": "iconButtonWhite" }]
     },
     "events": [
