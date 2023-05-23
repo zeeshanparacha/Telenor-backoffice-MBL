@@ -766,7 +766,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "fDdGeIsXoG8vghI8UXA9t",
+                                            "id": "Ao4LECQVadqt1VQcNcrPU",
                                             "gridProps": [
                                               {
                                                 "id": "kGFYFxUSTZZmvs6Y0ZyB_",
@@ -883,7 +883,17 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.form.soleProprietor.czDocId"
+                                                },
+                                                null
+                                              ]
+                                            }
+                                          }
                                         },
                                         "component": {
                                           "type": "10001",
@@ -896,7 +906,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -918,7 +938,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "4nkFRYuIjXJNtZDpzqo86",
+                                            "id": "gR6pQlzkQmuTA_I6W4JsO",
                                             "gridProps": [
                                               {
                                                 "id": "gIEJeAMmHFEZABINtowOd",
@@ -1035,7 +1055,17 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "!=": [
+                                                {
+                                                  "var": "currentScreen.form.soleProprietor.zakatExemption"
+                                                },
+                                                "Yes"
+                                              ]
+                                            }
+                                          }
                                         },
                                         "component": {
                                           "type": "10001",
@@ -1048,7 +1078,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -1109,7 +1149,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "rUStsf6G7Rx5u487Qaj55",
+                                            "id": "sEpuRaHcvIfeynCA3KSqe",
                                             "gridProps": [
                                               {
                                                 "id": "A-9MZK_v6nn8rLwecJZws",
@@ -1226,7 +1266,17 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "!=": [
+                                                {
+                                                  "var": "currentScreen.form.soleProprietor.taxExemption"
+                                                },
+                                                "Yes"
+                                              ]
+                                            }
+                                          }
                                         },
                                         "component": {
                                           "type": "10001",
@@ -1239,7 +1289,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -1399,7 +1459,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "i1vZx55XAbyghV2yzxSy-",
+                                            "id": "iXo06JRLKFNaF_5q1yKkF",
                                             "gridProps": [
                                               {
                                                 "id": "ahcefuorMZgViV2S_7ohN",
@@ -1516,7 +1576,8 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {}
                                         },
                                         "component": {
                                           "type": "10001",
@@ -1529,7 +1590,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -1547,14 +1618,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "qPjW2V4FmGwsUGaXYGr8H",
+                                        "id": "H-onKNTtjD7FADkBLAKi_",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "_JaN0I_LiOfkNjVXsCDxB",
+                                            "id": "u6yBTEQfcAo4v9I8w_dyS",
                                             "gridProps": [
                                               {
-                                                "id": "mICDchh2kHlGs66oDgTD_",
+                                                "id": "ENrg-H3Pj4sl9r_SDWjP0",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -1562,7 +1633,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "Registration certificate (Form C)",
+                                                  "label": "CRS",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -1594,8 +1665,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "IopYeDxmjSsqrYu3ni7nW",
-                                                    "triggerName": "REGISTRATION_CERTIFICATE Download",
+                                                    "triggerId": "rCcdwLMlGGNPHi0gx7mBq",
+                                                    "triggerName": "CRS for partnership",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -1604,11 +1675,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "registrationCertificateDoc",
+                                                      "responseStateKey": "crsDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "Registration Certificate",
+                                                      "fileName": "CRS",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -1625,7 +1696,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.soleProprietor.registrationCertificateDocId"
+                                                          "value": " corporateReg.partnership.crsDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -1703,7 +1774,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "KU3P22nGKelJRXVr-7_g4",
+                                            "id": "x_TPkQH2jjcVxTL2w16T5",
                                             "gridProps": [
                                               {
                                                 "id": "N5vm2hFxAgz3m0wqIdLuZ",
@@ -1820,7 +1891,8 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {}
                                         },
                                         "component": {
                                           "type": "10001",
@@ -1833,7 +1905,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2042,14 +2124,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "H-onKNTtjD7FADkBLAKi_",
+                                        "id": "qPjW2V4FmGwsUGaXYGr8H",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "u6yBTEQfcAo4v9I8w_dyS",
+                                            "id": "v1NB5yDPdXok8s-BxZ_Qx",
                                             "gridProps": [
                                               {
-                                                "id": "ENrg-H3Pj4sl9r_SDWjP0",
+                                                "id": "mICDchh2kHlGs66oDgTD_",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -2057,7 +2139,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "CRS",
+                                                  "label": "Registration certificate (Form C)",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -2089,8 +2171,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "rCcdwLMlGGNPHi0gx7mBq",
-                                                    "triggerName": "CRS for partnership",
+                                                    "triggerId": "IopYeDxmjSsqrYu3ni7nW",
+                                                    "triggerName": "REGISTRATION_CERTIFICATE Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -2099,11 +2181,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "crsDoc",
+                                                      "responseStateKey": "registrationCertificateDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "CRS",
+                                                      "fileName": "Registration Certificate",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -2120,7 +2202,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": " corporateReg.partnership.crsDocId"
+                                                          "value": "corporateReg.soleProprietor.registrationCertificateDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -2163,7 +2245,17 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.form.partnership.registrationCertificateDocId"
+                                                },
+                                                null
+                                              ]
+                                            }
+                                          }
                                         },
                                         "component": {
                                           "type": "10001",
@@ -2176,7 +2268,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2198,7 +2300,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "EcK55x1umfJ8kSVTU4nQN",
+                                            "id": "b2--PUoBNe5aVCfgy_vUB",
                                             "gridProps": [
                                               {
                                                 "id": "MP4jSzPo_BGTJOokAM2iZ",
@@ -2315,7 +2417,17 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.form.partnership.czDocId"
+                                                },
+                                                null
+                                              ]
+                                            }
+                                          }
                                         },
                                         "component": {
                                           "type": "10001",
@@ -2328,7 +2440,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -3382,14 +3504,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "PF_U_4aIRkzdoJyrEzN_u",
+                                        "id": "Qnh5wRjqxC9IKGG_ppN5X",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "uakLaImwEG9OSyDE4xbtx",
+                                            "id": "aCSjcZ7k9lUNU-mG9vEuG",
                                             "gridProps": [
                                               {
-                                                "id": "aijFsq6JSeb7XVPNByX0O",
+                                                "id": "enZGPooLF3EidVQNOSpjo",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -3397,7 +3519,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "DECLARATION OF CHANGES",
+                                                  "label": "crs",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -3429,8 +3551,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "OAPGa5tQ_MXOf2wwILqKY",
-                                                    "triggerName": "DECLARATION OF CHANGES Download",
+                                                    "triggerId": "q9jIaC5vLydClvQinNxvY",
+                                                    "triggerName": "CRS for public",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -3439,11 +3561,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "declarationDoc",
+                                                      "responseStateKey": "crsDocId",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "Declaration",
+                                                      "fileName": "CRS",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -3460,7 +3582,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.privateorPublicLimited..declarationDocId"
+                                                          "value": "corporateReg.privateorPublicLimited.privateorPublicLimited"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -3534,14 +3656,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "tgmBqY74M1BAw6JnGjZkr",
+                                        "id": "Yu_SHqzkw3ekNCPDUcym4",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "rNj8P0WIpYSkbja3129H-",
+                                            "id": "B2gmgFsBbdmifUrIdUh63",
                                             "gridProps": [
                                               {
-                                                "id": "zuLIFOlGF6t2VXw5vcOMg",
+                                                "id": "kvDdJCkbl6co4RZ4Wj1By",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -3549,7 +3671,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "COMMENCEMENT CERTIFICATE",
+                                                  "label": "FORM",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -3581,8 +3703,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "I0SqHS86gOuNqylKhn4FB",
-                                                    "triggerName": "certificateOfCommencement Download",
+                                                    "triggerId": "cLe-nsZ6CHnSsCeqYTtId",
+                                                    "triggerName": "formA Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -3591,11 +3713,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "certificateOfCommencementDoc",
-                                                      "url": "/corporate-registration/download-documents",
+                                                      "responseStateKey": "formADoc",
+                                                      "url": " /corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "certificate Of Commencement",
+                                                      "fileName": "form",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -3612,7 +3734,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.soleProprietor.certificateOfCommencementDocId"
+                                                          "value": "corporateReg.soleProprietor.formADocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -4040,14 +4162,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "Yu_SHqzkw3ekNCPDUcym4",
+                                        "id": "tgmBqY74M1BAw6JnGjZkr",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "B2gmgFsBbdmifUrIdUh63",
+                                            "id": "hwPd35huvACWLQuc8NprS",
                                             "gridProps": [
                                               {
-                                                "id": "kvDdJCkbl6co4RZ4Wj1By",
+                                                "id": "zuLIFOlGF6t2VXw5vcOMg",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -4055,7 +4177,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "FORM",
+                                                  "label": "COMMENCEMENT CERTIFICATE",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -4087,8 +4209,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "cLe-nsZ6CHnSsCeqYTtId",
-                                                    "triggerName": "formA Download",
+                                                    "triggerId": "I0SqHS86gOuNqylKhn4FB",
+                                                    "triggerName": "certificateOfCommencement Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -4097,11 +4219,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "formADoc",
-                                                      "url": " /corporate-registration/download-documents",
+                                                      "responseStateKey": "certificateOfCommencementDoc",
+                                                      "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "form",
+                                                      "fileName": "certificate Of Commencement",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -4118,7 +4240,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.soleProprietor.formADocId"
+                                                          "value": "corporateReg.soleProprietor.certificateOfCommencementDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -4161,7 +4283,18 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "if": [
+                                                {
+                                                  "var": "currentScreen.form.privateorPublicLimited.certificateOfCommencementDocId.length"
+                                                },
+                                                false,
+                                                true
+                                              ]
+                                            }
+                                          }
                                         },
                                         "component": {
                                           "type": "10001",
@@ -4192,14 +4325,14 @@
                                     "gridProps": [
                                       {
                                         "type": "10001",
-                                        "id": "Qnh5wRjqxC9IKGG_ppN5X",
+                                        "id": "PF_U_4aIRkzdoJyrEzN_u",
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "aCSjcZ7k9lUNU-mG9vEuG",
+                                            "id": "xrLNuYg0QL8I50DM2E3ch",
                                             "gridProps": [
                                               {
-                                                "id": "enZGPooLF3EidVQNOSpjo",
+                                                "id": "aijFsq6JSeb7XVPNByX0O",
                                                 "type": "20006",
                                                 "name": "Button",
                                                 "component": {
@@ -4207,7 +4340,7 @@
                                                   "type": "20006"
                                                 },
                                                 "attributes": {
-                                                  "label": "crs",
+                                                  "label": "DECLARATION OF CHANGES",
                                                   "variant": "contained",
                                                   "name": "Button",
                                                   "label-locale-key": "",
@@ -4239,8 +4372,8 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "q9jIaC5vLydClvQinNxvY",
-                                                    "triggerName": "CRS for public",
+                                                    "triggerId": "OAPGa5tQ_MXOf2wwILqKY",
+                                                    "triggerName": "DECLARATION OF CHANGES Download",
                                                     "serviceType": "8",
                                                     "attributes": {
                                                       "loaderWidgetIds": [
@@ -4249,11 +4382,11 @@
                                                       "messageWidgetIds": [
                                                         906070
                                                       ],
-                                                      "responseStateKey": "crsDocId",
+                                                      "responseStateKey": "declarationDoc",
                                                       "url": "/corporate-registration/download-documents",
                                                       "checksum": true,
                                                       "encryption": true,
-                                                      "fileName": "CRS",
+                                                      "fileName": "Declaration",
                                                       "isDeviceDetails": true,
                                                       "loginTrigger": false,
                                                       "formData": false,
@@ -4270,7 +4403,7 @@
                                                           "type": 2,
                                                           "name": "Current screen",
                                                           "key": "document",
-                                                          "value": "corporateReg.privateorPublicLimited.privateorPublicLimited"
+                                                          "value": "corporateReg.privateorPublicLimited..declarationDocId"
                                                         }
                                                       ],
                                                       "baseURL": "634555d068954540043d6820",
@@ -4313,7 +4446,17 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.form.privateorPublicLimited.declarationOfChangesDocId"
+                                                },
+                                                null
+                                              ]
+                                            }
+                                          }
                                         },
                                         "component": {
                                           "type": "10001",
@@ -4326,7 +4469,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -4386,7 +4539,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "iFu7HWjwqnfoJRdiGUM9d",
+                                            "id": "A1Ol0dXjozxwf-XL_6-fS",
                                             "gridProps": [
                                               {
                                                 "id": "dSEUpZJWJcL5X8wCdOv4G",
@@ -4496,7 +4649,17 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "hideCondition": {
+                                            "logic": {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.form.privateorPublicLimited.czDocId"
+                                                },
+                                                null
+                                              ]
+                                            }
+                                          }
                                         },
                                         "component": {
                                           "type": "10001",
@@ -4509,7 +4672,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -6057,8 +6230,8 @@
     "gitBranchName": "master",
     "_id": "GraaA0vw3f8cdLLc4sT7O",
     "createdBy": "ajk",
-    "updatedAt": "5/19/2023",
-    "createdAt": "5/19/2023",
+    "updatedAt": "5/23/2023",
+    "createdAt": "5/23/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -6868,7 +7041,12 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "==": [{ "var": "currentScreen.form.soleProprietor.czDocId" }, null]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -6960,7 +7138,15 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            { "var": "currentScreen.form.soleProprietor.zakatExemption" },
+            "Yes"
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -7098,7 +7284,15 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "!=": [
+            { "var": "currentScreen.form.soleProprietor.taxExemption" },
+            "Yes"
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -7274,11 +7468,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "qPjW2V4FmGwsUGaXYGr8H",
+          "componentId": "H-onKNTtjD7FADkBLAKi_",
           "componentType": "10001",
-          "id": "qPjW2V4FmGwsUGaXYGr8H",
+          "id": "H-onKNTtjD7FADkBLAKi_",
           "position": {
-            "i": "qPjW2V4FmGwsUGaXYGr8H",
+            "i": "H-onKNTtjD7FADkBLAKi_",
             "x": null,
             "y": null,
             "w": null,
@@ -7360,7 +7554,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {}
     },
     "layout": null,
     "events": [],
@@ -7419,7 +7614,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "qPjW2V4FmGwsUGaXYGr8H",
+    "id": "H-onKNTtjD7FADkBLAKi_",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -7432,7 +7627,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "mICDchh2kHlGs66oDgTD_",
+          "componentId": "ENrg-H3Pj4sl9r_SDWjP0",
           "componentType": "20006",
           "order": 1
         }
@@ -7464,12 +7659,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "mICDchh2kHlGs66oDgTD_",
+    "id": "ENrg-H3Pj4sl9r_SDWjP0",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "Registration certificate (Form C)",
+      "label": "CRS",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7495,8 +7690,8 @@
     },
     "events": [
       {
-        "triggerId": "IopYeDxmjSsqrYu3ni7nW",
-        "triggerName": "REGISTRATION_CERTIFICATE Download",
+        "triggerId": "rCcdwLMlGGNPHi0gx7mBq",
+        "triggerName": "CRS for partnership",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -7544,7 +7739,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {}
     },
     "layout": null,
     "events": [],
@@ -7622,11 +7818,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "H-onKNTtjD7FADkBLAKi_",
+          "componentId": "qPjW2V4FmGwsUGaXYGr8H",
           "componentType": "10001",
-          "id": "H-onKNTtjD7FADkBLAKi_",
+          "id": "qPjW2V4FmGwsUGaXYGr8H",
           "position": {
-            "i": "H-onKNTtjD7FADkBLAKi_",
+            "i": "qPjW2V4FmGwsUGaXYGr8H",
             "x": null,
             "y": null,
             "w": null,
@@ -7768,7 +7964,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "H-onKNTtjD7FADkBLAKi_",
+    "id": "qPjW2V4FmGwsUGaXYGr8H",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -7781,7 +7977,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "ENrg-H3Pj4sl9r_SDWjP0",
+          "componentId": "mICDchh2kHlGs66oDgTD_",
           "componentType": "20006",
           "order": 1
         }
@@ -7801,7 +7997,17 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "==": [
+            {
+              "var": "currentScreen.form.partnership.registrationCertificateDocId"
+            },
+            null
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -7813,12 +8019,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "ENrg-H3Pj4sl9r_SDWjP0",
+    "id": "mICDchh2kHlGs66oDgTD_",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "CRS",
+      "label": "Registration certificate (Form C)",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -7844,8 +8050,8 @@
     },
     "events": [
       {
-        "triggerId": "rCcdwLMlGGNPHi0gx7mBq",
-        "triggerName": "CRS for partnership",
+        "triggerId": "IopYeDxmjSsqrYu3ni7nW",
+        "triggerName": "REGISTRATION_CERTIFICATE Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -7893,7 +8099,12 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "==": [{ "var": "currentScreen.form.partnership.czDocId" }, null]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -8684,11 +8895,11 @@
     "attributes": {
       "gridProps": [
         {
-          "componentId": "PF_U_4aIRkzdoJyrEzN_u",
+          "componentId": "Qnh5wRjqxC9IKGG_ppN5X",
           "componentType": "10001",
-          "id": "PF_U_4aIRkzdoJyrEzN_u",
+          "id": "Qnh5wRjqxC9IKGG_ppN5X",
           "position": {
-            "i": "PF_U_4aIRkzdoJyrEzN_u",
+            "i": "Qnh5wRjqxC9IKGG_ppN5X",
             "x": null,
             "y": null,
             "w": null,
@@ -8697,11 +8908,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "tgmBqY74M1BAw6JnGjZkr",
+          "componentId": "Yu_SHqzkw3ekNCPDUcym4",
           "componentType": "10001",
-          "id": "tgmBqY74M1BAw6JnGjZkr",
+          "id": "Yu_SHqzkw3ekNCPDUcym4",
           "position": {
-            "i": "tgmBqY74M1BAw6JnGjZkr",
+            "i": "Yu_SHqzkw3ekNCPDUcym4",
             "x": null,
             "y": null,
             "w": null,
@@ -8751,7 +8962,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "PF_U_4aIRkzdoJyrEzN_u",
+    "id": "Qnh5wRjqxC9IKGG_ppN5X",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -8764,7 +8975,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "aijFsq6JSeb7XVPNByX0O",
+          "componentId": "enZGPooLF3EidVQNOSpjo",
           "componentType": "20006",
           "order": 1
         }
@@ -8796,12 +9007,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "aijFsq6JSeb7XVPNByX0O",
+    "id": "enZGPooLF3EidVQNOSpjo",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "DECLARATION OF CHANGES",
+      "label": "crs",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -8827,8 +9038,8 @@
     },
     "events": [
       {
-        "triggerId": "OAPGa5tQ_MXOf2wwILqKY",
-        "triggerName": "DECLARATION OF CHANGES Download",
+        "triggerId": "q9jIaC5vLydClvQinNxvY",
+        "triggerName": "CRS for public",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -8843,7 +9054,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "tgmBqY74M1BAw6JnGjZkr",
+    "id": "Yu_SHqzkw3ekNCPDUcym4",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -8856,7 +9067,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "zuLIFOlGF6t2VXw5vcOMg",
+          "componentId": "kvDdJCkbl6co4RZ4Wj1By",
           "componentType": "20006",
           "order": 1
         }
@@ -8888,12 +9099,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "zuLIFOlGF6t2VXw5vcOMg",
+    "id": "kvDdJCkbl6co4RZ4Wj1By",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "COMMENCEMENT CERTIFICATE",
+      "label": "FORM",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -8919,8 +9130,8 @@
     },
     "events": [
       {
-        "triggerId": "I0SqHS86gOuNqylKhn4FB",
-        "triggerName": "certificateOfCommencement Download",
+        "triggerId": "cLe-nsZ6CHnSsCeqYTtId",
+        "triggerName": "formA Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -9046,11 +9257,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "Yu_SHqzkw3ekNCPDUcym4",
+          "componentId": "tgmBqY74M1BAw6JnGjZkr",
           "componentType": "10001",
-          "id": "Yu_SHqzkw3ekNCPDUcym4",
+          "id": "tgmBqY74M1BAw6JnGjZkr",
           "position": {
-            "i": "Yu_SHqzkw3ekNCPDUcym4",
+            "i": "tgmBqY74M1BAw6JnGjZkr",
             "x": null,
             "y": null,
             "w": null,
@@ -9059,11 +9270,11 @@
           "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
         },
         {
-          "componentId": "Qnh5wRjqxC9IKGG_ppN5X",
+          "componentId": "PF_U_4aIRkzdoJyrEzN_u",
           "componentType": "10001",
-          "id": "Qnh5wRjqxC9IKGG_ppN5X",
+          "id": "PF_U_4aIRkzdoJyrEzN_u",
           "position": {
-            "i": "Qnh5wRjqxC9IKGG_ppN5X",
+            "i": "PF_U_4aIRkzdoJyrEzN_u",
             "x": null,
             "y": null,
             "w": null,
@@ -9191,7 +9402,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "Yu_SHqzkw3ekNCPDUcym4",
+    "id": "tgmBqY74M1BAw6JnGjZkr",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -9204,7 +9415,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "kvDdJCkbl6co4RZ4Wj1By",
+          "componentId": "zuLIFOlGF6t2VXw5vcOMg",
           "componentType": "20006",
           "order": 1
         }
@@ -9224,7 +9435,18 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "if": [
+            {
+              "var": "currentScreen.form.privateorPublicLimited.certificateOfCommencementDocId.length"
+            },
+            false,
+            true
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -9236,12 +9458,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "kvDdJCkbl6co4RZ4Wj1By",
+    "id": "zuLIFOlGF6t2VXw5vcOMg",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "FORM",
+      "label": "COMMENCEMENT CERTIFICATE",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -9267,8 +9489,8 @@
     },
     "events": [
       {
-        "triggerId": "cLe-nsZ6CHnSsCeqYTtId",
-        "triggerName": "formA Download",
+        "triggerId": "I0SqHS86gOuNqylKhn4FB",
+        "triggerName": "certificateOfCommencement Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -9283,7 +9505,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "Qnh5wRjqxC9IKGG_ppN5X",
+    "id": "PF_U_4aIRkzdoJyrEzN_u",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -9296,7 +9518,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "enZGPooLF3EidVQNOSpjo",
+          "componentId": "aijFsq6JSeb7XVPNByX0O",
           "componentType": "20006",
           "order": 1
         }
@@ -9316,7 +9538,17 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "==": [
+            {
+              "var": "currentScreen.form.privateorPublicLimited.declarationOfChangesDocId"
+            },
+            null
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
@@ -9328,12 +9560,12 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "enZGPooLF3EidVQNOSpjo",
+    "id": "aijFsq6JSeb7XVPNByX0O",
     "type": "20006",
     "name": "Button",
     "component": { "content": "Button", "type": "20006" },
     "attributes": {
-      "label": "crs",
+      "label": "DECLARATION OF CHANGES",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -9359,8 +9591,8 @@
     },
     "events": [
       {
-        "triggerId": "q9jIaC5vLydClvQinNxvY",
-        "triggerName": "CRS for public",
+        "triggerId": "OAPGa5tQ_MXOf2wwILqKY",
+        "triggerName": "DECLARATION OF CHANGES Download",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
@@ -9482,7 +9714,15 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideCondition": {
+        "logic": {
+          "==": [
+            { "var": "currentScreen.form.privateorPublicLimited.czDocId" },
+            null
+          ]
+        }
+      }
     },
     "layout": null,
     "events": [],
