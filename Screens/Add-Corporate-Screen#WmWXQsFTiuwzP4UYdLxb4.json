@@ -11648,11 +11648,21 @@
                                                                                     "errorMsg": "This Field is required"
                                                                                   },
                                                                                   "checked": true,
-                                                                                  "label": "No Amount",
+                                                                                  "label": "No Value",
                                                                                   "name": "Radio",
                                                                                   "searchInState": false,
                                                                                   "stateName": "type",
-                                                                                  "value": "NO_VALUE"
+                                                                                  "value": "NO_VALUE",
+                                                                                  "disableCondition": {
+                                                                                    "logic": {
+                                                                                      "==": [
+                                                                                        {
+                                                                                          "var": "currentScreen.selectedObject.status"
+                                                                                        },
+                                                                                        "PENDING"
+                                                                                      ]
+                                                                                    }
+                                                                                  }
                                                                                 },
                                                                                 "events": [],
                                                                                 "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-1-0-0-0-0",
@@ -11690,11 +11700,21 @@
                                                                                     "errorMsg": "This Field is required"
                                                                                   },
                                                                                   "checked": false,
-                                                                                  "label": "Fixed Amount",
+                                                                                  "label": "Fixed Value",
                                                                                   "name": "Radio",
                                                                                   "searchInState": false,
                                                                                   "stateName": "type",
-                                                                                  "value": "FIXED_VALUE"
+                                                                                  "value": "FIXED_VALUE",
+                                                                                  "disableCondition": {
+                                                                                    "logic": {
+                                                                                      "==": [
+                                                                                        {
+                                                                                          "var": "currentScreen.selectedObject.status"
+                                                                                        },
+                                                                                        "PENDING"
+                                                                                      ]
+                                                                                    }
+                                                                                  }
                                                                                 },
                                                                                 "events": [],
                                                                                 "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-1-0-0-0-1",
@@ -11732,12 +11752,21 @@
                                                                                     "errorMsg": "This Field is required"
                                                                                   },
                                                                                   "checked": false,
-                                                                                  "label": "Amount In Percentage",
+                                                                                  "label": "Value In Percentage",
                                                                                   "name": "Radio",
                                                                                   "searchInState": false,
                                                                                   "stateName": "type",
                                                                                   "value": "PERCENTAGE",
-                                                                                  "disableCondition": {}
+                                                                                  "disableCondition": {
+                                                                                    "logic": {
+                                                                                      "==": [
+                                                                                        {
+                                                                                          "var": "currentScreen.selectedObject.status"
+                                                                                        },
+                                                                                        "PENDING"
+                                                                                      ]
+                                                                                    }
+                                                                                  }
                                                                                 },
                                                                                 "events": [],
                                                                                 "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-1-0-0-0-2",
@@ -12003,7 +12032,17 @@
                                                                                               "cssClassName": "emptyTextField"
                                                                                             }
                                                                                           ],
-                                                                                          "stateName": "value"
+                                                                                          "stateName": "value",
+                                                                                          "disableCondition": {
+                                                                                            "logic": {
+                                                                                              "==": [
+                                                                                                {
+                                                                                                  "var": "currentScreen.selectedObject.status"
+                                                                                                },
+                                                                                                "PENDING"
+                                                                                              ]
+                                                                                            }
+                                                                                          }
                                                                                         },
                                                                                         "icon": "FaWindowMinimize",
                                                                                         "group": "Form",
@@ -12020,7 +12059,7 @@
                                                                                           "type": "20004"
                                                                                         },
                                                                                         "events": [],
-                                                                                        "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-2-1-0-0-1-0-0"
+                                                                                        "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-1-1-0-0-1-0-0"
                                                                                       }
                                                                                     ],
                                                                                     "layoutProperties": {
@@ -16252,8 +16291,8 @@
     "gitBranchName": "master",
     "_id": "WmWXQsFTiuwzP4UYdLxb4",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/8/2023",
-    "createdAt": "4/8/2023",
+    "updatedAt": "5/24/2023",
+    "createdAt": "5/24/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -26513,11 +26552,16 @@
       },
       "validate": { "required": false, "errorMsg": "This Field is required" },
       "checked": true,
-      "label": "No Amount",
+      "label": "No Value",
       "name": "Radio",
       "searchInState": false,
       "stateName": "type",
-      "value": "NO_VALUE"
+      "value": "NO_VALUE",
+      "disableCondition": {
+        "logic": {
+          "==": [{ "var": "currentScreen.selectedObject.status" }, "PENDING"]
+        }
+      }
     },
     "events": [],
     "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-1-0-0-0-0",
@@ -26552,11 +26596,16 @@
       },
       "validate": { "required": false, "errorMsg": "This Field is required" },
       "checked": false,
-      "label": "Fixed Amount",
+      "label": "Fixed Value",
       "name": "Radio",
       "searchInState": false,
       "stateName": "type",
-      "value": "FIXED_VALUE"
+      "value": "FIXED_VALUE",
+      "disableCondition": {
+        "logic": {
+          "==": [{ "var": "currentScreen.selectedObject.status" }, "PENDING"]
+        }
+      }
     },
     "events": [],
     "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-1-0-0-0-1",
@@ -26591,12 +26640,16 @@
       },
       "validate": { "required": false, "errorMsg": "This Field is required" },
       "checked": false,
-      "label": "Amount In Percentage",
+      "label": "Value In Percentage",
       "name": "Radio",
       "searchInState": false,
       "stateName": "type",
       "value": "PERCENTAGE",
-      "disableCondition": {}
+      "disableCondition": {
+        "logic": {
+          "==": [{ "var": "currentScreen.selectedObject.status" }, "PENDING"]
+        }
+      }
     },
     "events": [],
     "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-1-0-0-0-2",
@@ -26847,7 +26900,12 @@
       "placeholder": "",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
-      "stateName": "value"
+      "stateName": "value",
+      "disableCondition": {
+        "logic": {
+          "==": [{ "var": "currentScreen.selectedObject.status" }, "PENDING"]
+        }
+      }
     },
     "icon": "FaWindowMinimize",
     "group": "Form",
@@ -26861,7 +26919,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-2-1-0-0-1-0-0",
+    "path": "0-0-1-0-1-0-5-0-0-0-0-0-0-0-1-1-0-0-1-0-0",
     "screenId": "WmWXQsFTiuwzP4UYdLxb4",
     "subType": "component",
     "projectId": "63f349eda070071e283ca270",

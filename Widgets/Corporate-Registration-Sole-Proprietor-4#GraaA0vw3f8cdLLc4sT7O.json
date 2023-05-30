@@ -4166,7 +4166,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "hwPd35huvACWLQuc8NprS",
+                                            "id": "pKYUlPqZYqwg525otEmR4",
                                             "gridProps": [
                                               {
                                                 "id": "zuLIFOlGF6t2VXw5vcOMg",
@@ -4260,8 +4260,7 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            },
-                                            "path": "0-0-0-0-2-0-2-1-0-0"
+                                            }
                                           }
                                         ],
                                         "path": "0-0-0-0-2-0-2-1-0",
@@ -4286,12 +4285,11 @@
                                           "name": "Grid layout",
                                           "hideCondition": {
                                             "logic": {
-                                              "if": [
+                                              "==": [
                                                 {
-                                                  "var": "currentScreen.form.privateorPublicLimited.certificateOfCommencementDocId.length"
+                                                  "var": "currentScreen.form.privateorPublicLimited.certificateOfCommencementDocId"
                                                 },
-                                                false,
-                                                true
+                                                null
                                               ]
                                             }
                                           }
@@ -4307,7 +4305,17 @@
                                           "20010",
                                           "widget"
                                         ],
-                                        "name": "Grid layout"
+                                        "name": "Grid layout",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -6230,8 +6238,8 @@
     "gitBranchName": "master",
     "_id": "GraaA0vw3f8cdLLc4sT7O",
     "createdBy": "ajk",
-    "updatedAt": "5/23/2023",
-    "createdAt": "5/23/2023",
+    "updatedAt": "5/24/2023",
+    "createdAt": "5/24/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -9438,12 +9446,11 @@
       "name": "Grid layout",
       "hideCondition": {
         "logic": {
-          "if": [
+          "==": [
             {
-              "var": "currentScreen.form.privateorPublicLimited.certificateOfCommencementDocId.length"
+              "var": "currentScreen.form.privateorPublicLimited.certificateOfCommencementDocId"
             },
-            false,
-            true
+            null
           ]
         }
       }

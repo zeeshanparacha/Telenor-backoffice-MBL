@@ -472,34 +472,125 @@
                                               "iconButtons": [
                                                 {
                                                   "trigger": {
-                                                    "createdBy": "talib",
-                                                    "updatedBy": "talib",
-                                                    "_id": "6362b427e2300669e4978905",
-                                                    "id": "7aFO4KecI3GzWS_vhuTqQ",
-                                                    "name": "Open Edit Corporate Screen",
-                                                    "projectId": "6305eb4fb2d1671fbc4b1de8",
-                                                    "gitBranchName": "Sprint-1",
+                                                    "_id": "DwFEEnbb9wGdW0u_A2yVZ",
+                                                    "id": "j2FUS7Rl-HP-nfg1kyLgb",
+                                                    "projectId": "63f349eda070071e283ca270",
+                                                    "gitBranchName": "master",
+                                                    "name": "Open Edit Corporate Screen and Map Profit Margin trig",
+                                                    "old_name": "Open Edit Corporate Screen and Map Profit Margin trig",
+                                                    "status": "ACTIVE",
                                                     "services": [
                                                       {
-                                                        "_id": "6363cadfe2300669e498d0ae",
-                                                        "type": "1",
+                                                        "type": "2",
                                                         "command": {
-                                                          "responseHandler": [],
-                                                          "returns": [],
-                                                          "_id": "6363cadfe2300669e498d0af",
+                                                          "type": "1",
                                                           "attributes": {
-                                                            "nextWidgetId": "WmWXQsFTiuwzP4UYdLxb4",
-                                                            "gridRadioValue": "",
-                                                            "selectedObjectBindingKey": "selectedObject.payload.configuration",
-                                                            "editableForm": true
-                                                          },
-                                                          "type": "3"
+                                                            "delay": "",
+                                                            "triggers": [
+                                                              {
+                                                                "createdBy": "talib",
+                                                                "updatedBy": "talib",
+                                                                "_id": "6363adfde2300669e4983fc6",
+                                                                "id": "QnNlme_2dXLSg4CE4fWQn",
+                                                                "name": "Open Edit Corporate Screen",
+                                                                "projectId": "63f349eda070071e283ca270",
+                                                                "gitBranchName": "master",
+                                                                "services": [
+                                                                  {
+                                                                    "_id": "6363cac7e2300669e498cfd7",
+                                                                    "type": "1",
+                                                                    "command": {
+                                                                      "responseHandler": [],
+                                                                      "returns": [],
+                                                                      "_id": "6363cac7e2300669e498cfd8",
+                                                                      "attributes": {
+                                                                        "nextWidgetId": "WmWXQsFTiuwzP4UYdLxb4",
+                                                                        "gridRadioValue": "",
+                                                                        "selectedObjectBindingKey": "selectedObject.payload.configuration",
+                                                                        "editableForm": true
+                                                                      },
+                                                                      "type": "3"
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "createdAt": "03-Nov-2022",
+                                                                "updatedAt": "03-Nov-2022",
+                                                                "__v": 3
+                                                              },
+                                                              {
+                                                                "id": "RmCeedffMHTKbFv0PbMyV",
+                                                                "_id": "gV4Y0EZjZvteizrmPKzXG",
+                                                                "name": "map Profit Scheme Type-Key trig",
+                                                                "old_name": "map Profit Scheme trig",
+                                                                "projectId": "63f349eda070071e283ca270",
+                                                                "gitBranchName": "master",
+                                                                "services": [
+                                                                  {
+                                                                    "type": "11",
+                                                                    "command": {
+                                                                      "type": "6",
+                                                                      "attributes": {
+                                                                        "requestBody": [],
+                                                                        "storeType": "",
+                                                                        "selectedObjectBindingKey": "selectedObject",
+                                                                        "dataType": "value",
+                                                                        "destinationBindingKey": "type",
+                                                                        "sourceBindingKey": "corporateDetailsonEdit.feeScheme.type",
+                                                                        "sourceStoreType": 2,
+                                                                        "destinationStoreType": 1,
+                                                                        "targettedType": "value"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "updatedAt": "4/4/2023",
+                                                                "createdAt": "4/4/2023",
+                                                                "createdBy": "ahmerjavedkhan",
+                                                                "updatedBy": "ahmerjavedkhan"
+                                                              },
+                                                              {
+                                                                "id": "9-JdYxLeQoHiwTc_X8bls",
+                                                                "name": "map Profit Scheme Value-Key trig",
+                                                                "projectId": "63f349eda070071e283ca270",
+                                                                "gitBranchName": "master",
+                                                                "services": [
+                                                                  {
+                                                                    "type": "11",
+                                                                    "command": {
+                                                                      "type": "6",
+                                                                      "attributes": {
+                                                                        "storeType": "",
+                                                                        "selectedObjectBindingKey": "selectedObject",
+                                                                        "dataType": "value",
+                                                                        "destinationBindingKey": "value",
+                                                                        "sourceBindingKey": "corporateDetailsonEdit.feeScheme.value",
+                                                                        "sourceStoreType": 2,
+                                                                        "destinationStoreType": 1,
+                                                                        "targettedType": "value"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "_id": "uTiU21fDZYGAfWOny72qh",
+                                                                "updatedAt": "4/4/2023",
+                                                                "createdAt": "4/4/2023",
+                                                                "createdBy": "ahmerjavedkhan",
+                                                                "updatedBy": "ahmerjavedkhan"
+                                                              }
+                                                            ],
+                                                            "triggerIds": [
+                                                              "QnNlme_2dXLSg4CE4fWQn",
+                                                              "RmCeedffMHTKbFv0PbMyV",
+                                                              "9-JdYxLeQoHiwTc_X8bls"
+                                                            ]
+                                                          }
                                                         }
                                                       }
                                                     ],
-                                                    "createdAt": "02-Nov-2022",
-                                                    "updatedAt": "03-Nov-2022",
-                                                    "__v": 3
+                                                    "updatedAt": "4/4/2023",
+                                                    "createdAt": "4/4/2023",
+                                                    "createdBy": "ahmerjavedkhan",
+                                                    "updatedBy": "ahmerjavedkhan"
                                                   },
                                                   "selectedObjectBindingKey": "selectedObject",
                                                   "label": "View Detail",
@@ -508,9 +599,14 @@
                                                       "cssClassName": "viewDetailsButton1"
                                                     }
                                                   ],
-                                                  "triggerId": "7aFO4KecI3GzWS_vhuTqQ",
+                                                  "triggerId": "j2FUS7Rl-HP-nfg1kyLgb",
                                                   "bindingKey": "",
-                                                  "values": [""]
+                                                  "values": [],
+                                                  "conditional": {},
+                                                  "disableConditional": {},
+                                                  "disableValues": [],
+                                                  "cssConditional": {},
+                                                  "cssValues": []
                                                 }
                                               ],
                                               "type": "iconButton"
@@ -1376,9 +1472,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "XerxqjZY4A6HTO9iX51CO",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "4/17/2023",
-    "createdAt": "4/17/2023",
+    "createdBy": "ajk",
+    "updatedAt": "5/24/2023",
+    "createdAt": "5/24/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1889,41 +1985,137 @@
           "iconButtons": [
             {
               "trigger": {
-                "createdBy": "talib",
-                "updatedBy": "talib",
-                "_id": "6362b427e2300669e4978905",
-                "id": "7aFO4KecI3GzWS_vhuTqQ",
-                "name": "Open Edit Corporate Screen",
-                "projectId": "6305eb4fb2d1671fbc4b1de8",
-                "gitBranchName": "Sprint-1",
+                "_id": "DwFEEnbb9wGdW0u_A2yVZ",
+                "id": "j2FUS7Rl-HP-nfg1kyLgb",
+                "projectId": "63f349eda070071e283ca270",
+                "gitBranchName": "master",
+                "name": "Open Edit Corporate Screen and Map Profit Margin trig",
+                "old_name": "Open Edit Corporate Screen and Map Profit Margin trig",
+                "status": "ACTIVE",
                 "services": [
                   {
-                    "_id": "6363cadfe2300669e498d0ae",
-                    "type": "1",
+                    "type": "2",
                     "command": {
-                      "responseHandler": [],
-                      "returns": [],
-                      "_id": "6363cadfe2300669e498d0af",
+                      "type": "1",
                       "attributes": {
-                        "nextWidgetId": "WmWXQsFTiuwzP4UYdLxb4",
-                        "gridRadioValue": "",
-                        "selectedObjectBindingKey": "selectedObject.payload.configuration",
-                        "editableForm": true
-                      },
-                      "type": "3"
+                        "delay": "",
+                        "triggers": [
+                          {
+                            "createdBy": "talib",
+                            "updatedBy": "talib",
+                            "_id": "6363adfde2300669e4983fc6",
+                            "id": "QnNlme_2dXLSg4CE4fWQn",
+                            "name": "Open Edit Corporate Screen",
+                            "projectId": "63f349eda070071e283ca270",
+                            "gitBranchName": "master",
+                            "services": [
+                              {
+                                "_id": "6363cac7e2300669e498cfd7",
+                                "type": "1",
+                                "command": {
+                                  "responseHandler": [],
+                                  "returns": [],
+                                  "_id": "6363cac7e2300669e498cfd8",
+                                  "attributes": {
+                                    "nextWidgetId": "WmWXQsFTiuwzP4UYdLxb4",
+                                    "gridRadioValue": "",
+                                    "selectedObjectBindingKey": "selectedObject.payload.configuration",
+                                    "editableForm": true
+                                  },
+                                  "type": "3"
+                                }
+                              }
+                            ],
+                            "createdAt": "03-Nov-2022",
+                            "updatedAt": "03-Nov-2022",
+                            "__v": 3
+                          },
+                          {
+                            "id": "RmCeedffMHTKbFv0PbMyV",
+                            "_id": "gV4Y0EZjZvteizrmPKzXG",
+                            "name": "map Profit Scheme Type-Key trig",
+                            "old_name": "map Profit Scheme trig",
+                            "projectId": "63f349eda070071e283ca270",
+                            "gitBranchName": "master",
+                            "services": [
+                              {
+                                "type": "11",
+                                "command": {
+                                  "type": "6",
+                                  "attributes": {
+                                    "requestBody": [],
+                                    "storeType": "",
+                                    "selectedObjectBindingKey": "selectedObject",
+                                    "dataType": "value",
+                                    "destinationBindingKey": "type",
+                                    "sourceBindingKey": "corporateDetailsonEdit.feeScheme.type",
+                                    "sourceStoreType": 2,
+                                    "destinationStoreType": 1,
+                                    "targettedType": "value"
+                                  }
+                                }
+                              }
+                            ],
+                            "updatedAt": "4/4/2023",
+                            "createdAt": "4/4/2023",
+                            "createdBy": "ahmerjavedkhan",
+                            "updatedBy": "ahmerjavedkhan"
+                          },
+                          {
+                            "id": "9-JdYxLeQoHiwTc_X8bls",
+                            "name": "map Profit Scheme Value-Key trig",
+                            "projectId": "63f349eda070071e283ca270",
+                            "gitBranchName": "master",
+                            "services": [
+                              {
+                                "type": "11",
+                                "command": {
+                                  "type": "6",
+                                  "attributes": {
+                                    "storeType": "",
+                                    "selectedObjectBindingKey": "selectedObject",
+                                    "dataType": "value",
+                                    "destinationBindingKey": "value",
+                                    "sourceBindingKey": "corporateDetailsonEdit.feeScheme.value",
+                                    "sourceStoreType": 2,
+                                    "destinationStoreType": 1,
+                                    "targettedType": "value"
+                                  }
+                                }
+                              }
+                            ],
+                            "_id": "uTiU21fDZYGAfWOny72qh",
+                            "updatedAt": "4/4/2023",
+                            "createdAt": "4/4/2023",
+                            "createdBy": "ahmerjavedkhan",
+                            "updatedBy": "ahmerjavedkhan"
+                          }
+                        ],
+                        "triggerIds": [
+                          "QnNlme_2dXLSg4CE4fWQn",
+                          "RmCeedffMHTKbFv0PbMyV",
+                          "9-JdYxLeQoHiwTc_X8bls"
+                        ]
+                      }
                     }
                   }
                 ],
-                "createdAt": "02-Nov-2022",
-                "updatedAt": "03-Nov-2022",
-                "__v": 3
+                "updatedAt": "4/4/2023",
+                "createdAt": "4/4/2023",
+                "createdBy": "ahmerjavedkhan",
+                "updatedBy": "ahmerjavedkhan"
               },
               "selectedObjectBindingKey": "selectedObject",
               "label": "View Detail",
               "cssClassNames": [{ "cssClassName": "viewDetailsButton1" }],
-              "triggerId": "7aFO4KecI3GzWS_vhuTqQ",
+              "triggerId": "j2FUS7Rl-HP-nfg1kyLgb",
               "bindingKey": "",
-              "values": [""]
+              "values": [],
+              "conditional": {},
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": []
             }
           ],
           "type": "iconButton"

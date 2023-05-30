@@ -1,0 +1,128 @@
+{
+  "id": "OntzHYgJvyyyT2mUKiY5n",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "name": "Salary Transfer Report API Chain Trigger",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "ZqQ-DZ6R36q_8K9pX1s4m",
+              "name": "Clear Salary Transfer Report API BindingKey",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "corpSalResponse",
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "_id": "7cdqidnT-rayLXxKLQDDL",
+              "updatedAt": "5/29/2023",
+              "createdAt": "5/29/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "id": "asaFi09eIaeFxPaOhAF1E",
+              "projectId": "63f349eda070071e283ca270",
+              "gitBranchName": "master",
+              "name": "Salary Transfer Report API",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "corpSalResponse",
+                      "responseReturnValue": "data.salaryTransferList",
+                      "url": "/report/corporate-salary-transfer",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageNumber",
+                          "value": "1"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageSize",
+                          "value": "5"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "dateFrom",
+                          "value": "dateFrom"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "dateTo",
+                          "value": "dateTo"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "status",
+                          "value": "status"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "_id": "3RwyOpTgblJ6myMWo1uI3",
+              "updatedAt": "5/29/2023",
+              "createdAt": "5/29/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            }
+          ],
+          "triggerIds": ["ZqQ-DZ6R36q_8K9pX1s4m", "asaFi09eIaeFxPaOhAF1E"]
+        }
+      }
+    }
+  ],
+  "_id": "NuXevbbCETGXXFdQyM5AK",
+  "updatedAt": "5/29/2023",
+  "createdAt": "5/29/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}
