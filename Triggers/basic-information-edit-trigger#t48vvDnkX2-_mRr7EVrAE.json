@@ -1,0 +1,41 @@
+{
+  "id": "g7fOW4wkXd54OanSxBz10",
+  "name": "basic information edit trigger",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "form",
+          "sourceBindingKey": "corporateDetailsonEdit.basicInfo",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "address", "changeValueConditonally": false },
+            { "key": "corporateId" },
+            { "key": "creationDate" },
+            { "key": "customerId" },
+            { "key": "description" },
+            { "key": "emailAddress" },
+            { "key": "faxNumber" },
+            { "key": "mobileNumber" },
+            { "key": "name" },
+            { "key": "phoneNumber" }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "_id": "t48vvDnkX2-_mRr7EVrAE",
+  "updatedAt": "6/7/2023",
+  "createdAt": "6/7/2023",
+  "createdBy": "telenor",
+  "updatedBy": "telenor"
+}

@@ -1,10 +1,10 @@
 {
-  "id": "23WXNOm2tZ0ZQK2_eZYwW",
-  "_id": "6363ceece2300669e498dc07",
+  "id": "me_FsvX8S7FMK_i5lK4Uo",
+  "_id": "e5M8HalMM5DgTND0J_aCZ",
   "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
-  "name": "View Details Corporate",
-  "old_name": "View Details Corporate",
+  "name": "fetch title branchless accounts trigger",
+  "old_name": "fetch title branchless accounts trigger",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,9 +14,8 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "corporateDetailsonEdit",
-          "responseReturnValue": "data.corporate",
-          "url": "/corporates/view-details",
+          "responseStateKey": "titleResponse",
+          "url": "/branchless/account/get-title",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -32,23 +31,16 @@
           },
           "requestBody": [
             {
-              "type": 2,
-              "name": "Current screen",
-              "key": "corporateId",
-              "value": "selectedObject.corporateId"
+              "type": 1,
+              "name": "Form",
+              "key": "branchlessAccNo",
+              "value": "accountMobile"
             }
           ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
         },
-        "responseHandler": [
-          {
-            "logic": { "==": [{ "var": "status" }, 1] },
-            "httpStatus": 200,
-            "triggerName": "Open Edit Corporate Screen and Map Profit Margin trig",
-            "triggerId": "j2FUS7Rl-HP-nfg1kyLgb"
-          }
-        ]
+        "responseHandler": []
       }
     }
   ],
