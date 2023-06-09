@@ -1,10 +1,10 @@
 {
-  "id": "me_FsvX8S7FMK_i5lK4Uo",
-  "_id": "e5M8HalMM5DgTND0J_aCZ",
+  "id": "bru9bsoZFrftIdG2lkNjD",
+  "_id": "4rulPP9QjxItcVNbuUfrE",
   "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
-  "name": "fetch title branchless accounts trigger",
-  "old_name": "fetch title branchless accounts trigger",
+  "name": "Validate and Fetch Corporate Title API",
+  "old_name": "Validate and Fetch Corporate Title API",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,7 +14,8 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "titleResponse",
+          "responseStateKey": "branchlessAccountResponse",
+          "responseReturnValue": "data.title",
           "url": "/branchless/account/get-title",
           "checksum": true,
           "encryption": true,
@@ -34,18 +35,31 @@
               "type": 1,
               "name": "Form",
               "key": "branchlessAccNo",
-              "value": "accountMobile"
+              "value": "branchlessAccNo"
             }
           ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
         },
-        "responseHandler": []
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Add Branchless Data in Table",
+            "triggerId": "9FiAKNyCc_lYPRhePl8Ae"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Corporate Branchless Account Number",
+            "triggerId": "epl_B_crZfE-DTc9HySMv"
+          }
+        ]
       }
     }
   ],
-  "updatedAt": "6/7/2023",
-  "createdAt": "6/7/2023",
-  "createdBy": "telenor",
-  "updatedBy": "telenor"
+  "updatedAt": "6/8/2023",
+  "createdAt": "6/8/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

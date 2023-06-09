@@ -1,0 +1,41 @@
+{
+  "id": "9FiAKNyCc_lYPRhePl8Ae",
+  "_id": "v915ebvbV6m0QgB7ipqHL",
+  "name": "Add Branchless Data in Table",
+  "old_name": "Add Branchless Data in Table",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "branchlessAccountData",
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "accountMobile",
+              "value": "branchlessAccountResponse.accountMobile"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "accountTitle",
+              "value": "branchlessAccountResponse.accountTitle"
+            }
+          ],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/8/2023",
+  "createdAt": "6/8/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

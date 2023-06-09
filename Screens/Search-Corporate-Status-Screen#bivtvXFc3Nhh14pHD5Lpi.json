@@ -1041,51 +1041,114 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "gtfrgMP4sHaAr8rVB1aDT",
-                                                    "triggerName": "Corporate Review Status API",
-                                                    "serviceType": "8",
+                                                    "triggerId": "WQ2PYAlIP8Ta3fGkLmkIg",
+                                                    "triggerName": "chain Trig Corporate Review Status",
+                                                    "serviceType": "2",
                                                     "attributes": {
-                                                      "loaderWidgetIds": [
-                                                        906070
-                                                      ],
-                                                      "messageWidgetIds": [
-                                                        906070
-                                                      ],
-                                                      "responseStateKey": "statusCorporateRegistration",
-                                                      "responseReturnValue": "data.result.list",
-                                                      "url": "/corporate-registration/reviewed-requests",
-                                                      "checksum": true,
-                                                      "encryption": true,
-                                                      "isDeviceDetails": true,
-                                                      "loginTrigger": false,
-                                                      "formData": false,
-                                                      "logoutTrigger": false,
-                                                      "headers": {
-                                                        "Content-Type": "application/json",
-                                                        "Accept": "application/json",
-                                                        "channel_key": "001",
-                                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                                        "locale": "en-ltr"
-                                                      },
-                                                      "requestBody": [
+                                                      "delay": "",
+                                                      "triggers": [
                                                         {
-                                                          "type": 4,
-                                                          "name": "Static",
-                                                          "key": "pageNumber",
-                                                          "value": "1"
+                                                          "id": "ydVsDMrzgm6_dQXg-qcwQ",
+                                                          "name": "Clear corporate review status API Binding Key ",
+                                                          "projectId": "63f349eda070071e283ca270",
+                                                          "gitBranchName": "master",
+                                                          "services": [
+                                                            {
+                                                              "type": "11",
+                                                              "command": {
+                                                                "type": "4",
+                                                                "attributes": {
+                                                                  "stateName": "statusCorporateRegistration",
+                                                                  "storeType": 2,
+                                                                  "selectedObjectBindingKey": "selectedObject",
+                                                                  "dataType": "",
+                                                                  "sourceBindingKey": ""
+                                                                }
+                                                              }
+                                                            }
+                                                          ],
+                                                          "_id": "EAlST5BrAMwKyin-PT-zq",
+                                                          "updatedAt": "6/1/2023",
+                                                          "createdAt": "6/1/2023",
+                                                          "createdBy": "ajk",
+                                                          "updatedBy": "ajk"
                                                         },
                                                         {
-                                                          "type": 4,
-                                                          "name": "Static",
-                                                          "key": "pageSize",
-                                                          "value": "5"
+                                                          "id": "gtfrgMP4sHaAr8rVB1aDT",
+                                                          "_id": "9EYngTyBMdnfkmImHqPKH",
+                                                          "projectId": "63f349eda070071e283ca270",
+                                                          "gitBranchName": "master",
+                                                          "name": "Corporate Review Status API",
+                                                          "old_name": "Corporate Review Status API",
+                                                          "status": "ACTIVE",
+                                                          "services": [
+                                                            {
+                                                              "type": "8",
+                                                              "command": {
+                                                                "type": "1",
+                                                                "attributes": {
+                                                                  "loaderWidgetIds": [
+                                                                    906070
+                                                                  ],
+                                                                  "messageWidgetIds": [
+                                                                    906070
+                                                                  ],
+                                                                  "responseStateKey": "statusCorporateRegistration",
+                                                                  "responseReturnValue": "data.result",
+                                                                  "url": "/corporate-registration/reviewed-requests",
+                                                                  "checksum": true,
+                                                                  "encryption": true,
+                                                                  "isDeviceDetails": true,
+                                                                  "loginTrigger": false,
+                                                                  "formData": false,
+                                                                  "logoutTrigger": false,
+                                                                  "headers": {
+                                                                    "Content-Type": "application/json",
+                                                                    "Accept": "application/json",
+                                                                    "channel_key": "001",
+                                                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                    "locale": "en-ltr"
+                                                                  },
+                                                                  "requestBody": [
+                                                                    {
+                                                                      "type": 4,
+                                                                      "name": "Static",
+                                                                      "key": "pageNumber",
+                                                                      "value": "1"
+                                                                    },
+                                                                    {
+                                                                      "type": 4,
+                                                                      "name": "Static",
+                                                                      "key": "pageSize",
+                                                                      "value": "500"
+                                                                    },
+                                                                    {
+                                                                      "type": 1,
+                                                                      "name": "Form",
+                                                                      "key": "status",
+                                                                      "value": "statusCorporateRegistration.code"
+                                                                    }
+                                                                  ],
+                                                                  "baseURL": "634555d068954540043d6820",
+                                                                  "storeType": 2
+                                                                },
+                                                                "responseHandler": []
+                                                              }
+                                                            }
+                                                          ],
+                                                          "updatedAt": "5/18/2023",
+                                                          "createdAt": "5/18/2023",
+                                                          "createdBy": "ajk",
+                                                          "updatedBy": "ajk"
                                                         }
                                                       ],
-                                                      "baseURL": "634555d068954540043d6820",
-                                                      "storeType": 2
+                                                      "triggerIds": [
+                                                        "ydVsDMrzgm6_dQXg-qcwQ",
+                                                        "gtfrgMP4sHaAr8rVB1aDT"
+                                                      ]
                                                     },
-                                                    "type": "4",
-                                                    "name": "On Submit"
+                                                    "type": "2",
+                                                    "name": "On click"
                                                   }
                                                 ],
                                                 "path": "0-0-1-0-0-0-2-1-0-0-0"
@@ -1208,6 +1271,116 @@
                                                     "triggerName": "Clear Form Data",
                                                     "serviceType": "14",
                                                     "attributes": {},
+                                                    "type": "2",
+                                                    "name": "On click"
+                                                  },
+                                                  {
+                                                    "triggerId": "WQ2PYAlIP8Ta3fGkLmkIg",
+                                                    "triggerName": "chain Trig Corporate Review Status",
+                                                    "serviceType": "2",
+                                                    "attributes": {
+                                                      "delay": "",
+                                                      "triggers": [
+                                                        {
+                                                          "id": "ydVsDMrzgm6_dQXg-qcwQ",
+                                                          "name": "Clear corporate review status API Binding Key ",
+                                                          "projectId": "63f349eda070071e283ca270",
+                                                          "gitBranchName": "master",
+                                                          "services": [
+                                                            {
+                                                              "type": "11",
+                                                              "command": {
+                                                                "type": "4",
+                                                                "attributes": {
+                                                                  "stateName": "statusCorporateRegistration",
+                                                                  "storeType": 2,
+                                                                  "selectedObjectBindingKey": "selectedObject",
+                                                                  "dataType": "",
+                                                                  "sourceBindingKey": ""
+                                                                }
+                                                              }
+                                                            }
+                                                          ],
+                                                          "_id": "EAlST5BrAMwKyin-PT-zq",
+                                                          "updatedAt": "6/1/2023",
+                                                          "createdAt": "6/1/2023",
+                                                          "createdBy": "ajk",
+                                                          "updatedBy": "ajk"
+                                                        },
+                                                        {
+                                                          "id": "gtfrgMP4sHaAr8rVB1aDT",
+                                                          "_id": "9EYngTyBMdnfkmImHqPKH",
+                                                          "projectId": "63f349eda070071e283ca270",
+                                                          "gitBranchName": "master",
+                                                          "name": "Corporate Review Status API",
+                                                          "old_name": "Corporate Review Status API",
+                                                          "status": "ACTIVE",
+                                                          "services": [
+                                                            {
+                                                              "type": "8",
+                                                              "command": {
+                                                                "type": "1",
+                                                                "attributes": {
+                                                                  "loaderWidgetIds": [
+                                                                    906070
+                                                                  ],
+                                                                  "messageWidgetIds": [
+                                                                    906070
+                                                                  ],
+                                                                  "responseStateKey": "statusCorporateRegistration",
+                                                                  "responseReturnValue": "data.result",
+                                                                  "url": "/corporate-registration/reviewed-requests",
+                                                                  "checksum": true,
+                                                                  "encryption": true,
+                                                                  "isDeviceDetails": true,
+                                                                  "loginTrigger": false,
+                                                                  "formData": false,
+                                                                  "logoutTrigger": false,
+                                                                  "headers": {
+                                                                    "Content-Type": "application/json",
+                                                                    "Accept": "application/json",
+                                                                    "channel_key": "001",
+                                                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                                    "locale": "en-ltr"
+                                                                  },
+                                                                  "requestBody": [
+                                                                    {
+                                                                      "type": 4,
+                                                                      "name": "Static",
+                                                                      "key": "pageNumber",
+                                                                      "value": "1"
+                                                                    },
+                                                                    {
+                                                                      "type": 4,
+                                                                      "name": "Static",
+                                                                      "key": "pageSize",
+                                                                      "value": "500"
+                                                                    },
+                                                                    {
+                                                                      "type": 1,
+                                                                      "name": "Form",
+                                                                      "key": "status",
+                                                                      "value": "statusCorporateRegistration.code"
+                                                                    }
+                                                                  ],
+                                                                  "baseURL": "634555d068954540043d6820",
+                                                                  "storeType": 2
+                                                                },
+                                                                "responseHandler": []
+                                                              }
+                                                            }
+                                                          ],
+                                                          "updatedAt": "5/18/2023",
+                                                          "createdAt": "5/18/2023",
+                                                          "createdBy": "ajk",
+                                                          "updatedBy": "ajk"
+                                                        }
+                                                      ],
+                                                      "triggerIds": [
+                                                        "ydVsDMrzgm6_dQXg-qcwQ",
+                                                        "gtfrgMP4sHaAr8rVB1aDT"
+                                                      ]
+                                                    },
                                                     "type": "2",
                                                     "name": "On click"
                                                   }
@@ -1744,7 +1917,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "8TXRbaRHGHo1pWlymIPO9",
+                    "id": "bTpXsddqjWz9YGRnlnkK2",
                     "gridProps": [
                       {
                         "id": "bKIT08-ocdeZNTnGdDiJv",
@@ -2033,57 +2206,113 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-0-3-0"
+                    }
                   }
                 ],
                 "path": "0-0-3",
                 "events": [
                   {
-                    "triggerId": "gtfrgMP4sHaAr8rVB1aDT",
-                    "triggerName": "Corporate Review Status API",
-                    "serviceType": "8",
+                    "triggerId": "WQ2PYAlIP8Ta3fGkLmkIg",
+                    "triggerName": "chain Trig Corporate Review Status",
+                    "serviceType": "2",
                     "attributes": {
-                      "loaderWidgetIds": [906070],
-                      "messageWidgetIds": [906070],
-                      "responseStateKey": "statusCorporateRegistration",
-                      "responseReturnValue": "data.result.list",
-                      "url": "/corporate-registration/reviewed-requests",
-                      "checksum": true,
-                      "encryption": true,
-                      "isDeviceDetails": true,
-                      "loginTrigger": false,
-                      "formData": false,
-                      "logoutTrigger": false,
-                      "headers": {
-                        "Content-Type": "application/json",
-                        "Accept": "application/json",
-                        "channel_key": "001",
-                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                        "locale": "en-ltr"
-                      },
-                      "requestBody": [
+                      "delay": "",
+                      "triggers": [
                         {
-                          "type": 4,
-                          "name": "Static",
-                          "key": "pageNumber",
-                          "value": "1"
+                          "id": "ydVsDMrzgm6_dQXg-qcwQ",
+                          "name": "Clear corporate review status API Binding Key ",
+                          "projectId": "63f349eda070071e283ca270",
+                          "gitBranchName": "master",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "4",
+                                "attributes": {
+                                  "stateName": "statusCorporateRegistration",
+                                  "storeType": 2,
+                                  "selectedObjectBindingKey": "selectedObject",
+                                  "dataType": "",
+                                  "sourceBindingKey": ""
+                                }
+                              }
+                            }
+                          ],
+                          "_id": "EAlST5BrAMwKyin-PT-zq",
+                          "updatedAt": "6/1/2023",
+                          "createdAt": "6/1/2023",
+                          "createdBy": "ajk",
+                          "updatedBy": "ajk"
                         },
                         {
-                          "type": 4,
-                          "name": "Static",
-                          "key": "pageSize",
-                          "value": "5"
-                        },
-                        {
-                          "type": 4,
-                          "name": "Static",
-                          "key": "status",
-                          "value": "status"
+                          "id": "gtfrgMP4sHaAr8rVB1aDT",
+                          "_id": "9EYngTyBMdnfkmImHqPKH",
+                          "projectId": "63f349eda070071e283ca270",
+                          "gitBranchName": "master",
+                          "name": "Corporate Review Status API",
+                          "old_name": "Corporate Review Status API",
+                          "status": "ACTIVE",
+                          "services": [
+                            {
+                              "type": "8",
+                              "command": {
+                                "type": "1",
+                                "attributes": {
+                                  "loaderWidgetIds": [906070],
+                                  "messageWidgetIds": [906070],
+                                  "responseStateKey": "statusCorporateRegistration",
+                                  "responseReturnValue": "data.result",
+                                  "url": "/corporate-registration/reviewed-requests",
+                                  "checksum": true,
+                                  "encryption": true,
+                                  "isDeviceDetails": true,
+                                  "loginTrigger": false,
+                                  "formData": false,
+                                  "logoutTrigger": false,
+                                  "headers": {
+                                    "Content-Type": "application/json",
+                                    "Accept": "application/json",
+                                    "channel_key": "001",
+                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                    "locale": "en-ltr"
+                                  },
+                                  "requestBody": [
+                                    {
+                                      "type": 4,
+                                      "name": "Static",
+                                      "key": "pageNumber",
+                                      "value": "1"
+                                    },
+                                    {
+                                      "type": 4,
+                                      "name": "Static",
+                                      "key": "pageSize",
+                                      "value": "500"
+                                    },
+                                    {
+                                      "type": 1,
+                                      "name": "Form",
+                                      "key": "status",
+                                      "value": "statusCorporateRegistration.code"
+                                    }
+                                  ],
+                                  "baseURL": "634555d068954540043d6820",
+                                  "storeType": 2
+                                },
+                                "responseHandler": []
+                              }
+                            }
+                          ],
+                          "updatedAt": "5/18/2023",
+                          "createdAt": "5/18/2023",
+                          "createdBy": "ajk",
+                          "updatedBy": "ajk"
                         }
                       ],
-                      "baseURL": "634555d068954540043d6820",
-                      "storeType": 2
+                      "triggerIds": [
+                        "ydVsDMrzgm6_dQXg-qcwQ",
+                        "gtfrgMP4sHaAr8rVB1aDT"
+                      ]
                     },
                     "type": "1",
                     "name": "On initialization"
@@ -2116,7 +2345,17 @@
                   "20010",
                   "widget"
                 ],
-                "name": "Grid layout"
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
               }
             ],
             "layoutProperties": {
@@ -2172,9 +2411,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "bivtvXFc3Nhh14pHD5Lpi",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "5/17/2023",
-    "createdAt": "5/17/2023",
+    "createdBy": "ajk",
+    "updatedAt": "6/1/2023",
+    "createdAt": "6/1/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3269,11 +3508,11 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "gtfrgMP4sHaAr8rVB1aDT",
-        "triggerName": "Corporate Review Status API",
-        "name": "On Submit",
-        "type": "4",
-        "serviceType": "8"
+        "triggerId": "WQ2PYAlIP8Ta3fGkLmkIg",
+        "triggerName": "chain Trig Corporate Review Status",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "2"
       }
     ],
     "path": "0-0-1-0-0-0-2-1-0-0-0",
@@ -3368,6 +3607,13 @@
         "name": "On click",
         "type": "2",
         "serviceType": "14"
+      },
+      {
+        "triggerId": "WQ2PYAlIP8Ta3fGkLmkIg",
+        "triggerName": "chain Trig Corporate Review Status",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "2"
       }
     ],
     "path": "0-0-1-0-0-0-2-2-0-0-0",
@@ -3643,8 +3889,8 @@
     "layout": null,
     "events": [
       {
-        "triggerId": "gtfrgMP4sHaAr8rVB1aDT",
-        "triggerName": "Corporate Review Status API",
+        "triggerId": "WQ2PYAlIP8Ta3fGkLmkIg",
+        "triggerName": "chain Trig Corporate Review Status",
         "name": "On initialization",
         "type": "1"
       }

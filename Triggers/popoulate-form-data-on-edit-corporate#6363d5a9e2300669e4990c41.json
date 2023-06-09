@@ -1,1 +1,156 @@
-{"createdBy":"talib","updatedBy":"talib","_id":"6363d5a9e2300669e4990c41","id":"d08dsvzc3jIQNjYAwckGu","name":"popoulate form data on edit corporate","projectId":"63f349eda070071e283ca270","gitBranchName":"master","services":[{"_id":"6363d5a9e2300669e4990c42","type":"11","command":{"responseHandler":[],"returns":[],"_id":"6363d5a9e2300669e4990c43","attributes":{"storeType":"","selectedObjectBindingKey":"selectedObject","dataType":"","destinationBindingKey":"form","sourceBindingKey":"corporateDetailsonEdit.configuration","sourceStoreType":2,"destinationStoreType":2},"type":"6"}}],"createdAt":"03-Nov-2022","updatedAt":"03-Nov-2022","__v":0}
+{
+  "id": "d08dsvzc3jIQNjYAwckGu",
+  "_id": "6363d5a9e2300669e4990c41",
+  "name": "popoulate form data on edit corporate",
+  "old_name": "popoulate form data on edit corporate",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "form",
+          "sourceBindingKey": "corporateEnquireResponse",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            {
+              "key": "address",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.address"
+              }
+            },
+            {
+              "key": "corporateId",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.corporateId"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "creationDate",
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.creationDate"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.customerId"
+              },
+              "key": "customerId"
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "description",
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.description"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.emailAddress"
+              },
+              "key": "emailAddress"
+            },
+            {
+              "key": "faxNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.faxNumber"
+              }
+            },
+            {
+              "key": "mobileNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.mobileNumber"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "key": "name",
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.name"
+              }
+            },
+            {
+              "key": "phoneNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.basicInfo.phoneNumber"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.configuration.domain"
+              },
+              "key": "domain"
+            },
+            {
+              "key": "floatFrequency",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.configuration.floatFrequency"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.configuration.nomineeEmail"
+              },
+              "key": "nomineeEmail"
+            },
+            {
+              "key": "numberOfUsers",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.configuration.numberOfUsers"
+              }
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.configuration.prefix"
+              },
+              "key": "prefix"
+            },
+            {
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [
+                  {
+                    "==": [
+                      {
+                        "var": "currentScreen.corporateEnquireResponse.configuration.validateDomain"
+                      },
+                      true
+                    ]
+                  },
+                  "true",
+                  "false"
+                ]
+              },
+              "key": "validateDomain"
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/8/2023",
+  "createdAt": "6/8/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

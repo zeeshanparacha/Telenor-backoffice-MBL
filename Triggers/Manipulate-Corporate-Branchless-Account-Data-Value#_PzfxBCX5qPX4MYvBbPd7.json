@@ -1,0 +1,29 @@
+{
+  "id": "tK4j86KtNIUUPbuJifA96",
+  "name": "Manipulate Corporate Branchless Account Data Value",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "branchlessAccountData",
+          "sourceBindingKey": "corporateEnquireResponse.branchlessAccounts",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "array"
+        }
+      }
+    }
+  ],
+  "_id": "_PzfxBCX5qPX4MYvBbPd7",
+  "updatedAt": "6/8/2023",
+  "createdAt": "6/8/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

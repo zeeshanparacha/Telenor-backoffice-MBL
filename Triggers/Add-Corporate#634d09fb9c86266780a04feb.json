@@ -1,7 +1,7 @@
 {
   "id": "UwaHbt4Y_CCv9IuXm5CW4",
   "_id": "634d09fb9c86266780a04feb",
-  "projectId": "63f349eda070071e283ca270",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
   "name": "Add Corporate",
   "old_name": "Add Corporate",
@@ -31,16 +31,70 @@
           },
           "requestBody": [
             {
-              "type": 2,
-              "name": "Current screen",
-              "key": "corporate.basicInfo",
-              "value": "corporateEnquireResponse.basicInfo"
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.basicInfo.address",
+              "value": "address"
             },
             {
               "type": 1,
               "name": "Form",
-              "key": "corporate.configuration.fileUploadLimit",
-              "value": "fileUploadLimit"
+              "key": "corporate.basicInfo.corporateId",
+              "value": "corporateId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.basicInfo.creationDate",
+              "value": "creationDate"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.basicInfo.customerId",
+              "value": "customerId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.basicInfo.description",
+              "value": "description"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.basicInfo.emailAddress",
+              "value": "emailAddress"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.basicInfo.faxNumber",
+              "value": "faxNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.basicInfo.mobileNumber",
+              "value": "mobileNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.basicInfo.name",
+              "value": "name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.basicInfo.phoneNumber",
+              "value": "phoneNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.configuration.floatFrequency",
+              "value": "floatFrequency"
             },
             {
               "type": 1,
@@ -53,12 +107,6 @@
               "name": "Form",
               "key": "corporate.configuration.domain",
               "value": "domain"
-            },
-            {
-              "type": 2,
-              "name": "Current screen",
-              "key": "corporate.checkingAccounts",
-              "value": "checkingAccountsUpdated"
             },
             {
               "type": 1,
@@ -75,38 +123,14 @@
             {
               "type": 2,
               "name": "Current screen",
-              "key": "corporate.makerCheckerSettings",
-              "value": "corporateEnquireResponse.makerCheckerSettings"
-            },
-            {
-              "type": 2,
-              "name": "Current screen",
-              "key": "corporate.branches",
-              "value": "selectedBranchesEnabled"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "corporate.configuration.fileType",
-              "value": "fileType"
+              "key": "corporate.branchlessAccounts",
+              "value": "branchlessAccountData"
             },
             {
               "type": 1,
               "name": "Form",
               "key": "corporate.configuration.nomineeEmail",
               "value": "nomineeEmail"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "corporate.feeScheme.type",
-              "value": "type"
-            },
-            {
-              "type": 1,
-              "name": "Form",
-              "key": "corporate.feeScheme.value",
-              "value": "value"
             }
           ],
           "baseURL": "634555d068954540043d6820",
@@ -126,12 +150,6 @@
             "triggerId": "zj5wU451q42rOfjv-NNhD"
           },
           {
-            "logic": { "==": [{ "var": "status" }, 1] },
-            "httpStatus": 200,
-            "triggerName": "Corporate Enquire Response Data Grid Service",
-            "triggerId": "MXwmLQo77GXKNu0xgKULL"
-          },
-          {
             "logic": { "==": [{ "var": "status" }, 0] },
             "httpStatus": 200,
             "triggerName": "Show Error Modal",
@@ -148,13 +166,19 @@
             "httpStatus": 200,
             "triggerName": "Open Success Modal",
             "triggerId": "7qK4zY9-Va6XZGtImuOcg"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "Clear Branchless Account Binding Key",
+            "triggerId": "zj7MT8Sp1IJGKCrO0cNrm"
           }
         ]
       }
     }
   ],
-  "updatedAt": "4/4/2023",
-  "createdAt": "4/4/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "updatedAt": "6/8/2023",
+  "createdAt": "6/8/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
 }

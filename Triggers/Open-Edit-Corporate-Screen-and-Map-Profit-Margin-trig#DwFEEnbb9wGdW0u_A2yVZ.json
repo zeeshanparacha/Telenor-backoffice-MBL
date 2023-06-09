@@ -1,7 +1,7 @@
 {
   "_id": "DwFEEnbb9wGdW0u_A2yVZ",
   "id": "j2FUS7Rl-HP-nfg1kyLgb",
-  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "projectId": "63f349eda070071e283ca270",
   "gitBranchName": "master",
   "name": "Open Edit Corporate Screen and Map Profit Margin trig",
   "old_name": "Open Edit Corporate Screen and Map Profit Margin trig",
@@ -103,99 +103,19 @@
               "createdAt": "4/4/2023",
               "createdBy": "ahmerjavedkhan",
               "updatedBy": "ahmerjavedkhan"
-            },
-            {
-              "id": "g7fOW4wkXd54OanSxBz10",
-              "name": "basic information edit trigger",
-              "projectId": "6475fc4c85cd1cddbc3b3524",
-              "gitBranchName": "master",
-              "services": [
-                {
-                  "type": "11",
-                  "command": {
-                    "type": "6",
-                    "attributes": {
-                      "storeType": "",
-                      "selectedObjectBindingKey": "selectedObject",
-                      "dataType": "",
-                      "destinationBindingKey": "form",
-                      "sourceBindingKey": "corporateDetailsonEdit.basicInfo",
-                      "sourceStoreType": 2,
-                      "destinationStoreType": 2,
-                      "filterList": [
-                        { "key": "address", "changeValueConditonally": false },
-                        { "key": "corporateId" },
-                        { "key": "creationDate" },
-                        { "key": "customerId" },
-                        { "key": "description" },
-                        { "key": "emailAddress" },
-                        { "key": "faxNumber" },
-                        { "key": "mobileNumber" },
-                        { "key": "name" },
-                        { "key": "phoneNumber" }
-                      ],
-                      "targettedType": "object"
-                    }
-                  }
-                }
-              ],
-              "_id": "t48vvDnkX2-_mRr7EVrAE",
-              "updatedAt": "6/7/2023",
-              "createdAt": "6/7/2023",
-              "createdBy": "telenor",
-              "updatedBy": "telenor"
-            },
-            {
-              "id": "qmX-6Xt6BjFsWoNFnjncm",
-              "name": "configuration branchless edit trigger",
-              "projectId": "6475fc4c85cd1cddbc3b3524",
-              "gitBranchName": "master",
-              "services": [
-                {
-                  "type": "11",
-                  "command": {
-                    "type": "6",
-                    "attributes": {
-                      "storeType": "",
-                      "selectedObjectBindingKey": "selectedObject",
-                      "dataType": "",
-                      "destinationBindingKey": "form",
-                      "sourceBindingKey": "corporateDetailsonEdit.configuration",
-                      "sourceStoreType": 2,
-                      "destinationStoreType": 2,
-                      "filterList": [
-                        { "key": "domain", "changeValueConditonally": false },
-                        { "key": "floatFrequency" },
-                        { "key": "nomineeEmail" },
-                        { "key": "numberOfUsers" },
-                        { "key": "prefix" },
-                        { "key": "validateDomain" }
-                      ],
-                      "targettedType": "object"
-                    }
-                  }
-                }
-              ],
-              "_id": "DUBclBbCvkSNc0ObYBl_l",
-              "updatedAt": "6/7/2023",
-              "createdAt": "6/7/2023",
-              "createdBy": "telenor",
-              "updatedBy": "telenor"
             }
           ],
           "triggerIds": [
             "QnNlme_2dXLSg4CE4fWQn",
             "RmCeedffMHTKbFv0PbMyV",
-            "9-JdYxLeQoHiwTc_X8bls",
-            "g7fOW4wkXd54OanSxBz10",
-            "qmX-6Xt6BjFsWoNFnjncm"
+            "9-JdYxLeQoHiwTc_X8bls"
           ]
         }
       }
     }
   ],
-  "updatedAt": "6/7/2023",
-  "createdAt": "6/7/2023",
-  "createdBy": "telenor",
-  "updatedBy": "telenor"
+  "updatedAt": "4/4/2023",
+  "createdAt": "4/4/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

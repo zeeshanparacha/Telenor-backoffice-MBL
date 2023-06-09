@@ -1,1 +1,49 @@
-{"createdBy":"ahmarnew","updatedBy":"ahmerjavedkhan","_id":"6391ac8ce4d0ae73c05b18ed","id":"SxcTSGEE11s11kmThgAae","name":"Checking Account Authorization Matrix Data Grid Service","projectId":"63f349eda070071e283ca270","gitBranchName":"master","services":[{"_id":"63e27ced582f30545008f486","type":"11","command":{"responseHandler":[],"returns":[],"_id":"63e27ced582f30545008f487","attributes":{"requestBody":[],"storeType":"","selectedObjectBindingKey":"selectedObject","dataType":"object","destinationBindingKey":"corporateEnquireResponse.checkingAccounts","sourceBindingKey":"corporateEnquireResponse.checkingAccounts","sourceStoreType":2,"destinationStoreType":2,"filterList":[{"key":"accountCurrency"},{"key":"accountNumber"},{"key":"accountTitle"},{"key":"accountType"},{"key":"branch"},{"key":"dailyLimit"},{"key":"enabled"},{"key":"iban"},{"key":"monthlyLimit"},{"key":"product","changeValueConditonally":false},{"key":"id","changeValueConditonally":false},{"key":"authorityMatrixId","changeValueConditonally":true,"logic":{"if":[{"==":[{"var":"id"},{"var":"currentScreen.form.id"}]},{"var":"currentScreen.form.authorityMatrixId"},{"var":"authorityMatrixId"}]}},{"key":"corporateAccountType","changeValueConditonally":false},{"key":"accountCurrencyType","changeValueConditonally":false}],"targettedType":"array"},"type":"6"}}],"createdAt":"08-Dec-2022","updatedAt":"07-Feb-2023","__v":24}
+{
+  "id": "SxcTSGEE11s11kmThgAae",
+  "_id": "6391ac8ce4d0ae73c05b18ed",
+  "name": "Checking Account Authorization Matrix Data Grid Service",
+  "old_name": "Checking Account Authorization Matrix Data Grid Service",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "object",
+          "destinationBindingKey": "branchlessAccountData",
+          "sourceBindingKey": "corporateEnquireResponse.branchlessAccounts",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "id", "changeValueConditonally": false },
+            {
+              "key": "authorityMatrixId",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [
+                  {
+                    "==": [{ "var": "id" }, { "var": "currentScreen.form.id" }]
+                  },
+                  { "var": "currentScreen.form.authorityMatrixId" },
+                  { "var": "authorityMatrixId" }
+                ]
+              }
+            },
+            { "key": "accountMobile", "changeValueConditonally": false },
+            { "key": "accountTitle" }
+          ],
+          "targettedType": "array"
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/8/2023",
+  "createdAt": "6/8/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

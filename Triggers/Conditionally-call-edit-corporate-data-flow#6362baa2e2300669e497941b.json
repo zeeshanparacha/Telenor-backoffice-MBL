@@ -1,1 +1,241 @@
-{"createdBy":"talib","updatedBy":"talib","_id":"6362baa2e2300669e497941b","projectId":"63f349eda070071e283ca270","gitBranchName":"master","name":"Conditionally call edit corporate data flow","status":"ACTIVE","services":[{"_id":"6362baa2e2300669e497941c","type":"13","command":{"responseHandler":[],"returns":[],"_id":"6362baa2e2300669e497941d","attributes":{"triggers":[{"logic":{"if":[{"var":"currentScreen.selectedObject.id"},true,false]},"triggerName":"Update corporateData on edit from selectedObject","triggerId":"A9QmNQpPpulK7ATC4O_mF","services":[{"_id":"6362b8c9e2300669e49790a3","type":"11","command":{"responseHandler":[],"returns":[],"_id":"6362b8c9e2300669e49790a4","attributes":{"storeType":"","selectedObjectBindingKey":"selectedObject","dataType":"","destinationBindingKey":"corporateEnquireResponse","sourceBindingKey":"selectedObject","sourceStoreType":2,"destinationStoreType":2},"type":"6"}}]}]},"type":"1"}}],"id":"wwFn7zE0rAf2wrreDQNer","createdAt":"02-Nov-2022","updatedAt":"02-Nov-2022","__v":0}
+{
+  "_id": "6362baa2e2300669e497941b",
+  "id": "wwFn7zE0rAf2wrreDQNer",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "Conditionally call edit corporate data flow",
+  "old_name": "Conditionally call edit corporate data flow",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "13",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "triggers": [
+            {
+              "logic": {
+                "if": [
+                  { "var": "currentScreen.selectedObject.id" },
+                  true,
+                  false
+                ]
+              },
+              "triggerName": "Update corporateData on edit from selectedObject",
+              "triggerId": "A9QmNQpPpulK7ATC4O_mF",
+              "services": [
+                {
+                  "_id": "6362b8c9e2300669e49790a3",
+                  "type": "11",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "6362b8c9e2300669e49790a4",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "corporateEnquireResponse",
+                      "sourceBindingKey": "selectedObject",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2
+                    },
+                    "type": "6"
+                  }
+                }
+              ]
+            },
+            {
+              "logic": {
+                "if": [
+                  { "var": "currentScreen.selectedObject.id" },
+                  true,
+                  false
+                ]
+              },
+              "triggerName": "popoulate form data on edit corporate",
+              "triggerId": "d08dsvzc3jIQNjYAwckGu",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "form",
+                      "sourceBindingKey": "corporateEnquireResponse",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "filterList": [
+                        {
+                          "key": "address",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.address"
+                          }
+                        },
+                        {
+                          "key": "corporateId",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.corporateId"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "creationDate",
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.creationDate"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.customerId"
+                          },
+                          "key": "customerId"
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "description",
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.description"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.emailAddress"
+                          },
+                          "key": "emailAddress"
+                        },
+                        {
+                          "key": "faxNumber",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.faxNumber"
+                          }
+                        },
+                        {
+                          "key": "mobileNumber",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.mobileNumber"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "key": "name",
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.name"
+                          }
+                        },
+                        {
+                          "key": "phoneNumber",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.basicInfo.phoneNumber"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.configuration.domain"
+                          },
+                          "key": "domain"
+                        },
+                        {
+                          "key": "floatFrequency",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.configuration.floatFrequency"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.configuration.nomineeEmail"
+                          },
+                          "key": "nomineeEmail"
+                        },
+                        {
+                          "key": "numberOfUsers",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.configuration.numberOfUsers"
+                          }
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "var": "currentScreen.corporateEnquireResponse.configuration.prefix"
+                          },
+                          "key": "prefix"
+                        },
+                        {
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "if": [
+                              {
+                                "==": [
+                                  {
+                                    "var": "currentScreen.corporateEnquireResponse.configuration.validateDomain"
+                                  },
+                                  true
+                                ]
+                              },
+                              "true",
+                              "false"
+                            ]
+                          },
+                          "key": "validateDomain"
+                        }
+                      ],
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "logic": {
+                "if": [
+                  { "var": "currentScreen.selectedObject.id" },
+                  true,
+                  false
+                ]
+              },
+              "triggerName": "Manipulate Corporate Branchless Account Data Value",
+              "triggerId": "tK4j86KtNIUUPbuJifA96",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "branchlessAccountData",
+                      "sourceBindingKey": "corporateEnquireResponse.branchlessAccounts",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "targettedType": "array"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/8/2023",
+  "createdAt": "6/8/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}
