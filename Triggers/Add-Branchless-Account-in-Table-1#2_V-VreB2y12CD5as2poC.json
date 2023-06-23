@@ -1,8 +1,8 @@
 {
-  "id": "9FiAKNyCc_lYPRhePl8Ae",
-  "_id": "v915ebvbV6m0QgB7ipqHL",
-  "name": "Add Branchless Data in Table",
-  "old_name": "Add Branchless Data in Table",
+  "id": "kbRuJQ4AZotGsvUBxmeaW",
+  "_id": "2_V-VreB2y12CD5as2poC",
+  "name": "Add Branchless Account in Table 1",
+  "old_name": "Add Branchless Account in Table 1",
   "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
   "services": [
@@ -14,17 +14,24 @@
           "stateName": "branchlessAccountData",
           "requestBody": [
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "accountMobile",
-              "value": "branchlessAccountResponse.data.title.accountMobile"
+              "value": "accountMobile"
             },
             {
-              "type": 2,
-              "name": "Current screen",
+              "type": 1,
+              "name": "Form",
               "key": "accountTitle",
-              "value": "branchlessAccountResponse.data.title.accountTitle"
-            }
+              "value": "accountTitle"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "authorityMatrixId",
+              "value": "authorityMatrixId"
+            },
+            { "type": 1, "name": "Form", "key": "id", "value": "id" }
           ],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",

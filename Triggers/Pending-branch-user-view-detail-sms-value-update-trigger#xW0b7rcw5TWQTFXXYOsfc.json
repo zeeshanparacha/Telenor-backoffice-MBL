@@ -1,0 +1,46 @@
+{
+  "id": "kC9-2aw7Fxh9CnRJLkRHe",
+  "_id": "xW0b7rcw5TWQTFXXYOsfc",
+  "name": "Pending branch user view detail sms value update trigger",
+  "old_name": "Pending branch user view detail sms value update trigger",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "isLoginSmsOtpRequired",
+          "sourceBindingKey": "selectedObject.isLoginSmsOtpRequired",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": {
+            "if": [
+              {
+                "==": [
+                  {
+                    "var": "currentScreen.selectedObject.payload.isLoginSmsOtpRequired"
+                  },
+                  true
+                ]
+              },
+              "false",
+              "true"
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/13/2023",
+  "createdAt": "6/13/2023",
+  "createdBy": "telenor",
+  "updatedBy": "telenor"
+}

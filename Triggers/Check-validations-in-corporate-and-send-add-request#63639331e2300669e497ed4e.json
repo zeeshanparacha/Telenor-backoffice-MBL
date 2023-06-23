@@ -190,20 +190,6 @@
                               {
                                 "<": [
                                   {
-                                    "var": "currentScreen.form.customerId.length"
-                                  },
-                                  1
-                                ]
-                              },
-                              {
-                                "<": [
-                                  { "var": "currentScreen.form.faxNumber" },
-                                  1
-                                ]
-                              },
-                              {
-                                "<": [
-                                  {
                                     "var": "currentScreen.form.address.length"
                                   },
                                   1
@@ -679,19 +665,12 @@
                     "or": [
                       {
                         "<": [
-                          { "var": "currentScreen.form.customerId.length" },
-                          1
-                        ]
-                      },
-                      { "<": [{ "var": "currentScreen.form.faxNumber" }, 1] },
-                      {
-                        "<": [{ "var": "currentScreen.form.address.length" }, 1]
-                      },
-                      {
-                        "<": [
                           { "var": "currentScreen.form.corporateId.length" },
                           1
                         ]
+                      },
+                      {
+                        "<": [{ "var": "currentScreen.form.address.length" }, 1]
                       },
                       {
                         "<": [{ "var": "currentScreen.form.mobileNumber" }, 1]
@@ -755,19 +734,12 @@
                     "or": [
                       {
                         "<": [
-                          { "var": "currentScreen.form.customerId.length" },
-                          1
-                        ]
-                      },
-                      { "<": [{ "var": "currentScreen.form.faxNumber" }, 1] },
-                      {
-                        "<": [{ "var": "currentScreen.form.address.length" }, 1]
-                      },
-                      {
-                        "<": [
                           { "var": "currentScreen.form.corporateId.length" },
                           1
                         ]
+                      },
+                      {
+                        "<": [{ "var": "currentScreen.form.address.length" }, 1]
                       },
                       {
                         "<": [{ "var": "currentScreen.form.mobileNumber" }, 1]
@@ -888,8 +860,8 @@
       }
     }
   ],
-  "updatedAt": "6/8/2023",
-  "createdAt": "6/8/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "updatedAt": "6/13/2023",
+  "createdAt": "6/13/2023",
+  "createdBy": "ahmerjavedkhan",
+  "updatedBy": "ahmerjavedkhan"
 }

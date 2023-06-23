@@ -1,0 +1,40 @@
+{
+  "id": "23My7CUYAOuYiVktWwrr6",
+  "_id": "LQbdbTJ3FinKx2ksSMVjU",
+  "name": "Convert branchlessAccountResponse to response",
+  "old_name": "Convert branchlessAccountResponse to response",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "response",
+          "sourceBindingKey": "branchlessAccountResponse",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            {
+              "key": "error",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.branchlessAccountResponse.error"
+              }
+            }
+          ],
+          "targettedType": "object"
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/13/2023",
+  "createdAt": "6/13/2023",
+  "createdBy": "ajk",
+  "updatedBy": "ajk"
+}

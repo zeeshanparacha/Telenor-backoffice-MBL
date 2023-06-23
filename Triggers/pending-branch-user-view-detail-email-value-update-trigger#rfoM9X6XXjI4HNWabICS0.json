@@ -1,0 +1,46 @@
+{
+  "id": "BP3OqMtUkgGkXARXTtjcC",
+  "_id": "rfoM9X6XXjI4HNWabICS0",
+  "name": "pending branch user view detail email value update trigger",
+  "old_name": "pending branch user view detail email value update trigger",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "isLoginEmailOtpRequired",
+          "sourceBindingKey": "selectedObject.payload.isLoginEmailOtpRequired",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "logic": {
+            "if": [
+              {
+                "==": [
+                  {
+                    "var": "currentScreen.selectedObject.payload.isLoginEmailOtpRequired"
+                  },
+                  true
+                ]
+              },
+              "false",
+              "true"
+            ]
+          },
+          "changeValueConditonally": true,
+          "targettedType": "value"
+        }
+      }
+    }
+  ],
+  "updatedAt": "6/13/2023",
+  "createdAt": "6/13/2023",
+  "createdBy": "telenor",
+  "updatedBy": "telenor"
+}

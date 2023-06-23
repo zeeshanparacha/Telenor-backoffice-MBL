@@ -15,7 +15,6 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "branchlessAccountResponse",
-          "responseReturnValue": "data.title",
           "url": "/branchless/account/get-title",
           "checksum": true,
           "encryption": true,
@@ -35,7 +34,7 @@
               "type": 1,
               "name": "Form",
               "key": "branchlessAccNo",
-              "value": "branchlessAccNo"
+              "value": "accountMobile"
             }
           ],
           "baseURL": "634555d068954540043d6820",
@@ -53,13 +52,19 @@
             "httpStatus": 200,
             "triggerName": "Clear Corporate Branchless Account Number",
             "triggerId": "epl_B_crZfE-DTc9HySMv"
+          },
+          {
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "httpStatus": 200,
+            "triggerName": "Error Chain Trig",
+            "triggerId": "Ofi8ASFRhMz4dPnBJDDbI"
           }
         ]
       }
     }
   ],
-  "updatedAt": "6/8/2023",
-  "createdAt": "6/8/2023",
+  "updatedAt": "6/13/2023",
+  "createdAt": "6/13/2023",
   "createdBy": "ajk",
   "updatedBy": "ajk"
 }
