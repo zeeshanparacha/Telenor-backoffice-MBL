@@ -1141,7 +1141,7 @@
                                                                     "button": {
                                                                       "//": "Use this class to style button component.",
                                                                       "color": "#ffffff",
-                                                                      "background": "#00bd5f !important ",
+                                                                      "background": "#00bd5f !important",
                                                                       "borderRadius": "50px",
                                                                       "padding": "12px"
                                                                     },
@@ -1307,12 +1307,14 @@
                                                                   "layoutProperties": {
                                                                     "button": {
                                                                       "//": "Use this class to style button component.",
-                                                                      "background": "#00bd5f",
+                                                                      "background": "#000000",
                                                                       "borderRadius": "50px",
-                                                                      "padding": "12px"
+                                                                      "padding": "12px",
+                                                                      "color": "#FFFFFF"
                                                                     },
                                                                     "inputProps": {
-                                                                      "//": "Use this class to style button element."
+                                                                      "//": "Use this class to style button element.",
+                                                                      "FontColor": "#FFFFFF"
                                                                     },
                                                                     "mainContainer": "button",
                                                                     "xl": 12,
@@ -1615,7 +1617,7 @@
                                 "status": "ACTIVE",
                                 "name": "Label",
                                 "attributes": {
-                                  "label": "© 2023 Copyright Mobilink Microfinance. ",
+                                  "label": "© 2023 Copyright Telenor Microfinance. ",
                                   "variant": "h6",
                                   "name": "footer",
                                   "mandatory": false,
@@ -1800,9 +1802,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Q8B5irzPhCEQ9AxZRnSzt",
-    "createdBy": "telenor",
-    "updatedAt": "6/14/2023",
-    "createdAt": "6/14/2023",
+    "createdBy": "ajk",
+    "updatedAt": "7/3/2023",
+    "createdAt": "7/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3163,7 +3165,7 @@
         "button": {
           "//": "Use this class to style button component.",
           "color": "#ffffff",
-          "background": "#00bd5f !important ",
+          "background": "#00bd5f !important",
           "borderRadius": "50px",
           "padding": "12px"
         },
@@ -3253,11 +3255,15 @@
       "layoutProperties": {
         "button": {
           "//": "Use this class to style button component.",
-          "background": "#00bd5f",
+          "background": "#000000",
           "borderRadius": "50px",
-          "padding": "12px"
+          "padding": "12px",
+          "color": "#FFFFFF"
         },
-        "inputProps": { "//": "Use this class to style button element." },
+        "inputProps": {
+          "//": "Use this class to style button element.",
+          "FontColor": "#FFFFFF"
+        },
         "mainContainer": "button",
         "xl": 12,
         "lg": 12,
@@ -3361,7 +3367,7 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "© 2023 Copyright Mobilink Microfinance. ",
+      "label": "© 2023 Copyright Telenor Microfinance. ",
       "variant": "h6",
       "name": "footer",
       "mandatory": false,

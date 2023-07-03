@@ -3648,13 +3648,45 @@
                         "path": "1-0-0-0-3"
                       },
                       {
+                        "id": "iSaOQ5PW2EBctNa2H4Aad",
+                        "name": "Show Error Modal",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "2IQS1AnMOn8bkEpMKGUPj",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
                         "type": "10001",
                         "id": "tA0ZhXvS5-0l5OBj5YWoH",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "uYNpQpyPXRJJmFTBQkTZl",
+                            "id": "9LuprGKEz_ZVmZ2YUwjrM",
                             "gridProps": [
+                              {
+                                "id": "ACV75V4t7nsSbr6LEuWAN",
+                                "name": "Open Success Modal",
+                                "type": "20031",
+                                "attributes": {
+                                  "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+                                  "layoutProperties": {
+                                    "xl": 8,
+                                    "lg": 8,
+                                    "md": 8,
+                                    "sm": 8,
+                                    "xs": 8
+                                  }
+                                },
+                                "component": { "type": "20031" }
+                              },
                               {
                                 "type": "10001",
                                 "name": "Grid layout",
@@ -3662,7 +3694,7 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "vkKxBkXQIeFC5t_mqnfd8",
+                                    "id": "jKNhuuKQ7QJufPs6Q87hh",
                                     "gridProps": [],
                                     "layoutProperties": {
                                       "xl": 12,
@@ -3670,8 +3702,7 @@
                                       "md": 12,
                                       "sm": 12,
                                       "xs": 12
-                                    },
-                                    "path": "1-0-0-0-4-0-0-0"
+                                    }
                                   }
                                 ],
                                 "allowedContainers": [
@@ -3705,7 +3736,17 @@
                                   "type": "10001",
                                   "content": "Grid layout"
                                 },
-                                "path": "1-0-0-0-4-0-0"
+                                "path": "1-0-0-0-5-0-1",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12
+                                },
+                                "readOnly": false
                               }
                             ],
                             "layoutProperties": {
@@ -3714,12 +3755,11 @@
                               "md": 8,
                               "sm": 8,
                               "xs": 8
-                            },
-                            "path": "1-0-0-0-4-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "3y-7adEOWHETQ7rv82oMF",
+                            "id": "EXk0vbJOHjRtsWSEGC_4H",
                             "gridProps": [
                               {
                                 "id": "sDR0Yiu2FM-h8I2wRcHFu",
@@ -3880,12 +3920,11 @@
                               "md": 2,
                               "sm": 2,
                               "xs": 2
-                            },
-                            "path": "1-0-0-0-4-1"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "mJ58LF38wZCdu9pUke2Ks",
+                            "id": "gwIcq6D9WUdHJ6AqnM9D_",
                             "gridProps": [
                               {
                                 "id": "eCV3g-9UeRNXH-9T79AdP",
@@ -4046,11 +4085,10 @@
                               "md": 2,
                               "sm": 2,
                               "xs": 2
-                            },
-                            "path": "1-0-0-0-4-2"
+                            }
                           }
                         ],
-                        "path": "1-0-0-0-4",
+                        "path": "1-0-0-0-5",
                         "events": [],
                         "attributes": {
                           "gridProps": [],
@@ -4082,7 +4120,27 @@
                           "20010",
                           "widget"
                         ],
-                        "name": "Grid layout"
+                        "name": "Grid layout",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 3,
+                          "colSize0xs": 8,
+                          "colSize0sm": 8,
+                          "colSize0md": 8,
+                          "colSize0lg": 8,
+                          "colSize0xl": 8,
+                          "colSize1xs": 2,
+                          "colSize1sm": 2,
+                          "colSize1md": 2,
+                          "colSize1lg": 2,
+                          "colSize1xl": 2,
+                          "colSize2xs": 2,
+                          "colSize2sm": 2,
+                          "colSize2md": 2,
+                          "colSize2lg": 2,
+                          "colSize2xl": 2
+                        },
+                        "readOnly": true
                       }
                     ],
                     "layoutProperties": {
@@ -4172,8 +4230,8 @@
     "gitBranchName": "master",
     "_id": "2Gw9BBze4WqoqgTl-98CS",
     "createdBy": "telenor",
-    "updatedAt": "6/13/2023",
-    "createdAt": "6/13/2023",
+    "updatedAt": "7/3/2023",
+    "createdAt": "7/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4393,6 +4451,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "iSaOQ5PW2EBctNa2H4Aad",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "tA0ZhXvS5-0l5OBj5YWoH",
@@ -7667,11 +7737,33 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "iSaOQ5PW2EBctNa2H4Aad",
+    "name": "Show Error Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "2IQS1AnMOn8bkEpMKGUPj",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "2Gw9BBze4WqoqgTl-98CS",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "tA0ZhXvS5-0l5OBj5YWoH",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
       "gridProps": [
+        {
+          "layoutProperties": { "xl": 8, "lg": 8, "md": 8, "sm": 8, "xs": 8 },
+          "componentId": "ACV75V4t7nsSbr6LEuWAN",
+          "componentType": "20031",
+          "order": 1
+        },
         {
           "componentId": "KVQKQtwm9YABGCno2G7vC",
           "componentType": "10001",
@@ -7733,6 +7825,22 @@
     "events": [],
     "subType": "component",
     "screenId": "2Gw9BBze4WqoqgTl-98CS",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ACV75V4t7nsSbr6LEuWAN",
+    "name": "Open Success Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "-sMYaFyGS_4YXXyp9sw2W",
+      "layoutProperties": { "xl": 8, "lg": 8, "md": 8, "sm": 8, "xs": 8 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "2Gw9BBze4WqoqgTl-98CS",
+    "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",

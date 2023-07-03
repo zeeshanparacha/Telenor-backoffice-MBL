@@ -40,7 +40,7 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "v4AiZR3VDSr16jgb0gnVa",
+            "id": "xT65RZDXQ2mGIyMwbzGGa",
             "gridProps": [
               {
                 "type": "10001",
@@ -75,9 +75,10 @@
                                   "layoutProperties": {
                                     "image": {
                                       "//": "Use this class to style image component.",
-                                      "width": "150px",
+                                      "width": "110px",
                                       "display": "block",
-                                      "margin": "6px 15px 0px"
+                                      "margin": "6px 15px 0px",
+                                      "height": "87%"
                                     },
                                     "mainContainer": "image",
                                     "xl": 12,
@@ -1045,11 +1046,10 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
-        "path": 0,
+        "path": "0",
         "events": [
           {
             "triggerId": "JvOzv5SnGFiDwBewTgePQ",
@@ -1133,7 +1133,18 @@
         },
         "component": { "type": "10001", "content": "Grid layout" },
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
-        "name": "Homepage"
+        "name": "Homepage",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12,
+          "layoutProperties": null
+        },
+        "readOnly": true
       },
       {
         "id": "c4sS6nhPP9qLn8k1je3Y-",
@@ -1156,7 +1167,6 @@
             },
             "subMenuItemClass": {
               "color": "white",
-              "background-color": "#394c85",
               "height": "40px",
               "background": "#000000 ",
               "fontSize": "13px",
@@ -1661,9 +1671,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "r2GYIm_SabTQCUesudBwl",
-    "createdBy": "telenor",
-    "updatedAt": "6/14/2023",
-    "createdAt": "6/14/2023",
+    "createdBy": "ajk",
+    "updatedAt": "6/25/2023",
+    "createdAt": "6/25/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1858,9 +1868,10 @@
       "layoutProperties": {
         "image": {
           "//": "Use this class to style image component.",
-          "width": "150px",
+          "width": "110px",
           "display": "block",
-          "margin": "6px 15px 0px"
+          "margin": "6px 15px 0px",
+          "height": "87%"
         },
         "mainContainer": "image",
         "xl": 12,
@@ -2430,7 +2441,6 @@
         },
         "subMenuItemClass": {
           "color": "white",
-          "background-color": "#394c85",
           "height": "40px",
           "background": "#000000 ",
           "fontSize": "13px",
