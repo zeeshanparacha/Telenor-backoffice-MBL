@@ -1,0 +1,4069 @@
+[
+  {
+    "id": "nyIqdJHrxVsB26amqT5ti",
+    "name": "401 Error Modal",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "wTu016hQxy-N_D5dyXwlg",
+          "componentType": "10001",
+          "id": "wTu016hQxy-N_D5dyXwlg",
+          "position": {
+            "i": "wTu016hQxy-N_D5dyXwlg",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "wTu016hQxy-N_D5dyXwlg",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "kk-HVZmql6bl8mzB_eGZw",
+            "gridProps": [
+              {
+                "type": "10001",
+                "id": "4cyMwuxM-WjEqPktsLLf3",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "36U4dp92Tr_jxphIcKzna",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "id": "Vdks_4n9-oNx-KQTbnDRC",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "0EJEajKyV2yrBer4Tx03q",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "Y0c_QMHMcx6zsVElfgho1",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "cIpXFiE5xF9poh99RcpFB",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-0-0-0-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-0-0-0-0-0",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12,
+                                  "layoutProperties": null
+                                },
+                                "readOnly": false
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 11,
+                              "lg": 11,
+                              "md": 11,
+                              "sm": 11,
+                              "xs": 11
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "unMGO-5oZdKK47zcHS5Z-",
+                            "gridProps": [
+                              {
+                                "id": "e4xsTLo6lkOBc1hcojRKr",
+                                "status": "ACTIVE",
+                                "name": "Image",
+                                "icon": "FaImage",
+                                "attributes": {
+                                  "name": "Image",
+                                  "contentType": false,
+                                  "defaultImageAssetIdTemp": {
+                                    "name": "dracaena-cinnabari.jpg",
+                                    "id": "CNIz67fi824LHr0ae-pOV"
+                                  },
+                                  "layoutProperties": {
+                                    "image": {
+                                      "//": "Use this class to style image component.",
+                                      "float": "right",
+                                      "height": "15px",
+                                      "cursor": "pointer"
+                                    },
+                                    "mainContainer": "image",
+                                    "xl": 1,
+                                    "lg": 1,
+                                    "md": 1,
+                                    "sm": 1,
+                                    "xs": 1
+                                  },
+                                  "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                  "imageAssetIdTemp": {
+                                    "createdBy": "haseeb",
+                                    "_id": "63872b7f08099543289ac3e8",
+                                    "name": "cross.png",
+                                    "type": "png",
+                                    "projectId": "62dfaa1ecc4a8a55e4d8a02b",
+                                    "id": "AxEXLS-R7-3lF6bybb8u0",
+                                    "gitBranchName": "Sprint1",
+                                    "folderType": "web",
+                                    "platform": "web",
+                                    "url": "web/cross.png",
+                                    "canvasUrl": "web/cross.png",
+                                    "createdAt": "2022-11-30T10:07:59.891Z",
+                                    "updatedAt": "2022-11-30T10:07:59.891Z",
+                                    "__v": 0,
+                                    "uri": "web/cross.png"
+                                  },
+                                  "imageAssetId": "AxEXLS-R7-3lF6bybb8u0",
+                                  "stateName": null,
+                                  "storeType": null
+                                },
+                                "group": "Form",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 0,
+                                "type": "20012",
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Image",
+                                  "type": "20012"
+                                },
+                                "events": [
+                                  {
+                                    "triggerId": "Zk8Z_jSaS6JcPsypBmSMM",
+                                    "triggerName": "Hide Modal",
+                                    "serviceType": "9",
+                                    "attributes": {
+                                      "modalId": "438b2SqQghyEM0HS-tgt4"
+                                    },
+                                    "type": "2",
+                                    "name": "On click"
+                                  }
+                                ],
+                                "path": "0-0-0-0-0-1-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 1,
+                              "lg": 1,
+                              "md": 1,
+                              "sm": 1,
+                              "xs": 1
+                            }
+                          }
+                        ],
+                        "path": "0-0-0-0-0",
+                        "events": [],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "18px",
+                              "spacing": 0,
+                              "background": "#d23838"
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "name": "Grid layout",
+                        "dimensions": {
+                          "rows": 1,
+                          "columns": 2,
+                          "colSize0xs": 11,
+                          "colSize0sm": 11,
+                          "colSize0md": 11,
+                          "colSize0lg": 11,
+                          "colSize0xl": 11,
+                          "colSize1xs": 1,
+                          "colSize1sm": 1,
+                          "colSize1md": 1,
+                          "colSize1lg": 1,
+                          "colSize1xl": 1
+                        },
+                        "readOnly": true
+                      },
+                      {
+                        "type": "10001",
+                        "id": "4ExMUveDyVDU141FnZKzQ",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "4kchEMnNn2GilxoelVJWx",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "DggBkJwsEXx5_hGxloho5",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "cOypPqRluE9sdoy-DspZz",
+                                    "gridProps": [
+                                      {
+                                        "id": "KwpVL1iEQNHaqb7OxXvnN",
+                                        "status": "ACTIVE",
+                                        "name": "Image",
+                                        "icon": "FaImage",
+                                        "attributes": {
+                                          "name": "Image",
+                                          "contentType": false,
+                                          "defaultImageAssetIdTemp": {
+                                            "name": "dracaena-cinnabari.jpg",
+                                            "id": "CNIz67fi824LHr0ae-pOV"
+                                          },
+                                          "layoutProperties": {
+                                            "image": {
+                                              "//": "Use this class to style image component.",
+                                              "height": "54px",
+                                              "width": "54px",
+                                              "margin": "0px auto",
+                                              "display": "flex"
+                                            },
+                                            "mainContainer": "image",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                          "imageAssetIdTemp": {
+                                            "createdBy": "haseeb",
+                                            "_id": "63872b7208099543289ac3b2",
+                                            "name": "Group 67.png",
+                                            "type": "png",
+                                            "projectId": "62dfaa1ecc4a8a55e4d8a02b",
+                                            "id": "fTuKFpUKn7FtDUxdgn8Zy",
+                                            "gitBranchName": "Sprint1",
+                                            "folderType": "web",
+                                            "platform": "web",
+                                            "url": "web/Group 67.png",
+                                            "canvasUrl": "web/Group 67.png",
+                                            "createdAt": "2022-11-30T10:07:46.678Z",
+                                            "updatedAt": "2022-11-30T10:07:46.678Z",
+                                            "__v": 0,
+                                            "uri": "web/Group 67.png"
+                                          },
+                                          "imageAssetId": "fTuKFpUKn7FtDUxdgn8Zy",
+                                          "stateName": null,
+                                          "storeType": null
+                                        },
+                                        "group": "Form",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 0,
+                                        "type": "20012",
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Image",
+                                          "type": "20012"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-0-0-1-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-0-0-1-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "margin": "40px 0px 0px 0px"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-0-0-1-0-0",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12,
+                                  "layoutProperties": null
+                                },
+                                "readOnly": true
+                              },
+                              {
+                                "id": "ImKhjZJNcsolRi_eC48DA",
+                                "type": "20002",
+                                "name": "Label",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "attributes": {
+                                  "label": "dashboardData.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2,
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.dashboardData.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  }
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-1",
+                                "version": "1.0.0"
+                              },
+                              {
+                                "id": "ENsFa6c5XESKnXPhwWeea",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "allTransaction.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.allTransaction.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-2"
+                              },
+                              {
+                                "id": "8arK2akzBfjG4MvYRrYLB",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "fullStatement.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.fullStatement.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-4"
+                              },
+                              {
+                                "id": "45vQgSLTf3uh3VxGnpflv",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "miniStatement.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.miniStatement.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-5"
+                              },
+                              {
+                                "id": "vg_3uoIs1sWuwhU7MoU_i",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "accountSummary.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.accountSummary.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-6"
+                              },
+                              {
+                                "id": "6Z2gZ5vIV7vWAsV53FaqM",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "accounts.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.accounts.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-7"
+                              },
+                              {
+                                "id": "keeUbRE8J4D7MbxjNiyzC",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "response.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.response.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "searchInState": true,
+                                  "storeType": 2,
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ]
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-8"
+                              },
+                              {
+                                "id": "U1CgqNCSEanypRfVyI6GW",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "banks.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.banks.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "searchInState": true,
+                                  "storeType": 2,
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ]
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-9"
+                              },
+                              {
+                                "id": "kVMJlWV4eaRCjAGaSt2hE",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "beneficiariesCompany.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.beneficiariesCompany.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-10"
+                              },
+                              {
+                                "id": "aj-uXH45CLNP8Z0yeW8Xo",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "unapprovedTransactionBatches.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.unapprovedTransactionBatches.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "searchInState": true,
+                                  "storeType": 2,
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ]
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-11"
+                              },
+                              {
+                                "id": "W0uJsTPpITq84mezldVxb",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "transmitTransactionDetailsData.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.transmitTransactionDetailsData.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "searchInState": true,
+                                  "storeType": 2,
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ]
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-12"
+                              },
+                              {
+                                "id": "Knu70ds2m6mU4GiM1r2_a",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "transactionHistoryData.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.transactionHistoryData.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-13"
+                              },
+                              {
+                                "id": "poG27IejtqDaVBE0E_5XU",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "transactionRecordDetailsData.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.transactionRecordDetailsData.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-14"
+                              },
+                              {
+                                "id": "AVbycnFuExoV2M5vnuZ8K",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "pendingTransactionDetailsModalData.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.pendingTransactionDetailsModalData.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-15"
+                              },
+                              {
+                                "id": "GIF0Ekq1mKg3u1rRZiORg",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "checkerRequestData.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.checkerRequestData.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-16"
+                              },
+                              {
+                                "id": "l7rffsEBWexylsJO2R2ob",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "checkerRequestTransactionList.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.checkerRequestTransactionList.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-17"
+                              },
+                              {
+                                "id": "1zkAF92PZmGHfjc1HqRWV",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "searchUserActivity.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.searchUserActivity.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-18"
+                              },
+                              {
+                                "id": "0bHu1_ppo3R7G9ZwOzuNh",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "userActivationData.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.userActivationData.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ],
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-19"
+                              },
+                              {
+                                "id": "CnudCDfErE45MtaagoQUT",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "collectionResponse.error",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "<": [
+                                        {
+                                          "var": "currentScreen.collectionResponse.error.length"
+                                        },
+                                        1
+                                      ]
+                                    }
+                                  },
+                                  "searchInState": true,
+                                  "storeType": 2,
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ]
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-20"
+                              },
+                              {
+                                "id": "xhMJB9BY2q56NHZcEB9lJ",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "Your session has expired! Click 'OK' to Login again",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "font-size": "18px",
+                                      "font-weight": "400",
+                                      "color": "#000000",
+                                      "letter-spacing": "0.54px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "hideCondition": {
+                                    "logic": {
+                                      "and": [
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.dashboardData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.allTransaction.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.fullStatement.error.length"
+                                            },
+                                            0
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.miniStatement.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.accountSummary.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.accounts.error.length"
+                                            },
+                                            0
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.response.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.banks.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.unapprovedTransactionBatches.error.length"
+                                            },
+                                            0
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.transmitTransactionDetailsData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.transactionHistoryData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.transactionRecordDetailsData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.pendingTransactionDetailsModalData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.checkerRequestData.error.length"
+                                            },
+                                            0
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.checkerRequestTransactionList.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.searchUserActivity.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.userActivationData.error.length"
+                                            },
+                                            1
+                                          ]
+                                        },
+                                        {
+                                          ">": [
+                                            {
+                                              "var": "currentScreen.collectionResponse.error.length"
+                                            },
+                                            0
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "successLabelStykle" }
+                                  ]
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-1-0-20"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-0-0-1-0"
+                          }
+                        ],
+                        "path": "0-0-0-0-1",
+                        "events": [],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "0px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "name": "Grid layout"
+                      },
+                      {
+                        "type": "10001",
+                        "name": "Grid layout",
+                        "id": "RO-8acqqukGYP_8eo5KIv",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "Rfbp8ClbSXhcI_MPzeTeI",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "tm6L3r92VMdRiFA49jS83",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "ph04sdQETb-KCEAMhmCyd",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                }
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 10,
+                              "lg": 10,
+                              "md": 10,
+                              "sm": 10,
+                              "xs": 10
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "qkq6VCZkcN00cR3deqaId",
+                            "gridProps": [
+                              {
+                                "id": "JZ5gFdsdez8nKLITgNvFw",
+                                "status": "ACTIVE",
+                                "_id": "610134a1d1f5e860b1e8c751",
+                                "name": "Grid layout",
+                                "icon": "FaGripHorizontal",
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "paddingLeft": "30px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "group": "Layout",
+                                "type": "10001",
+                                "updatedAt": "23-Sep-2021",
+                                "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+                                "createdAt": "24-Aug-2021",
+                                "events": [],
+                                "order": 1,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "component": {
+                                  "content": "Grid layout",
+                                  "type": "10001"
+                                },
+                                "path": "0-0-0-0-2-1-0",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "w1JriP-C14riwU0QeLDlD",
+                                    "gridProps": [
+                                      {
+                                        "id": "9VtmktzWFuDligsw4OtH-",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "ok",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "cssClassNames": [
+                                            {
+                                              "cssClassName": "cardModalButton "
+                                            }
+                                          ]
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "C9VAY5AImRfafaf65",
+                                            "triggerName": "Refresh page",
+                                            "serviceType": "14",
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-2-1-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "layoutProperties": {
+                                  "lg": 12,
+                                  "md": 12,
+                                  "sm": 12,
+                                  "xs": 12
+                                },
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12
+                                },
+                                "readOnly": true
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 2,
+                              "lg": 2,
+                              "md": 2,
+                              "sm": 2,
+                              "xs": 2
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "events": [],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        }
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    },
+                    "path": "0-0-0-0"
+                  }
+                ],
+                "path": "0-0-0",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "0px",
+                      "spacing": 0,
+                      "borderRadius": "15px",
+                      "background": "#ffffff",
+                      "margin": "0px auto",
+                      "min-height": "200px",
+                      "box-shadow": "0 10px 20px rgba(136,137,137,0.07)"
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            },
+            "path": "0-0"
+          }
+        ],
+        "path": 0,
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "0px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "401 Error Modal",
+          "columns": "1"
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "Grid layout"
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "nyIqdJHrxVsB26amqT5ti",
+    "createdBy": "telenor",
+    "updatedAt": "7/6/2023",
+    "createdAt": "7/6/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "wTu016hQxy-N_D5dyXwlg",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "4cyMwuxM-WjEqPktsLLf3",
+          "componentType": "10001",
+          "id": "4cyMwuxM-WjEqPktsLLf3",
+          "position": {
+            "i": "4cyMwuxM-WjEqPktsLLf3",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "401 Error Modal",
+      "columns": "1"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "4cyMwuxM-WjEqPktsLLf3",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "Vdks_4n9-oNx-KQTbnDRC",
+          "componentType": "10001",
+          "id": "Vdks_4n9-oNx-KQTbnDRC",
+          "position": {
+            "i": "Vdks_4n9-oNx-KQTbnDRC",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "4ExMUveDyVDU141FnZKzQ",
+          "componentType": "10001",
+          "id": "4ExMUveDyVDU141FnZKzQ",
+          "position": {
+            "i": "4ExMUveDyVDU141FnZKzQ",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "RO-8acqqukGYP_8eo5KIv",
+          "componentType": "10001",
+          "id": "RO-8acqqukGYP_8eo5KIv",
+          "position": {
+            "i": "RO-8acqqukGYP_8eo5KIv",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0,
+          "borderRadius": "15px",
+          "background": "#ffffff",
+          "margin": "0px auto",
+          "min-height": "200px",
+          "box-shadow": "0 10px 20px rgba(136,137,137,0.07)"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Vdks_4n9-oNx-KQTbnDRC",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "Y0c_QMHMcx6zsVElfgho1",
+          "componentType": "10001",
+          "id": "Y0c_QMHMcx6zsVElfgho1",
+          "position": {
+            "i": "Y0c_QMHMcx6zsVElfgho1",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 11,
+            "lg": 11,
+            "md": 11,
+            "sm": 11,
+            "xs": 11
+          }
+        },
+        {
+          "layoutProperties": { "xl": 1, "lg": 1, "md": 1, "sm": 1, "xs": 1 },
+          "componentId": "e4xsTLo6lkOBc1hcojRKr",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "18px",
+          "spacing": 0,
+          "background": "#d23838"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Y0c_QMHMcx6zsVElfgho1",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "e4xsTLo6lkOBc1hcojRKr",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "float": "right",
+          "height": "15px",
+          "cursor": "pointer"
+        },
+        "mainContainer": "image",
+        "xl": 1,
+        "lg": 1,
+        "md": 1,
+        "sm": 1,
+        "xs": 1
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "haseeb",
+        "_id": "63872b7f08099543289ac3e8",
+        "name": "cross.png",
+        "type": "png",
+        "projectId": "62dfaa1ecc4a8a55e4d8a02b",
+        "id": "AxEXLS-R7-3lF6bybb8u0",
+        "gitBranchName": "Sprint1",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/cross.png",
+        "canvasUrl": "web/cross.png",
+        "createdAt": "2022-11-30T10:07:59.891Z",
+        "updatedAt": "2022-11-30T10:07:59.891Z",
+        "__v": 0,
+        "uri": "web/cross.png"
+      },
+      "imageAssetId": "AxEXLS-R7-3lF6bybb8u0",
+      "stateName": null,
+      "storeType": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [
+      {
+        "triggerId": "Zk8Z_jSaS6JcPsypBmSMM",
+        "triggerName": "Hide Modal",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "9"
+      }
+    ],
+    "path": "0-0-0-0-0-1-0",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "4ExMUveDyVDU141FnZKzQ",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "DggBkJwsEXx5_hGxloho5",
+          "componentType": "10001",
+          "id": "DggBkJwsEXx5_hGxloho5",
+          "position": {
+            "i": "DggBkJwsEXx5_hGxloho5",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "ImKhjZJNcsolRi_eC48DA",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "ENsFa6c5XESKnXPhwWeea",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "8arK2akzBfjG4MvYRrYLB",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "45vQgSLTf3uh3VxGnpflv",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "vg_3uoIs1sWuwhU7MoU_i",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "6Z2gZ5vIV7vWAsV53FaqM",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "keeUbRE8J4D7MbxjNiyzC",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "U1CgqNCSEanypRfVyI6GW",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "kVMJlWV4eaRCjAGaSt2hE",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "aj-uXH45CLNP8Z0yeW8Xo",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "W0uJsTPpITq84mezldVxb",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "Knu70ds2m6mU4GiM1r2_a",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "poG27IejtqDaVBE0E_5XU",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "AVbycnFuExoV2M5vnuZ8K",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "GIF0Ekq1mKg3u1rRZiORg",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "l7rffsEBWexylsJO2R2ob",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "1zkAF92PZmGHfjc1HqRWV",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "0bHu1_ppo3R7G9ZwOzuNh",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "CnudCDfErE45MtaagoQUT",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "xhMJB9BY2q56NHZcEB9lJ",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "DggBkJwsEXx5_hGxloho5",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "KwpVL1iEQNHaqb7OxXvnN",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "margin": "40px 0px 0px 0px"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "KwpVL1iEQNHaqb7OxXvnN",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "height": "54px",
+          "width": "54px",
+          "margin": "0px auto",
+          "display": "flex"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "haseeb",
+        "_id": "63872b7208099543289ac3b2",
+        "name": "Group 67.png",
+        "type": "png",
+        "projectId": "62dfaa1ecc4a8a55e4d8a02b",
+        "id": "fTuKFpUKn7FtDUxdgn8Zy",
+        "gitBranchName": "Sprint1",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/Group 67.png",
+        "canvasUrl": "web/Group 67.png",
+        "createdAt": "2022-11-30T10:07:46.678Z",
+        "updatedAt": "2022-11-30T10:07:46.678Z",
+        "__v": 0,
+        "uri": "web/Group 67.png"
+      },
+      "imageAssetId": "fTuKFpUKn7FtDUxdgn8Zy",
+      "stateName": null,
+      "storeType": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-0-0-1-0-0-0-0",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ImKhjZJNcsolRi_eC48DA",
+    "type": "20002",
+    "name": "Label",
+    "component": { "content": "Label", "type": "20002" },
+    "attributes": {
+      "label": "dashboardData.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2,
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.dashboardData.error.length" }, 1]
+        }
+      }
+    },
+    "events": [],
+    "path": "0-0-0-0-1-0-1",
+    "version": "1.0.0",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ENsFa6c5XESKnXPhwWeea",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "allTransaction.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.allTransaction.error.length" }, 1]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-2",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "8arK2akzBfjG4MvYRrYLB",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "fullStatement.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.fullStatement.error.length" }, 1]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-4",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "45vQgSLTf3uh3VxGnpflv",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "miniStatement.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.miniStatement.error.length" }, 1]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-5",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "vg_3uoIs1sWuwhU7MoU_i",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "accountSummary.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.accountSummary.error.length" }, 1]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-6",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "6Z2gZ5vIV7vWAsV53FaqM",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "accounts.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": { "<": [{ "var": "currentScreen.accounts.error.length" }, 1] }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-7",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "keeUbRE8J4D7MbxjNiyzC",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "response.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": { "<": [{ "var": "currentScreen.response.error.length" }, 1] }
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-8",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "U1CgqNCSEanypRfVyI6GW",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "banks.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": { "<": [{ "var": "currentScreen.banks.error.length" }, 1] }
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-9",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "kVMJlWV4eaRCjAGaSt2hE",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "beneficiariesCompany.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.beneficiariesCompany.error.length" }, 1]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-10",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "aj-uXH45CLNP8Z0yeW8Xo",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "unapprovedTransactionBatches.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [
+            {
+              "var": "currentScreen.unapprovedTransactionBatches.error.length"
+            },
+            1
+          ]
+        }
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-11",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "W0uJsTPpITq84mezldVxb",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "transmitTransactionDetailsData.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [
+            {
+              "var": "currentScreen.transmitTransactionDetailsData.error.length"
+            },
+            1
+          ]
+        }
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-12",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Knu70ds2m6mU4GiM1r2_a",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "transactionHistoryData.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [
+            { "var": "currentScreen.transactionHistoryData.error.length" },
+            1
+          ]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-13",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "poG27IejtqDaVBE0E_5XU",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "transactionRecordDetailsData.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [
+            {
+              "var": "currentScreen.transactionRecordDetailsData.error.length"
+            },
+            1
+          ]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-14",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "AVbycnFuExoV2M5vnuZ8K",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "pendingTransactionDetailsModalData.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [
+            {
+              "var": "currentScreen.pendingTransactionDetailsModalData.error.length"
+            },
+            1
+          ]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-15",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "GIF0Ekq1mKg3u1rRZiORg",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "checkerRequestData.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.checkerRequestData.error.length" }, 1]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-16",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "l7rffsEBWexylsJO2R2ob",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "checkerRequestTransactionList.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [
+            {
+              "var": "currentScreen.checkerRequestTransactionList.error.length"
+            },
+            1
+          ]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-17",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "1zkAF92PZmGHfjc1HqRWV",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "searchUserActivity.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.searchUserActivity.error.length" }, 1]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-18",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "0bHu1_ppo3R7G9ZwOzuNh",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "userActivationData.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.userActivationData.error.length" }, 1]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-19",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "CnudCDfErE45MtaagoQUT",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "collectionResponse.error",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "<": [{ "var": "currentScreen.collectionResponse.error.length" }, 1]
+        }
+      },
+      "searchInState": true,
+      "storeType": 2,
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-20",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "xhMJB9BY2q56NHZcEB9lJ",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Your session has expired! Click 'OK' to Login again",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "font-size": "18px",
+          "font-weight": "400",
+          "color": "#000000",
+          "letter-spacing": "0.54px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "hideCondition": {
+        "logic": {
+          "and": [
+            { ">": [{ "var": "currentScreen.dashboardData.error.length" }, 1] },
+            {
+              ">": [{ "var": "currentScreen.allTransaction.error.length" }, 1]
+            },
+            { ">": [{ "var": "currentScreen.fullStatement.error.length" }, 0] },
+            { ">": [{ "var": "currentScreen.miniStatement.error.length" }, 1] },
+            {
+              ">": [{ "var": "currentScreen.accountSummary.error.length" }, 1]
+            },
+            { ">": [{ "var": "currentScreen.accounts.error.length" }, 0] },
+            { ">": [{ "var": "currentScreen.response.error.length" }, 1] },
+            { ">": [{ "var": "currentScreen.banks.error.length" }, 1] },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.unapprovedTransactionBatches.error.length"
+                },
+                0
+              ]
+            },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.transmitTransactionDetailsData.error.length"
+                },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.transactionHistoryData.error.length" },
+                1
+              ]
+            },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.transactionRecordDetailsData.error.length"
+                },
+                1
+              ]
+            },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.pendingTransactionDetailsModalData.error.length"
+                },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.checkerRequestData.error.length" },
+                0
+              ]
+            },
+            {
+              ">": [
+                {
+                  "var": "currentScreen.checkerRequestTransactionList.error.length"
+                },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.searchUserActivity.error.length" },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.userActivationData.error.length" },
+                1
+              ]
+            },
+            {
+              ">": [
+                { "var": "currentScreen.collectionResponse.error.length" },
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "cssClassNames": [{ "cssClassName": "successLabelStykle" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-1-0-20",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "RO-8acqqukGYP_8eo5KIv",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "tm6L3r92VMdRiFA49jS83",
+          "componentType": "10001",
+          "id": "tm6L3r92VMdRiFA49jS83",
+          "position": {
+            "i": "tm6L3r92VMdRiFA49jS83",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 10,
+            "lg": 10,
+            "md": 10,
+            "sm": 10,
+            "xs": 10
+          }
+        },
+        {
+          "componentId": "JZ5gFdsdez8nKLITgNvFw",
+          "componentType": "10001",
+          "id": "JZ5gFdsdez8nKLITgNvFw",
+          "position": {
+            "i": "JZ5gFdsdez8nKLITgNvFw",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "tm6L3r92VMdRiFA49jS83",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "JZ5gFdsdez8nKLITgNvFw",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "9VtmktzWFuDligsw4OtH-",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "paddingLeft": "30px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "9VtmktzWFuDligsw4OtH-",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "ok",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "cardModalButton " }]
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "C9VAY5AImRfafaf65",
+        "triggerName": "Refresh page",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "14"
+      }
+    ],
+    "path": "0-0-0-0-2-1-0-0-0",
+    "screenId": "nyIqdJHrxVsB26amqT5ti",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

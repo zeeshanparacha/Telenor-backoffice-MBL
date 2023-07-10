@@ -124,7 +124,7 @@
         },
         "component": { "type": "10001", "content": "Grid layout" },
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
-        "name": "Grid layout"
+        "name": "View pending Branch User Detail Screen"
       },
       {
         "type": "10001",
@@ -4522,7 +4522,7 @@
                                                           "content": "Grid layout",
                                                           "type": "10001"
                                                         },
-                                                        "path": "1",
+                                                        "path": "1-0-0-0-0-0-1-0-6-1-0-0-1",
                                                         "gridProps": [
                                                           {
                                                             "type": "column",
@@ -4597,7 +4597,8 @@
                                                               "md": 12,
                                                               "sm": 12,
                                                               "xs": 12
-                                                            }
+                                                            },
+                                                            "path": "1-0-0-0-0-0-1-0-6-1-0-0-1-0"
                                                           }
                                                         ],
                                                         "layoutProperties": {
@@ -4624,7 +4625,8 @@
                                                       "md": 12,
                                                       "sm": 12,
                                                       "xs": 12
-                                                    }
+                                                    },
+                                                    "path": "1-0-0-0-0-0-1-0-6-1-0-0"
                                                   }
                                                 ],
                                                 "path": "1-0-0-0-0-0-1-0-6-1-0",
@@ -4786,6 +4788,346 @@
                                                 },
                                                 "events": [],
                                                 "path": "1-0-0-0-0-0-1-0-7-0-0"
+                                              },
+                                              {
+                                                "type": "10001",
+                                                "id": "1wphcJ2e74_zJN--aO2rL",
+                                                "gridProps": [
+                                                  {
+                                                    "type": "column",
+                                                    "id": "VW1rPUjXwT5ge1HSwtXyw",
+                                                    "gridProps": [
+                                                      {
+                                                        "type": "10001",
+                                                        "id": "brtS--7iBrSicQmLo5xZe",
+                                                        "gridProps": [
+                                                          {
+                                                            "type": "column",
+                                                            "id": "Z-uk7_lpgkVj-X9YY1pno",
+                                                            "gridProps": [
+                                                              {
+                                                                "id": "QiBpQexXV1jsvj93vvas3",
+                                                                "type": "20013",
+                                                                "name": "Checkbox",
+                                                                "component": {
+                                                                  "content": "Checkbox",
+                                                                  "type": "20013"
+                                                                },
+                                                                "attributes": {
+                                                                  "label": "Email ",
+                                                                  "name": "Check Box",
+                                                                  "layoutProperties": {
+                                                                    "checkbox": {
+                                                                      "//": "Use this class to style checkbox component."
+                                                                    },
+                                                                    "formControlLabel": {
+                                                                      "//": "Use this class to style checkbox label.",
+                                                                      "color": "#a8a8a8",
+                                                                      "font-size": "14px",
+                                                                      "paddingLeft": "15px"
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style checkbox element."
+                                                                    },
+                                                                    "mainContainer": "formControlLabel",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "stateName": "isLoginEmailOtpRequired",
+                                                                  "value": "true",
+                                                                  "disableCondition": {
+                                                                    "logic": true
+                                                                  }
+                                                                },
+                                                                "events": [],
+                                                                "path": "1-0-0-0-0-0-1-0-7-0-1-0-0-0-0",
+                                                                "version": "1.0.0"
+                                                              }
+                                                            ],
+                                                            "layoutProperties": {
+                                                              "xl": 12,
+                                                              "lg": 12,
+                                                              "md": 12,
+                                                              "sm": 12,
+                                                              "xs": 12
+                                                            },
+                                                            "path": "1-0-0-0-0-0-1-0-7-0-1-0-0-0"
+                                                          }
+                                                        ],
+                                                        "path": "1-0-0-0-0-0-1-0-7-0-1-0-0",
+                                                        "events": [],
+                                                        "attributes": {
+                                                          "gridProps": [],
+                                                          "label": "Header",
+                                                          "layoutProperties": {
+                                                            "gridLayout": {
+                                                              "//": "Use this class to style grid layout component.",
+                                                              "padding": "5px",
+                                                              "spacing": 0
+                                                            },
+                                                            "mainContainer": "gridLayout"
+                                                          },
+                                                          "layoutProps": {
+                                                            "direction": "row",
+                                                            "justifyContent": "flex-start",
+                                                            "alignItems": "flex-start"
+                                                          },
+                                                          "direction": "row",
+                                                          "name": "Grid layout"
+                                                        },
+                                                        "component": {
+                                                          "type": "10001",
+                                                          "content": "Grid layout"
+                                                        },
+                                                        "allowedContainers": [
+                                                          "10001",
+                                                          "20030",
+                                                          "noLayout",
+                                                          "20010",
+                                                          "widget"
+                                                        ],
+                                                        "name": "Grid layout"
+                                                      }
+                                                    ],
+                                                    "layoutProperties": {
+                                                      "xl": 6,
+                                                      "lg": 6,
+                                                      "md": 6,
+                                                      "sm": 6,
+                                                      "xs": 6
+                                                    },
+                                                    "path": "1-0-0-0-0-0-1-0-7-0-1-0"
+                                                  },
+                                                  {
+                                                    "type": "column",
+                                                    "id": "xQbZs86Ri2ugNCeBMH--L",
+                                                    "gridProps": [
+                                                      {
+                                                        "type": "10001",
+                                                        "id": "9VGuoRwmILIvB4IKFNxkb",
+                                                        "gridProps": [
+                                                          {
+                                                            "type": "column",
+                                                            "id": "xAWjoof9fwjPfJZbCIDpx",
+                                                            "gridProps": [
+                                                              {
+                                                                "id": "9Iat4MaUPijDFK02fs5NP",
+                                                                "status": "ACTIVE",
+                                                                "name": "Checkbox",
+                                                                "attributes": {
+                                                                  "label": "Sms ",
+                                                                  "name": "Check Box",
+                                                                  "layoutProperties": {
+                                                                    "checkbox": {
+                                                                      "//": "Use this class to style checkbox component."
+                                                                    },
+                                                                    "formControlLabel": {
+                                                                      "//": "Use this class to style checkbox label.",
+                                                                      "color": "#a8a8a8",
+                                                                      "font-size": "14px",
+                                                                      "paddingLeft": "15px"
+                                                                    },
+                                                                    "inputProps": {
+                                                                      "//": "Use this class to style checkbox element."
+                                                                    },
+                                                                    "mainContainer": "formControlLabel",
+                                                                    "xl": 12,
+                                                                    "lg": 12,
+                                                                    "md": 12,
+                                                                    "sm": 12,
+                                                                    "xs": 12
+                                                                  },
+                                                                  "stateName": "isLoginSmsOtpRequired",
+                                                                  "value": "true",
+                                                                  "disableCondition": {
+                                                                    "logic": true
+                                                                  }
+                                                                },
+                                                                "icon": "FaCheckSquare",
+                                                                "group": "Form",
+                                                                "type": "20013",
+                                                                "updatedAt": "23-Aug-2021",
+                                                                "createdAt": "23-Aug-2021",
+                                                                "order": 16,
+                                                                "version": "1.0.0",
+                                                                "isLatest": true,
+                                                                "projectType": "web",
+                                                                "component": {
+                                                                  "content": "Checkbox",
+                                                                  "type": "20013"
+                                                                },
+                                                                "events": [],
+                                                                "path": "1-0-0-0-0-0-1-0-7-0-1-1-0-0-0"
+                                                              }
+                                                            ],
+                                                            "layoutProperties": {
+                                                              "xl": 12,
+                                                              "lg": 12,
+                                                              "md": 12,
+                                                              "sm": 12,
+                                                              "xs": 12
+                                                            },
+                                                            "path": "1-0-0-0-0-0-1-0-7-0-1-1-0-0"
+                                                          }
+                                                        ],
+                                                        "path": "1-0-0-0-0-0-1-0-7-0-1-1-0",
+                                                        "events": [
+                                                          {
+                                                            "triggerId": "B15JEb1TXaF0xPLwSyUTD",
+                                                            "triggerName": "SmsOTP String",
+                                                            "serviceType": "11",
+                                                            "attributes": {
+                                                              "storeType": "",
+                                                              "selectedObjectBindingKey": "selectedObject",
+                                                              "dataType": "value",
+                                                              "destinationBindingKey": "isLoginSmsOtpRequired",
+                                                              "sourceBindingKey": "selectedObject.payload",
+                                                              "sourceStoreType": 2,
+                                                              "destinationStoreType": 1,
+                                                              "logic": {
+                                                                "if": [
+                                                                  {
+                                                                    "==": [
+                                                                      {
+                                                                        "var": "selectedObject.payload.isLoginSmsOtpRequired"
+                                                                      },
+                                                                      true
+                                                                    ]
+                                                                  },
+                                                                  "true",
+                                                                  "false"
+                                                                ]
+                                                              },
+                                                              "changeValueConditonally": true,
+                                                              "targettedType": "value"
+                                                            },
+                                                            "type": "1",
+                                                            "name": "On initialization"
+                                                          }
+                                                        ],
+                                                        "attributes": {
+                                                          "gridProps": [],
+                                                          "label": "Header",
+                                                          "layoutProperties": {
+                                                            "gridLayout": {
+                                                              "//": "Use this class to style grid layout component.",
+                                                              "padding": "5px",
+                                                              "spacing": 0
+                                                            },
+                                                            "mainContainer": "gridLayout"
+                                                          },
+                                                          "layoutProps": {
+                                                            "direction": "row",
+                                                            "justifyContent": "flex-start",
+                                                            "alignItems": "flex-start"
+                                                          },
+                                                          "direction": "row",
+                                                          "name": "Grid layout",
+                                                          "hideComponent": false
+                                                        },
+                                                        "component": {
+                                                          "type": "10001",
+                                                          "content": "Grid layout"
+                                                        },
+                                                        "allowedContainers": [
+                                                          "10001",
+                                                          "20030",
+                                                          "noLayout",
+                                                          "20010",
+                                                          "widget"
+                                                        ],
+                                                        "name": "Grid layout",
+                                                        "dimensions": {
+                                                          "rows": 1,
+                                                          "columns": 1,
+                                                          "colSize0xs": 12,
+                                                          "colSize0sm": 12,
+                                                          "colSize0md": 12,
+                                                          "colSize0lg": 12,
+                                                          "colSize0xl": 12
+                                                        },
+                                                        "readOnly": true
+                                                      }
+                                                    ],
+                                                    "layoutProperties": {
+                                                      "xl": 6,
+                                                      "lg": 6,
+                                                      "md": 6,
+                                                      "sm": 6,
+                                                      "xs": 6
+                                                    },
+                                                    "path": "1-0-0-0-0-0-1-0-7-0-1-1"
+                                                  }
+                                                ],
+                                                "path": "1-0-0-0-0-0-1-0-7-0-1",
+                                                "events": [
+                                                  {
+                                                    "triggerId": "sVKSX32C3RkaGe1Ik4_5v",
+                                                    "triggerName": "EmailOTP String",
+                                                    "serviceType": "11",
+                                                    "attributes": {
+                                                      "storeType": "",
+                                                      "selectedObjectBindingKey": "selectedObject",
+                                                      "dataType": "value",
+                                                      "destinationBindingKey": "isLoginEmailOtpRequired",
+                                                      "sourceBindingKey": "selectedObject.payload",
+                                                      "sourceStoreType": 2,
+                                                      "destinationStoreType": 1,
+                                                      "logic": {
+                                                        "if": [
+                                                          {
+                                                            "==": [
+                                                              {
+                                                                "var": "selectedObject.payload.isLoginEmailOtpRequired"
+                                                              },
+                                                              true
+                                                            ]
+                                                          },
+                                                          "true",
+                                                          "false"
+                                                        ]
+                                                      },
+                                                      "changeValueConditonally": true,
+                                                      "targettedType": "value"
+                                                    },
+                                                    "type": "1",
+                                                    "name": "On initialization"
+                                                  }
+                                                ],
+                                                "attributes": {
+                                                  "gridProps": [],
+                                                  "label": "Header",
+                                                  "layoutProperties": {
+                                                    "gridLayout": {
+                                                      "//": "Use this class to style grid layout component.",
+                                                      "padding": "5px",
+                                                      "spacing": 0
+                                                    },
+                                                    "mainContainer": "gridLayout"
+                                                  },
+                                                  "layoutProps": {
+                                                    "direction": "row",
+                                                    "justifyContent": "flex-start",
+                                                    "alignItems": "flex-start"
+                                                  },
+                                                  "direction": "row",
+                                                  "name": "Grid layout"
+                                                },
+                                                "component": {
+                                                  "type": "10001",
+                                                  "content": "Grid layout"
+                                                },
+                                                "allowedContainers": [
+                                                  "10001",
+                                                  "20030",
+                                                  "noLayout",
+                                                  "20010",
+                                                  "widget"
+                                                ],
+                                                "name": "Grid layout"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -4831,361 +5173,6 @@
                                           "widget"
                                         ],
                                         "name": "Grid layout"
-                                      },
-                                      {
-                                        "type": "10001",
-                                        "id": "1wphcJ2e74_zJN--aO2rL",
-                                        "gridProps": [
-                                          {
-                                            "type": "column",
-                                            "id": "VW1rPUjXwT5ge1HSwtXyw",
-                                            "gridProps": [
-                                              {
-                                                "type": "10001",
-                                                "id": "brtS--7iBrSicQmLo5xZe",
-                                                "gridProps": [
-                                                  {
-                                                    "type": "column",
-                                                    "id": "Z-uk7_lpgkVj-X9YY1pno",
-                                                    "gridProps": [
-                                                      {
-                                                        "id": "QiBpQexXV1jsvj93vvas3",
-                                                        "type": "20013",
-                                                        "name": "Checkbox",
-                                                        "component": {
-                                                          "content": "Checkbox",
-                                                          "type": "20013"
-                                                        },
-                                                        "attributes": {
-                                                          "label": "Email ",
-                                                          "name": "Check Box",
-                                                          "layoutProperties": {
-                                                            "checkbox": {
-                                                              "//": "Use this class to style checkbox component."
-                                                            },
-                                                            "formControlLabel": {
-                                                              "//": "Use this class to style checkbox label.",
-                                                              "color": "#a8a8a8",
-                                                              "font-size": "14px",
-                                                              "paddingLeft": "15px"
-                                                            },
-                                                            "inputProps": {
-                                                              "//": "Use this class to style checkbox element."
-                                                            },
-                                                            "mainContainer": "formControlLabel",
-                                                            "xl": 12,
-                                                            "lg": 12,
-                                                            "md": 12,
-                                                            "sm": 12,
-                                                            "xs": 12
-                                                          },
-                                                          "stateName": "isLoginEmailOtpRequired",
-                                                          "value": "true",
-                                                          "disableCondition": {
-                                                            "logic": true
-                                                          }
-                                                        },
-                                                        "events": [],
-                                                        "path": "1-0-0-0-0-0-1-0-8-0-0-0-0",
-                                                        "version": "1.0.0"
-                                                      }
-                                                    ],
-                                                    "layoutProperties": {
-                                                      "xl": 12,
-                                                      "lg": 12,
-                                                      "md": 12,
-                                                      "sm": 12,
-                                                      "xs": 12
-                                                    },
-                                                    "path": "1-0-0-0-0-0-1-0-8-0-0-0"
-                                                  }
-                                                ],
-                                                "path": "1-0-0-0-0-0-1-0-8-0-0",
-                                                "events": [],
-                                                "attributes": {
-                                                  "gridProps": [],
-                                                  "label": "Header",
-                                                  "layoutProperties": {
-                                                    "gridLayout": {
-                                                      "//": "Use this class to style grid layout component.",
-                                                      "padding": "5px",
-                                                      "spacing": 0
-                                                    },
-                                                    "mainContainer": "gridLayout"
-                                                  },
-                                                  "layoutProps": {
-                                                    "direction": "row",
-                                                    "justifyContent": "flex-start",
-                                                    "alignItems": "flex-start"
-                                                  },
-                                                  "direction": "row",
-                                                  "name": "Grid layout"
-                                                },
-                                                "component": {
-                                                  "type": "10001",
-                                                  "content": "Grid layout"
-                                                },
-                                                "allowedContainers": [
-                                                  "10001",
-                                                  "20030",
-                                                  "noLayout",
-                                                  "20010",
-                                                  "widget"
-                                                ],
-                                                "name": "Grid layout"
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 6,
-                                              "lg": 6,
-                                              "md": 6,
-                                              "sm": 6,
-                                              "xs": 6
-                                            },
-                                            "path": "1-0-0-0-0-0-1-0-8-0"
-                                          },
-                                          {
-                                            "type": "column",
-                                            "id": "xQbZs86Ri2ugNCeBMH--L",
-                                            "gridProps": [
-                                              {
-                                                "type": "10001",
-                                                "id": "9VGuoRwmILIvB4IKFNxkb",
-                                                "gridProps": [
-                                                  {
-                                                    "type": "column",
-                                                    "id": "xAWjoof9fwjPfJZbCIDpx",
-                                                    "gridProps": [
-                                                      {
-                                                        "id": "9Iat4MaUPijDFK02fs5NP",
-                                                        "status": "ACTIVE",
-                                                        "name": "Checkbox",
-                                                        "attributes": {
-                                                          "label": "Sms ",
-                                                          "name": "Check Box",
-                                                          "layoutProperties": {
-                                                            "checkbox": {
-                                                              "//": "Use this class to style checkbox component."
-                                                            },
-                                                            "formControlLabel": {
-                                                              "//": "Use this class to style checkbox label.",
-                                                              "color": "#a8a8a8",
-                                                              "font-size": "14px",
-                                                              "paddingLeft": "15px"
-                                                            },
-                                                            "inputProps": {
-                                                              "//": "Use this class to style checkbox element."
-                                                            },
-                                                            "mainContainer": "formControlLabel",
-                                                            "xl": 12,
-                                                            "lg": 12,
-                                                            "md": 12,
-                                                            "sm": 12,
-                                                            "xs": 12
-                                                          },
-                                                          "stateName": "isLoginSmsOtpRequired",
-                                                          "value": "true",
-                                                          "disableCondition": {
-                                                            "logic": true
-                                                          }
-                                                        },
-                                                        "icon": "FaCheckSquare",
-                                                        "group": "Form",
-                                                        "type": "20013",
-                                                        "updatedAt": "23-Aug-2021",
-                                                        "createdAt": "23-Aug-2021",
-                                                        "order": 16,
-                                                        "version": "1.0.0",
-                                                        "isLatest": true,
-                                                        "projectType": "web",
-                                                        "component": {
-                                                          "content": "Checkbox",
-                                                          "type": "20013"
-                                                        },
-                                                        "events": [],
-                                                        "path": "1-0-0-0-0-0-1-0-8-1-0-0-0"
-                                                      }
-                                                    ],
-                                                    "layoutProperties": {
-                                                      "xl": 12,
-                                                      "lg": 12,
-                                                      "md": 12,
-                                                      "sm": 12,
-                                                      "xs": 12
-                                                    },
-                                                    "path": "1-0-0-0-0-0-1-0-8-1-0-0"
-                                                  }
-                                                ],
-                                                "path": "1-0-0-0-0-0-1-0-8-1-0",
-                                                "events": [
-                                                  {
-                                                    "triggerId": "B15JEb1TXaF0xPLwSyUTD",
-                                                    "triggerName": "SmsOTP String",
-                                                    "serviceType": "11",
-                                                    "attributes": {
-                                                      "storeType": "",
-                                                      "selectedObjectBindingKey": "selectedObject",
-                                                      "dataType": "value",
-                                                      "destinationBindingKey": "isLoginSmsOtpRequired",
-                                                      "sourceBindingKey": "selectedObject.payload",
-                                                      "sourceStoreType": 2,
-                                                      "destinationStoreType": 1,
-                                                      "logic": {
-                                                        "if": [
-                                                          {
-                                                            "==": [
-                                                              {
-                                                                "var": "selectedObject.payload.isLoginSmsOtpRequired"
-                                                              },
-                                                              true
-                                                            ]
-                                                          },
-                                                          "true",
-                                                          "false"
-                                                        ]
-                                                      },
-                                                      "changeValueConditonally": true,
-                                                      "targettedType": "value"
-                                                    },
-                                                    "type": "1",
-                                                    "name": "On initialization"
-                                                  }
-                                                ],
-                                                "attributes": {
-                                                  "gridProps": [],
-                                                  "label": "Header",
-                                                  "layoutProperties": {
-                                                    "gridLayout": {
-                                                      "//": "Use this class to style grid layout component.",
-                                                      "padding": "5px",
-                                                      "spacing": 0
-                                                    },
-                                                    "mainContainer": "gridLayout"
-                                                  },
-                                                  "layoutProps": {
-                                                    "direction": "row",
-                                                    "justifyContent": "flex-start",
-                                                    "alignItems": "flex-start"
-                                                  },
-                                                  "direction": "row",
-                                                  "name": "Grid layout",
-                                                  "hideComponent": false
-                                                },
-                                                "component": {
-                                                  "type": "10001",
-                                                  "content": "Grid layout"
-                                                },
-                                                "allowedContainers": [
-                                                  "10001",
-                                                  "20030",
-                                                  "noLayout",
-                                                  "20010",
-                                                  "widget"
-                                                ],
-                                                "name": "Grid layout",
-                                                "dimensions": {
-                                                  "rows": 1,
-                                                  "columns": 1,
-                                                  "colSize0xs": 12,
-                                                  "colSize0sm": 12,
-                                                  "colSize0md": 12,
-                                                  "colSize0lg": 12,
-                                                  "colSize0xl": 12
-                                                },
-                                                "readOnly": true
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 6,
-                                              "lg": 6,
-                                              "md": 6,
-                                              "sm": 6,
-                                              "xs": 6
-                                            },
-                                            "path": "1-0-0-0-0-0-1-0-8-1"
-                                          }
-                                        ],
-                                        "path": "1-0-0-0-0-0-1-0-8",
-                                        "events": [
-                                          {
-                                            "triggerId": "sVKSX32C3RkaGe1Ik4_5v",
-                                            "triggerName": "EmailOTP String",
-                                            "serviceType": "11",
-                                            "attributes": {
-                                              "storeType": "",
-                                              "selectedObjectBindingKey": "selectedObject",
-                                              "dataType": "value",
-                                              "destinationBindingKey": "isLoginEmailOtpRequired",
-                                              "sourceBindingKey": "selectedObject.payload",
-                                              "sourceStoreType": 2,
-                                              "destinationStoreType": 1,
-                                              "logic": {
-                                                "if": [
-                                                  {
-                                                    "==": [
-                                                      {
-                                                        "var": "selectedObject.payload.isLoginEmailOtpRequired"
-                                                      },
-                                                      true
-                                                    ]
-                                                  },
-                                                  "true",
-                                                  "false"
-                                                ]
-                                              },
-                                              "changeValueConditonally": true,
-                                              "targettedType": "value"
-                                            },
-                                            "type": "1",
-                                            "name": "On initialization"
-                                          }
-                                        ],
-                                        "attributes": {
-                                          "gridProps": [],
-                                          "label": "Header",
-                                          "layoutProperties": {
-                                            "gridLayout": {
-                                              "//": "Use this class to style grid layout component.",
-                                              "padding": "5px",
-                                              "spacing": 0
-                                            },
-                                            "mainContainer": "gridLayout"
-                                          },
-                                          "layoutProps": {
-                                            "direction": "row",
-                                            "justifyContent": "flex-start",
-                                            "alignItems": "flex-start"
-                                          },
-                                          "direction": "row",
-                                          "name": "Grid layout"
-                                        },
-                                        "component": {
-                                          "type": "10001",
-                                          "content": "Grid layout"
-                                        },
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
-                                        "name": "Grid layout",
-                                        "dimensions": {
-                                          "rows": 1,
-                                          "columns": 2,
-                                          "colSize0xs": 6,
-                                          "colSize0sm": 6,
-                                          "colSize0md": 6,
-                                          "colSize0lg": 6,
-                                          "colSize0xl": 6,
-                                          "colSize1xs": 6,
-                                          "colSize1sm": 6,
-                                          "colSize1md": 6,
-                                          "colSize1lg": 6,
-                                          "colSize1xl": 6
-                                        },
-                                        "readOnly": true
                                       },
                                       {
                                         "type": "10001",
@@ -5241,7 +5228,7 @@
                                                   "content": "Grid layout",
                                                   "type": "10001"
                                                 },
-                                                "path": "1-0-0-0-0-0-1-0-9-0-0",
+                                                "path": "1-0-0-0-0-0-1-0-8-0-0",
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
@@ -5284,7 +5271,7 @@
                                                           "type": "20002"
                                                         },
                                                         "events": [],
-                                                        "path": "1-0-0-0-0-0-1-0-9-0-0-0-0"
+                                                        "path": "1-0-0-0-0-0-1-0-8-0-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -5294,7 +5281,7 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "1-0-0-0-0-0-1-0-9-0-0-0"
+                                                    "path": "1-0-0-0-0-0-1-0-8-0-0-0"
                                                   }
                                                 ],
                                                 "layoutProperties": {
@@ -5350,7 +5337,7 @@
                                                   "content": "Grid layout",
                                                   "type": "10001"
                                                 },
-                                                "path": "1-0-0-0-0-0-1-0-9-0-1",
+                                                "path": "1-0-0-0-0-0-1-0-8-0-1",
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
@@ -5416,7 +5403,7 @@
                                                           "type": "20004"
                                                         },
                                                         "events": [],
-                                                        "path": "1-0-0-0-0-0-1-0-9-0-1-0-0"
+                                                        "path": "1-0-0-0-0-0-1-0-8-0-1-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -5426,7 +5413,7 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "1-0-0-0-0-0-1-0-9-0-1-0"
+                                                    "path": "1-0-0-0-0-0-1-0-8-0-1-0"
                                                   }
                                                 ],
                                                 "layoutProperties": {
@@ -5454,10 +5441,10 @@
                                               "sm": 12,
                                               "xs": 12
                                             },
-                                            "path": "1-0-0-0-0-0-1-0-9-0"
+                                            "path": "1-0-0-0-0-0-1-0-8-0"
                                           }
                                         ],
-                                        "path": "1-0-0-0-0-0-1-0-9",
+                                        "path": "1-0-0-0-0-0-1-0-8",
                                         "events": [],
                                         "attributes": {
                                           "gridProps": [],
@@ -5516,7 +5503,7 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "1-0-0-0-0-0-1-0-10-0-0-0"
+                                                    "path": "1-0-0-0-0-0-1-0-9-0-0-0"
                                                   }
                                                 ],
                                                 "allowedContainers": [
@@ -5550,7 +5537,7 @@
                                                   "type": "10001",
                                                   "content": "Grid layout"
                                                 },
-                                                "path": "1-0-0-0-0-0-1-0-10-0-0"
+                                                "path": "1-0-0-0-0-0-1-0-9-0-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -5560,7 +5547,7 @@
                                               "sm": 2,
                                               "xs": 2
                                             },
-                                            "path": "1-0-0-0-0-0-1-0-10-0"
+                                            "path": "1-0-0-0-0-0-1-0-9-0"
                                           },
                                           {
                                             "type": "column",
@@ -5582,7 +5569,7 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "1-0-0-0-0-0-1-0-10-1-0-0"
+                                                    "path": "1-0-0-0-0-0-1-0-9-1-0-0"
                                                   }
                                                 ],
                                                 "allowedContainers": [
@@ -5616,7 +5603,7 @@
                                                   "type": "10001",
                                                   "content": "Grid layout"
                                                 },
-                                                "path": "1-0-0-0-0-0-1-0-10-1-0"
+                                                "path": "1-0-0-0-0-0-1-0-9-1-0"
                                               }
                                             ],
                                             "layoutProperties": {
@@ -5626,7 +5613,7 @@
                                               "sm": 6,
                                               "xs": 6
                                             },
-                                            "path": "1-0-0-0-0-0-1-0-10-1"
+                                            "path": "1-0-0-0-0-0-1-0-9-1"
                                           },
                                           {
                                             "type": "column",
@@ -5731,7 +5718,7 @@
                                                             "name": "On click"
                                                           }
                                                         ],
-                                                        "path": "1-0-0-0-0-0-1-0-10-2-0-0-0"
+                                                        "path": "1-0-0-0-0-0-1-0-9-2-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -5741,10 +5728,10 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "1-0-0-0-0-0-1-0-10-2-0-0"
+                                                    "path": "1-0-0-0-0-0-1-0-9-2-0-0"
                                                   }
                                                 ],
-                                                "path": "1-0-0-0-0-0-1-0-10-2-0",
+                                                "path": "1-0-0-0-0-0-1-0-9-2-0",
                                                 "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
@@ -5797,7 +5784,7 @@
                                               "sm": 2,
                                               "xs": 2
                                             },
-                                            "path": "1-0-0-0-0-0-1-0-10-2"
+                                            "path": "1-0-0-0-0-0-1-0-9-2"
                                           },
                                           {
                                             "type": "column",
@@ -5890,7 +5877,7 @@
                                                             "name": "On click"
                                                           }
                                                         ],
-                                                        "path": "1-0-0-0-0-0-1-0-10-3-0-0-0"
+                                                        "path": "1-0-0-0-0-0-1-0-9-3-0-0-0"
                                                       }
                                                     ],
                                                     "layoutProperties": {
@@ -5900,10 +5887,10 @@
                                                       "sm": 12,
                                                       "xs": 12
                                                     },
-                                                    "path": "1-0-0-0-0-0-1-0-10-3-0-0"
+                                                    "path": "1-0-0-0-0-0-1-0-9-3-0-0"
                                                   }
                                                 ],
-                                                "path": "1-0-0-0-0-0-1-0-10-3-0",
+                                                "path": "1-0-0-0-0-0-1-0-9-3-0",
                                                 "events": [],
                                                 "attributes": {
                                                   "gridProps": [],
@@ -5956,7 +5943,7 @@
                                               "sm": 2,
                                               "xs": 2
                                             },
-                                            "path": "1-0-0-0-0-0-1-0-10-3"
+                                            "path": "1-0-0-0-0-0-1-0-9-3"
                                           }
                                         ],
                                         "allowedContainers": [
@@ -5990,7 +5977,7 @@
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "1-0-0-0-0-0-1-0-10",
+                                        "path": "1-0-0-0-0-0-1-0-9",
                                         "dimensions": {
                                           "rows": 1,
                                           "columns": 4,
@@ -6185,18 +6172,18 @@
     "events": [],
     "subType": "screen",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "HrID4SgkdTeCxZ180-9Se",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "3/16/2023",
-    "createdAt": "3/16/2023",
+    "createdBy": "ajk",
+    "updatedAt": "7/10/2023",
+    "createdAt": "7/10/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
     "id": "qAgGRQhT1BPOVvBLTtSrJ",
-    "name": "Grid layout",
+    "name": "View pending Branch User Detail Screen",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -6235,7 +6222,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -6274,7 +6261,7 @@
     "version": "1.0.0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -6326,7 +6313,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -6378,7 +6365,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -6450,7 +6437,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -6495,7 +6482,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -6541,7 +6528,7 @@
     "path": "1-0-0-0-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -6704,25 +6691,6 @@
           }
         },
         {
-          "componentId": "1wphcJ2e74_zJN--aO2rL",
-          "componentType": "10001",
-          "id": "1wphcJ2e74_zJN--aO2rL",
-          "position": {
-            "i": "1wphcJ2e74_zJN--aO2rL",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          }
-        },
-        {
           "componentId": "t0PeqlqVe09I3svXtQjv-",
           "componentType": "10001",
           "id": "t0PeqlqVe09I3svXtQjv-",
@@ -6783,7 +6751,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -6829,7 +6797,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -6861,7 +6829,7 @@
     "version": "1.0.0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -6913,7 +6881,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -6957,7 +6925,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7148,7 +7116,7 @@
     "path": "1-0-0-0-0-0-1-0-1-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -7207,7 +7175,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7278,7 +7246,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7323,7 +7291,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7362,7 +7330,7 @@
     "path": "1-0-0-0-0-0-1-0-2-0-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -7406,7 +7374,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7595,7 +7563,7 @@
     "path": "1-0-0-0-0-0-1-0-2-0-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -7665,7 +7633,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7710,7 +7678,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7749,7 +7717,7 @@
     "path": "1-0-0-0-0-0-1-0-2-1-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -7793,7 +7761,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -7916,7 +7884,7 @@
     "path": "1-0-0-0-0-0-1-0-2-1-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -7975,7 +7943,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8045,7 +8013,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8090,7 +8058,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8129,7 +8097,7 @@
     "path": "1-0-0-0-0-0-1-0-3-0-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -8173,7 +8141,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8298,7 +8266,7 @@
     "path": "1-0-0-0-0-0-1-0-3-0-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -8368,7 +8336,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8413,7 +8381,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8455,7 +8423,7 @@
     "path": "1-0-0-0-0-0-1-0-3-1-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -8499,7 +8467,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8624,7 +8592,7 @@
     "path": "1-0-0-0-0-0-1-0-3-1-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -8683,7 +8651,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8753,7 +8721,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8798,7 +8766,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -8837,7 +8805,7 @@
     "path": "1-0-0-0-0-0-1-0-4-0-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -8881,7 +8849,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9004,7 +8972,7 @@
     "path": "1-0-0-0-0-0-1-0-4-0-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -9073,7 +9041,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9118,7 +9086,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9157,7 +9125,7 @@
     "path": "1-0-0-0-0-0-1-0-4-1-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -9201,7 +9169,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9324,7 +9292,7 @@
     "path": "1-0-0-0-0-0-1-0-4-1-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -9383,7 +9351,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9454,7 +9422,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9499,7 +9467,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9541,7 +9509,7 @@
     "path": "1-0-0-0-0-0-1-0-5-0-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -9585,7 +9553,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9710,7 +9678,7 @@
     "path": "1-0-0-0-0-0-1-0-5-0-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -9779,7 +9747,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9824,7 +9792,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9864,7 +9832,7 @@
     "path": "1-0-0-0-0-0-1-0-5-1-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -9908,7 +9876,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -9965,7 +9933,7 @@
     "path": "1-0-0-0-0-0-1-0-5-1-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -10024,7 +9992,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10095,7 +10063,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10140,7 +10108,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10182,7 +10150,7 @@
     "path": "1-0-0-0-0-0-1-0-6-0-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -10226,7 +10194,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10283,7 +10251,7 @@
     "path": "1-0-0-0-0-0-1-0-6-0-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -10354,7 +10322,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10399,7 +10367,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10441,7 +10409,7 @@
     "path": "1-0-0-0-0-0-1-0-6-1-0-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -10485,7 +10453,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10541,7 +10509,7 @@
     "path": "1-0-0-0-0-0-1-0-6-1-0-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -10562,6 +10530,25 @@
           "componentId": "b7SFqezH78UdbpfWzFdsO",
           "componentType": "20002",
           "order": 1
+        },
+        {
+          "componentId": "1wphcJ2e74_zJN--aO2rL",
+          "componentType": "10001",
+          "id": "1wphcJ2e74_zJN--aO2rL",
+          "position": {
+            "i": "1wphcJ2e74_zJN--aO2rL",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
         }
       ],
       "label": "Header",
@@ -10585,7 +10572,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10631,7 +10618,7 @@
     "path": "1-0-0-0-0-0-1-0-7-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -10696,7 +10683,7 @@
     ],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10741,7 +10728,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10775,11 +10762,11 @@
       "disableCondition": { "logic": true }
     },
     "events": [],
-    "path": "1-0-0-0-0-0-1-0-8-0-0-0-0",
+    "path": "1-0-0-0-0-0-1-0-7-0-1-0-0-0-0",
     "version": "1.0.0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -10831,7 +10818,7 @@
     ],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10874,10 +10861,10 @@
     "projectType": "web",
     "component": { "content": "Checkbox", "type": "20013" },
     "events": [],
-    "path": "1-0-0-0-0-0-1-0-8-1-0-0-0",
+    "path": "1-0-0-0-0-0-1-0-7-0-1-1-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -10947,7 +10934,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -10992,7 +10979,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -11031,10 +11018,10 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "1-0-0-0-0-0-1-0-9-0-0-0-0",
+    "path": "1-0-0-0-0-0-1-0-8-0-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -11078,7 +11065,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -11131,10 +11118,10 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "1-0-0-0-0-0-1-0-9-0-1-0-0",
+    "path": "1-0-0-0-0-0-1-0-8-0-1-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -11218,7 +11205,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -11250,7 +11237,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -11282,7 +11269,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -11330,7 +11317,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -11383,10 +11370,10 @@
         "serviceType": "8"
       }
     ],
-    "path": "1-0-0-0-0-0-1-0-10-2-0-0-0",
+    "path": "1-0-0-0-0-0-1-0-9-2-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -11433,7 +11420,7 @@
     "events": [],
     "subType": "component",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -11480,10 +11467,10 @@
         "serviceType": "8"
       }
     ],
-    "path": "1-0-0-0-0-0-1-0-10-3-0-0-0",
+    "path": "1-0-0-0-0-0-1-0-9-3-0-0-0",
     "screenId": "HrID4SgkdTeCxZ180-9Se",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
