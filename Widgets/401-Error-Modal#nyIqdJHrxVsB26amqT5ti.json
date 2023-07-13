@@ -1823,7 +1823,11 @@
                                           "fullWidth": true,
                                           "layoutProperties": {
                                             "button": {
-                                              "//": "Use this class to style button component."
+                                              "//": "Use this class to style button component.",
+                                              "font-weight": "700",
+                                              "font-size": "14px",
+                                              "color": "#fff !important",
+                                              "background": "#CC0033 !important"
                                             },
                                             "inputProps": {
                                               "//": "Use this class to style button element."
@@ -2038,9 +2042,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "nyIqdJHrxVsB26amqT5ti",
-    "createdBy": "telenor",
-    "updatedAt": "7/6/2023",
-    "createdAt": "7/6/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "7/11/2023",
+    "createdAt": "7/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4027,7 +4031,13 @@
       "label-locale-key": "",
       "fullWidth": true,
       "layoutProperties": {
-        "button": { "//": "Use this class to style button component." },
+        "button": {
+          "//": "Use this class to style button component.",
+          "font-weight": "700",
+          "font-size": "14px",
+          "color": "#fff !important",
+          "background": "#CC0033 !important"
+        },
         "inputProps": { "//": "Use this class to style button element." },
         "mainContainer": "button",
         "xl": 12,

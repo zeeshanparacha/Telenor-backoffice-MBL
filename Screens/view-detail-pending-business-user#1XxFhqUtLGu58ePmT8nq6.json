@@ -3029,7 +3029,8 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            }
+                                            },
+                                            "path": "1-0-0-0-1-2-0-0-8-0"
                                           }
                                         ],
                                         "path": "1-0-0-0-1-2-0-0-8",
@@ -3146,7 +3147,8 @@
                                               "md": 12,
                                               "sm": 12,
                                               "xs": 12
-                                            }
+                                            },
+                                            "path": "1-0-0-0-1-2-0-0-9-0"
                                           }
                                         ],
                                         "path": "1-0-0-0-1-2-0-0-9",
@@ -3328,7 +3330,7 @@
                           "content": "Grid layout",
                           "type": "10001"
                         },
-                        "path": "0",
+                        "path": "1-0-0-0-2",
                         "gridProps": [
                           {
                             "type": "column",
@@ -3386,7 +3388,8 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            }
+                            },
+                            "path": "1-0-0-0-2-0"
                           }
                         ],
                         "layoutProperties": {
@@ -3416,47 +3419,95 @@
                             "id": "73JOywfXYK5jeZM3OY7J1",
                             "gridProps": [
                               {
-                                "id": "bEEQh3vmvVmVPtkcIWdzw",
-                                "status": "ACTIVE",
-                                "_id": "611a3eb45ac3689e4b66a0b3",
-                                "name": "Checkbox",
-                                "attributes": {
-                                  "label": "Email",
-                                  "name": "Check Box",
-                                  "layoutProperties": {
-                                    "checkbox": {
-                                      "//": "Use this class to style checkbox component."
+                                "type": "10001",
+                                "id": "G57xNNv5ABe3qz9_mMWUW",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "yfbCR4s6seB5m9cmAwlB6",
+                                    "gridProps": [
+                                      {
+                                        "id": "xVFvLqZzvW2x_5B5fY5Qn",
+                                        "type": "20013",
+                                        "name": "Checkbox",
+                                        "component": {
+                                          "content": "Checkbox",
+                                          "type": "20013"
+                                        },
+                                        "attributes": {
+                                          "label": "Email",
+                                          "name": "Check Box",
+                                          "layoutProperties": {
+                                            "checkbox": {
+                                              "//": "Use this class to style checkbox component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style checkbox label."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style checkbox element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "stateName": "isLoginEmailOtpRequired",
+                                          "searchInState": true,
+                                          "storeType": 1,
+                                          "value": "true",
+                                          "disableCondition": { "logic": true }
+                                        },
+                                        "events": [],
+                                        "path": "1-0-0-0-3-0-0-0-0",
+                                        "version": "1.0.0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
                                     },
-                                    "formControlLabel": {
-                                      "//": "Use this class to style checkbox label."
-                                    },
-                                    "inputProps": {
-                                      "//": "Use this class to style checkbox element."
-                                    },
-                                    "mainContainer": "formControlLabel"
-                                  },
-                                  "stateName": "isLoginEmailOtpRequired",
-                                  "searchInState": true,
-                                  "storeType": 1,
-                                  "value": "true",
-                                  "disableCondition": { "logic": true }
-                                },
-                                "icon": "FaCheckSquare",
-                                "group": "Form",
-                                "type": "20013",
-                                "updatedAt": "23-Aug-2021",
-                                "createdAt": "23-Aug-2021",
-                                "order": 16,
-                                "version": "1.0.0",
-                                "isLatest": true,
-                                "projectType": "web",
-                                "component": {
-                                  "content": "Checkbox",
-                                  "type": "20013"
-                                },
-                                "events": [],
+                                    "path": "1-0-0-0-3-0-0-0"
+                                  }
+                                ],
                                 "path": "1-0-0-0-3-0-0",
-                                "gridProps": []
+                                "events": [],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "name": "Grid layout"
                               }
                             ],
                             "layoutProperties": {
@@ -3465,54 +3516,103 @@
                               "md": 4,
                               "sm": 4,
                               "xs": 4
-                            }
+                            },
+                            "path": "1-0-0-0-3-0"
                           },
                           {
                             "type": "column",
                             "id": "fPA1zpppDSuN9hnX06VjD",
                             "gridProps": [
                               {
-                                "id": "dCMSug0C9s6jdj2qe60qu",
-                                "status": "ACTIVE",
-                                "_id": "611a3eb45ac3689e4b66a0b3",
-                                "name": "Checkbox",
-                                "attributes": {
-                                  "label": "Check Box",
-                                  "name": "Check Box",
-                                  "layoutProperties": {
-                                    "checkbox": {
-                                      "//": "Use this class to style checkbox component."
+                                "type": "10001",
+                                "id": "9BK7pzljKslWiUd7CZl-B",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "hUj6LwCQRG0OKhREpMWYe",
+                                    "gridProps": [
+                                      {
+                                        "id": "GNctIIr1fvhNNJS4fQUWu",
+                                        "type": "20013",
+                                        "name": "Checkbox",
+                                        "component": {
+                                          "content": "Checkbox",
+                                          "type": "20013"
+                                        },
+                                        "attributes": {
+                                          "label": "Check Box",
+                                          "name": "Check Box",
+                                          "layoutProperties": {
+                                            "checkbox": {
+                                              "//": "Use this class to style checkbox component."
+                                            },
+                                            "formControlLabel": {
+                                              "//": "Use this class to style checkbox label."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style checkbox element."
+                                            },
+                                            "mainContainer": "formControlLabel",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "stateName": "isLoginSmsOtpRequired",
+                                          "searchInState": true,
+                                          "storeType": 1,
+                                          "value": "true",
+                                          "disableCondition": { "logic": true }
+                                        },
+                                        "events": [],
+                                        "path": "1-0-0-0-3-1-0-0-0",
+                                        "version": "1.0.0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
                                     },
-                                    "formControlLabel": {
-                                      "//": "Use this class to style checkbox label."
-                                    },
-                                    "inputProps": {
-                                      "//": "Use this class to style checkbox element."
-                                    },
-                                    "mainContainer": "formControlLabel"
-                                  },
-                                  "stateName": "isLoginSmsOtpRequired",
-                                  "searchInState": true,
-                                  "storeType": 1,
-                                  "value": "true",
-                                  "disableCondition": { "logic": true }
-                                },
-                                "icon": "FaCheckSquare",
-                                "group": "Form",
-                                "type": "20013",
-                                "updatedAt": "23-Aug-2021",
-                                "createdAt": "23-Aug-2021",
-                                "order": 16,
-                                "version": "1.0.0",
-                                "isLatest": true,
-                                "projectType": "web",
-                                "component": {
-                                  "content": "Checkbox",
-                                  "type": "20013"
-                                },
-                                "events": [],
+                                    "path": "1-0-0-0-3-1-0-0"
+                                  }
+                                ],
                                 "path": "1-0-0-0-3-1-0",
-                                "gridProps": []
+                                "events": [],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "name": "Grid layout"
                               }
                             ],
                             "layoutProperties": {
@@ -3521,7 +3621,8 @@
                               "md": 4,
                               "sm": 4,
                               "xs": 4
-                            }
+                            },
+                            "path": "1-0-0-0-3-1"
                           },
                           {
                             "type": "column",
@@ -3533,7 +3634,8 @@
                               "md": 4,
                               "sm": 4,
                               "xs": 4
-                            }
+                            },
+                            "path": "1-0-0-0-3-2"
                           }
                         ],
                         "allowedContainers": [
@@ -3709,7 +3811,7 @@
                                   "content": "Grid layout",
                                   "type": "10001"
                                 },
-                                "path": "1-0-0-0-2-0-0",
+                                "path": "1-0-0-0-4-0-0",
                                 "gridProps": [
                                   {
                                     "type": "column",
@@ -3752,7 +3854,7 @@
                                           "type": "20002"
                                         },
                                         "events": [],
-                                        "path": "1-0-0-0-2-0-0-0-0"
+                                        "path": "1-0-0-0-4-0-0-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -3762,7 +3864,7 @@
                                       "sm": 12,
                                       "xs": 12
                                     },
-                                    "path": "1-0-0-0-2-0-0-0"
+                                    "path": "1-0-0-0-4-0-0-0"
                                   }
                                 ],
                                 "layoutProperties": {
@@ -3818,7 +3920,7 @@
                                   "content": "Grid layout",
                                   "type": "10001"
                                 },
-                                "path": "1-0-0-0-2-0-1",
+                                "path": "1-0-0-0-4-0-1",
                                 "gridProps": [
                                   {
                                     "type": "column",
@@ -3882,7 +3984,7 @@
                                           "type": "20004"
                                         },
                                         "events": [],
-                                        "path": "1-0-0-0-2-0-1-0-0"
+                                        "path": "1-0-0-0-4-0-1-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -3892,7 +3994,7 @@
                                       "sm": 12,
                                       "xs": 12
                                     },
-                                    "path": "1-0-0-0-2-0-1-0"
+                                    "path": "1-0-0-0-4-0-1-0"
                                   }
                                 ],
                                 "layoutProperties": {
@@ -3920,7 +4022,7 @@
                               "sm": 12,
                               "xs": 12
                             },
-                            "path": "1-0-0-0-2-0"
+                            "path": "1-0-0-0-4-0"
                           }
                         ],
                         "allowedContainers": [
@@ -3954,7 +4056,7 @@
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "1-0-0-0-2"
+                        "path": "1-0-0-0-4"
                       },
                       {
                         "type": "10001",
@@ -3981,7 +4083,7 @@
                                       "sm": 12,
                                       "xs": 12
                                     },
-                                    "path": "1-0-0-0-3-0-0-0"
+                                    "path": "1-0-0-0-5-0-0-0"
                                   }
                                 ],
                                 "allowedContainers": [
@@ -4015,7 +4117,7 @@
                                   "type": "10001",
                                   "content": "Grid layout"
                                 },
-                                "path": "1-0-0-0-3-0-0"
+                                "path": "1-0-0-0-5-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -4025,7 +4127,7 @@
                               "sm": 8,
                               "xs": 8
                             },
-                            "path": "1-0-0-0-3-0"
+                            "path": "1-0-0-0-5-0"
                           },
                           {
                             "type": "column",
@@ -4077,7 +4179,7 @@
                                   "content": "Grid layout",
                                   "type": "10001"
                                 },
-                                "path": "1-0-0-0-3-1-0",
+                                "path": "1-0-0-0-5-1-0",
                                 "gridProps": [
                                   {
                                     "type": "column",
@@ -4169,7 +4271,7 @@
                                             "name": "On click"
                                           }
                                         ],
-                                        "path": "1-0-0-0-3-1-0-0-0"
+                                        "path": "1-0-0-0-5-1-0-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -4179,7 +4281,7 @@
                                       "sm": 12,
                                       "xs": 12
                                     },
-                                    "path": "1-0-0-0-3-1-0-0"
+                                    "path": "1-0-0-0-5-1-0-0"
                                   }
                                 ],
                                 "layoutProperties": {
@@ -4197,7 +4299,7 @@
                               "sm": 2,
                               "xs": 2
                             },
-                            "path": "1-0-0-0-3-1"
+                            "path": "1-0-0-0-5-1"
                           },
                           {
                             "type": "column",
@@ -4249,7 +4351,7 @@
                                   "content": "Grid layout",
                                   "type": "10001"
                                 },
-                                "path": "1-0-0-0-3-2-0",
+                                "path": "1-0-0-0-5-2-0",
                                 "gridProps": [
                                   {
                                     "type": "column",
@@ -4341,7 +4443,7 @@
                                             "name": "On click"
                                           }
                                         ],
-                                        "path": "1-0-0-0-3-2-0-0-0"
+                                        "path": "1-0-0-0-5-2-0-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -4351,7 +4453,7 @@
                                       "sm": 12,
                                       "xs": 12
                                     },
-                                    "path": "1-0-0-0-3-2-0-0"
+                                    "path": "1-0-0-0-5-2-0-0"
                                   }
                                 ],
                                 "layoutProperties": {
@@ -4369,7 +4471,7 @@
                               "sm": 2,
                               "xs": 2
                             },
-                            "path": "1-0-0-0-3-2"
+                            "path": "1-0-0-0-5-2"
                           }
                         ],
                         "allowedContainers": [
@@ -4403,7 +4505,7 @@
                           "type": "10001",
                           "content": "Grid layout"
                         },
-                        "path": "1-0-0-0-3"
+                        "path": "1-0-0-0-5"
                       }
                     ],
                     "layoutProperties": {
@@ -4492,9 +4594,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "1XxFhqUtLGu58ePmT8nq6",
-    "createdBy": "ajk",
-    "updatedAt": "7/10/2023",
-    "createdAt": "7/10/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "7/11/2023",
+    "createdAt": "7/11/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -8029,7 +8131,34 @@
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [],
+      "gridProps": [
+        {
+          "componentId": "G57xNNv5ABe3qz9_mMWUW",
+          "componentType": "10001",
+          "id": "G57xNNv5ABe3qz9_mMWUW",
+          "position": {
+            "i": "G57xNNv5ABe3qz9_mMWUW",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        },
+        {
+          "componentId": "9BK7pzljKslWiUd7CZl-B",
+          "componentType": "10001",
+          "id": "9BK7pzljKslWiUd7CZl-B",
+          "position": {
+            "i": "9BK7pzljKslWiUd7CZl-B",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+        }
+      ],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
@@ -8066,6 +8195,164 @@
     "screenId": "1XxFhqUtLGu58ePmT8nq6",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "G57xNNv5ABe3qz9_mMWUW",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "xVFvLqZzvW2x_5B5fY5Qn",
+          "componentType": "20013",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "1XxFhqUtLGu58ePmT8nq6",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "xVFvLqZzvW2x_5B5fY5Qn",
+    "type": "20013",
+    "name": "Checkbox",
+    "component": { "content": "Checkbox", "type": "20013" },
+    "attributes": {
+      "label": "Email",
+      "name": "Check Box",
+      "layoutProperties": {
+        "checkbox": { "//": "Use this class to style checkbox component." },
+        "formControlLabel": { "//": "Use this class to style checkbox label." },
+        "inputProps": { "//": "Use this class to style checkbox element." },
+        "mainContainer": "formControlLabel",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "stateName": "isLoginEmailOtpRequired",
+      "searchInState": true,
+      "storeType": 1,
+      "value": "true",
+      "disableCondition": { "logic": true }
+    },
+    "events": [],
+    "path": "1-0-0-0-3-0-0-0-0",
+    "version": "1.0.0",
+    "screenId": "1XxFhqUtLGu58ePmT8nq6",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "9BK7pzljKslWiUd7CZl-B",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "GNctIIr1fvhNNJS4fQUWu",
+          "componentType": "20013",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "1XxFhqUtLGu58ePmT8nq6",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "GNctIIr1fvhNNJS4fQUWu",
+    "type": "20013",
+    "name": "Checkbox",
+    "component": { "content": "Checkbox", "type": "20013" },
+    "attributes": {
+      "label": "Check Box",
+      "name": "Check Box",
+      "layoutProperties": {
+        "checkbox": { "//": "Use this class to style checkbox component." },
+        "formControlLabel": { "//": "Use this class to style checkbox label." },
+        "inputProps": { "//": "Use this class to style checkbox element." },
+        "mainContainer": "formControlLabel",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "stateName": "isLoginSmsOtpRequired",
+      "searchInState": true,
+      "storeType": 1,
+      "value": "true",
+      "disableCondition": { "logic": true }
+    },
+    "events": [],
+    "path": "1-0-0-0-3-1-0-0-0",
+    "version": "1.0.0",
+    "screenId": "1XxFhqUtLGu58ePmT8nq6",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -8219,7 +8506,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "1-0-0-0-2-0-0-0-0",
+    "path": "1-0-0-0-4-0-0-0-0",
     "screenId": "1XxFhqUtLGu58ePmT8nq6",
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
@@ -8319,7 +8606,7 @@
     "projectType": "web",
     "component": { "content": "Text Box", "type": "20004" },
     "events": [],
-    "path": "1-0-0-0-2-0-1-0-0",
+    "path": "1-0-0-0-4-0-1-0-0",
     "screenId": "1XxFhqUtLGu58ePmT8nq6",
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
@@ -8517,7 +8804,7 @@
         "serviceType": "8"
       }
     ],
-    "path": "1-0-0-0-3-1-0-0-0",
+    "path": "1-0-0-0-5-1-0-0-0",
     "screenId": "1XxFhqUtLGu58ePmT8nq6",
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
@@ -8611,7 +8898,7 @@
         "serviceType": "8"
       }
     ],
-    "path": "1-0-0-0-3-2-0-0-0",
+    "path": "1-0-0-0-5-2-0-0-0",
     "screenId": "1XxFhqUtLGu58ePmT8nq6",
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
