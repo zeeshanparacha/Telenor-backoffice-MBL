@@ -2471,6 +2471,26 @@
                           "columnDefinition": [
                             {
                               "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "Batch Name",
+                              "field": "batchName",
+                              "type": "text",
+                              "triggerId": null
+                            },
+                            {
+                              "type": "text",
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "field": "batchNumber",
+                              "headerName": "Batch Number",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
                               "headerName": "Payment Date",
                               "field": "paymentDate",
                               "type": "text",
@@ -2484,18 +2504,30 @@
                               "triggerId": null
                             },
                             {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Number Of Accounts",
-                              "field": "numberoOfAccount",
                               "type": "text",
-                              "triggerId": null
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "field": "transactionAmount",
+                              "headerName": "Transaction Amount",
+                              "conditional": { "bindingKey": "" },
+                              "values": [],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": []
                             },
                             {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Transactions ",
-                              "field": "transaction",
                               "type": "text",
-                              "triggerId": null
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "field": "numberOfTransactions",
+                              "headerName": "No Of Transactions ",
+                              "conditional": { "bindingKey": "" },
+                              "values": [""],
+                              "cssConditional": {
+                                "bindingKey": "",
+                                "cssClassNames": []
+                              },
+                              "cssValues": [""]
                             },
                             {
                               "typeTemp": { "name": "Text", "type": "text" },
@@ -2603,9 +2635,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "FguxhuFJoqFkqG8QzO7u6",
-    "createdBy": "telenor",
-    "updatedAt": "7/7/2023",
-    "createdAt": "7/7/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "7/14/2023",
+    "createdAt": "7/14/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4588,6 +4620,23 @@
       "columnDefinition": [
         {
           "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Batch Name",
+          "field": "batchName",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "batchNumber",
+          "headerName": "Batch Number",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "Payment Date",
           "field": "paymentDate",
           "type": "text",
@@ -4601,18 +4650,24 @@
           "triggerId": null
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Number Of Accounts",
-          "field": "numberoOfAccount",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "transactionAmount",
+          "headerName": "Transaction Amount",
+          "conditional": { "bindingKey": "" },
+          "values": [],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": []
         },
         {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Transactions ",
-          "field": "transaction",
           "type": "text",
-          "triggerId": null
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "numberOfTransactions",
+          "headerName": "No Of Transactions ",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
