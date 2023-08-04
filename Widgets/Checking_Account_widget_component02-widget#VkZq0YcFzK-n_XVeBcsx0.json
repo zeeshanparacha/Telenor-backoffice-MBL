@@ -98,7 +98,7 @@
                                   "label": "Account Mobile Number",
                                   "variant": "body1",
                                   "name": "Label",
-                                  "mandatory": false,
+                                  "mandatory": true,
                                   "layoutProperties": {
                                     "label": {
                                       "//": "Use this class to style label component.",
@@ -127,7 +127,7 @@
                                   "type": "20002"
                                 },
                                 "events": [],
-                                "path": "0-0-1-0-1-0-3-0-0-0-0-0-1-0-0-0-0-0-0"
+                                "path": "0-0-0-0-0-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -308,7 +308,7 @@
                                   "label": "",
                                   "name": "Text box",
                                   "label-locale-key": "",
-                                  "maxLength": "12",
+                                  "maxLength": "11",
                                   "type": "text",
                                   "variant": "standard",
                                   "value": "",
@@ -333,13 +333,77 @@
                                     "xs": 12
                                   },
                                   "validate": {
-                                    "required": false,
+                                    "required": true,
                                     "errorMsg": "This field is required",
-                                    "bindButton": [],
-                                    "regex": "^92\\\\d{10}$",
-                                    "regexErrorMsg": "invalid mobile number "
+                                    "bindButton": [
+                                      {
+                                        "id": "2yK5Z4ME-vZevZ3T8-UKh",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "AdD",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "cssClassNames": [
+                                            { "cssClassName": "CardButton" }
+                                          ],
+                                          "asset": null,
+                                          "iconname": "FaPlus",
+                                          "iconName": "FaPlus",
+                                          "buttonIconPosition": "start",
+                                          "disableCondition": {}
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "bru9bsoZFrftIdG2lkNjD",
+                                            "triggerName": "Validate and Fetch Corporate Title API",
+                                            "name": "On Submit",
+                                            "type": "4",
+                                            "serviceType": "8"
+                                          }
+                                        ],
+                                        "path": "0-0-1-1-0-0-0",
+                                        "screenId": "VkZq0YcFzK-n_XVeBcsx0",
+                                        "subType": "component",
+                                        "projectId": "6475fc4c85cd1cddbc3b3524",
+                                        "gitBranchName": "master",
+                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                      }
+                                    ],
+                                    "regex": "/^0\\d{10}$/",
+                                    "regexErrorMsg": "invalid mobile number"
                                   },
-                                  "placeholder": "e.g(92XXXXXXXXXX)",
+                                  "placeholder": "e.g(03XXXXXXXXX)",
                                   "disableUnderline": true,
                                   "cssClassNames": [
                                     { "cssClassName": "emptyTextField" }
@@ -497,16 +561,7 @@
                                   "iconname": "FaPlus",
                                   "iconName": "FaPlus",
                                   "buttonIconPosition": "start",
-                                  "disableCondition": {
-                                    "logic": {
-                                      "<": [
-                                        {
-                                          "var": "currentScreen.form.accountMobile.length"
-                                        },
-                                        1
-                                      ]
-                                    }
-                                  }
+                                  "disableCondition": {}
                                 },
                                 "name": "Button",
                                 "icon": "FaBimobject",
@@ -532,7 +587,6 @@
                                       "loaderWidgetIds": [906070],
                                       "messageWidgetIds": [906070],
                                       "responseStateKey": "branchlessAccountResponse",
-                                      "responseReturnValue": "data.title",
                                       "url": "/branchless/account/get-title",
                                       "checksum": true,
                                       "encryption": true,
@@ -558,8 +612,8 @@
                                       "baseURL": "634555d068954540043d6820",
                                       "storeType": 2
                                     },
-                                    "type": "2",
-                                    "name": "On click"
+                                    "type": "4",
+                                    "name": "On Submit"
                                   }
                                 ],
                                 "path": "0-0-1-1-0-0-0"
@@ -676,7 +730,7 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Checking_Account_widget_component02",
+          "name": "Checking_Account_widget_component02 widget",
           "cssClassNames": []
         },
         "component": { "type": "10001", "content": "Grid layout" },
@@ -701,9 +755,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "VkZq0YcFzK-n_XVeBcsx0",
-    "createdBy": "ajk",
-    "updatedAt": "7/4/2023",
-    "createdAt": "7/4/2023",
+    "createdBy": "ahmerjavedkhan",
+    "updatedAt": "8/3/2023",
+    "createdAt": "8/3/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -767,7 +821,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Checking_Account_widget_component02",
+      "name": "Checking_Account_widget_component02 widget",
       "cssClassNames": []
     },
     "layout": null,
@@ -878,7 +932,7 @@
       "label": "Account Mobile Number",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -904,7 +958,7 @@
     "projectType": "web",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
-    "path": "0-0-1-0-1-0-3-0-0-0-0-0-1-0-0-0-0-0-0",
+    "path": "0-0-0-0-0-0-0",
     "screenId": "VkZq0YcFzK-n_XVeBcsx0",
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
@@ -1023,7 +1077,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": "12",
+      "maxLength": "11",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -1046,13 +1100,70 @@
         "xs": 12
       },
       "validate": {
-        "required": false,
+        "required": true,
         "errorMsg": "This field is required",
-        "bindButton": [],
-        "regex": "^92\\\\d{10}$",
-        "regexErrorMsg": "invalid mobile number "
+        "bindButton": [
+          {
+            "id": "2yK5Z4ME-vZevZ3T8-UKh",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "AdD",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }],
+              "asset": null,
+              "iconname": "FaPlus",
+              "iconName": "FaPlus",
+              "buttonIconPosition": "start",
+              "disableCondition": {}
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "bru9bsoZFrftIdG2lkNjD",
+                "triggerName": "Validate and Fetch Corporate Title API",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "0-0-1-1-0-0-0",
+            "screenId": "VkZq0YcFzK-n_XVeBcsx0",
+            "subType": "component",
+            "projectId": "6475fc4c85cd1cddbc3b3524",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ],
+        "regex": "/^0\\d{10}$/",
+        "regexErrorMsg": "invalid mobile number"
       },
-      "placeholder": "e.g(92XXXXXXXXXX)",
+      "placeholder": "e.g(03XXXXXXXXX)",
       "disableUnderline": true,
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
       "stateName": "accountMobile",
@@ -1150,11 +1261,7 @@
       "iconname": "FaPlus",
       "iconName": "FaPlus",
       "buttonIconPosition": "start",
-      "disableCondition": {
-        "logic": {
-          "<": [{ "var": "currentScreen.form.accountMobile.length" }, 1]
-        }
-      }
+      "disableCondition": {}
     },
     "name": "Button",
     "icon": "FaBimobject",
@@ -1172,8 +1279,8 @@
       {
         "triggerId": "bru9bsoZFrftIdG2lkNjD",
         "triggerName": "Validate and Fetch Corporate Title API",
-        "name": "On click",
-        "type": "2",
+        "name": "On Submit",
+        "type": "4",
         "serviceType": "8"
       }
     ],
