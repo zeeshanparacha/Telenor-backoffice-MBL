@@ -81,10 +81,7 @@
                         "<": [{ "var": "currentScreen.form.prefix.length" }, 1]
                       },
                       {
-                        "<": [
-                          { "var": "currentScreen.form.numberOfUsers.length" },
-                          1
-                        ]
+                        "<": [{ "var": "currentScreen.form.numberOfUsers" }, 1]
                       },
                       {
                         "<": [{ "var": "currentScreen.form.domain.length" }, 1]
@@ -860,8 +857,9 @@
       }
     }
   ],
-  "updatedAt": "6/13/2023",
-  "createdAt": "6/13/2023",
+  "csrf": "0.ljqfqngwtflxlEIW0w1UUzF7Y-4owbqP",
+  "updatedAt": "8/9/2023",
+  "createdAt": "8/9/2023",
   "createdBy": "ahmerjavedkhan",
   "updatedBy": "ahmerjavedkhan"
 }
