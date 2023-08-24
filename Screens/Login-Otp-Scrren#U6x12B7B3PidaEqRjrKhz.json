@@ -1045,7 +1045,60 @@
                                                                   },
                                                                   "validate": {
                                                                     "required": true,
-                                                                    "errorMsg": "OTP is required"
+                                                                    "errorMsg": "OTP is required",
+                                                                    "bindButton": [
+                                                                      {
+                                                                        "id": "r2AaYPEw2SRVmhJNyrjyi",
+                                                                        "type": "20006",
+                                                                        "name": "Submit_btn",
+                                                                        "component": {
+                                                                          "content": "Button",
+                                                                          "type": "20006"
+                                                                        },
+                                                                        "attributes": {
+                                                                          "label": "Submit",
+                                                                          "variant": "contained",
+                                                                          "name": "Submit_btn",
+                                                                          "label-locale-key": "",
+                                                                          "fullWidth": true,
+                                                                          "layoutProperties": {
+                                                                            "button": {
+                                                                              "//": "Use this class to style button component.",
+                                                                              "color": "#ffffff",
+                                                                              "background": "#00BD5F",
+                                                                              "borderRadius": "50px",
+                                                                              "padding": "12px"
+                                                                            },
+                                                                            "inputProps": {
+                                                                              "//": "Use this class to style button element."
+                                                                            },
+                                                                            "mainContainer": "button",
+                                                                            "xl": 12,
+                                                                            "lg": 12,
+                                                                            "md": 12,
+                                                                            "sm": 12,
+                                                                            "xs": 12
+                                                                          },
+                                                                          "onEnterKey": true
+                                                                        },
+                                                                        "events": [
+                                                                          {
+                                                                            "triggerId": "b3imqfkIVq_AqLOhn7NQy",
+                                                                            "triggerName": "Verify Otp",
+                                                                            "name": "On Submit",
+                                                                            "type": "4",
+                                                                            "serviceType": "8"
+                                                                          }
+                                                                        ],
+                                                                        "path": "0-0-0-0-0-0-1-1-0-0-2-0-4-0-0-0-0",
+                                                                        "version": "1.0.0",
+                                                                        "screenId": "U6x12B7B3PidaEqRjrKhz",
+                                                                        "subType": "component",
+                                                                        "projectId": "6475fc4c85cd1cddbc3b3524",
+                                                                        "gitBranchName": "master",
+                                                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                                                      }
+                                                                    ]
                                                                   },
                                                                   "placeholder": "OTP",
                                                                   "disableUnderline": true
@@ -2351,8 +2404,8 @@
     "gitBranchName": "master",
     "_id": "U6x12B7B3PidaEqRjrKhz",
     "createdBy": "ahmerjavedkhan",
-    "updatedAt": "8/18/2023",
-    "createdAt": "8/18/2023",
+    "updatedAt": "8/24/2023",
+    "createdAt": "8/24/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3548,7 +3601,60 @@
         "sm": 12,
         "xs": 12
       },
-      "validate": { "required": true, "errorMsg": "OTP is required" },
+      "validate": {
+        "required": true,
+        "errorMsg": "OTP is required",
+        "bindButton": [
+          {
+            "id": "r2AaYPEw2SRVmhJNyrjyi",
+            "type": "20006",
+            "name": "Submit_btn",
+            "component": { "content": "Button", "type": "20006" },
+            "attributes": {
+              "label": "Submit",
+              "variant": "contained",
+              "name": "Submit_btn",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": {
+                  "//": "Use this class to style button component.",
+                  "color": "#ffffff",
+                  "background": "#00BD5F",
+                  "borderRadius": "50px",
+                  "padding": "12px"
+                },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "onEnterKey": true
+            },
+            "events": [
+              {
+                "triggerId": "b3imqfkIVq_AqLOhn7NQy",
+                "triggerName": "Verify Otp",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "0-0-0-0-0-0-1-1-0-0-2-0-4-0-0-0-0",
+            "version": "1.0.0",
+            "screenId": "U6x12B7B3PidaEqRjrKhz",
+            "subType": "component",
+            "projectId": "6475fc4c85cd1cddbc3b3524",
+            "gitBranchName": "master",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
       "placeholder": "OTP",
       "disableUnderline": true
     },
