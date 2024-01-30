@@ -1,0 +1,299 @@
+[
+  {
+    "id": "BLC3E0e5ytBWOpqjZcO3m",
+    "name": "values  widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "gNcx1rljG3YW5NKmhBggU",
+          "componentType": "10001",
+          "id": "gNcx1rljG3YW5NKmhBggU",
+          "position": {
+            "i": "gNcx1rljG3YW5NKmhBggU",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "name": "values ",
+        "id": "gNcx1rljG3YW5NKmhBggU",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "sWlcd_aXZ7VyZqZIqaPk2",
+            "gridProps": [
+              {
+                "id": "82Z--a1aiwgxnhXkoC8bU",
+                "status": "ACTIVE",
+                "name": "Label",
+                "attributes": {
+                  "variant": "body1",
+                  "name": "Label",
+                  "mandatory": false,
+                  "layoutProperties": {
+                    "label": {
+                      "//": "Use this class to style label component."
+                    },
+                    "prefix": { "//": "Use this class to style prefix." },
+                    "postfix": { "//": "Use this class to style postfix." },
+                    "mainContainer": "label",
+                    "xl": 6,
+                    "lg": 6,
+                    "md": 6,
+                    "sm": 6,
+                    "xs": 6
+                  },
+                  "label": "Batch Number",
+                  "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+                },
+                "icon": "FaFont",
+                "group": "Form",
+                "type": "20002",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 15,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Label", "type": "20002" },
+                "events": [],
+                "path": "0-0-0-0-0-0-1-0-0-0-0"
+              }
+            ],
+            "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+          },
+          {
+            "type": "column",
+            "id": "gN1GRqQxKI9_7BaPk2i7-",
+            "gridProps": [
+              {
+                "id": "OCczeJjxkCg5KZz5ALJkL",
+                "status": "ACTIVE",
+                "name": "Label",
+                "attributes": {
+                  "variant": "body1",
+                  "name": "Label",
+                  "mandatory": false,
+                  "layoutProperties": {
+                    "label": {
+                      "//": "Use this class to style label component."
+                    },
+                    "prefix": { "//": "Use this class to style prefix." },
+                    "postfix": { "//": "Use this class to style postfix." },
+                    "mainContainer": "label",
+                    "xl": 6,
+                    "lg": 6,
+                    "md": 6,
+                    "sm": 6,
+                    "xs": 6
+                  },
+                  "label": "selectedItem.id",
+                  "cssClassNames": [
+                    { "cssClassName": "IInProcessTransactionLabelStyle " }
+                  ],
+                  "searchInState": true,
+                  "storeType": 2
+                },
+                "icon": "FaFont",
+                "group": "Form",
+                "type": "20002",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 15,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Label", "type": "20002" },
+                "events": [],
+                "path": "0-0-0-0-0-0-1-0-0-1-0"
+              }
+            ],
+            "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 }
+          }
+        ],
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "events": [],
+        "component": { "type": "10001", "content": "Grid layout" },
+        "path": "0-0-0-0-0-0-1-0-0",
+        "dimensions": {
+          "rows": 1,
+          "columns": 2,
+          "colSize0xs": 6,
+          "colSize0sm": 6,
+          "colSize0md": 6,
+          "colSize0lg": 6,
+          "colSize0xl": 6,
+          "colSize1xs": 6,
+          "colSize1sm": 6,
+          "colSize1md": 6,
+          "colSize1lg": 6,
+          "colSize1xl": 6
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "BLC3E0e5ytBWOpqjZcO3m",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "BLC3E0e5ytBWOpqjZcO3m",
+    "createdBy": "masood",
+    "updatedAt": "1/29/2024",
+    "createdAt": "1/29/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "gNcx1rljG3YW5NKmhBggU",
+    "name": "values ",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "82Z--a1aiwgxnhXkoC8bU",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "OCczeJjxkCg5KZz5ALJkL",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "Crnjb64tkA9EjP4ZqQoKx",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "82Z--a1aiwgxnhXkoC8bU",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "prefix": { "//": "Use this class to style prefix." },
+        "postfix": { "//": "Use this class to style postfix." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "label": "Batch Number",
+      "cssClassNames": [{ "cssClassName": "INTransactionmodal" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-0-0-1-0-0-0-0",
+    "screenId": "Crnjb64tkA9EjP4ZqQoKx",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "OCczeJjxkCg5KZz5ALJkL",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "prefix": { "//": "Use this class to style prefix." },
+        "postfix": { "//": "Use this class to style postfix." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "label": "selectedItem.id",
+      "cssClassNames": [{ "cssClassName": "IInProcessTransactionLabelStyle " }],
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-0-0-1-0-0-1-0",
+    "screenId": "Crnjb64tkA9EjP4ZqQoKx",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

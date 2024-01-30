@@ -1,24 +1,23 @@
 {
-  "id": "gHXHDyYr8sFfimPTratEz",
-  "_id": "1y1L5PBvGr1uUXgLTO0KL",
+  "id": "93En-Pkpe3V_7nSn95vXL",
+  "_id": "_NMB9rSKOvBrAsaTGelhA",
   "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
-  "name": "PARTNERSHIP_DEED Download",
-  "old_name": "PARTNERSHIP_DEED Download",
+  "name": "transactionRecordDetail Trigger",
+  "old_name": "transactionRecordDetail Trigger",
   "status": "ACTIVE",
   "services": [
     {
       "type": "8",
       "command": {
-        "type": "2",
+        "type": "1",
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "partnershipDeedDoc",
-          "url": "/corporate-registration/download-documents",
+          "responseStateKey": "transactionRecordDetail",
+          "url": "/report/corporate-payment-details/transaction-record-detail",
           "checksum": true,
           "encryption": true,
-          "fileName": "Partnership Deed.pdf",
           "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
@@ -34,8 +33,20 @@
             {
               "type": 2,
               "name": "Current screen",
-              "key": "document",
-              "value": "corporateReg.data.partnership.partnershipDeedDocId"
+              "key": "corporateId",
+              "value": "selectedObject.corporateId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "batchTransactionId",
+              "value": "selectedObject.batchTransactionId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "batchTransactionRowId",
+              "value": "selectedItem.id"
             }
           ],
           "baseURL": "634555d068954540043d6820",
@@ -45,9 +56,9 @@
       }
     }
   ],
-  "csrf": "0.z6iuecfcjfr_Lx1W8afWLmv2SnYEoHW",
-  "updatedAt": "9/21/2023",
-  "createdAt": "9/21/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "csrf": "0.pgcimwasmsaNckTTwBMmfXNotjT07PdZ",
+  "updatedAt": "1/30/2024",
+  "createdAt": "1/30/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
 }

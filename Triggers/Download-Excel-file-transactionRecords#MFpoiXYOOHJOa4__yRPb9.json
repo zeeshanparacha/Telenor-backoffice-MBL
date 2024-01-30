@@ -1,10 +1,8 @@
 {
-  "id": "gHXHDyYr8sFfimPTratEz",
-  "_id": "1y1L5PBvGr1uUXgLTO0KL",
+  "id": "d2j5Z0ASj9i_YzgHeoNQT",
   "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
-  "name": "PARTNERSHIP_DEED Download",
-  "old_name": "PARTNERSHIP_DEED Download",
+  "name": "Download Excel file transactionRecords",
   "status": "ACTIVE",
   "services": [
     {
@@ -14,11 +12,11 @@
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
-          "responseStateKey": "partnershipDeedDoc",
-          "url": "/corporate-registration/download-documents",
+          "responseStateKey": "downloadFile",
+          "url": "/report/corporate-payment-details/transaction-records/export/excel",
           "checksum": true,
           "encryption": true,
-          "fileName": "Partnership Deed.pdf",
+          "fileName": "Transaction_Report.xlsx",
           "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
@@ -34,8 +32,14 @@
             {
               "type": 2,
               "name": "Current screen",
-              "key": "document",
-              "value": "corporateReg.data.partnership.partnershipDeedDocId"
+              "key": "batchTransactionId",
+              "value": "selectedObject.batchTransactionId"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "corporateId",
+              "value": "selectedObject.corporateId"
             }
           ],
           "baseURL": "634555d068954540043d6820",
@@ -45,9 +49,10 @@
       }
     }
   ],
-  "csrf": "0.z6iuecfcjfr_Lx1W8afWLmv2SnYEoHW",
-  "updatedAt": "9/21/2023",
-  "createdAt": "9/21/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "csrf": "0.ubpitms7ge606GwoAxs3g4xlXff1hGE",
+  "_id": "MFpoiXYOOHJOa4__yRPb9",
+  "updatedAt": "1/29/2024",
+  "createdAt": "1/29/2024",
+  "createdBy": "masood",
+  "updatedBy": "masood"
 }

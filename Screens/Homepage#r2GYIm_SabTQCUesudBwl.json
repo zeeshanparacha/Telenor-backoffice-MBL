@@ -1159,39 +1159,43 @@
           "isFavoriteEnabled": false,
           "layoutProperties": {
             "menuItemClass": {
-              "color": "white",
-              "background-color": "#1c2b5a",
+              "color": "#ffffff",
               "height": "40px",
-              "background": "#000000 ",
-              "fontSize": "13px"
+              "fontSize": "13px",
+              "background": "#000000 0% 0% no-repeat padding-box"
             },
             "subMenuItemClass": {
-              "color": "white",
+              "color": "#ffffff",
               "height": "40px",
-              "background": "#000000 ",
               "fontSize": "13px",
-              "padding-left": "20px"
+              "padding-left": "20px",
+              "background": "#000000 0% 0% no-repeat padding-box"
             },
             "listItemIcon": {
-              "color": "white",
+              "color": "#ffffff",
               "padding": "5px 23px",
               "margin": "0px"
             },
             "sideBarMainContainer": {
               "width": "235px",
-              "background": "#000000 ",
-              "collapsedWidth": "60px"
+              "collapsedWidth": "60px",
+              "background": "#000000 0% 0% no-repeat padding-box",
+              "fontSize": "500",
+              "color": "#FFFFFF"
             },
             "mainContainer": "sideBarMainContainer",
             "selectedMenuStyle": {
-              "background": "#00bd5f",
+              "background": "#00bd5f 0% 0% no-repeat padding-box",
               "color": "#FFFFFF"
             },
             "sidebarScrollbarStyle": {
               "width": "4px",
               "background": "#293642",
-              "thumbBackground": "#8A949E"
-            }
+              "thumbBackground": "#8A949E",
+              "left": "0px",
+              "height": "100vh"
+            },
+            "sidebarDiv": { "min-height": "calc(100vh - 48px)", "top": "48px" }
           },
           "menuActivityLogTriggerId": "",
           "markFavouriteTriggerId": "",
@@ -1520,7 +1524,9 @@
             "1046": "0nEbibakpA9fm3tXqpDPd",
             "1047": "bivtvXFc3Nhh14pHD5Lpi",
             " 27": "TYhelh5M2RHzG2sviao4K"
-          }
+          },
+          "iconType": "static",
+          "headerTextType": "default"
         },
         "events": [],
         "path": "1",
@@ -1671,9 +1677,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "r2GYIm_SabTQCUesudBwl",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "7/14/2023",
-    "createdAt": "7/14/2023",
+    "createdBy": "masood",
+    "updatedAt": "1/30/2024",
+    "createdAt": "1/30/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2433,36 +2439,43 @@
       "isFavoriteEnabled": false,
       "layoutProperties": {
         "menuItemClass": {
-          "color": "white",
-          "background-color": "#1c2b5a",
+          "color": "#ffffff",
           "height": "40px",
-          "background": "#000000 ",
-          "fontSize": "13px"
+          "fontSize": "13px",
+          "background": "#000000 0% 0% no-repeat padding-box"
         },
         "subMenuItemClass": {
-          "color": "white",
+          "color": "#ffffff",
           "height": "40px",
-          "background": "#000000 ",
           "fontSize": "13px",
-          "padding-left": "20px"
+          "padding-left": "20px",
+          "background": "#000000 0% 0% no-repeat padding-box"
         },
         "listItemIcon": {
-          "color": "white",
+          "color": "#ffffff",
           "padding": "5px 23px",
           "margin": "0px"
         },
         "sideBarMainContainer": {
           "width": "235px",
-          "background": "#000000 ",
-          "collapsedWidth": "60px"
+          "collapsedWidth": "60px",
+          "background": "#000000 0% 0% no-repeat padding-box",
+          "fontSize": "500",
+          "color": "#FFFFFF"
         },
         "mainContainer": "sideBarMainContainer",
-        "selectedMenuStyle": { "background": "#00bd5f", "color": "#FFFFFF" },
+        "selectedMenuStyle": {
+          "background": "#00bd5f 0% 0% no-repeat padding-box",
+          "color": "#FFFFFF"
+        },
         "sidebarScrollbarStyle": {
           "width": "4px",
           "background": "#293642",
-          "thumbBackground": "#8A949E"
-        }
+          "thumbBackground": "#8A949E",
+          "left": "0px",
+          "height": "100vh"
+        },
+        "sidebarDiv": { "min-height": "calc(100vh - 48px)", "top": "48px" }
       },
       "menuActivityLogTriggerId": "",
       "markFavouriteTriggerId": "",
@@ -2792,6 +2805,8 @@
         "1047": "bivtvXFc3Nhh14pHD5Lpi",
         " 27": "TYhelh5M2RHzG2sviao4K"
       },
+      "iconType": "static",
+      "headerTextType": "default",
       "gridProps": [
         {
           "componentId": "fV-0j3cfCz3wgxE5Y6NP_",

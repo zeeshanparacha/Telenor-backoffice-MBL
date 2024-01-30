@@ -2470,17 +2470,10 @@
                           },
                           "columnDefinition": [
                             {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Batch Name",
-                              "field": "batchName",
-                              "type": "text",
-                              "triggerId": null
-                            },
-                            {
                               "type": "text",
                               "typeTemp": { "name": "Text", "type": "text" },
-                              "field": "batchNumber",
-                              "headerName": "Batch Number",
+                              "field": "batchRequestId",
+                              "headerName": "Batch No",
                               "conditional": { "bindingKey": "" },
                               "values": [""],
                               "cssConditional": {
@@ -2488,6 +2481,13 @@
                                 "cssClassNames": []
                               },
                               "cssValues": [""]
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "Batch Name",
+                              "field": "batchName",
+                              "type": "text",
+                              "triggerId": null
                             },
                             {
                               "typeTemp": { "name": "Text", "type": "text" },
@@ -2542,6 +2542,97 @@
                               "field": "reason",
                               "type": "text",
                               "triggerId": null
+                            },
+                            {
+                              "typeTemp": {
+                                "name": "Icon Button",
+                                "type": "iconButton"
+                              },
+                              "headerName": "",
+                              "field": "",
+                              "rowId": "id",
+                              "iconButtons": [
+                                {
+                                  "label": "View Details",
+                                  "trigger": {
+                                    "id": "HywkASzEMTXznMxbmXElU",
+                                    "projectId": "6475fc4c85cd1cddbc3b3524",
+                                    "gitBranchName": "master",
+                                    "name": "view-transaction-records API",
+                                    "status": "ACTIVE",
+                                    "services": [
+                                      {
+                                        "type": "8",
+                                        "command": {
+                                          "type": "1",
+                                          "attributes": {
+                                            "loaderWidgetIds": [906070],
+                                            "messageWidgetIds": [906070],
+                                            "responseStateKey": "reportResponse",
+                                            "url": "/report/corporate-payment-details/transaction-records",
+                                            "checksum": true,
+                                            "encryption": true,
+                                            "isDeviceDetails": true,
+                                            "loginTrigger": false,
+                                            "formData": false,
+                                            "logoutTrigger": false,
+                                            "headers": {
+                                              "Content-Type": "application/json",
+                                              "Accept": "application/json",
+                                              "channel_key": "001",
+                                              "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                              "locale": "en-ltr"
+                                            },
+                                            "requestBody": [
+                                              {
+                                                "type": 2,
+                                                "name": "Current screen",
+                                                "key": "batchTransactionId",
+                                                "value": "selectedObject.batchTransactionId"
+                                              },
+                                              {
+                                                "type": 2,
+                                                "name": "Current screen",
+                                                "key": "corporateId",
+                                                "value": "selectedObject.corporateId"
+                                              }
+                                            ],
+                                            "baseURL": "63528e4c50e3442278a9abd6",
+                                            "storeType": 2
+                                          },
+                                          "responseHandler": [
+                                            {
+                                              "logic": {
+                                                "==": [{ "var": "status" }, 1]
+                                              },
+                                              "httpStatus": 200,
+                                              "triggerName": "Navigate to the Transaction History",
+                                              "triggerId": "8yMi2dEcxnL4EedjuBSEF"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ],
+                                    "csrf": "0.ubpitms7ge606GwoAxs3g4xlXff1hGE",
+                                    "_id": "BLtxG00PbiOySE-KSDb_2",
+                                    "updatedAt": "1/29/2024",
+                                    "createdAt": "1/29/2024",
+                                    "createdBy": "masood",
+                                    "updatedBy": "masood"
+                                  },
+                                  "triggerId": "HywkASzEMTXznMxbmXElU",
+                                  "conditional": {},
+                                  "values": [],
+                                  "disableConditional": {},
+                                  "disableValues": [],
+                                  "cssConditional": {},
+                                  "cssValues": [],
+                                  "cssClassNames": [
+                                    { "cssClassName": "ViewDetailsButtons" }
+                                  ]
+                                }
+                              ],
+                              "type": "iconButton"
                             }
                           ],
                           "rowDefinition": [],
@@ -2635,9 +2726,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "FguxhuFJoqFkqG8QzO7u6",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "7/14/2023",
-    "createdAt": "7/14/2023",
+    "createdBy": "masood",
+    "updatedAt": "1/30/2024",
+    "createdAt": "1/30/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4619,21 +4710,21 @@
       },
       "columnDefinition": [
         {
+          "type": "text",
+          "typeTemp": { "name": "Text", "type": "text" },
+          "field": "batchRequestId",
+          "headerName": "Batch No",
+          "conditional": { "bindingKey": "" },
+          "values": [""],
+          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
+          "cssValues": [""]
+        },
+        {
           "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "Batch Name",
           "field": "batchName",
           "type": "text",
           "triggerId": null
-        },
-        {
-          "type": "text",
-          "typeTemp": { "name": "Text", "type": "text" },
-          "field": "batchNumber",
-          "headerName": "Batch Number",
-          "conditional": { "bindingKey": "" },
-          "values": [""],
-          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
-          "cssValues": [""]
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
@@ -4682,6 +4773,90 @@
           "field": "reason",
           "type": "text",
           "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "headerName": "",
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [
+            {
+              "label": "View Details",
+              "trigger": {
+                "id": "HywkASzEMTXznMxbmXElU",
+                "projectId": "6475fc4c85cd1cddbc3b3524",
+                "gitBranchName": "master",
+                "name": "view-transaction-records API",
+                "status": "ACTIVE",
+                "services": [
+                  {
+                    "type": "8",
+                    "command": {
+                      "type": "1",
+                      "attributes": {
+                        "loaderWidgetIds": [906070],
+                        "messageWidgetIds": [906070],
+                        "responseStateKey": "reportResponse",
+                        "url": "/report/corporate-payment-details/transaction-records",
+                        "checksum": true,
+                        "encryption": true,
+                        "isDeviceDetails": true,
+                        "loginTrigger": false,
+                        "formData": false,
+                        "logoutTrigger": false,
+                        "headers": {
+                          "Content-Type": "application/json",
+                          "Accept": "application/json",
+                          "channel_key": "001",
+                          "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                          "locale": "en-ltr"
+                        },
+                        "requestBody": [
+                          {
+                            "type": 2,
+                            "name": "Current screen",
+                            "key": "batchTransactionId",
+                            "value": "selectedObject.batchTransactionId"
+                          },
+                          {
+                            "type": 2,
+                            "name": "Current screen",
+                            "key": "corporateId",
+                            "value": "selectedObject.corporateId"
+                          }
+                        ],
+                        "baseURL": "63528e4c50e3442278a9abd6",
+                        "storeType": 2
+                      },
+                      "responseHandler": [
+                        {
+                          "logic": { "==": [{ "var": "status" }, 1] },
+                          "httpStatus": 200,
+                          "triggerName": "Navigate to the Transaction History",
+                          "triggerId": "8yMi2dEcxnL4EedjuBSEF"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "csrf": "0.ubpitms7ge606GwoAxs3g4xlXff1hGE",
+                "_id": "BLtxG00PbiOySE-KSDb_2",
+                "updatedAt": "1/29/2024",
+                "createdAt": "1/29/2024",
+                "createdBy": "masood",
+                "updatedBy": "masood"
+              },
+              "triggerId": "HywkASzEMTXznMxbmXElU",
+              "conditional": {},
+              "values": [],
+              "disableConditional": {},
+              "disableValues": [],
+              "cssConditional": {},
+              "cssValues": [],
+              "cssClassNames": [{ "cssClassName": "ViewDetailsButtons" }]
+            }
+          ],
+          "type": "iconButton"
         }
       ],
       "rowDefinition": [],
