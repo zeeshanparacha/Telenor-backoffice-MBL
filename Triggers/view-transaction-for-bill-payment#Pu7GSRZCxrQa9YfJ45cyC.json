@@ -1,0 +1,65 @@
+{
+  "id": "1Nu-cJvtFyDuCAXWHEbO5",
+  "_id": "Pu7GSRZCxrQa9YfJ45cyC",
+  "projectId": "655cbc54b6cb0dd562a26db0",
+  "gitBranchName": "master",
+  "name": "view transaction for bill payment",
+  "old_name": "view transaction for bill payment",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "reportResponse",
+          "url": "/report/bill/corporate-payment-details/transaction-records",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "batchTransactionId",
+              "value": "selectedObject.batchNumber"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "corporateId",
+              "value": "selectedObject.corporateId"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "navigate to bill payment",
+            "triggerId": "-ZukWTgeHzt-bvLZtWKIX"
+          }
+        ]
+      }
+    }
+  ],
+  "csrf": "0.1hpg94v2h3jatV-wvvkU3UGRnPqg8WMg",
+  "updatedAt": "4/8/2024",
+  "createdAt": "4/8/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

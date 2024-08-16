@@ -1,0 +1,65 @@
+{
+  "id": "iDwWtBCwpGnmHoNd2VyxV",
+  "_id": "nnBL50d_7KH8icoB6yzWf",
+  "projectId": "655cbc54b6cb0dd562a26db0",
+  "gitBranchName": "master",
+  "name": "view-transaction-record API for vendor",
+  "old_name": "view-transaction-record API for vendor",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "reportResponse",
+          "url": "/report/vendor/corporate-payment-details/transaction-records",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "batchTransactionId",
+              "value": "selectedObject.batchNumber"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "corporateId",
+              "value": "selectedObject.corporateId"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200,
+            "triggerName": "navigate to the vendor payment transaction history ",
+            "triggerId": "JlFn87BYVk_RlMAv3xY4d"
+          }
+        ]
+      }
+    }
+  ],
+  "csrf": "0.n53zqc4hf7gtLHyKl_84M6bda-Z9Jget",
+  "updatedAt": "4/5/2024",
+  "createdAt": "4/5/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "XQRLwjZCJhQUu759rCQJG",
+  "_id": "S5O-fu_cnc7i3Tj_b90OZ",
+  "name": "show branch error in corporate screen",
+  "old_name": "show branch error in corporate screen",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "branchError",
+          "requestBody": [
+            { "type": 4, "name": "Static", "key": "error", "value": "true" }
+          ],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": "",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.2pcw7xvn9cgCnMFR9mZngRkEvVPWuNyF",
+  "updatedAt": "7/23/2024",
+  "createdAt": "7/23/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

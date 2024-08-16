@@ -1,0 +1,55 @@
+{
+  "id": "6caVRKj-68pEmKeztRfwz",
+  "_id": "wTK05XNHRMkVuD9byGpVL",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "corporate branch account list trigger",
+  "old_name": "corporate branch account list trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "branchResponseData",
+          "responseReturnValue": "data.result.detail",
+          "url": "/corporate/branch-account/list",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 1, "name": "Form", "key": "ntn", "value": "ntnNumber" }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "httpStatus": 200,
+            "triggerName": "Error Chain Trig",
+            "triggerId": "Ofi8ASFRhMz4dPnBJDDbI"
+          }
+        ]
+      }
+    }
+  ],
+  "csrf": "0.hguhu5sypqpcKkNr2iqlmeLiJOeDf0k3",
+  "updatedAt": "8/15/2024",
+  "createdAt": "8/15/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

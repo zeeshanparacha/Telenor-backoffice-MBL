@@ -1,0 +1,306 @@
+{
+  "_id": "GRPd7dDp6ry0fQgpUWJkP",
+  "id": "1mAivSgMfvBodT4fbpLXr",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "Chain Trigger Checking Branch Corporate",
+  "old_name": "Chain Trigger Checking Branch Corporate",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "storeType": "",
+          "searchInState": false,
+          "triggers": [
+            {
+              "id": "hva1_3W6xJoNbHGbshJTz",
+              "_id": "bPDL6BxAKIw7wp9V0SUwq",
+              "name": "Add corporate Branch in Table 1",
+              "old_name": "Add corporate Branch in Table 1",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "stateName": "branchResponseData",
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "accountCurrency",
+                          "value": "accountCurrency"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "accountCurrencyType",
+                          "value": "accountCurrencyType"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "accountNumber",
+                          "value": "accountNumber"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "accountTitle",
+                          "value": "accountTitle"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "accountType",
+                          "value": "accountType"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "authorityMatrixId",
+                          "value": "authorityMatrixId"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "branch",
+                          "value": "branch"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "corporateAccountType",
+                          "value": "corporateAccountType"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "dailyLimit",
+                          "value": "dailyLimit"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "iban",
+                          "value": "iban"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "id",
+                          "value": "id"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "isActive",
+                          "value": "isActive"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "monthlyLimit",
+                          "value": "monthlyLimit"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "ntn",
+                          "value": "ntn"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "product",
+                          "value": "product"
+                        }
+                      ],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": "",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.3dll48htwhdGpZyGmzNfsTrH6ZsV9waR",
+              "updatedAt": "7/30/2024",
+              "createdAt": "7/30/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            },
+            {
+              "id": "VC6ZWmPcdMsZZKXlyyUy0",
+              "_id": "IFH9OJCw210p0DR0-rIrC",
+              "name": "Clear Corporate Branch Account Number",
+              "old_name": "Clear Corporate Branch Account Number",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "branchResponseData.data.result.detail.accountNumber",
+                      "requestBody": [],
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": "",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.wtw68i1u254KaaGndaEiaYnTJJynuV5",
+              "updatedAt": "8/13/2024",
+              "createdAt": "8/13/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            },
+            {
+              "id": "QhQjFZOYxRYlpTGFsZjGl",
+              "_id": "zvH-TR4EUmmnbimjpbS3D",
+              "name": "Clear branch id BindingKey in Add corporate",
+              "old_name": "Clear branch id BindingKey in Add corporate",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "branchResponseData.data.result.detail.id",
+                      "requestBody": [],
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": "",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.wtw68i1u254KaaGndaEiaYnTJJynuV5",
+              "updatedAt": "8/13/2024",
+              "createdAt": "8/13/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            },
+            {
+              "id": "_2RVZ6a03TYVBH7UQvd-t",
+              "_id": "-xcAG48Q58AZtesHA2pNr",
+              "name": "Clear Branch authorityMatrixId Binding Key Add corporate",
+              "old_name": "Clear Branch authorityMatrixId Binding Key Add corporate",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "branchResponseData.authorityMatrixId",
+                      "requestBody": [],
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": "",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.q8dv6k18f0lgTVVREclziZh8c2N83Ae9",
+              "updatedAt": "7/29/2024",
+              "createdAt": "7/29/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            },
+            {
+              "id": "FM2iskTR6dQ8aVEnTuEHi",
+              "_id": "J8BU7uAOYU8Iu2bEvgsnJ",
+              "name": "Clear Branch Account Title Binding Key Add Corporate",
+              "old_name": "Clear Branch Account Title Binding Key Add Corporate",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "branchResponseData.data.result.detail.accountTitle",
+                      "requestBody": [],
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": "",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.wtw68i1u254KaaGndaEiaYnTJJynuV5",
+              "updatedAt": "8/13/2024",
+              "createdAt": "8/13/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            },
+            {
+              "id": "cKtTNtO2KNkun2GLdyQIJ",
+              "_id": "r6XEe_UtlzODr04pn0GFe",
+              "name": "swap checking branch component",
+              "old_name": "swap checking branch component",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "QrL8Spi1G-EgyCRCxqRXX",
+                      "nextWidgetId": "rGDO_xTBh4inGwvQjLgVK",
+                      "gridRadioValue": "Grid",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.4hk8gwlpb1hS4HrFynJdhrNqh0T5TAgl",
+              "updatedAt": "7/29/2024",
+              "createdAt": "7/29/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            }
+          ],
+          "triggerIds": [
+            "hva1_3W6xJoNbHGbshJTz",
+            "VC6ZWmPcdMsZZKXlyyUy0",
+            "QhQjFZOYxRYlpTGFsZjGl",
+            "_2RVZ6a03TYVBH7UQvd-t",
+            "FM2iskTR6dQ8aVEnTuEHi",
+            "cKtTNtO2KNkun2GLdyQIJ"
+          ]
+        }
+      }
+    }
+  ],
+  "csrf": "0.96worskthh4OjBOb0OmX0H28XOcR6w3I",
+  "updatedAt": "8/13/2024",
+  "createdAt": "8/13/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

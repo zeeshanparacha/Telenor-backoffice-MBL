@@ -1,0 +1,126 @@
+{
+  "_id": "sUeqLLsYvm2HC2UiSlsSH",
+  "id": "hV5q8HBpcxY8-7i5KIldS",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "Open checking branch edit modal",
+  "old_name": "Open checking branch edit modal",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "storeType": "",
+          "searchInState": false,
+          "triggers": [
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "633e75c035d5a10649dd048a",
+              "id": "C9VAY5AImRfVpeNy7py77",
+              "name": "Fill Form Data",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "2"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true
+            },
+            {
+              "createdBy": "haseeb",
+              "updatedBy": "haseeb",
+              "_id": "63ada4ea21a0d87ea4d2bb52",
+              "id": "YBj5nuHLBltTRrC5IEj6C",
+              "name": "Save Edit Corporate Old Data",
+              "projectId": "6305eb4fb2d1671fbc4b1de8",
+              "gitBranchName": "Sprint-1",
+              "services": [
+                {
+                  "_id": "63ada4ea21a0d87ea4d2bb53",
+                  "type": "11",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "63ada4ea21a0d87ea4d2bb54",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "editCorporateOldData",
+                      "sourceBindingKey": "form",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "filterList": [
+                        {
+                          "key": "authorityMatrixId",
+                          "changeValueConditonally": false
+                        }
+                      ],
+                      "targettedType": "object"
+                    },
+                    "type": "6"
+                  }
+                }
+              ],
+              "createdAt": "29-Dec-2022",
+              "updatedAt": "29-Dec-2022",
+              "__v": 0
+            },
+            {
+              "id": "MNvLUj180DLuijf51yg1A",
+              "name": "SWAP_NTN_BRANCH",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "QrL8Spi1G-EgyCRCxqRXX",
+                      "nextWidgetId": "VkZq0YcFzK-n_XVeBcsx0",
+                      "gridRadioValue": "Grid",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.2pcw7xvn9cgCnMFR9mZngRkEvVPWuNyF",
+              "_id": "-sEHvuvbOTDZJ9uHUVCh4",
+              "updatedAt": "7/23/2024",
+              "createdAt": "7/23/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            }
+          ],
+          "triggerIds": [
+            "C9VAY5AImRfVpeNy7py77",
+            "YBj5nuHLBltTRrC5IEj6C",
+            "MNvLUj180DLuijf51yg1A"
+          ]
+        }
+      }
+    }
+  ],
+  "csrf": "0.2pcw7xvn9cgCnMFR9mZngRkEvVPWuNyF",
+  "updatedAt": "7/23/2024",
+  "createdAt": "7/23/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

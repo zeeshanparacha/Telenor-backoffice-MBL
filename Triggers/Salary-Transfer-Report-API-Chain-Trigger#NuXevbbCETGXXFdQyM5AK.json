@@ -1,9 +1,10 @@
 {
+  "_id": "NuXevbbCETGXXFdQyM5AK",
   "id": "OntzHYgJvyyyT2mUKiY5n",
-  "projectId": "63f349eda070071e283ca270",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
   "name": "Salary Transfer Report API Chain Trigger",
-  "old_name": "",
+  "old_name": "Salary Transfer Report API Chain Trigger",
   "status": "ACTIVE",
   "services": [
     {
@@ -12,6 +13,8 @@
         "type": "1",
         "attributes": {
           "delay": "",
+          "storeType": "",
+          "searchInState": false,
           "triggers": [
             {
               "id": "ZqQ-DZ6R36q_8K9pX1s4m",
@@ -40,10 +43,12 @@
               "updatedBy": "ajk"
             },
             {
-              "id": "asaFi09eIaeFxPaOhAF1E",
-              "projectId": "63f349eda070071e283ca270",
+              "id": "s_bMKqpSsFuVUbDB0WPle",
+              "_id": "F12qhWtdZFLgsETGLgZ_l",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
               "gitBranchName": "master",
-              "name": "Salary Transfer Report API",
+              "name": "corporate transaction report api",
+              "old_name": "corporate Transfer Report API",
               "status": "ACTIVE",
               "services": [
                 {
@@ -54,8 +59,7 @@
                       "loaderWidgetIds": [906070],
                       "messageWidgetIds": [906070],
                       "responseStateKey": "corpSalResponse",
-                      "responseReturnValue": "data.salaryTransferList",
-                      "url": "/report/corporate-salary-transfer",
+                      "url": "/report/corporate-transactions-report-details",
                       "checksum": true,
                       "encryption": true,
                       "isDeviceDetails": true,
@@ -98,31 +102,50 @@
                           "type": 1,
                           "name": "Form",
                           "key": "status",
-                          "value": "status"
+                          "value": "status.code"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "companyId",
+                          "value": "company.companyId"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "companyName",
+                          "value": "company.companyName"
                         }
                       ],
                       "baseURL": "634555d068954540043d6820",
                       "storeType": 2
                     },
-                    "responseHandler": []
+                    "responseHandler": [
+                      {
+                        "httpStatus": 200,
+                        "logic": { "==": [{ "var": "status" }, 0] },
+                        "triggerName": "show corporate transaction report date error modal",
+                        "triggerId": "H4e3kr-4EXXAgERmzMjvD"
+                      }
+                    ]
                   }
                 }
               ],
-              "_id": "3RwyOpTgblJ6myMWo1uI3",
-              "updatedAt": "5/29/2023",
-              "createdAt": "5/29/2023",
-              "createdBy": "ajk",
-              "updatedBy": "ajk"
+              "csrf": "0.6mhp23pxzc7_xNtl3FRq7LhFWEwUpv5L",
+              "updatedAt": "2/27/2024",
+              "createdAt": "2/27/2024",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
             }
           ],
-          "triggerIds": ["ZqQ-DZ6R36q_8K9pX1s4m", "asaFi09eIaeFxPaOhAF1E"]
+          "triggerIds": ["ZqQ-DZ6R36q_8K9pX1s4m", "s_bMKqpSsFuVUbDB0WPle"]
         }
       }
     }
   ],
-  "_id": "NuXevbbCETGXXFdQyM5AK",
-  "updatedAt": "5/29/2023",
-  "createdAt": "5/29/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "csrf": "0.jmplim6a6xkiqFCF0mznb3mG69WLR1t",
+  "updatedAt": "6/7/2024",
+  "createdAt": "6/7/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
 }

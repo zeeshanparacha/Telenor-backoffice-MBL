@@ -1,0 +1,80 @@
+{
+  "id": "asaFi09eIaeFxPaOhAF1E",
+  "_id": "3RwyOpTgblJ6myMWo1uI3",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "corporate Transfer Report API",
+  "old_name": "corporate Transfer Report API",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "corpSalResponse",
+          "url": "/report/corporate-transactions-report-details",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 4, "name": "Static", "key": "pageNumber", "value": "1" },
+            { "type": 4, "name": "Static", "key": "pageSize", "value": "5" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "dateFrom",
+              "value": "dateFrom"
+            },
+            { "type": 1, "name": "Form", "key": "dateTo", "value": "dateTo" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "status.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyId",
+              "value": "company.companyId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "company.companyName"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "triggerName": "show corporate transaction report date error modal",
+            "triggerId": "H4e3kr-4EXXAgERmzMjvD"
+          }
+        ]
+      }
+    }
+  ],
+  "csrf": "0.6mhp23pxzc7_xNtl3FRq7LhFWEwUpv5L",
+  "updatedAt": "2/27/2024",
+  "createdAt": "2/27/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

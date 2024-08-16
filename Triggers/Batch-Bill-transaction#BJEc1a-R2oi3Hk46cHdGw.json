@@ -1,0 +1,55 @@
+{
+  "id": "wGvGBTyLRpRu4267x2EOj",
+  "_id": "BJEc1a-R2oi3Hk46cHdGw",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "Batch Bill transaction",
+  "old_name": "Batch Bill transaction",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "corporatePaymentDetails",
+          "responseReturnValue": "data.corporatePaymentDetails",
+          "url": "/report/bill/corporate-payment-details",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "dateFrom",
+              "value": "dateFrom"
+            },
+            { "type": 1, "name": "Form", "key": "dateTo", "value": "dateTo" },
+            { "type": 1, "name": "Form", "key": "status", "value": "status" }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.yhayh5ivvz8N6Hgt-VCHZ2qwljeBiIzn",
+  "updatedAt": "6/7/2024",
+  "createdAt": "6/7/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

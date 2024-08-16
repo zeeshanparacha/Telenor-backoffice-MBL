@@ -1,0 +1,29 @@
+{
+  "id": "odMzKb9RZ_ERbxdoMN8LW",
+  "_id": "W-nFR6nTcqdM3a085X3DV",
+  "name": "Manipulate Corporate Branch Value",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "destinationBindingKey": "branchResponseData",
+          "sourceBindingKey": "corporateEnquireResponse.corporateBranchAccounts",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "targettedType": "array",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.96worskthh4OjBOb0OmX0H28XOcR6w3I",
+  "updatedAt": "8/13/2024",
+  "createdAt": "8/13/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "06iLI-ta67gpPrQzJRGpg",
+  "_id": "pTH26AwCLS1fkaThr8LXg",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "corporate batch transaction bill report xlsv",
+  "old_name": "corporate batch transaction bill report xlsv",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "CorporateTransactionReportXLS",
+          "url": "/report/bill/corporate-payment-details/export/excel",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "corporate batch transaction bill report.xlsx",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "dateFrom",
+              "value": "dateFrom"
+            },
+            { "type": 1, "name": "Form", "key": "dateTo", "value": "dateTo" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "status.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "company.companyName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyId",
+              "value": "company.companyId"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.g1e14huo00c0rAR5br_f0e5NEiEvoHHW",
+  "updatedAt": "6/5/2024",
+  "createdAt": "6/5/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

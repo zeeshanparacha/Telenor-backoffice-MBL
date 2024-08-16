@@ -1,0 +1,127 @@
+{
+  "_id": "QJsASEgOiB7ZBAr7RemNW",
+  "id": "6WxdOsVOPqfC6tcRUWfpO",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "corporate and account report for vendor",
+  "old_name": "corporate and account report for vendor",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "storeType": "",
+          "searchInState": false,
+          "triggers": [
+            {
+              "createdBy": "ahmarnew",
+              "updatedBy": "ahmarnew",
+              "_id": "63b3d1c56b069a434c377fbd",
+              "id": "ppitOqrG4sf-6ZFnOqfxT",
+              "name": "clear corp and account report 1 binding key",
+              "projectId": "6305eb4fb2d1671fbc4b1de8",
+              "gitBranchName": "Sprint-1",
+              "services": [
+                {
+                  "_id": "63b3d1d26b069a434c378175",
+                  "type": "11",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "63b3d1d26b069a434c378176",
+                    "attributes": {
+                      "stateName": "corporatePaymentDetails",
+                      "requestBody": [],
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    },
+                    "type": "4"
+                  }
+                }
+              ],
+              "createdAt": "03-Jan-2023",
+              "updatedAt": "03-Jan-2023",
+              "__v": 1
+            },
+            {
+              "id": "bPgOYIUBajpCm4aLeYqTA",
+              "_id": "bQ2ZwtANFv1ZNNOlO9Bvy",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "name": "corp and account activity report for vendor",
+              "old_name": "corp and account activity report for vendor",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "corporatePaymentDetails",
+                      "responseReturnValue": "data.corporatePaymentDetails",
+                      "url": "/report/vendor/corporate-payment-details",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "dateFrom",
+                          "value": "dateFrom"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "dateTo",
+                          "value": "dateTo"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "status",
+                          "value": "status"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "csrf": "0.abwsz04afgo97tHULA7HFJT0z7QeFThk",
+              "updatedAt": "6/7/2024",
+              "createdAt": "6/7/2024",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            }
+          ],
+          "triggerIds": ["ppitOqrG4sf-6ZFnOqfxT", "bPgOYIUBajpCm4aLeYqTA"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.abwsz04afgo97tHULA7HFJT0z7QeFThk",
+  "updatedAt": "6/7/2024",
+  "createdAt": "6/7/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

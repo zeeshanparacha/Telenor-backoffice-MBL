@@ -1,0 +1,72 @@
+{
+  "id": "S_MHepuLKWv5lahWpvMUk",
+  "_id": "xTwAiDAfOVkkqfjWsEe22",
+  "projectId": "655cbc54b6cb0dd562a26db0",
+  "gitBranchName": "master",
+  "name": "vendor corporate transaction report xlsv",
+  "old_name": "vendor corporate transaction report xlsv",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "VendorCorporateTransactionReportXLS",
+          "url": "/report/vendor-transactions-report-details/export/excel",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "Vendor Corporate Transaction Report.xlsx",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "dateFrom",
+              "value": "dateFrom"
+            },
+            { "type": 1, "name": "Form", "key": "dateTo", "value": "dateTo" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "status.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "company.companyName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyId",
+              "value": "company.companyId"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.vhvdkhpg6isFvGz51s6c9zUbSua2Zmov",
+  "updatedAt": "4/16/2024",
+  "createdAt": "4/16/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

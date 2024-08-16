@@ -1,0 +1,35 @@
+{
+  "id": "IPtpnSnxEoFWaa4Wv4nQM",
+  "_id": "RqzAWyWWqctuE6SSAyGSE",
+  "name": "BRANCH_TAB",
+  "old_name": "BRANCH_TAB",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "select_tab",
+          "sourceBindingKey": "select_tab",
+          "sourceStoreType": 1,
+          "destinationStoreType": 2,
+          "logic": { "if": [true, "Branch", "Branch"] },
+          "changeValueConditonally": true,
+          "targettedType": "value",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.hqmszem2vs9GMohjCSGf_Zjzq0Kp7W22",
+  "updatedAt": "7/11/2024",
+  "createdAt": "7/11/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

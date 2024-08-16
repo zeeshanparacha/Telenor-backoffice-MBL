@@ -1,7 +1,7 @@
 {
   "id": "-eraWXJsJ0UeHs8mYqzkX",
   "_id": "6g05aJ0_BoChl0EuBB1Z6",
-  "projectId": "63f349eda070071e283ca270",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
   "name": "Salary Transfer Report PDF Download API",
   "old_name": "Salary Transfer Report PDF Download API",
@@ -15,10 +15,10 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "response",
-          "url": "/report/corporate-salary-transfer/export/pdf",
+          "url": "/report/corporate-transactions-report-details/export/pdf",
           "checksum": true,
           "encryption": true,
-          "fileName": "Corporate Salary Transfer Report.pdf",
+          "fileName": "Corporate Transfer Report.pdf",
           "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
@@ -49,6 +49,12 @@
               "name": "Form",
               "key": "companyId",
               "value": "company.companyId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "company.companyName"
             }
           ],
           "baseURL": "634555d068954540043d6820",
@@ -58,8 +64,9 @@
       }
     }
   ],
-  "updatedAt": "5/29/2023",
-  "createdAt": "5/29/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "csrf": "0.6mhp23pxzc7_xNtl3FRq7LhFWEwUpv5L",
+  "updatedAt": "2/27/2024",
+  "createdAt": "2/27/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
 }

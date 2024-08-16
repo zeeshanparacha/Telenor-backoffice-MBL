@@ -1,0 +1,50 @@
+{
+  "id": "RflIn07Hyu2aLQ5zAu14-",
+  "_id": "rkddLV75eyqjfKcb769lF",
+  "name": "branch grid update ",
+  "old_name": "branch grid update ",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "branchResponseData",
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": " accountNumber",
+              "value": " accountNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountTitle",
+              "value": "accountTitle"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "isEnable",
+              "value": "isEnable.code"
+            }
+          ],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": "",
+          "targettedType": "value",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.iqrtic3j76qzqZ3NIcs3hXm6bvgKt0W6",
+  "updatedAt": "8/16/2024",
+  "createdAt": "8/16/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

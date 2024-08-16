@@ -1,0 +1,45 @@
+{
+  "id": "Ldf4-PhAo8r2iKJRFyssX",
+  "_id": "wxmuVzNsQxj7dA2tQbtfu",
+  "name": "branchToggle",
+  "old_name": "branchToggle",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "object",
+          "destinationBindingKey": "branchResponseData",
+          "sourceBindingKey": "branchResponseData",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "accountTitle" },
+            { "key": "accountNumber", "changeValueConditonally": false },
+            { "key": "toggle", "changeValueConditonally": false },
+            {
+              "key": "isEnable",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [{ "==": [{ "var": "isEnable" }, true] }, true, false]
+              }
+            }
+          ],
+          "targettedType": "array",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.cwz4sgjpahGJIDkNDr1nFTJnWb8N669",
+  "updatedAt": "8/16/2024",
+  "createdAt": "8/16/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

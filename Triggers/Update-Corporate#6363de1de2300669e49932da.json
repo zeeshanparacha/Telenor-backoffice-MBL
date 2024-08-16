@@ -127,10 +127,28 @@
               "value": "branchlessAccountData"
             },
             {
+              "type": 2,
+              "name": "Current screen",
+              "key": "corporate.corporateBranchAccounts",
+              "value": "branchResponseData.data.result.detail"
+            },
+            {
               "type": 1,
               "name": "Form",
               "key": "corporate.configuration.nomineeEmail",
               "value": "nomineeEmail"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.isDeLinkBranchAccount",
+              "value": "isDeLinkBranchAccount"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "corporate.isbranchAccountNtnChange",
+              "value": "isbranchAccountNtnChange"
             }
           ],
           "baseURL": "634555d068954540043d6820",
@@ -177,8 +195,9 @@
       }
     }
   ],
-  "updatedAt": "6/13/2023",
-  "createdAt": "6/13/2023",
-  "createdBy": "ahmerjavedkhan",
-  "updatedBy": "ahmerjavedkhan"
+  "csrf": "0.gzkmhks8ziwq9Xx8wrpkEfdBCymjy9NI",
+  "updatedAt": "8/8/2024",
+  "createdAt": "8/8/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
 }

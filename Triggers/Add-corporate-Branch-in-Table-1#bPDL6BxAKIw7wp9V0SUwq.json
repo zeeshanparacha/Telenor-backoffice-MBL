@@ -1,0 +1,50 @@
+{
+  "id": "hva1_3W6xJoNbHGbshJTz",
+  "_id": "bPDL6BxAKIw7wp9V0SUwq",
+  "name": "Add corporate Branch in Table 1",
+  "old_name": "Add corporate Branch in Table 1",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "branchResponseData",
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountNumber",
+              "value": "accountNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountTitle",
+              "value": "accountTitle"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "authorityMatrixId",
+              "value": "authorityMatrixId"
+            },
+            { "type": 1, "name": "Form", "key": "id", "value": "id" }
+          ],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": "",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.96worskthh4OjBOb0OmX0H28XOcR6w3I",
+  "updatedAt": "8/13/2024",
+  "createdAt": "8/13/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

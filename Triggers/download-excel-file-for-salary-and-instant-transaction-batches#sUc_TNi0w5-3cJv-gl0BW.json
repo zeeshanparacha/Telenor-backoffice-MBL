@@ -1,0 +1,59 @@
+{
+  "id": "7GdkLHkc5z5SkMnKE6f9F",
+  "_id": "sUc_TNi0w5-3cJv-gl0BW",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "download excel file for salary and instant transaction batches",
+  "old_name": "download excel file for salary and instant transaction batches",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "downloadFile",
+          "url": "/report/corporate-payment-details/transaction-records/export/excel",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "Transaction_Report.xlsx",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "batchTransactionId",
+              "value": "selectedObject.batchNumber"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "corporateId",
+              "value": "selectedObject.corporateId"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.yhayh5ivvz8N6Hgt-VCHZ2qwljeBiIzn",
+  "updatedAt": "6/7/2024",
+  "createdAt": "6/7/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

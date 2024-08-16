@@ -1,0 +1,2831 @@
+[
+  {
+    "id": "y5VSw89OkVR_0TRWlJZgw",
+    "name": "New screen",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "tqkaDWm9nsQpmxLnjq2L7",
+          "componentType": "10001",
+          "id": "tqkaDWm9nsQpmxLnjq2L7",
+          "position": {
+            "i": "tqkaDWm9nsQpmxLnjq2L7",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        },
+        {
+          "componentId": "D9-UE3j1pBkSp1ReaSM5d",
+          "componentType": "10001",
+          "id": "D9-UE3j1pBkSp1ReaSM5d",
+          "position": {
+            "i": "D9-UE3j1pBkSp1ReaSM5d",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "tqkaDWm9nsQpmxLnjq2L7",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Grid layout",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout",
+            "skeleton": {
+              "//": "Use this class to style skeleton loading component."
+            }
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "group": "Layout",
+        "type": "sidebarItem",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [
+          {
+            "triggerId": "bYvcQw_kgZZzcv7DHQp0q",
+            "triggerName": "BASIC_TAB",
+            "serviceType": "11",
+            "attributes": {
+              "storeType": "",
+              "selectedObjectBindingKey": "selectedObject",
+              "dataType": "value",
+              "destinationBindingKey": "select_tab",
+              "sourceBindingKey": "select_tab",
+              "sourceStoreType": 1,
+              "destinationStoreType": 2,
+              "logic": { "if": [true, "Basic", "Basic"] },
+              "changeValueConditonally": true,
+              "targettedType": "value",
+              "gridFormRowIdBindingKey": "editFormRowId"
+            },
+            "type": "1",
+            "name": "On initialization",
+            "commandType": "6"
+          }
+        ],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": "0",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "DbOuPQwllNMXNcfAZOtXo",
+            "gridProps": [
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "QMxcPNiLM4ejcIDZRFrG9",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "yDOOJ3uPderD528qzMziS",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid layout",
+                        "id": "kd31zs764f2w8JWQIlPw0",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "2ymVdJtH1cYxUVyYatlgE",
+                            "gridProps": [
+                              {
+                                "id": "i_3iEBsWuRboEIvewQogI",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component."
+                                    },
+                                    "prefix": {
+                                      "//": "Use this class to style prefix."
+                                    },
+                                    "postfix": {
+                                      "//": "Use this class to style postfix."
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "label": "BASIC INFORMATION"
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [
+                                  {
+                                    "triggerId": "bYvcQw_kgZZzcv7DHQp0q",
+                                    "triggerName": "BASIC_TAB",
+                                    "serviceType": "11",
+                                    "attributes": {
+                                      "storeType": "",
+                                      "selectedObjectBindingKey": "selectedObject",
+                                      "dataType": "value",
+                                      "destinationBindingKey": "select_tab",
+                                      "sourceBindingKey": "select_tab",
+                                      "sourceStoreType": 1,
+                                      "destinationStoreType": 2,
+                                      "logic": {
+                                        "if": [true, "Basic", "Basic"]
+                                      },
+                                      "changeValueConditonally": true,
+                                      "targettedType": "value",
+                                      "gridFormRowIdBindingKey": "editFormRowId"
+                                    },
+                                    "type": "2",
+                                    "name": "On click",
+                                    "commandType": "6"
+                                  }
+                                ],
+                                "path": "0-0-0-0-0-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "spacing": 0,
+                              "cursor": "pointer"
+                            },
+                            "mainContainer": "gridLayout",
+                            "skeleton": {
+                              "//": "Use this class to style skeleton loading component."
+                            }
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout",
+                          "conditionalClasses": [
+                            {
+                              "cssClassName": "active_tab ",
+                              "logic": {
+                                "if": {
+                                  "==": [
+                                    { "var": "currentScreen.select_tab" },
+                                    "Basic"
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "LbifUiRyY0zIoTZR3OtcI",
+                            "triggerName": "main grid trigger to swap widget",
+                            "serviceType": "1",
+                            "attributes": {
+                              "fromWidgetId": "-TW97QYsFs332Y05LTahK",
+                              "nextWidgetId": "xuvpOqAD_urtNDurlL4YU",
+                              "gridRadioValue": "Grid",
+                              "selectedObjectBindingKey": "selectedObject",
+                              "editableForm": false
+                            },
+                            "type": "2",
+                            "name": "On click",
+                            "commandType": "2"
+                          }
+                        ],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 3,
+                      "lg": 3,
+                      "md": 3,
+                      "sm": 3,
+                      "xs": 3
+                    }
+                  },
+                  {
+                    "type": "column",
+                    "id": "Ew2K8QitnJVlyyUKWgrDq",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid layout",
+                        "id": "IEukhOBw0m-pKdGnNkVpl",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "eScipwdvpjueIaPtO27UB",
+                            "gridProps": [
+                              {
+                                "id": "YoQ0xGEPvP9GIxngaFIsX",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component."
+                                    },
+                                    "prefix": {
+                                      "//": "Use this class to style prefix."
+                                    },
+                                    "postfix": {
+                                      "//": "Use this class to style postfix."
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "label": "CONFIGURATION"
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [
+                                  {
+                                    "triggerId": "iP7JI31ap1iCWZ7XRn6IG",
+                                    "triggerName": "CONFIG_TAB",
+                                    "serviceType": "11",
+                                    "attributes": {
+                                      "requestBody": [],
+                                      "storeType": "",
+                                      "selectedObjectBindingKey": "selectedObject",
+                                      "dataType": "value",
+                                      "destinationBindingKey": "select_tab",
+                                      "sourceBindingKey": "select_tab",
+                                      "sourceStoreType": 1,
+                                      "destinationStoreType": 2,
+                                      "logic": {
+                                        "if": [true, "Config", "Config"]
+                                      },
+                                      "changeValueConditonally": true,
+                                      "targettedType": "value",
+                                      "gridFormRowIdBindingKey": "editFormRowId"
+                                    },
+                                    "type": "2",
+                                    "name": "On click",
+                                    "commandType": "6"
+                                  }
+                                ],
+                                "path": "0-0-0-1-0-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "spacing": 0,
+                              "cursor": "pointer"
+                            },
+                            "mainContainer": "gridLayout",
+                            "skeleton": {
+                              "//": "Use this class to style skeleton loading component."
+                            }
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout",
+                          "conditionalClasses": [
+                            {
+                              "cssClassName": "active_tab ",
+                              "logic": {
+                                "if": {
+                                  "==": [
+                                    { "var": "currentScreen.select_tab" },
+                                    "Config"
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "GRIEeqOnjuIQX0sEphEoB",
+                            "triggerName": "corporate configuration trigger",
+                            "serviceType": "1",
+                            "attributes": {
+                              "fromWidgetId": "-TW97QYsFs332Y05LTahK",
+                              "nextWidgetId": "V5wYdBowZ6jTzH6oVCc1q",
+                              "gridRadioValue": "Grid",
+                              "selectedObjectBindingKey": "selectedObject",
+                              "editableForm": false
+                            },
+                            "type": "2",
+                            "name": "On click",
+                            "commandType": "2"
+                          }
+                        ],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 3,
+                      "lg": 3,
+                      "md": 3,
+                      "sm": 3,
+                      "xs": 3
+                    }
+                  },
+                  {
+                    "type": "column",
+                    "id": "3p3lbFtcU93PRtvUMqked",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid layout",
+                        "id": "FRrpuEKGJNibIyJ9wpIo5",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "FfBokxPF5avVFJQzOP9Qo",
+                            "gridProps": [
+                              {
+                                "id": "16Mil9Vagrwa-Q4miiM3a",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component."
+                                    },
+                                    "prefix": {
+                                      "//": "Use this class to style prefix."
+                                    },
+                                    "postfix": {
+                                      "//": "Use this class to style postfix."
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "label": "WALLETS ACCOUNT"
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [
+                                  {
+                                    "triggerId": "f8oMEnJRfRtzTsYUzbO9W",
+                                    "triggerName": "WALLET_TAB",
+                                    "serviceType": "11",
+                                    "attributes": {
+                                      "requestBody": [],
+                                      "storeType": "",
+                                      "selectedObjectBindingKey": "selectedObject",
+                                      "dataType": "value",
+                                      "destinationBindingKey": "select_tab",
+                                      "sourceBindingKey": "select_tab",
+                                      "sourceStoreType": 1,
+                                      "destinationStoreType": 2,
+                                      "logic": {
+                                        "if": [true, "Wallet", "Wallet"]
+                                      },
+                                      "changeValueConditonally": true,
+                                      "targettedType": "value",
+                                      "gridFormRowIdBindingKey": "editFormRowId"
+                                    },
+                                    "type": "2",
+                                    "name": "On click",
+                                    "commandType": "6"
+                                  }
+                                ],
+                                "path": "0-0-0-2-0-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "spacing": 0,
+                              "cursor": "pointer"
+                            },
+                            "mainContainer": "gridLayout",
+                            "skeleton": {
+                              "//": "Use this class to style skeleton loading component."
+                            }
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout",
+                          "conditionalClasses": [
+                            {
+                              "cssClassName": "active_tab ",
+                              "logic": {
+                                "if": {
+                                  "==": [
+                                    { "var": "currentScreen.select_tab" },
+                                    "Wallet"
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "OTOm6l9BmCdtGYdGkUFzm",
+                            "triggerName": "corporate wallet trigger",
+                            "serviceType": "1",
+                            "attributes": {
+                              "fromWidgetId": "-TW97QYsFs332Y05LTahK",
+                              "nextWidgetId": "hhUzMC6q-HtsTf1I8i7Fh",
+                              "gridRadioValue": "Grid",
+                              "selectedObjectBindingKey": "selectedObject",
+                              "editableForm": false
+                            },
+                            "type": "2",
+                            "name": "On click",
+                            "commandType": "2"
+                          }
+                        ],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-2-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 3,
+                      "lg": 3,
+                      "md": 3,
+                      "sm": 3,
+                      "xs": 3
+                    }
+                  },
+                  {
+                    "type": "column",
+                    "id": "kILpv2cot6ZqFNWEdF3Ex",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid layout",
+                        "id": "HF2aML1uPgpqOD7vA5wNs",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "vy8Onur67a0APqJDbsjxk",
+                            "gridProps": [
+                              {
+                                "id": "GYraYTfllZz_phhafJf6D",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component."
+                                    },
+                                    "prefix": {
+                                      "//": "Use this class to style prefix."
+                                    },
+                                    "postfix": {
+                                      "//": "Use this class to style postfix."
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "label": "BRANCH"
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [
+                                  {
+                                    "triggerId": "IPtpnSnxEoFWaa4Wv4nQM",
+                                    "triggerName": "BRANCH_TAB",
+                                    "serviceType": "11",
+                                    "attributes": {
+                                      "requestBody": [],
+                                      "storeType": "",
+                                      "selectedObjectBindingKey": "selectedObject",
+                                      "dataType": "value",
+                                      "destinationBindingKey": "select_tab",
+                                      "sourceBindingKey": "select_tab",
+                                      "sourceStoreType": 1,
+                                      "destinationStoreType": 2,
+                                      "logic": {
+                                        "if": [true, "Branch", "Branch"]
+                                      },
+                                      "changeValueConditonally": true,
+                                      "targettedType": "value",
+                                      "gridFormRowIdBindingKey": "editFormRowId"
+                                    },
+                                    "type": "2",
+                                    "name": "On click",
+                                    "commandType": "6"
+                                  }
+                                ],
+                                "path": "0-0-0-3-0-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "spacing": 0,
+                              "cursor": "pointer"
+                            },
+                            "mainContainer": "gridLayout",
+                            "skeleton": {
+                              "//": "Use this class to style skeleton loading component."
+                            }
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout",
+                          "conditionalClasses": [
+                            {
+                              "cssClassName": "active_tab ",
+                              "logic": {
+                                "if": {
+                                  "==": [
+                                    { "var": "currentScreen.select_tab" },
+                                    "Branch"
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "events": [
+                          {
+                            "triggerId": "DnOLjSK0CbLyha9iXv2R3",
+                            "triggerName": "corporate branch trigger",
+                            "serviceType": "1",
+                            "attributes": {
+                              "fromWidgetId": "-TW97QYsFs332Y05LTahK",
+                              "nextWidgetId": "X9XECoH1JzIdu7Mn_nF31",
+                              "gridRadioValue": "Grid",
+                              "selectedObjectBindingKey": "selectedObject",
+                              "editableForm": false
+                            },
+                            "type": "2",
+                            "name": "On click",
+                            "commandType": "2"
+                          }
+                        ],
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "path": "0-0-0-3-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 3,
+                      "lg": 3,
+                      "md": 3,
+                      "sm": 3,
+                      "xs": 3
+                    }
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "spacing": 0,
+                      "background": "rgb(250, 250, 250)"
+                    },
+                    "mainContainer": "gridLayout",
+                    "skeleton": {
+                      "//": "Use this class to style skeleton loading component."
+                    }
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout",
+                  "cssClassNames": [
+                    { "cssClassName": "services_tab ", "key": "services_tab " }
+                  ]
+                },
+                "events": [
+                  {
+                    "triggerId": "LbifUiRyY0zIoTZR3OtcI",
+                    "triggerName": "main grid trigger to swap widget",
+                    "serviceType": "1",
+                    "attributes": {
+                      "fromWidgetId": "-TW97QYsFs332Y05LTahK",
+                      "nextWidgetId": "xuvpOqAD_urtNDurlL4YU",
+                      "gridRadioValue": "Grid",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    },
+                    "type": "1",
+                    "name": "On initialization",
+                    "commandType": "2"
+                  }
+                ],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0"
+              },
+              {
+                "type": "10001",
+                "name": "main grid",
+                "id": "-TW97QYsFs332Y05LTahK",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "LyQWK37NBdZSeJr6J344T",
+                    "gridProps": [],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    }
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout",
+                    "skeleton": {
+                      "//": "Use this class to style skeleton loading component."
+                    }
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "first grid",
+                  "isSwappable": true
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-1",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": false
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      },
+      {
+        "id": "D9-UE3j1pBkSp1ReaSM5d",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Grid layout",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout",
+            "skeleton": {
+              "//": "Use this class to style skeleton loading component."
+            }
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout",
+          "disableCondition": {},
+          "hideCondition": {
+            "logic": {
+              "if": [
+                { "var": "currentScreen.corporateDetailsonEdit" },
+                true,
+                false
+              ]
+            }
+          }
+        },
+        "group": "Layout",
+        "type": "sidebarItem",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": "1",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "Wb_71Ssq1cIDxif2dft-W",
+            "gridProps": [
+              {
+                "id": "NeQtV7n1g35YJl3pd7Ow1",
+                "status": "ACTIVE",
+                "attributes": {
+                  "label": "Add",
+                  "variant": "contained",
+                  "name": "Button",
+                  "label-locale-key": "",
+                  "fullWidth": false,
+                  "layoutProperties": {
+                    "button": {
+                      "//": "Use this class to style button component.",
+                      "width": "10%"
+                    },
+                    "iconButton": {
+                      "//": "Use this class to style icon button component.",
+                      "width": "20px",
+                      "height": "20px"
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style button element."
+                    },
+                    "mainContainer": "button",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "name": "Button",
+                "icon": "FaBimobject",
+                "group": "Form",
+                "type": "20006",
+                "Documentation": "<div>components 12344</div>",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 1,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Button", "type": "20006" },
+                "events": [
+                  {
+                    "triggerId": "r18C5C0ZSW4h1bekmaOXe",
+                    "triggerName": "Check validations in corporate and send add request",
+                    "serviceType": "13",
+                    "attributes": {
+                      "triggers": [
+                        {
+                          "logic": {
+                            "if": [
+                              {
+                                "or": [
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.prefix.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.numberOfUsers"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.domain.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.nomineeEmail.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.floatFrequency"
+                                      },
+                                      0
+                                    ]
+                                  }
+                                ]
+                              },
+                              true,
+                              false
+                            ]
+                          },
+                          "triggerName": "show configuration error in corporate screen",
+                          "triggerId": "wQzwq754Xhn_ftx31ppHj",
+                          "services": [
+                            {
+                              "_id": "6363928fe2300669e497e982",
+                              "type": "11",
+                              "command": {
+                                "responseHandler": [],
+                                "returns": [],
+                                "_id": "6363928fe2300669e497e983",
+                                "attributes": {
+                                  "stateName": "configError",
+                                  "requestBody": [
+                                    {
+                                      "type": 4,
+                                      "name": "Static",
+                                      "key": "error",
+                                      "value": "true"
+                                    }
+                                  ],
+                                  "storeType": "",
+                                  "selectedObjectBindingKey": "selectedObject",
+                                  "dataType": "",
+                                  "sourceBindingKey": ""
+                                },
+                                "type": "1"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "logic": {
+                            "if": [
+                              {
+                                "or": [
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.prefix.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.numberOfUsers"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.domain.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.nomineeEmail.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.floatFrequency"
+                                      },
+                                      0
+                                    ]
+                                  }
+                                ]
+                              },
+                              false,
+                              true
+                            ]
+                          },
+                          "triggerName": "delete corporate configuration error message",
+                          "triggerId": "X0teOH2CWPTBt4-AlaJza",
+                          "services": [
+                            {
+                              "_id": "6363951de2300669e497faaf",
+                              "type": "11",
+                              "command": {
+                                "responseHandler": [],
+                                "returns": [],
+                                "_id": "6363951de2300669e497fab0",
+                                "attributes": {
+                                  "stateName": "configError",
+                                  "storeType": 2,
+                                  "selectedObjectBindingKey": "selectedObject",
+                                  "dataType": "",
+                                  "sourceBindingKey": ""
+                                },
+                                "type": "4"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "logic": {
+                            "if": [
+                              {
+                                "or": [
+                                  {
+                                    "if": [
+                                      {
+                                        "or": [
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.prefix.length"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.numberOfUsers"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.domain.length"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.nomineeEmail.length"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.floatFrequency"
+                                              },
+                                              0
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      true,
+                                      false
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.branchlessAccountData.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "if": [
+                                      {
+                                        "or": [
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.address.length"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.corporateId.length"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.mobileNumber"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.name.length"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.creationDate.length"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.emailAddress.length"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.description.length"
+                                              },
+                                              1
+                                            ]
+                                          },
+                                          {
+                                            "<": [
+                                              {
+                                                "var": "currentScreen.form.phoneNumber"
+                                              },
+                                              1
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      true,
+                                      false
+                                    ]
+                                  }
+                                ]
+                              },
+                              false,
+                              true
+                            ]
+                          },
+                          "triggerName": "Map checking account and add corporate",
+                          "triggerId": "oKqIe8XI_Z523dG51Uf6V",
+                          "services": [
+                            {
+                              "_id": "6363de30e2300669e4993562",
+                              "type": "2",
+                              "command": {
+                                "responseHandler": [],
+                                "returns": [],
+                                "_id": "6363de30e2300669e4993563",
+                                "attributes": {
+                                  "triggers": [
+                                    {
+                                      "createdBy": "talib",
+                                      "updatedBy": "talib",
+                                      "_id": "6362837be2300669e496f504",
+                                      "id": "ww9o9IA9YCoNyhHXsbYHp",
+                                      "name": "Map Checking List enable before api",
+                                      "projectId": "6305eb4fb2d1671fbc4b1de8",
+                                      "gitBranchName": "Sprint-1",
+                                      "services": [
+                                        {
+                                          "_id": "6362837be2300669e496f505",
+                                          "type": "11",
+                                          "command": {
+                                            "responseHandler": [],
+                                            "returns": [],
+                                            "_id": "6362837be2300669e496f506",
+                                            "attributes": {
+                                              "storeType": "",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "object",
+                                              "destinationBindingKey": "checkingAccountsUpdated",
+                                              "sourceBindingKey": "corporateEnquireResponse.checkingAccounts",
+                                              "sourceStoreType": 2,
+                                              "destinationStoreType": 2,
+                                              "filterList": [
+                                                {
+                                                  "key": "accountNumber",
+                                                  "changeValueConditonally": false
+                                                },
+                                                { "key": "accountTitle" },
+                                                { "key": "authorityMatrixId" },
+                                                { "key": "branch" },
+                                                { "key": "dailyLimit" },
+                                                { "key": "iban" },
+                                                { "key": "monthlyLimit" },
+                                                { "key": "product" },
+                                                {
+                                                  "key": "enabled",
+                                                  "changeValueConditonally": true,
+                                                  "logic": {
+                                                    "if": [
+                                                      {
+                                                        "contain": [
+                                                          {
+                                                            "var": "currentScreen.checkingAccountSelectedRow"
+                                                          },
+                                                          { "var": "iban" },
+                                                          "iban"
+                                                        ]
+                                                      },
+                                                      true,
+                                                      false
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            "type": "6"
+                                          }
+                                        }
+                                      ],
+                                      "createdAt": "02-Nov-2022",
+                                      "updatedAt": "02-Nov-2022",
+                                      "__v": 0
+                                    },
+                                    {
+                                      "createdBy": "talib",
+                                      "updatedBy": "talib",
+                                      "_id": "63628bd8e2300669e497001e",
+                                      "id": "gw8eiBkZUUzLYjKoeWnE1",
+                                      "name": "Map enabled branch names",
+                                      "projectId": "6305eb4fb2d1671fbc4b1de8",
+                                      "gitBranchName": "Sprint-1",
+                                      "services": [
+                                        {
+                                          "_id": "63628bd8e2300669e497001f",
+                                          "type": "11",
+                                          "command": {
+                                            "responseHandler": [],
+                                            "returns": [],
+                                            "_id": "63628bd8e2300669e4970020",
+                                            "attributes": {
+                                              "storeType": "",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "object",
+                                              "destinationBindingKey": "selectedBranchesEnabled",
+                                              "sourceBindingKey": "corporateEnquireResponse.branches",
+                                              "sourceStoreType": 2,
+                                              "destinationStoreType": 2,
+                                              "filterList": [
+                                                {
+                                                  "key": "branchName",
+                                                  "changeValueConditonally": false
+                                                },
+                                                {
+                                                  "key": "enabled",
+                                                  "changeValueConditonally": true,
+                                                  "logic": {
+                                                    "if": [
+                                                      {
+                                                        "contain": [
+                                                          {
+                                                            "var": "currentScreen.selectedBranchNames"
+                                                          },
+                                                          {
+                                                            "var": "branchName"
+                                                          },
+                                                          "branchName"
+                                                        ]
+                                                      },
+                                                      true,
+                                                      false
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            },
+                                            "type": "6"
+                                          }
+                                        }
+                                      ],
+                                      "createdAt": "02-Nov-2022",
+                                      "updatedAt": "02-Nov-2022",
+                                      "__v": 0
+                                    },
+                                    {
+                                      "createdBy": "talib",
+                                      "updatedBy": "talib",
+                                      "_id": "6363de2ae2300669e49933af",
+                                      "projectId": "6305eb4fb2d1671fbc4b1de8",
+                                      "gitBranchName": "Sprint-1",
+                                      "name": "conditionally call add corporate or edit corporate",
+                                      "status": "ACTIVE",
+                                      "services": [
+                                        {
+                                          "_id": "6363de2ae2300669e49933b0",
+                                          "type": "13",
+                                          "command": {
+                                            "responseHandler": [],
+                                            "returns": [],
+                                            "_id": "6363de2ae2300669e49933b1",
+                                            "attributes": {
+                                              "triggers": [
+                                                {
+                                                  "logic": {
+                                                    "if": [
+                                                      {
+                                                        "var": "currentScreen.corporateDetailsonEdit"
+                                                      },
+                                                      false,
+                                                      true
+                                                    ]
+                                                  },
+                                                  "triggerName": "Add Corporate",
+                                                  "triggerId": "UwaHbt4Y_CCv9IuXm5CW4",
+                                                  "services": [
+                                                    {
+                                                      "_id": "6363cc67e2300669e498d420",
+                                                      "type": "8",
+                                                      "command": {
+                                                        "responseHandler": [
+                                                          {
+                                                            "logic": {
+                                                              "==": [
+                                                                {
+                                                                  "var": "status"
+                                                                },
+                                                                1
+                                                              ]
+                                                            },
+                                                            "httpStatus": 200,
+                                                            "triggerName": "Clear Form Data",
+                                                            "triggerId": "C9VAY5AImRfVpeNy7pz65"
+                                                          },
+                                                          {
+                                                            "logic": {
+                                                              "==": [
+                                                                {
+                                                                  "var": "status"
+                                                                },
+                                                                1
+                                                              ]
+                                                            },
+                                                            "httpStatus": 200,
+                                                            "triggerName": "Open Success Modal",
+                                                            "triggerId": "7qK4zY9-Va6XZGtImuOcg"
+                                                          },
+                                                          {
+                                                            "logic": {
+                                                              "==": [
+                                                                {
+                                                                  "var": "status"
+                                                                },
+                                                                0
+                                                              ]
+                                                            },
+                                                            "httpStatus": 400,
+                                                            "triggerName": "Show Error Modal",
+                                                            "triggerId": "zj5wU451q42rOfjv-NNhD"
+                                                          },
+                                                          {
+                                                            "logic": {
+                                                              "==": [
+                                                                {
+                                                                  "var": "status"
+                                                                },
+                                                                1
+                                                              ]
+                                                            },
+                                                            "httpStatus": 200,
+                                                            "triggerName": "Data Grid Service",
+                                                            "triggerId": "MXwmLQo77GXKNu0xgKULL"
+                                                          },
+                                                          {
+                                                            "logic": {
+                                                              "==": [
+                                                                {
+                                                                  "var": "status"
+                                                                },
+                                                                0
+                                                              ]
+                                                            },
+                                                            "httpStatus": 200,
+                                                            "triggerName": "Show Error Modal",
+                                                            "triggerId": "zj5wU451q42rOfjv-NNhD"
+                                                          }
+                                                        ],
+                                                        "returns": [],
+                                                        "_id": "6363cc67e2300669e498d421",
+                                                        "attributes": {
+                                                          "loaderWidgetIds": [
+                                                            906070
+                                                          ],
+                                                          "messageWidgetIds": [
+                                                            906070
+                                                          ],
+                                                          "responseStateKey": "response",
+                                                          "url": "/corporates/maker-request/create",
+                                                          "checksum": true,
+                                                          "encryption": true,
+                                                          "isDeviceDetails": true,
+                                                          "loginTrigger": false,
+                                                          "formData": false,
+                                                          "logoutTrigger": false,
+                                                          "headers": {
+                                                            "Content-Type": "application/json",
+                                                            "Accept": "application/json",
+                                                            "channel_key": "001",
+                                                            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                            "locale": "en-ltr"
+                                                          },
+                                                          "requestBody": [
+                                                            {
+                                                              "type": 2,
+                                                              "name": "Current screen",
+                                                              "key": "corporate.basicInfo",
+                                                              "value": "corporateEnquireResponse.basicInfo"
+                                                            },
+                                                            {
+                                                              "type": 1,
+                                                              "name": "Form",
+                                                              "key": "corporate.configuration.fileUploadLimit",
+                                                              "value": "fileUploadLimit"
+                                                            },
+                                                            {
+                                                              "type": 1,
+                                                              "name": "Form",
+                                                              "key": "corporate.configuration.prefix",
+                                                              "value": "prefix"
+                                                            },
+                                                            {
+                                                              "type": 1,
+                                                              "name": "Form",
+                                                              "key": "corporate.configuration.domain",
+                                                              "value": "domain"
+                                                            },
+                                                            {
+                                                              "type": 2,
+                                                              "name": "Current screen",
+                                                              "key": "corporate.checkingAccounts",
+                                                              "value": "checkingAccountsUpdated"
+                                                            },
+                                                            {
+                                                              "type": 1,
+                                                              "name": "Form",
+                                                              "key": "corporate.configuration.numberOfUsers",
+                                                              "value": "numberOfUsers"
+                                                            },
+                                                            {
+                                                              "type": 1,
+                                                              "name": "Form",
+                                                              "key": "corporate.configuration.validateDomain",
+                                                              "value": "validateDomainName"
+                                                            },
+                                                            {
+                                                              "type": 2,
+                                                              "name": "Current screen",
+                                                              "key": "corporate.makerCheckerSettings",
+                                                              "value": "corporateEnquireResponse.makerCheckerSettings"
+                                                            },
+                                                            {
+                                                              "type": 2,
+                                                              "name": "Current screen",
+                                                              "key": "corporate.branches",
+                                                              "value": "selectedBranchesEnabled"
+                                                            },
+                                                            {
+                                                              "type": 1,
+                                                              "name": "Form",
+                                                              "key": "corporate.configuration.fileType",
+                                                              "value": "fileType"
+                                                            },
+                                                            {
+                                                              "type": 1,
+                                                              "name": "Form",
+                                                              "key": "a",
+                                                              "value": "a"
+                                                            },
+                                                            {
+                                                              "type": 1,
+                                                              "name": "Form",
+                                                              "key": "1",
+                                                              "value": "1"
+                                                            }
+                                                          ],
+                                                          "baseURL": "634555d068954540043d6820",
+                                                          "storeType": 2
+                                                        },
+                                                        "type": "1"
+                                                      }
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "logic": {
+                                                    "if": [
+                                                      {
+                                                        "var": "currentScreen.corporateDetailsonEdit"
+                                                      },
+                                                      true,
+                                                      false
+                                                    ]
+                                                  },
+                                                  "triggerName": "Update Corporate",
+                                                  "triggerId": "ZttlhuUa_vto-zYgH_nQ7",
+                                                  "services": [
+                                                    {
+                                                      "_id": "6363de1de2300669e49932db",
+                                                      "type": "8",
+                                                      "command": {
+                                                        "responseHandler": [
+                                                          {
+                                                            "logic": {
+                                                              "==": [
+                                                                {
+                                                                  "var": "status"
+                                                                },
+                                                                1
+                                                              ]
+                                                            },
+                                                            "httpStatus": 200,
+                                                            "triggerName": "Open Success Modal",
+                                                            "triggerId": "7qK4zY9-Va6XZGtImuOcg"
+                                                          },
+                                                          {
+                                                            "logic": {
+                                                              "==": [
+                                                                {
+                                                                  "var": "status"
+                                                                },
+                                                                0
+                                                              ]
+                                                            },
+                                                            "httpStatus": 200,
+                                                            "triggerName": "Show Error Modal",
+                                                            "triggerId": "zj5wU451q42rOfjv-NNhD"
+                                                          }
+                                                        ],
+                                                        "returns": [],
+                                                        "_id": "6363de1de2300669e49932dc",
+                                                        "attributes": {
+                                                          "loaderWidgetIds": [
+                                                            906070
+                                                          ],
+                                                          "messageWidgetIds": [
+                                                            906070
+                                                          ],
+                                                          "responseStateKey": "response",
+                                                          "url": "/corporates/update/maker-request/create",
+                                                          "checksum": true,
+                                                          "encryption": true,
+                                                          "isDeviceDetails": true,
+                                                          "loginTrigger": false,
+                                                          "formData": false,
+                                                          "logoutTrigger": false,
+                                                          "headers": {
+                                                            "Content-Type": "application/json",
+                                                            "Accept": "application/json",
+                                                            "channel_key": "001",
+                                                            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                            "locale": "en-ltr"
+                                                          },
+                                                          "requestBody": [],
+                                                          "baseURL": "634555d068954540043d6820",
+                                                          "storeType": 2
+                                                        },
+                                                        "type": "1"
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            "type": "1"
+                                          }
+                                        }
+                                      ],
+                                      "id": "WoaTKClRiGt2WGM17rlOx",
+                                      "createdAt": "03-Nov-2022",
+                                      "updatedAt": "03-Nov-2022",
+                                      "__v": 0
+                                    }
+                                  ],
+                                  "triggerIds": [
+                                    "ww9o9IA9YCoNyhHXsbYHp",
+                                    "gw8eiBkZUUzLYjKoeWnE1",
+                                    "WoaTKClRiGt2WGM17rlOx"
+                                  ]
+                                },
+                                "type": "1"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "logic": {
+                            "if": [
+                              {
+                                "or": [
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.corporateId.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.address.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.mobileNumber"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.name.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.creationDate.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.emailAddress.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.description.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.phoneNumber"
+                                      },
+                                      1
+                                    ]
+                                  }
+                                ]
+                              },
+                              true,
+                              false
+                            ]
+                          },
+                          "triggerName": "show Basic Info error in corporate screen",
+                          "triggerId": "qQewU5r--jMyWFQXjKOIt",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "1",
+                                "attributes": {
+                                  "stateName": "basicError",
+                                  "requestBody": [
+                                    {
+                                      "type": 4,
+                                      "name": "Static",
+                                      "key": "error",
+                                      "value": "true"
+                                    }
+                                  ],
+                                  "storeType": "",
+                                  "selectedObjectBindingKey": "selectedObject",
+                                  "dataType": "",
+                                  "sourceBindingKey": ""
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "logic": {
+                            "if": [
+                              {
+                                "or": [
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.corporateId.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.address.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.mobileNumber"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.name.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.creationDate.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.emailAddress.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.description.length"
+                                      },
+                                      1
+                                    ]
+                                  },
+                                  {
+                                    "<": [
+                                      {
+                                        "var": "currentScreen.form.phoneNumber"
+                                      },
+                                      1
+                                    ]
+                                  }
+                                ]
+                              },
+                              false,
+                              true
+                            ]
+                          },
+                          "triggerName": "delete corporate Basic Info error message",
+                          "triggerId": "6Udr5yjSQ9Dp5uZh2H0K1",
+                          "services": [
+                            {
+                              "type": "11",
+                              "command": {
+                                "type": "4",
+                                "attributes": {
+                                  "stateName": "basicError",
+                                  "storeType": 2,
+                                  "selectedObjectBindingKey": "selectedObject",
+                                  "dataType": "",
+                                  "sourceBindingKey": ""
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "logic": {
+                            "<": [
+                              {
+                                "var": "currentScreen.branchlessAccountData.length"
+                              },
+                              1
+                            ]
+                          },
+                          "triggerName": "show branch name error message",
+                          "triggerId": "JD5Qmn-FeWYUuLKRwjk-3",
+                          "services": [
+                            {
+                              "_id": "6363b92ee2300669e4986f76",
+                              "type": "11",
+                              "command": {
+                                "responseHandler": [],
+                                "returns": [],
+                                "_id": "6363b92ee2300669e4986f77",
+                                "attributes": {
+                                  "stateName": "branchSetupErr",
+                                  "requestBody": [
+                                    {
+                                      "type": 4,
+                                      "name": "Static",
+                                      "key": "branchSetupErr",
+                                      "value": "branchSetupErr"
+                                    }
+                                  ],
+                                  "storeType": "",
+                                  "selectedObjectBindingKey": "selectedObject",
+                                  "dataType": "",
+                                  "sourceBindingKey": ""
+                                },
+                                "type": "1"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "logic": {
+                            ">": [
+                              {
+                                "var": "currentScreen.branchlessAccountData.length"
+                              },
+                              0
+                            ]
+                          },
+                          "triggerName": "delete branch setup error message",
+                          "triggerId": "V32bqCjstXPIMgJ6T2kwo",
+                          "services": [
+                            {
+                              "_id": "6363b760e2300669e498635d",
+                              "type": "11",
+                              "command": {
+                                "responseHandler": [],
+                                "returns": [],
+                                "_id": "6363b760e2300669e498635e",
+                                "attributes": {
+                                  "stateName": "branchSetupErr",
+                                  "requestBody": [],
+                                  "storeType": 2,
+                                  "selectedObjectBindingKey": "selectedObject",
+                                  "dataType": "",
+                                  "sourceBindingKey": ""
+                                },
+                                "type": "4"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "type": "4",
+                    "name": "On Submit",
+                    "commandType": "1"
+                  }
+                ],
+                "path": "1-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      }
+    ],
+    "events": [],
+    "subType": "screen",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "y5VSw89OkVR_0TRWlJZgw",
+    "createdBy": "asadrahim",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "tqkaDWm9nsQpmxLnjq2L7",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "QMxcPNiLM4ejcIDZRFrG9",
+          "componentType": "10001",
+          "id": "QMxcPNiLM4ejcIDZRFrG9",
+          "position": {
+            "i": "QMxcPNiLM4ejcIDZRFrG9",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "-TW97QYsFs332Y05LTahK",
+          "componentType": "10001",
+          "id": "-TW97QYsFs332Y05LTahK",
+          "position": {
+            "i": "-TW97QYsFs332Y05LTahK",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout",
+        "skeleton": {
+          "//": "Use this class to style skeleton loading component."
+        }
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "bYvcQw_kgZZzcv7DHQp0q",
+        "triggerName": "BASIC_TAB",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
+    "subType": "component",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "QMxcPNiLM4ejcIDZRFrG9",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "kd31zs764f2w8JWQIlPw0",
+          "componentType": "10001",
+          "id": "kd31zs764f2w8JWQIlPw0",
+          "position": {
+            "i": "kd31zs764f2w8JWQIlPw0",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
+        },
+        {
+          "componentId": "IEukhOBw0m-pKdGnNkVpl",
+          "componentType": "10001",
+          "id": "IEukhOBw0m-pKdGnNkVpl",
+          "position": {
+            "i": "IEukhOBw0m-pKdGnNkVpl",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
+        },
+        {
+          "componentId": "FRrpuEKGJNibIyJ9wpIo5",
+          "componentType": "10001",
+          "id": "FRrpuEKGJNibIyJ9wpIo5",
+          "position": {
+            "i": "FRrpuEKGJNibIyJ9wpIo5",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
+        },
+        {
+          "componentId": "HF2aML1uPgpqOD7vA5wNs",
+          "componentType": "10001",
+          "id": "HF2aML1uPgpqOD7vA5wNs",
+          "position": {
+            "i": "HF2aML1uPgpqOD7vA5wNs",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 3, "lg": 3, "md": 3, "sm": 3, "xs": 3 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "background": "rgb(250, 250, 250)"
+        },
+        "mainContainer": "gridLayout",
+        "skeleton": {
+          "//": "Use this class to style skeleton loading component."
+        }
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "cssClassNames": [
+        { "cssClassName": "services_tab ", "key": "services_tab " }
+      ]
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "LbifUiRyY0zIoTZR3OtcI",
+        "triggerName": "main grid trigger to swap widget",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
+    "subType": "component",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "kd31zs764f2w8JWQIlPw0",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "i_3iEBsWuRboEIvewQogI",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "cursor": "pointer"
+        },
+        "mainContainer": "gridLayout",
+        "skeleton": {
+          "//": "Use this class to style skeleton loading component."
+        }
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "conditionalClasses": [
+        {
+          "cssClassName": "active_tab ",
+          "logic": {
+            "if": { "==": [{ "var": "currentScreen.select_tab" }, "Basic"] }
+          }
+        }
+      ]
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "LbifUiRyY0zIoTZR3OtcI",
+        "triggerName": "main grid trigger to swap widget",
+        "name": "On click",
+        "type": "2"
+      }
+    ],
+    "subType": "component",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "i_3iEBsWuRboEIvewQogI",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "prefix": { "//": "Use this class to style prefix." },
+        "postfix": { "//": "Use this class to style postfix." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "BASIC INFORMATION"
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [
+      {
+        "triggerId": "bYvcQw_kgZZzcv7DHQp0q",
+        "triggerName": "BASIC_TAB",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-0-0-0-0-0",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "IEukhOBw0m-pKdGnNkVpl",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "YoQ0xGEPvP9GIxngaFIsX",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "cursor": "pointer"
+        },
+        "mainContainer": "gridLayout",
+        "skeleton": {
+          "//": "Use this class to style skeleton loading component."
+        }
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "conditionalClasses": [
+        {
+          "cssClassName": "active_tab ",
+          "logic": {
+            "if": { "==": [{ "var": "currentScreen.select_tab" }, "Config"] }
+          }
+        }
+      ]
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "GRIEeqOnjuIQX0sEphEoB",
+        "triggerName": "corporate configuration trigger",
+        "name": "On click",
+        "type": "2"
+      }
+    ],
+    "subType": "component",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "YoQ0xGEPvP9GIxngaFIsX",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "prefix": { "//": "Use this class to style prefix." },
+        "postfix": { "//": "Use this class to style postfix." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "CONFIGURATION"
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [
+      {
+        "triggerId": "iP7JI31ap1iCWZ7XRn6IG",
+        "triggerName": "CONFIG_TAB",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-0-1-0-0-0",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "FRrpuEKGJNibIyJ9wpIo5",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "16Mil9Vagrwa-Q4miiM3a",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "cursor": "pointer"
+        },
+        "mainContainer": "gridLayout",
+        "skeleton": {
+          "//": "Use this class to style skeleton loading component."
+        }
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "conditionalClasses": [
+        {
+          "cssClassName": "active_tab ",
+          "logic": {
+            "if": { "==": [{ "var": "currentScreen.select_tab" }, "Wallet"] }
+          }
+        }
+      ]
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "OTOm6l9BmCdtGYdGkUFzm",
+        "triggerName": "corporate wallet trigger",
+        "name": "On click",
+        "type": "2"
+      }
+    ],
+    "subType": "component",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "16Mil9Vagrwa-Q4miiM3a",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "prefix": { "//": "Use this class to style prefix." },
+        "postfix": { "//": "Use this class to style postfix." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "WALLETS ACCOUNT"
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [
+      {
+        "triggerId": "f8oMEnJRfRtzTsYUzbO9W",
+        "triggerName": "WALLET_TAB",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-0-2-0-0-0",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "HF2aML1uPgpqOD7vA5wNs",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "GYraYTfllZz_phhafJf6D",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "cursor": "pointer"
+        },
+        "mainContainer": "gridLayout",
+        "skeleton": {
+          "//": "Use this class to style skeleton loading component."
+        }
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "conditionalClasses": [
+        {
+          "cssClassName": "active_tab ",
+          "logic": {
+            "if": { "==": [{ "var": "currentScreen.select_tab" }, "Branch"] }
+          }
+        }
+      ]
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "DnOLjSK0CbLyha9iXv2R3",
+        "triggerName": "corporate branch trigger",
+        "name": "On click",
+        "type": "2"
+      }
+    ],
+    "subType": "component",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "GYraYTfllZz_phhafJf6D",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "prefix": { "//": "Use this class to style prefix." },
+        "postfix": { "//": "Use this class to style postfix." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "BRANCH"
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [
+      {
+        "triggerId": "IPtpnSnxEoFWaa4Wv4nQM",
+        "triggerName": "BRANCH_TAB",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-0-3-0-0-0",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "-TW97QYsFs332Y05LTahK",
+    "name": "main grid",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout",
+        "skeleton": {
+          "//": "Use this class to style skeleton loading component."
+        }
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "first grid",
+      "isSwappable": true
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "D9-UE3j1pBkSp1ReaSM5d",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "NeQtV7n1g35YJl3pd7Ow1",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout",
+        "skeleton": {
+          "//": "Use this class to style skeleton loading component."
+        }
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "disableCondition": {},
+      "hideCondition": {
+        "logic": {
+          "if": [{ "var": "currentScreen.corporateDetailsonEdit" }, true, false]
+        }
+      }
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "NeQtV7n1g35YJl3pd7Ow1",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Add",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": false,
+      "layoutProperties": {
+        "button": {
+          "//": "Use this class to style button component.",
+          "width": "10%"
+        },
+        "iconButton": {
+          "//": "Use this class to style icon button component.",
+          "width": "20px",
+          "height": "20px"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "7/11/2024",
+    "createdAt": "7/11/2024",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "r18C5C0ZSW4h1bekmaOXe",
+        "triggerName": "Check validations in corporate and send add request",
+        "name": "On Submit",
+        "type": "4",
+        "serviceType": "13"
+      }
+    ],
+    "path": "1-0-0",
+    "screenId": "y5VSw89OkVR_0TRWlJZgw",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

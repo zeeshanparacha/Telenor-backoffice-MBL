@@ -142,15 +142,24 @@
                 ]
               },
               "key": "validateDomain"
+            },
+            {
+              "key": "accountNumber",
+              "changeValueConditonally": true,
+              "logic": {
+                "var": "currentScreen.corporateEnquireResponse.corporateBranchAccounts.accountNumber"
+              }
             }
           ],
-          "targettedType": "object"
+          "targettedType": "object",
+          "gridFormRowIdBindingKey": "editFormRowId"
         }
       }
     }
   ],
-  "updatedAt": "6/8/2023",
-  "createdAt": "6/8/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "csrf": "0.paqxralwim5KQNqcQ0Rcsu6ZRpzVYus",
+  "updatedAt": "7/25/2024",
+  "createdAt": "7/25/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
 }

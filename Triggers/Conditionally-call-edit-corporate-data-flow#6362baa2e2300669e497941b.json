@@ -228,14 +228,43 @@
                   }
                 }
               ]
+            },
+            {
+              "logic": {
+                "if": [
+                  { "var": "currentScreen.corporateDetailsonEdit" },
+                  true,
+                  false
+                ]
+              },
+              "triggerName": "Manipulate Corporate Branch Value",
+              "triggerId": "odMzKb9RZ_ERbxdoMN8LW",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "destinationBindingKey": "branchResponseData",
+                      "sourceBindingKey": "corporateEnquireResponse.corporateBranchAccounts",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "targettedType": "array",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
       }
     }
   ],
-  "updatedAt": "6/8/2023",
-  "createdAt": "6/8/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "csrf": "0.3dll48htwhdGpZyGmzNfsTrH6ZsV9waR",
+  "updatedAt": "7/30/2024",
+  "createdAt": "7/30/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
 }

@@ -1,0 +1,33 @@
+{
+  "id": "bYvcQw_kgZZzcv7DHQp0q",
+  "name": "BASIC_TAB",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "select_tab",
+          "sourceBindingKey": "select_tab",
+          "sourceStoreType": 1,
+          "destinationStoreType": 2,
+          "logic": { "if": [true, "Basic", "Basic"] },
+          "changeValueConditonally": true,
+          "targettedType": "value",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.hqmszem2vs9GMohjCSGf_Zjzq0Kp7W22",
+  "_id": "UZfVTVbaF4IE8xC6cGtAV",
+  "updatedAt": "7/11/2024",
+  "createdAt": "7/11/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

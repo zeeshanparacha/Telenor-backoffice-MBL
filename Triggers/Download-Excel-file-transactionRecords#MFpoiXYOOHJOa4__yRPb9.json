@@ -1,5 +1,6 @@
 {
   "id": "d2j5Z0ASj9i_YzgHeoNQT",
+  "_id": "MFpoiXYOOHJOa4__yRPb9",
   "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
   "name": "Download Excel file transactionRecords",
@@ -13,7 +14,7 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "downloadFile",
-          "url": "/report/corporate-payment-details/transaction-records/export/excel",
+          "url": "/report/vendor/corporate-payment-details/transaction-records/export/excel",
           "checksum": true,
           "encryption": true,
           "fileName": "Transaction_Report.xlsx",
@@ -33,7 +34,7 @@
               "type": 2,
               "name": "Current screen",
               "key": "batchTransactionId",
-              "value": "selectedObject.batchTransactionId"
+              "value": "selectedObject.batchNumber"
             },
             {
               "type": 2,
@@ -49,10 +50,9 @@
       }
     }
   ],
-  "csrf": "0.ubpitms7ge606GwoAxs3g4xlXff1hGE",
-  "_id": "MFpoiXYOOHJOa4__yRPb9",
-  "updatedAt": "1/29/2024",
-  "createdAt": "1/29/2024",
-  "createdBy": "masood",
-  "updatedBy": "masood"
+  "csrf": "0.abwsz04afgo97tHULA7HFJT0z7QeFThk",
+  "updatedAt": "6/7/2024",
+  "createdAt": "6/7/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
 }

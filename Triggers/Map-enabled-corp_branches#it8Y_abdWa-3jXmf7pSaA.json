@@ -1,0 +1,58 @@
+{
+  "createdBy": "talib",
+  "updatedBy": "asadrahim",
+  "_id": "it8Y_abdWa-3jXmf7pSaA",
+  "id": "vEEdng1yZuJKkD4fx3OtE",
+  "name": "Map enabled corp_branches",
+  "projectId": "63f349eda070071e283ca270",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "_id": "63adae9321a0d87ea4d308d6",
+      "type": "11",
+      "command": {
+        "responseHandler": [],
+        "returns": [],
+        "_id": "63adae9321a0d87ea4d308d7",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "object",
+          "destinationBindingKey": "selectedBranchesEnabled",
+          "sourceBindingKey": "corporateEnquireResponse.branches",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "id", "changeValueConditonally": false },
+            { "key": "branchCode" },
+            { "key": "branchName" },
+            { "key": "branchRegion" },
+            {
+              "changeValueConditonally": true,
+              "key": "enabled",
+              "logic": {
+                "if": [
+                  {
+                    "contain": [
+                      { "var": "currentScreen.selectedBranchNames" },
+                      { "var": "branchName" },
+                      "branchName"
+                    ]
+                  },
+                  true,
+                  false
+                ]
+              }
+            }
+          ],
+          "targettedType": "array"
+        },
+        "type": "6"
+      }
+    }
+  ],
+  "createdAt": "7/28/2024",
+  "updatedAt": "7/28/2024",
+  "__v": 7
+}

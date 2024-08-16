@@ -1,0 +1,32 @@
+{
+  "id": "4qsu4mhEHDElqwj9eBPV1",
+  "_id": "r0WZfkscNdvdSpIcRXu9N",
+  "name": "get current date in transaction report",
+  "old_name": "get current date in transaction report",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "11",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "diffDate",
+          "sourceBindingKey": "",
+          "destinationStoreType": 2,
+          "dateDifference": "0",
+          "dateFormat": "dd-MM-yyyy"
+        }
+      }
+    }
+  ],
+  "csrf": "0.6mhp23pxzc7_xNtl3FRq7LhFWEwUpv5L",
+  "updatedAt": "2/27/2024",
+  "createdAt": "2/27/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

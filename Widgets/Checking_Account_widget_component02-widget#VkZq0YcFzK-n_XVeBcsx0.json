@@ -561,7 +561,16 @@
                                   "iconname": "FaPlus",
                                   "iconName": "FaPlus",
                                   "buttonIconPosition": "start",
-                                  "disableCondition": {}
+                                  "disableCondition": {
+                                    "logic": {
+                                      "==": [
+                                        {
+                                          "var": "currentScreen.selectedObject.status"
+                                        },
+                                        "PENDING"
+                                      ]
+                                    }
+                                  }
                                 },
                                 "name": "Button",
                                 "icon": "FaBimobject",
@@ -613,7 +622,8 @@
                                       "storeType": 2
                                     },
                                     "type": "4",
-                                    "name": "On Submit"
+                                    "name": "On Submit",
+                                    "commandType": "1"
                                   }
                                 ],
                                 "path": "0-0-1-1-0-0-0"
@@ -755,9 +765,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "VkZq0YcFzK-n_XVeBcsx0",
-    "createdBy": "ahmerjavedkhan",
-    "updatedAt": "8/3/2023",
-    "createdAt": "8/3/2023",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -831,6 +841,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -877,6 +890,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -922,6 +938,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -950,8 +969,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -963,6 +982,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1022,6 +1042,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1067,6 +1090,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1177,8 +1203,8 @@
     "group": "Form",
     "type": "20004",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "order": 20,
     "version": "1.0.0",
     "isLatest": true,
@@ -1190,6 +1216,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1235,6 +1262,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1261,15 +1291,19 @@
       "iconname": "FaPlus",
       "iconName": "FaPlus",
       "buttonIconPosition": "start",
-      "disableCondition": {}
+      "disableCondition": {
+        "logic": {
+          "==": [{ "var": "currentScreen.selectedObject.status" }, "PENDING"]
+        }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",
     "group": "Form",
     "type": "20006",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "8/5/2024",
+    "createdAt": "8/5/2024",
     "order": 1,
     "version": "1.0.0",
     "isLatest": true,
@@ -1289,6 +1323,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]

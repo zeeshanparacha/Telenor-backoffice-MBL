@@ -48,7 +48,7 @@
                 "name": "Label",
                 "component": { "content": "Label", "type": "20002" },
                 "attributes": {
-                  "label": "Corporate Salary Transfer Report",
+                  "label": "Corporate Salary Payment Transaction Report",
                   "variant": "body1",
                   "name": "Label",
                   "mandatory": false,
@@ -100,7 +100,7 @@
             "path": "0-2"
           }
         ],
-        "path": 0,
+        "path": "0",
         "events": [],
         "attributes": {
           "gridProps": [],
@@ -163,7 +163,7 @@
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 1,
+        "path": "1",
         "gridProps": [
           {
             "type": "column",
@@ -542,7 +542,7 @@
                                                                   "dataValue": "",
                                                                   "mandatory": true,
                                                                   "validate": {
-                                                                    "required": true,
+                                                                    "required": false,
                                                                     "errorMsg": "This Field is Required",
                                                                     "bindButton": [
                                                                       {
@@ -763,10 +763,10 @@
                                                                 "status": "ACTIVE",
                                                                 "name": "Label",
                                                                 "attributes": {
-                                                                  "label": "From Date",
+                                                                  "label": "From Date (Date Range should be With in Three Months)",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -894,7 +894,7 @@
                                                                   "format": "dd-MM-yyyy",
                                                                   "variant": "standard",
                                                                   "validate": {
-                                                                    "required": false,
+                                                                    "required": true,
                                                                     "errorMsg": "",
                                                                     "isCalendar": true
                                                                   },
@@ -916,8 +916,7 @@
                                                                   ],
                                                                   "disableUnderline": true,
                                                                   "calenderIconPosition": "start",
-                                                                  "maxDateSource": "dateTo",
-                                                                  "maxDateStoreType": 1
+                                                                  "maxDateStoreType": 2
                                                                 },
                                                                 "version": "1.0.0",
                                                                 "isLatest": true,
@@ -1179,7 +1178,7 @@
                                                                   "dataValue": "companyName",
                                                                   "mandatory": true,
                                                                   "validate": {
-                                                                    "required": true,
+                                                                    "required": false,
                                                                     "errorMsg": "This Field is Required",
                                                                     "bindButton": [
                                                                       {
@@ -1454,7 +1453,7 @@
                                                                   "label": "To Date",
                                                                   "variant": "body1",
                                                                   "name": "Label",
-                                                                  "mandatory": false,
+                                                                  "mandatory": true,
                                                                   "layoutProperties": {
                                                                     "label": {
                                                                       "//": "Use this class to style label component.",
@@ -1467,7 +1466,8 @@
                                                                     "md": 12,
                                                                     "sm": 12,
                                                                     "xs": 12
-                                                                  }
+                                                                  },
+                                                                  "enablePaginationSortingFilter": false
                                                                 },
                                                                 "icon": "FaFont",
                                                                 "group": "Form",
@@ -1582,7 +1582,7 @@
                                                                   "format": "dd-MM-yyyy",
                                                                   "variant": "standard",
                                                                   "validate": {
-                                                                    "required": false,
+                                                                    "required": true,
                                                                     "errorMsg": "",
                                                                     "isCalendar": true
                                                                   },
@@ -1604,8 +1604,7 @@
                                                                   ],
                                                                   "disableUnderline": true,
                                                                   "calenderIconPosition": "start",
-                                                                  "minDateSource": "dateFrom",
-                                                                  "minDateStoreType": 1
+                                                                  "maxDateStoreType": 2
                                                                 },
                                                                 "version": "1.0.0",
                                                                 "isLatest": true,
@@ -1752,16 +1751,91 @@
                                                 "gridProps": [
                                                   {
                                                     "type": "column",
-                                                    "id": "a6YTI8EQCUNFWCC0nmJH7",
+                                                    "id": "dULG4OEHle-Sb7v0urk9M",
                                                     "gridProps": [],
                                                     "layoutProperties": {
-                                                      "xl": 12,
-                                                      "lg": 12,
-                                                      "md": 12,
-                                                      "sm": 12,
-                                                      "xs": 12
-                                                    },
-                                                    "path": "1-0-0-0-0-0-0-0-2-0-0-0"
+                                                      "xl": 6,
+                                                      "lg": 6,
+                                                      "md": 6,
+                                                      "sm": 6,
+                                                      "xs": 6
+                                                    }
+                                                  },
+                                                  {
+                                                    "type": "column",
+                                                    "id": "hbr0xhu3veKYhgXUi1Nrj",
+                                                    "gridProps": [
+                                                      {
+                                                        "id": "RVsqNF0gz6OykyG51RXQw",
+                                                        "status": "ACTIVE",
+                                                        "name": "Label",
+                                                        "attributes": {
+                                                          "variant": "body1",
+                                                          "name": "Label",
+                                                          "mandatory": false,
+                                                          "layoutProperties": {
+                                                            "label": {
+                                                              "//": "Use this class to style label component.",
+                                                              "color": "#FF0000",
+                                                              "padding": " 0px 10px 5px 0px"
+                                                            },
+                                                            "prefix": {
+                                                              "//": "Use this class to style prefix."
+                                                            },
+                                                            "postfix": {
+                                                              "//": "Use this class to style postfix."
+                                                            },
+                                                            "mainContainer": "label",
+                                                            "xl": 6,
+                                                            "lg": 6,
+                                                            "md": 6,
+                                                            "sm": 6,
+                                                            "xs": 6
+                                                          },
+                                                          "label": "First Select Date From And Date To",
+                                                          "hideCondition": {
+                                                            "logic": {
+                                                              "if": [
+                                                                {
+                                                                  "and": [
+                                                                    {
+                                                                      "var": "currentScreen.form.dateFrom.length"
+                                                                    },
+                                                                    {
+                                                                      "var": "currentScreen.form.dateTo.length"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                true,
+                                                                false
+                                                              ]
+                                                            }
+                                                          }
+                                                        },
+                                                        "icon": "FaFont",
+                                                        "group": "Form",
+                                                        "type": "20002",
+                                                        "updatedAt": "23-Aug-2021",
+                                                        "createdAt": "23-Aug-2021",
+                                                        "order": 15,
+                                                        "version": "1.0.0",
+                                                        "isLatest": true,
+                                                        "projectType": "web",
+                                                        "component": {
+                                                          "content": "Label",
+                                                          "type": "20002"
+                                                        },
+                                                        "events": [],
+                                                        "path": "1-0-0-0-0-0-0-0-2-0-0-1-0"
+                                                      }
+                                                    ],
+                                                    "layoutProperties": {
+                                                      "xl": 6,
+                                                      "lg": 6,
+                                                      "md": 6,
+                                                      "sm": 6,
+                                                      "xs": 6
+                                                    }
                                                   }
                                                 ],
                                                 "allowedContainers": [
@@ -1788,14 +1862,25 @@
                                                     "alignItems": "flex-start"
                                                   },
                                                   "direction": "row",
-                                                  "name": "Grid layout"
+                                                  "name": "Grid layout",
+                                                  "columns": "2"
                                                 },
                                                 "events": [],
                                                 "component": {
                                                   "type": "10001",
                                                   "content": "Grid layout"
                                                 },
-                                                "path": "1-0-0-0-0-0-0-0-2-0-0"
+                                                "path": "1-0-0-0-0-0-0-0-2-0-0",
+                                                "dimensions": {
+                                                  "rows": 1,
+                                                  "columns": 1,
+                                                  "colSize0xs": 12,
+                                                  "colSize0sm": 12,
+                                                  "colSize0md": 12,
+                                                  "colSize0lg": 12,
+                                                  "colSize0xl": 12
+                                                },
+                                                "readOnly": false
                                               }
                                             ],
                                             "layoutProperties": {
@@ -1890,7 +1975,25 @@
                                                             {
                                                               "cssClassName": "CardButton"
                                                             }
-                                                          ]
+                                                          ],
+                                                          "disableCondition": {
+                                                            "logic": {
+                                                              "if": [
+                                                                {
+                                                                  "and": [
+                                                                    {
+                                                                      "var": "currentScreen.form.dateFrom.length"
+                                                                    },
+                                                                    {
+                                                                      "var": "currentScreen.form.dateTo.length"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                false,
+                                                                true
+                                                              ]
+                                                            }
+                                                          }
                                                         },
                                                         "name": "Button",
                                                         "icon": "FaBimobject",
@@ -2459,12 +2562,28 @@
                         "readOnly": true
                       },
                       {
+                        "id": "mRPshWG6tucGgNYzZ8uWX",
+                        "name": "show corporate transaction report date error modal",
+                        "type": "20031",
+                        "attributes": {
+                          "widgetId": "WhuHeA1ILpK5ww-xgp7HM",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
                         "type": "10001",
                         "id": "q5JweCtLL8gR6z9FqeHun",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "lNobeQnoUPwrObOhLUyQX",
+                            "id": "QqA1bFbK0z3-B0DMLYI1e",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -2516,7 +2635,7 @@
                                   "type": "10001",
                                   "content": "Grid layout"
                                 },
-                                "path": "1-0-0-0-1-0-0"
+                                "path": "1-0-0-0-2-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -2525,12 +2644,11 @@
                               "md": 8,
                               "sm": 8,
                               "xs": 8
-                            },
-                            "path": "1-0-0-0-1-0"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "gOxb8nE2O2jpDd09cQwMX",
+                            "id": "INND0ezQkm13kxth4mW5d",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -2581,17 +2699,17 @@
                                         },
                                         "events": [
                                           {
-                                            "triggerId": "-eraWXJsJ0UeHs8mYqzkX",
-                                            "triggerName": "Salary Transfer Report PDF Download API",
+                                            "triggerId": "h3H7-rwJ_lth4a-lyT8SD",
+                                            "triggerName": "corporate transaction report pdf",
                                             "serviceType": "8",
                                             "attributes": {
                                               "loaderWidgetIds": [906070],
                                               "messageWidgetIds": [906070],
-                                              "responseStateKey": "response",
-                                              "url": "/report/corporate-salary-transfer/export/excel",
+                                              "responseStateKey": "CorporateTransactionReportXLS",
+                                              "url": "/report/corporate-transactions-report-details/export/excel",
                                               "checksum": true,
                                               "encryption": true,
-                                              "fileName": "Corporate Salary Transfer Report.pdf",
+                                              "fileName": "Corporate Transaction Report.pdf",
                                               "isDeviceDetails": true,
                                               "loginTrigger": false,
                                               "formData": false,
@@ -2604,18 +2722,6 @@
                                                 "locale": "en-ltr"
                                               },
                                               "requestBody": [
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "pageNumber",
-                                                  "value": "1"
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "pageSize",
-                                                  "value": "5"
-                                                },
                                                 {
                                                   "type": 1,
                                                   "name": "Form",
@@ -2637,18 +2743,31 @@
                                                 {
                                                   "type": 1,
                                                   "name": "Form",
+                                                  "key": "companyName",
+                                                  "value": "company.companyName"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
                                                   "key": "companyId",
                                                   "value": "company.companyId"
+                                                },
+                                                {
+                                                  "type": 4,
+                                                  "name": "Static",
+                                                  "key": "requestType",
+                                                  "value": "SALARY_PAYMENT"
                                                 }
                                               ],
                                               "baseURL": "634555d068954540043d6820",
                                               "storeType": 2
                                             },
                                             "type": "2",
-                                            "name": "On click"
+                                            "name": "On click",
+                                            "commandType": "2"
                                           }
                                         ],
-                                        "path": "1-0-0-0-1-1-0-0-0",
+                                        "path": "1-0-0-0-2-1-0-0-0",
                                         "version": "1.0.0"
                                       }
                                     ],
@@ -2693,7 +2812,7 @@
                                   "type": "10001",
                                   "content": "Grid layout"
                                 },
-                                "path": "1-0-0-0-1-1-0"
+                                "path": "1-0-0-0-2-1-0"
                               }
                             ],
                             "layoutProperties": {
@@ -2702,12 +2821,11 @@
                               "md": 2,
                               "sm": 2,
                               "xs": 2
-                            },
-                            "path": "1-0-0-0-1-1"
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "Z3CHFquBXVtXnHJ6y1Hgo",
+                            "id": "7ssZ7b3NDgQUC8maFSu5W",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -2758,17 +2876,17 @@
                                         },
                                         "events": [
                                           {
-                                            "triggerId": "Z3qVwev-aFXAXOCLFeJRV",
-                                            "triggerName": "Salary Transfer Report XLSX Download API",
+                                            "triggerId": "iOo0OGLK6S7LX1cr8yqIf",
+                                            "triggerName": "corporate transaction report xlsv",
                                             "serviceType": "8",
                                             "attributes": {
                                               "loaderWidgetIds": [906070],
                                               "messageWidgetIds": [906070],
-                                              "responseStateKey": "response",
-                                              "url": "/report/corporate-salary-transfer/export/excel",
+                                              "responseStateKey": "CorporateTransactionReportXLS",
+                                              "url": "/report/corporate-transactions-report-details/export/excel",
                                               "checksum": true,
                                               "encryption": true,
-                                              "fileName": "Corporate Salary Transfer Report.xlsx",
+                                              "fileName": "Corporate Transaction Report.xlsx",
                                               "isDeviceDetails": true,
                                               "loginTrigger": false,
                                               "formData": false,
@@ -2781,18 +2899,6 @@
                                                 "locale": "en-ltr"
                                               },
                                               "requestBody": [
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "pageNumber",
-                                                  "value": "1"
-                                                },
-                                                {
-                                                  "type": 4,
-                                                  "name": "Static",
-                                                  "key": "pageSize",
-                                                  "value": "5"
-                                                },
                                                 {
                                                   "type": 1,
                                                   "name": "Form",
@@ -2814,18 +2920,31 @@
                                                 {
                                                   "type": 1,
                                                   "name": "Form",
+                                                  "key": "companyName",
+                                                  "value": "company.companyName"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
                                                   "key": "companyId",
                                                   "value": "company.companyId"
+                                                },
+                                                {
+                                                  "type": 4,
+                                                  "name": "Static",
+                                                  "key": "requestType",
+                                                  "value": "SALARY_PAYMENT"
                                                 }
                                               ],
                                               "baseURL": "634555d068954540043d6820",
                                               "storeType": 2
                                             },
                                             "type": "2",
-                                            "name": "On click"
+                                            "name": "On click",
+                                            "commandType": "2"
                                           }
                                         ],
-                                        "path": "1-0-0-0-1-2-0-0-0",
+                                        "path": "1-0-0-0-2-2-0-0-0",
                                         "version": "1.0.0"
                                       }
                                     ],
@@ -2870,7 +2989,7 @@
                                   "type": "10001",
                                   "content": "Grid layout"
                                 },
-                                "path": "1-0-0-0-1-2-0"
+                                "path": "1-0-0-0-2-2-0"
                               }
                             ],
                             "layoutProperties": {
@@ -2879,11 +2998,10 @@
                               "md": 2,
                               "sm": 2,
                               "xs": 2
-                            },
-                            "path": "1-0-0-0-1-2"
+                            }
                           }
                         ],
-                        "path": "1-0-0-0-1",
+                        "path": "1-0-0-0-2",
                         "events": [],
                         "attributes": {
                           "gridProps": [],
@@ -2963,76 +3081,15 @@
                             "alignItems": "flex-start"
                           },
                           "direction": "row",
-                          "name": "Grid layout"
+                          "name": "Grid layout",
+                          "hideComponent": false
                         },
                         "group": "Layout",
                         "type": "10001",
                         "updatedAt": "23-Sep-2021",
                         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
                         "createdAt": "24-Aug-2021",
-                        "events": [
-                          {
-                            "triggerId": "asaFi09eIaeFxPaOhAF1E",
-                            "triggerName": "Salary Transfer Report API",
-                            "serviceType": "8",
-                            "attributes": {
-                              "loaderWidgetIds": [906070],
-                              "messageWidgetIds": [906070],
-                              "responseStateKey": "corpSalResponse",
-                              "responseReturnValue": "data.salaryTransferList",
-                              "url": "/report/corporate-salary-transfer",
-                              "checksum": true,
-                              "encryption": true,
-                              "isDeviceDetails": true,
-                              "loginTrigger": false,
-                              "formData": false,
-                              "logoutTrigger": false,
-                              "headers": {
-                                "Content-Type": "application/json",
-                                "Accept": "application/json",
-                                "channel_key": "001",
-                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                "locale": "en-ltr"
-                              },
-                              "requestBody": [
-                                {
-                                  "type": 4,
-                                  "name": "Static",
-                                  "key": "pageNumber",
-                                  "value": "1"
-                                },
-                                {
-                                  "type": 4,
-                                  "name": "Static",
-                                  "key": "pageSize",
-                                  "value": "5"
-                                },
-                                {
-                                  "type": 1,
-                                  "name": "Form",
-                                  "key": "dateFrom",
-                                  "value": "dateFrom"
-                                },
-                                {
-                                  "type": 1,
-                                  "name": "Form",
-                                  "key": "dateTo",
-                                  "value": "dateTo"
-                                },
-                                {
-                                  "type": 1,
-                                  "name": "Form",
-                                  "key": "status",
-                                  "value": "status"
-                                }
-                              ],
-                              "baseURL": "634555d068954540043d6820",
-                              "storeType": 2
-                            },
-                            "type": "1",
-                            "name": "On initialization"
-                          }
-                        ],
+                        "events": [],
                         "order": 1,
                         "version": "1.0.0",
                         "isLatest": true,
@@ -3048,11 +3105,11 @@
                           "content": "Grid layout",
                           "type": "10001"
                         },
-                        "path": "1-0-0-0-2",
+                        "path": "1-0-0-0-3",
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "pK4Moroh9NKKE9ldgd2aT",
+                            "id": "qdTgNEmhz8E8ohA6V3-La",
                             "gridProps": [
                               {
                                 "id": "52O74Ml7tVogomnoVR60i",
@@ -3060,7 +3117,6 @@
                                 "name": "Data table",
                                 "type": "20014",
                                 "attributes": {
-                                  "responseStateKey": "corpSalResponse.page",
                                   "layoutProperties": {
                                     "container": {
                                       "//": "Use this class to style data table container."
@@ -3091,9 +3147,10 @@
                                     "sm": 12,
                                     "xs": 12,
                                     "headerStyles": {
-                                      "background-color": "#DA0006",
+                                      "background-color": "#00bd5f",
                                       "color": "#FFFFFF",
-                                      "border-radius": "8px"
+                                      "border-radius": "8px",
+                                      "font-size": "undefinedpx"
                                     },
                                     "tableStyles": {
                                       "border-color": "transparent",
@@ -3124,27 +3181,21 @@
                                   },
                                   "columnDefinition": [
                                     {
-                                      "type": "text",
                                       "typeTemp": {
                                         "name": "Text",
                                         "type": "text"
                                       },
+                                      "headerName": "Sender Account Number",
                                       "field": "fromAccountNumber",
-                                      "headerName": "From Account Number",
-                                      "conditional": { "bindingKey": "" },
-                                      "values": [""],
-                                      "cssConditional": {
-                                        "bindingKey": "",
-                                        "cssClassNames": []
-                                      },
-                                      "cssValues": [""]
+                                      "type": "text",
+                                      "triggerId": null
                                     },
                                     {
                                       "typeTemp": {
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "From Account Title",
+                                      "headerName": "Sender Account Title",
                                       "field": "fromAccountTitle",
                                       "type": "text",
                                       "triggerId": null
@@ -3154,38 +3205,8 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "From Bank Name",
-                                      "field": "fromBankName",
-                                      "type": "text",
-                                      "triggerId": null
-                                    },
-                                    {
-                                      "typeTemp": {
-                                        "name": "Text",
-                                        "type": "text"
-                                      },
-                                      "headerName": "To Account Number",
-                                      "field": "toAccountNumber",
-                                      "type": "text",
-                                      "triggerId": null
-                                    },
-                                    {
-                                      "typeTemp": {
-                                        "name": "Text",
-                                        "type": "text"
-                                      },
-                                      "headerName": "To Account Title",
-                                      "field": "To Account Title",
-                                      "type": "text",
-                                      "triggerId": null
-                                    },
-                                    {
-                                      "typeTemp": {
-                                        "name": "Text",
-                                        "type": "text"
-                                      },
-                                      "headerName": "To Bank Name",
-                                      "field": "toBankName",
+                                      "headerName": "Sender Bank Name",
+                                      "field": "fromAccountNumber",
                                       "type": "text",
                                       "triggerId": null
                                     },
@@ -3204,8 +3225,8 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "Stan",
-                                      "field": "stan",
+                                      "headerName": "Created On",
+                                      "field": "createdOn",
                                       "type": "text",
                                       "triggerId": null
                                     },
@@ -3214,8 +3235,28 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "Status",
-                                      "field": "status",
+                                      "headerName": "Receiver Account Title",
+                                      "field": "toAccountTitle",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "Receiver Account Number",
+                                      "field": "toAccountNumber",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "Receiver Bank Name",
+                                      "field": "toBankName",
                                       "type": "text",
                                       "triggerId": null
                                     },
@@ -3234,8 +3275,8 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "Payment Mode",
-                                      "field": "paymentMode",
+                                      "headerName": "Status",
+                                      "field": "status",
                                       "type": "text",
                                       "triggerId": null
                                     },
@@ -3244,8 +3285,38 @@
                                         "name": "Text",
                                         "type": "text"
                                       },
-                                      "headerName": "Transaction Date",
-                                      "field": "transactionDate",
+                                      "headerName": "Preferred Payment Mode",
+                                      "field": "preferredPaymentMode",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "Stan",
+                                      "field": "stan",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "Company Name",
+                                      "field": "companyName",
+                                      "type": "text",
+                                      "triggerId": null
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Text",
+                                        "type": "text"
+                                      },
+                                      "headerName": "Payment Type",
+                                      "field": "paymentType",
                                       "type": "text",
                                       "triggerId": null
                                     }
@@ -3258,10 +3329,9 @@
                                   "suppressExcelExport": true,
                                   "name": "Data Grid",
                                   "storeType": 2,
-                                  "serverSidePagination": true,
-                                  "paginationTrigger": "asaFi09eIaeFxPaOhAF1E",
-                                  "responseTotalRowsKey": "corpSalResponse.totalRows",
-                                  "totalRowsBindingKey": "corpSalResponse.totalRows"
+                                  "serverSidePagination": false,
+                                  "totalRowsBindingKey": "corpSalResponse.totalRows",
+                                  "responseStateKey": "corpSalResponse.data.corporateTransactionDetailsReport.batchTransactionRowsReportResponse"
                                 },
                                 "icon": "FaTable",
                                 "group": "Advanced",
@@ -3276,7 +3346,7 @@
                                   "type": "20014"
                                 },
                                 "events": [],
-                                "path": "1-0-0-0-2-0-0"
+                                "path": "1-0-0-0-3-0-0"
                               }
                             ],
                             "layoutProperties": {
@@ -3285,8 +3355,7 @@
                               "md": 12,
                               "sm": 12,
                               "xs": 12
-                            },
-                            "path": "1-0-0-0-2-0"
+                            }
                           }
                         ],
                         "layoutProperties": {
@@ -3356,13 +3425,13 @@
     "events": [],
     "subType": "screen",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "Yqo1oGeTEO0_HpU3uFHgO",
-    "createdBy": "ajk",
-    "updatedAt": "5/29/2023",
-    "createdAt": "5/29/2023",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3406,9 +3475,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3417,7 +3489,7 @@
     "name": "Label",
     "component": { "content": "Label", "type": "20002" },
     "attributes": {
-      "label": "Corporate Salary Transfer Report",
+      "label": "Corporate Salary Payment Transaction Report",
       "variant": "body1",
       "name": "Label",
       "mandatory": false,
@@ -3445,8 +3517,11 @@
     "version": "1.0.0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3496,9 +3571,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3525,6 +3603,18 @@
             "sm": 12,
             "xs": 12
           }
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "mRPshWG6tucGgNYzZ8uWX",
+          "componentType": "20031",
+          "order": 1
         },
         {
           "componentId": "q5JweCtLL8gR6z9FqeHun",
@@ -3586,9 +3676,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3639,9 +3732,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3730,9 +3826,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3775,9 +3874,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3810,8 +3912,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -3821,8 +3923,9 @@
     "path": "1-0-0-0-0-0-0-0-0-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3879,9 +3982,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3988,9 +4094,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4033,9 +4142,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4061,8 +4173,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -4072,8 +4184,9 @@
     "path": "1-0-0-0-0-0-0-0-1-0-0-0-0-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4116,9 +4229,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4127,8 +4243,8 @@
     "name": "Drop down",
     "icon": "FaCaretSquareDown",
     "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "attributes": {
       "name": "Drop down",
       "stateName": "status",
@@ -4138,7 +4254,7 @@
       "dataValue": "",
       "mandatory": true,
       "validate": {
-        "required": true,
+        "required": false,
         "errorMsg": "This Field is Required",
         "bindButton": [
           {
@@ -4250,8 +4366,9 @@
     "path": "1-0-0-0-0-0-0-0-1-0-0-0-1-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4295,9 +4412,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4305,10 +4425,10 @@
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
-      "label": "From Date",
+      "label": "From Date (Date Range should be With in Three Months)",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -4326,8 +4446,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -4337,8 +4457,9 @@
     "path": "1-0-0-0-0-0-0-0-1-0-0-0-2-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4381,9 +4502,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4392,8 +4516,8 @@
     "name": "Date picker",
     "icon": "FaCalendarDay",
     "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 3,
     "type": "20027",
     "attributes": {
@@ -4402,7 +4526,7 @@
       "stateName": "dateFrom",
       "format": "dd-MM-yyyy",
       "variant": "standard",
-      "validate": { "required": false, "errorMsg": "", "isCalendar": true },
+      "validate": { "required": true, "errorMsg": "", "isCalendar": true },
       "layoutProperties": {
         "dateCalendar": { "//": "Use this class to style calender component." },
         "mainContainer": "dateCalendar",
@@ -4415,8 +4539,7 @@
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
       "disableUnderline": true,
       "calenderIconPosition": "start",
-      "maxDateSource": "dateTo",
-      "maxDateStoreType": 1
+      "maxDateStoreType": 2
     },
     "version": "1.0.0",
     "isLatest": true,
@@ -4427,8 +4550,9 @@
     "events": [],
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4536,9 +4660,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4581,9 +4708,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4609,8 +4739,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -4620,8 +4750,9 @@
     "path": "1-0-0-0-0-0-0-0-1-1-0-0-0-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4664,9 +4795,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4675,8 +4809,8 @@
     "name": "Drop down",
     "icon": "FaCaretSquareDown",
     "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "attributes": {
       "name": "Drop down",
       "stateName": "company",
@@ -4686,7 +4820,7 @@
       "dataValue": "companyName",
       "mandatory": true,
       "validate": {
-        "required": true,
+        "required": false,
         "errorMsg": "This Field is Required",
         "bindButton": [
           {
@@ -4803,8 +4937,9 @@
     "path": "1-0-0-0-0-0-0-0-1-1-0-0-1-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4848,9 +4983,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4861,7 +4999,7 @@
       "label": "To Date",
       "variant": "body1",
       "name": "Label",
-      "mandatory": false,
+      "mandatory": true,
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
@@ -4874,13 +5012,14 @@
         "md": 12,
         "sm": 12,
         "xs": 12
-      }
+      },
+      "enablePaginationSortingFilter": false
     },
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -4890,8 +5029,9 @@
     "path": "1-0-0-0-0-0-0-0-1-1-0-0-2-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4934,9 +5074,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4945,8 +5088,8 @@
     "name": "Date picker",
     "icon": "FaCalendarDay",
     "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 3,
     "type": "20027",
     "attributes": {
@@ -4955,7 +5098,7 @@
       "stateName": "dateTo",
       "format": "dd-MM-yyyy",
       "variant": "standard",
-      "validate": { "required": false, "errorMsg": "", "isCalendar": true },
+      "validate": { "required": true, "errorMsg": "", "isCalendar": true },
       "layoutProperties": {
         "dateCalendar": { "//": "Use this class to style calender component." },
         "mainContainer": "dateCalendar",
@@ -4968,8 +5111,7 @@
       "cssClassNames": [{ "cssClassName": "emptyTextField" }],
       "disableUnderline": true,
       "calenderIconPosition": "start",
-      "minDateSource": "dateFrom",
-      "minDateStoreType": 1
+      "maxDateStoreType": 2
     },
     "version": "1.0.0",
     "isLatest": true,
@@ -4980,8 +5122,9 @@
     "events": [],
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5051,9 +5194,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5061,7 +5207,14 @@
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [],
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "RVsqNF0gz6OykyG51RXQw",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
@@ -5077,15 +5230,77 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "columns": "2"
     },
     "layout": null,
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "RVsqNF0gz6OykyG51RXQw",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "color": "#FF0000",
+          "padding": " 0px 10px 5px 0px"
+        },
+        "prefix": { "//": "Use this class to style prefix." },
+        "postfix": { "//": "Use this class to style postfix." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "label": "First Select Date From And Date To",
+      "hideCondition": {
+        "logic": {
+          "if": [
+            {
+              "and": [
+                { "var": "currentScreen.form.dateFrom.length" },
+                { "var": "currentScreen.form.dateTo.length" }
+              ]
+            },
+            true,
+            false
+          ]
+        }
+      }
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "1-0-0-0-0-0-0-0-2-0-0-1-0",
+    "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5128,9 +5343,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5152,15 +5370,29 @@
         "sm": 12,
         "xs": 12
       },
-      "cssClassNames": [{ "cssClassName": "CardButton" }]
+      "cssClassNames": [{ "cssClassName": "CardButton" }],
+      "disableCondition": {
+        "logic": {
+          "if": [
+            {
+              "and": [
+                { "var": "currentScreen.form.dateFrom.length" },
+                { "var": "currentScreen.form.dateTo.length" }
+              ]
+            },
+            false,
+            true
+          ]
+        }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",
     "group": "Form",
     "type": "20006",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 1,
     "version": "1.0.0",
     "isLatest": true,
@@ -5178,8 +5410,9 @@
     "path": "1-0-0-0-0-0-0-0-2-1-0-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5222,9 +5455,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5253,8 +5489,8 @@
     "group": "Form",
     "type": "20006",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 1,
     "version": "1.0.0",
     "isLatest": true,
@@ -5279,8 +5515,28 @@
     "path": "1-0-0-0-0-0-0-0-2-2-0-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "mRPshWG6tucGgNYzZ8uWX",
+    "name": "show corporate transaction report date error modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "WhuHeA1ILpK5ww-xgp7HM",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5352,9 +5608,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5384,9 +5643,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5429,9 +5691,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5463,19 +5728,22 @@
     },
     "events": [
       {
-        "triggerId": "-eraWXJsJ0UeHs8mYqzkX",
-        "triggerName": "Salary Transfer Report PDF Download API",
+        "triggerId": "h3H7-rwJ_lth4a-lyT8SD",
+        "triggerName": "corporate transaction report pdf",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
       }
     ],
-    "path": "1-0-0-0-1-1-0-0-0",
+    "path": "1-0-0-0-2-1-0-0-0",
     "version": "1.0.0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5518,9 +5786,12 @@
     "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5552,19 +5823,22 @@
     },
     "events": [
       {
-        "triggerId": "Z3qVwev-aFXAXOCLFeJRV",
-        "triggerName": "Salary Transfer Report XLSX Download API",
+        "triggerId": "iOo0OGLK6S7LX1cr8yqIf",
+        "triggerName": "corporate transaction report xlsv",
         "name": "On click",
         "type": "2",
         "serviceType": "8"
       }
     ],
-    "path": "1-0-0-0-1-2-0-0-0",
+    "path": "1-0-0-0-2-2-0-0-0",
     "version": "1.0.0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5602,22 +5876,19 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "hideComponent": false
     },
     "layout": null,
-    "events": [
-      {
-        "triggerId": "asaFi09eIaeFxPaOhAF1E",
-        "triggerName": "Salary Transfer Report API",
-        "name": "On initialization",
-        "type": "1"
-      }
-    ],
+    "events": [],
     "subType": "component",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5626,7 +5897,6 @@
     "name": "Data table",
     "type": "20014",
     "attributes": {
-      "responseStateKey": "corpSalResponse.page",
       "layoutProperties": {
         "container": { "//": "Use this class to style data table container." },
         "rowStyle": {
@@ -5655,9 +5925,10 @@
         "sm": 12,
         "xs": 12,
         "headerStyles": {
-          "background-color": "#DA0006",
+          "background-color": "#00bd5f",
           "color": "#FFFFFF",
-          "border-radius": "8px"
+          "border-radius": "8px",
+          "font-size": "undefinedpx"
         },
         "tableStyles": {
           "border-color": "transparent",
@@ -5688,47 +5959,23 @@
       },
       "columnDefinition": [
         {
-          "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Sender Account Number",
           "field": "fromAccountNumber",
-          "headerName": "From Account Number",
-          "conditional": { "bindingKey": "" },
-          "values": [""],
-          "cssConditional": { "bindingKey": "", "cssClassNames": [] },
-          "cssValues": [""]
+          "type": "text",
+          "triggerId": null
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "From Account Title",
+          "headerName": "Sender Account Title",
           "field": "fromAccountTitle",
           "type": "text",
           "triggerId": null
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "From Bank Name",
-          "field": "fromBankName",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "To Account Number",
-          "field": "toAccountNumber",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "To Account Title",
-          "field": "To Account Title",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "To Bank Name",
-          "field": "toBankName",
+          "headerName": "Sender Bank Name",
+          "field": "fromAccountNumber",
           "type": "text",
           "triggerId": null
         },
@@ -5741,15 +5988,29 @@
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Stan",
-          "field": "stan",
+          "headerName": "Created On",
+          "field": "createdOn",
           "type": "text",
           "triggerId": null
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Status",
-          "field": "status",
+          "headerName": "Receiver Account Title",
+          "field": "toAccountTitle",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Receiver Account Number",
+          "field": "toAccountNumber",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Receiver Bank Name",
+          "field": "toBankName",
           "type": "text",
           "triggerId": null
         },
@@ -5762,15 +6023,36 @@
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Payment Mode",
-          "field": "paymentMode",
+          "headerName": "Status",
+          "field": "status",
           "type": "text",
           "triggerId": null
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Transaction Date",
-          "field": "transactionDate",
+          "headerName": "Preferred Payment Mode",
+          "field": "preferredPaymentMode",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Stan",
+          "field": "stan",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Company Name",
+          "field": "companyName",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "Payment Type",
+          "field": "paymentType",
           "type": "text",
           "triggerId": null
         }
@@ -5783,26 +6065,26 @@
       "suppressExcelExport": true,
       "name": "Data Grid",
       "storeType": 2,
-      "serverSidePagination": true,
-      "paginationTrigger": "asaFi09eIaeFxPaOhAF1E",
-      "responseTotalRowsKey": "corpSalResponse.totalRows",
-      "totalRowsBindingKey": "corpSalResponse.totalRows"
+      "serverSidePagination": false,
+      "totalRowsBindingKey": "corpSalResponse.totalRows",
+      "responseStateKey": "corpSalResponse.data.corporateTransactionDetailsReport.batchTransactionRowsReportResponse"
     },
     "icon": "FaTable",
     "group": "Advanced",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 12,
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Data table", "type": "20014" },
     "events": [],
-    "path": "1-0-0-0-2-0-0",
+    "path": "1-0-0-0-3-0-0",
     "screenId": "Yqo1oGeTEO0_HpU3uFHgO",
     "subType": "component",
-    "projectId": "63f349eda070071e283ca270",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]

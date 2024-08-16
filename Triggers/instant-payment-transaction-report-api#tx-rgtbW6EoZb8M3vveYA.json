@@ -1,10 +1,10 @@
 {
-  "id": "asaFi09eIaeFxPaOhAF1E",
-  "_id": "3RwyOpTgblJ6myMWo1uI3",
-  "projectId": "63f349eda070071e283ca270",
+  "id": "b6DUixzwgXL9URuGJ8NmX",
+  "_id": "tx-rgtbW6EoZb8M3vveYA",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
-  "name": "Salary Transfer Report API",
-  "old_name": "Salary Transfer Report API",
+  "name": "instant payment transaction report api",
+  "old_name": "instant payment transaction report api",
   "status": "ACTIVE",
   "services": [
     {
@@ -15,8 +15,7 @@
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
           "responseStateKey": "corpSalResponse",
-          "responseReturnValue": "data.salaryTransferList",
-          "url": "/report/corporate-salary-transfer",
+          "url": "/report/corporate-transactions-report-details",
           "checksum": true,
           "encryption": true,
           "isDeviceDetails": true,
@@ -51,17 +50,37 @@
               "name": "Form",
               "key": "companyId",
               "value": "company.companyId"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "company.companyName"
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "requestType",
+              "value": "INSTANT_SALARY_PAYMENT"
             }
           ],
           "baseURL": "634555d068954540043d6820",
           "storeType": 2
         },
-        "responseHandler": []
+        "responseHandler": [
+          {
+            "httpStatus": 200,
+            "logic": { "==": [{ "var": "status" }, 0] },
+            "triggerName": "show corporate transaction report date error modal",
+            "triggerId": "H4e3kr-4EXXAgERmzMjvD"
+          }
+        ]
       }
     }
   ],
-  "updatedAt": "5/29/2023",
-  "createdAt": "5/29/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "csrf": "0.jmplim6a6xkiqFCF0mznb3mG69WLR1t",
+  "updatedAt": "6/7/2024",
+  "createdAt": "6/7/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
 }

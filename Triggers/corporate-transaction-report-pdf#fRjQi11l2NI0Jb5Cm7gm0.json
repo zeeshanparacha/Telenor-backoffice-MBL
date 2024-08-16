@@ -1,0 +1,78 @@
+{
+  "id": "h3H7-rwJ_lth4a-lyT8SD",
+  "_id": "fRjQi11l2NI0Jb5Cm7gm0",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "corporate transaction report pdf",
+  "old_name": "corporate transaction report pdf",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "CorporateTransactionReportXLS",
+          "url": "/report/corporate-transactions-report-details/export/pdf",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "Corporate Salary Transaction Report.pdf",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "dateFrom",
+              "value": "dateFrom"
+            },
+            { "type": 1, "name": "Form", "key": "dateTo", "value": "dateTo" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "status.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyName",
+              "value": "company.companyName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "companyId",
+              "value": "company.companyId"
+            },
+            {
+              "type": 4,
+              "name": "Static",
+              "key": "requestType",
+              "value": "SALARY_PAYMENT"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.jmplim6a6xkiqFCF0mznb3mG69WLR1t",
+  "updatedAt": "6/7/2024",
+  "createdAt": "6/7/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

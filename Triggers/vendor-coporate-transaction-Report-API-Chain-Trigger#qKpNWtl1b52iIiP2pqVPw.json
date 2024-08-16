@@ -1,0 +1,148 @@
+{
+  "id": "WmsjPDtz8pmi_RS3rRmgV",
+  "projectId": "655cbc54b6cb0dd562a26db0",
+  "gitBranchName": "master",
+  "name": "vendor coporate transaction Report API Chain Trigger",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "storeType": "",
+          "searchInState": false,
+          "triggers": [
+            {
+              "id": "ZqQ-DZ6R36q_8K9pX1s4m",
+              "_id": "7cdqidnT-rayLXxKLQDDL",
+              "name": "Clear corporate transaction report api",
+              "old_name": "Clear corporate transaction report api",
+              "projectId": "655cbc54b6cb0dd562a26db0",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "paymentResponse",
+                      "requestBody": [],
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.vhvdkhpg6isFvGz51s6c9zUbSua2Zmov",
+              "updatedAt": "4/15/2024",
+              "createdAt": "4/15/2024",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            },
+            {
+              "id": "UWQ-qJPxt6XmAXAq1V2xZ",
+              "_id": "xMA0X4zKU81wzxyP0ncPg",
+              "projectId": "655cbc54b6cb0dd562a26db0",
+              "gitBranchName": "master",
+              "name": "vendor corporate transaction api",
+              "old_name": "vendor corporate transaction api",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "paymentResponse",
+                      "url": "/report/vendor-transactions-report-details",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageNumber",
+                          "value": "1"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageSize",
+                          "value": "5"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "dateFrom",
+                          "value": "dateFrom"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "dateTo",
+                          "value": "dateTo"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "status",
+                          "value": "status.code"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "companyId",
+                          "value": "company.companyId"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "logic": { "==": [{ "var": "status" }, 0] },
+                        "httpStatus": 200,
+                        "triggerName": "show corporate transaction report date error modal",
+                        "triggerId": "H4e3kr-4EXXAgERmzMjvD"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "csrf": "0.vhvdkhpg6isFvGz51s6c9zUbSua2Zmov",
+              "updatedAt": "4/16/2024",
+              "createdAt": "4/16/2024",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            }
+          ],
+          "triggerIds": ["ZqQ-DZ6R36q_8K9pX1s4m", "UWQ-qJPxt6XmAXAq1V2xZ"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.vhvdkhpg6isFvGz51s6c9zUbSua2Zmov",
+  "_id": "qKpNWtl1b52iIiP2pqVPw",
+  "updatedAt": "4/16/2024",
+  "createdAt": "4/16/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

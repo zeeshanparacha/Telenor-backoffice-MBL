@@ -1,0 +1,84 @@
+{
+  "id": "IO6LMa_BdF9aSkcm6Giqi",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "branch Error Chain Trig",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "23My7CUYAOuYiVktWwrr6",
+              "name": "Convert branchlessAccountResponse to response",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "response",
+                      "sourceBindingKey": "branchlessAccountResponse",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "targettedType": "object"
+                    }
+                  }
+                }
+              ],
+              "_id": "LQbdbTJ3FinKx2ksSMVjU",
+              "updatedAt": "6/13/2023",
+              "createdAt": "6/13/2023",
+              "createdBy": "ajk",
+              "updatedBy": "ajk"
+            },
+            {
+              "createdBy": "talib",
+              "updatedBy": "talib",
+              "_id": "6345a07868954540043db7da",
+              "id": "zj5wU451q42rOfjv-NNhD",
+              "gitBranchName": "master",
+              "name": "Show Error Modal",
+              "projectId": "63f349eda070071e283ca270",
+              "services": [
+                {
+                  "_id": "6345a07868954540043db7db",
+                  "type": "9",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "6345a07868954540043db7dc",
+                    "attributes": {
+                      "widgetId": "2IQS1AnMOn8bkEpMKGUPj",
+                      "modalId": "iSaOQ5PW2EBctNa2H4Aad"
+                    },
+                    "type": "1"
+                  }
+                }
+              ],
+              "createdAt": "11-Oct-2022",
+              "updatedAt": "11-Oct-2022",
+              "__v": 0
+            }
+          ],
+          "triggerIds": ["23My7CUYAOuYiVktWwrr6", "zj5wU451q42rOfjv-NNhD"]
+        }
+      }
+    }
+  ],
+  "_id": "ekpvntZpHVVKQtFRg7n3W",
+  "updatedAt": "8/1/2024",
+  "createdAt": "8/1/2024",
+  "createdBy": "ajk",
+  "updatedBy": "asadrahim"
+}

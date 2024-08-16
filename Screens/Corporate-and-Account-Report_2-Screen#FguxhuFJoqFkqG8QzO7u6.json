@@ -85,7 +85,7 @@
                         "name": "Label",
                         "component": { "content": "Label", "type": "20002" },
                         "attributes": {
-                          "label": "Corporate and Account Report 02",
+                          "label": "Corporate Batch Transaction Salary/Instant Payment Report",
                           "variant": "h3",
                           "name": "Label",
                           "mandatory": false,
@@ -1207,16 +1207,91 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "L7Rld9CiWeTd6IRcNcPrQ",
+                                            "id": "OkDl9iyfzwSJivdEeP5VX",
                                             "gridProps": [],
                                             "layoutProperties": {
-                                              "xl": 12,
-                                              "lg": 12,
-                                              "md": 12,
-                                              "sm": 12,
-                                              "xs": 12
-                                            },
-                                            "path": "0-0-1-0-0-0-2-0-0-0"
+                                              "xl": 6,
+                                              "lg": 6,
+                                              "md": 6,
+                                              "sm": 6,
+                                              "xs": 6
+                                            }
+                                          },
+                                          {
+                                            "type": "column",
+                                            "id": "lLeVWuqRrgofdKeKW7fn7",
+                                            "gridProps": [
+                                              {
+                                                "id": "i5jKgbGdUl7LJUdkwTFab",
+                                                "status": "ACTIVE",
+                                                "name": "Label",
+                                                "attributes": {
+                                                  "variant": "body1",
+                                                  "name": "Label",
+                                                  "mandatory": false,
+                                                  "layoutProperties": {
+                                                    "label": {
+                                                      "//": "Use this class to style label component.",
+                                                      "color": "#FF0000",
+                                                      "padding": " 0px 10px 5px 0px"
+                                                    },
+                                                    "prefix": {
+                                                      "//": "Use this class to style prefix."
+                                                    },
+                                                    "postfix": {
+                                                      "//": "Use this class to style postfix."
+                                                    },
+                                                    "mainContainer": "label",
+                                                    "xl": 6,
+                                                    "lg": 6,
+                                                    "md": 6,
+                                                    "sm": 6,
+                                                    "xs": 6
+                                                  },
+                                                  "label": "First Select Date From And Date To",
+                                                  "hideCondition": {
+                                                    "logic": {
+                                                      "if": [
+                                                        {
+                                                          "and": [
+                                                            {
+                                                              "var": "currentScreen.form.dateFrom.length"
+                                                            },
+                                                            {
+                                                              "var": "currentScreen.form.dateTo.length"
+                                                            }
+                                                          ]
+                                                        },
+                                                        true,
+                                                        false
+                                                      ]
+                                                    }
+                                                  }
+                                                },
+                                                "icon": "FaFont",
+                                                "group": "Form",
+                                                "type": "20002",
+                                                "updatedAt": "23-Aug-2021",
+                                                "createdAt": "23-Aug-2021",
+                                                "order": 15,
+                                                "version": "1.0.0",
+                                                "isLatest": true,
+                                                "projectType": "web",
+                                                "component": {
+                                                  "content": "Label",
+                                                  "type": "20002"
+                                                },
+                                                "events": [],
+                                                "path": "0-0-1-0-0-0-2-0-0-1-0"
+                                              }
+                                            ],
+                                            "layoutProperties": {
+                                              "xl": 6,
+                                              "lg": 6,
+                                              "md": 6,
+                                              "sm": 6,
+                                              "xs": 6
+                                            }
                                           }
                                         ],
                                         "allowedContainers": [
@@ -1243,14 +1318,35 @@
                                             "alignItems": "flex-start"
                                           },
                                           "direction": "row",
-                                          "name": "Grid layout"
+                                          "name": "Grid layout",
+                                          "columns": "2"
                                         },
                                         "events": [],
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
                                         },
-                                        "path": "0-0-1-0-0-0-2-0-0"
+                                        "path": "0-0-1-0-0-0-2-0-0",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 3,
+                                          "colSize0xs": 4,
+                                          "colSize0sm": 4,
+                                          "colSize0md": 4,
+                                          "colSize0lg": 4,
+                                          "colSize0xl": 4,
+                                          "colSize1xs": 4,
+                                          "colSize1sm": 4,
+                                          "colSize1md": 4,
+                                          "colSize1lg": 4,
+                                          "colSize1xl": 4,
+                                          "colSize2xs": 4,
+                                          "colSize2sm": 4,
+                                          "colSize2md": 4,
+                                          "colSize2lg": 4,
+                                          "colSize2xl": 4
+                                        },
+                                        "readOnly": false
                                       }
                                     ],
                                     "layoutProperties": {
@@ -1305,7 +1401,26 @@
                                                   "iconName": "FaSearch",
                                                   "buttonIconPosition": "start",
                                                   "asset": null,
-                                                  "iconname": "FaSearch"
+                                                  "iconname": "FaSearch",
+                                                  "hideCondition": {},
+                                                  "disableCondition": {
+                                                    "logic": {
+                                                      "if": [
+                                                        {
+                                                          "and": [
+                                                            {
+                                                              "var": "currentScreen.form.dateFrom.length"
+                                                            },
+                                                            {
+                                                              "var": "currentScreen.form.dateTo.length"
+                                                            }
+                                                          ]
+                                                        },
+                                                        false,
+                                                        true
+                                                      ]
+                                                    }
+                                                  }
                                                 },
                                                 "name": "Button",
                                                 "icon": "FaBimobject",
@@ -2472,8 +2587,8 @@
                             {
                               "type": "text",
                               "typeTemp": { "name": "Text", "type": "text" },
-                              "field": "batchRequestId",
-                              "headerName": "Batch No",
+                              "field": "paymentDate",
+                              "headerName": "Bulk Payments / Salary disbursements: Date",
                               "conditional": { "bindingKey": "" },
                               "values": [""],
                               "cssConditional": {
@@ -2481,20 +2596,6 @@
                                 "cssClassNames": []
                               },
                               "cssValues": [""]
-                            },
-                            {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Batch Name",
-                              "field": "batchName",
-                              "type": "text",
-                              "triggerId": null
-                            },
-                            {
-                              "typeTemp": { "name": "Text", "type": "text" },
-                              "headerName": "Payment Date",
-                              "field": "paymentDate",
-                              "type": "text",
-                              "triggerId": null
                             },
                             {
                               "typeTemp": { "name": "Text", "type": "text" },
@@ -2506,8 +2607,8 @@
                             {
                               "type": "text",
                               "typeTemp": { "name": "Text", "type": "text" },
-                              "field": "transactionAmount",
-                              "headerName": "Transaction Amount",
+                              "field": "numberOfTransactions",
+                              "headerName": "Number of Accounts",
                               "conditional": { "bindingKey": "" },
                               "values": [],
                               "cssConditional": {
@@ -2519,8 +2620,8 @@
                             {
                               "type": "text",
                               "typeTemp": { "name": "Text", "type": "text" },
-                              "field": "numberOfTransactions",
-                              "headerName": "No Of Transactions ",
+                              "field": "transactionAmount",
+                              "headerName": "Transaction",
                               "conditional": { "bindingKey": "" },
                               "values": [""],
                               "cssConditional": {
@@ -2540,6 +2641,13 @@
                               "typeTemp": { "name": "Text", "type": "text" },
                               "headerName": "Reason ",
                               "field": "reason",
+                              "type": "text",
+                              "triggerId": null
+                            },
+                            {
+                              "typeTemp": { "name": "Text", "type": "text" },
+                              "headerName": "transactionType",
+                              "field": "transactionType",
                               "type": "text",
                               "triggerId": null
                             },
@@ -2726,9 +2834,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "FguxhuFJoqFkqG8QzO7u6",
-    "createdBy": "masood",
-    "updatedAt": "1/30/2024",
-    "createdAt": "1/30/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2838,6 +2946,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2884,6 +2995,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2892,7 +3006,7 @@
     "name": "Label",
     "component": { "content": "Label", "type": "20002" },
     "attributes": {
-      "label": "Corporate and Account Report 02",
+      "label": "Corporate Batch Transaction Salary/Instant Payment Report",
       "variant": "h3",
       "name": "Label",
       "mandatory": false,
@@ -2922,6 +3036,9 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2975,6 +3092,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3066,6 +3186,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3111,6 +3234,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3143,8 +3269,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -3156,6 +3282,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3215,6 +3342,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3324,6 +3454,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3369,6 +3502,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3397,8 +3533,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -3410,6 +3546,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3455,6 +3592,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3463,8 +3603,8 @@
     "name": "Date picker",
     "icon": "FaCalendarDay",
     "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 3,
     "type": "20027",
     "attributes": {
@@ -3500,6 +3640,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3546,6 +3687,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3574,8 +3718,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -3587,6 +3731,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3633,6 +3778,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3641,8 +3789,8 @@
     "name": "Drop down",
     "icon": "FaCaretSquareDown",
     "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "attributes": {
       "name": "Drop down",
       "stateName": "status",
@@ -3701,6 +3849,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3772,6 +3921,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3817,6 +3969,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3845,8 +4000,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -3858,6 +4013,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3903,6 +4059,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3911,8 +4070,8 @@
     "name": "Date picker",
     "icon": "FaCalendarDay",
     "group": "Form",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 3,
     "type": "20027",
     "attributes": {
@@ -3948,6 +4107,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4021,6 +4181,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4028,7 +4191,14 @@
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [],
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "i5jKgbGdUl7LJUdkwTFab",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
@@ -4044,7 +4214,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "columns": "2"
     },
     "layout": null,
     "events": [],
@@ -4053,6 +4224,67 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "i5jKgbGdUl7LJUdkwTFab",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "color": "#FF0000",
+          "padding": " 0px 10px 5px 0px"
+        },
+        "prefix": { "//": "Use this class to style prefix." },
+        "postfix": { "//": "Use this class to style postfix." },
+        "mainContainer": "label",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "label": "First Select Date From And Date To",
+      "hideCondition": {
+        "logic": {
+          "if": [
+            {
+              "and": [
+                { "var": "currentScreen.form.dateFrom.length" },
+                { "var": "currentScreen.form.dateTo.length" }
+              ]
+            },
+            true,
+            false
+          ]
+        }
+      }
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-1-0-0-0-2-0-0-1-0",
+    "screenId": "FguxhuFJoqFkqG8QzO7u6",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4098,6 +4330,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4123,15 +4358,30 @@
       "iconName": "FaSearch",
       "buttonIconPosition": "start",
       "asset": null,
-      "iconname": "FaSearch"
+      "iconname": "FaSearch",
+      "hideCondition": {},
+      "disableCondition": {
+        "logic": {
+          "if": [
+            {
+              "and": [
+                { "var": "currentScreen.form.dateFrom.length" },
+                { "var": "currentScreen.form.dateTo.length" }
+              ]
+            },
+            false,
+            true
+          ]
+        }
+      }
     },
     "name": "Button",
     "icon": "FaBimobject",
     "group": "Form",
     "type": "20006",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 1,
     "version": "1.0.0",
     "isLatest": true,
@@ -4151,6 +4401,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4196,6 +4447,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4224,8 +4478,8 @@
     "group": "Form",
     "type": "20006",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 1,
     "version": "1.0.0",
     "isLatest": true,
@@ -4252,6 +4506,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4304,6 +4559,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4376,6 +4634,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4408,6 +4669,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4453,6 +4717,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4497,6 +4764,9 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4542,6 +4812,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4586,6 +4859,9 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4640,6 +4916,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4712,26 +4991,12 @@
         {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
-          "field": "batchRequestId",
-          "headerName": "Batch No",
+          "field": "paymentDate",
+          "headerName": "Bulk Payments / Salary disbursements: Date",
           "conditional": { "bindingKey": "" },
           "values": [""],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
           "cssValues": [""]
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Batch Name",
-          "field": "batchName",
-          "type": "text",
-          "triggerId": null
-        },
-        {
-          "typeTemp": { "name": "Text", "type": "text" },
-          "headerName": "Payment Date",
-          "field": "paymentDate",
-          "type": "text",
-          "triggerId": null
         },
         {
           "typeTemp": { "name": "Text", "type": "text" },
@@ -4743,8 +5008,8 @@
         {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
-          "field": "transactionAmount",
-          "headerName": "Transaction Amount",
+          "field": "numberOfTransactions",
+          "headerName": "Number of Accounts",
           "conditional": { "bindingKey": "" },
           "values": [],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
@@ -4753,8 +5018,8 @@
         {
           "type": "text",
           "typeTemp": { "name": "Text", "type": "text" },
-          "field": "numberOfTransactions",
-          "headerName": "No Of Transactions ",
+          "field": "transactionAmount",
+          "headerName": "Transaction",
           "conditional": { "bindingKey": "" },
           "values": [""],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
@@ -4771,6 +5036,13 @@
           "typeTemp": { "name": "Text", "type": "text" },
           "headerName": "Reason ",
           "field": "reason",
+          "type": "text",
+          "triggerId": null
+        },
+        {
+          "typeTemp": { "name": "Text", "type": "text" },
+          "headerName": "transactionType",
+          "field": "transactionType",
           "type": "text",
           "triggerId": null
         },
@@ -4870,8 +5142,8 @@
     },
     "icon": "FaTable",
     "group": "Advanced",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
+    "updatedAt": "6/10/2024",
+    "createdAt": "6/10/2024",
     "order": 12,
     "version": "1.0.0",
     "isLatest": true,
@@ -4883,6 +5155,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]
