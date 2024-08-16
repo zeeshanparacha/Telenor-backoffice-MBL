@@ -1,0 +1,127 @@
+{
+  "id": "YvuVeOSc74iEeoeMJQFZH",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "CHANGE_IS_ENABLED_SEQUENTIAL",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "storeType": "",
+          "searchInState": false,
+          "triggers": [
+            {
+              "id": "QBr_09QN6SHp_eAGt7LMc",
+              "name": "CHANGE_IS_ENABLED",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "selectedObject",
+                      "sourceBindingKey": "selectedObject",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 2,
+                      "filterList": [
+                        {
+                          "key": "accountNumber",
+                          "changeValueConditonally": false
+                        },
+                        { "key": "accountTitle" },
+                        {
+                          "key": "isEnable",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "if": [
+                              { "==": [{ "var": "isEnable" }, true] },
+                              false,
+                              true
+                            ]
+                          }
+                        }
+                      ],
+                      "targettedType": "object",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.i9lr5astaottoaz_Dm3d-85d2uDuPEJ_",
+              "_id": "fSaxtFiXTnVo6Ig0sRfU1",
+              "updatedAt": "8/16/2024",
+              "createdAt": "8/16/2024",
+              "createdBy": "zeeshan",
+              "updatedBy": "zeeshan"
+            },
+            {
+              "id": "KPHtXM5TQ_hi0nl48n3l6",
+              "name": "UPDATE_IS_ENABLED",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "stateName": "branchResponseData",
+                      "requestBody": [
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "accountNumber",
+                          "value": "selectedObject.accountNumber"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "accountTitle",
+                          "value": "selectedObject.accountTitle"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "isEnable",
+                          "value": "selectedObject.isEnable"
+                        }
+                      ],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": "",
+                      "gridFormRowIdBindingKey": "selectedObjectIndex"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.i9lr5astaottoaz_Dm3d-85d2uDuPEJ_",
+              "_id": "oapF8btTCakxlIbJnLJPF",
+              "updatedAt": "8/16/2024",
+              "createdAt": "8/16/2024",
+              "createdBy": "zeeshan",
+              "updatedBy": "zeeshan"
+            }
+          ],
+          "triggerIds": ["QBr_09QN6SHp_eAGt7LMc", "KPHtXM5TQ_hi0nl48n3l6"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.i9lr5astaottoaz_Dm3d-85d2uDuPEJ_",
+  "_id": "P2PBtlg0m_WrB2ipYfjkQ",
+  "updatedAt": "8/16/2024",
+  "createdAt": "8/16/2024",
+  "createdBy": "zeeshan",
+  "updatedBy": "zeeshan"
+}

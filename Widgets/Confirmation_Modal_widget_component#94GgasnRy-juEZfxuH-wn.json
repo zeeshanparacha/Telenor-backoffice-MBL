@@ -414,139 +414,7 @@
                                   {
                                     "type": "column",
                                     "id": "iUk3rJegcLTjHtjhoXKP3",
-                                    "gridProps": [
-                                      {
-                                        "type": "10001",
-                                        "name": "Grid layout",
-                                        "id": "KhHzMGdMPUbB3UMPHK-s0",
-                                        "gridProps": [
-                                          {
-                                            "type": "column",
-                                            "id": "kQ0d_OmkyknLJ7AzdI5VF",
-                                            "gridProps": [
-                                              {
-                                                "id": "TpW86Q7tPRk-ARE-J9BWe",
-                                                "status": "ACTIVE",
-                                                "name": "Drop down",
-                                                "icon": "FaCaretSquareDown",
-                                                "group": "Form",
-                                                "updatedAt": "23-Aug-2021",
-                                                "createdAt": "23-Aug-2021",
-                                                "attributes": {
-                                                  "name": "Drop down",
-                                                  "stateName": "isEnable",
-                                                  "allValues": true,
-                                                  "label": "Account Status",
-                                                  "dataSource": "",
-                                                  "dataKey": "",
-                                                  "dataValue": "",
-                                                  "mandatory": true,
-                                                  "validate": {
-                                                    "required": false,
-                                                    "errorMsg": "This Field is Required"
-                                                  },
-                                                  "layoutProperties": {
-                                                    "autocomplete": {
-                                                      "//": "Use this class to style autocomplete component in dropdown."
-                                                    },
-                                                    "textField": {
-                                                      "//": "Use this class to style textField component in dropdown."
-                                                    },
-                                                    "inputProps": {
-                                                      "//": "Use this class to style dropdown element."
-                                                    },
-                                                    "mainContainer": "autocomplete",
-                                                    "options": {
-                                                      "//": "Use this class to style dropdown options."
-                                                    },
-                                                    "optionItems": {
-                                                      "//": "Use this class to style dropdown option items."
-                                                    },
-                                                    "popupIcon": {
-                                                      "//": "Use this class to style dropdown popup icon."
-                                                    },
-                                                    "outlinedInput": {
-                                                      "//": "Use this class to style dropdown outline."
-                                                    },
-                                                    "xl": 12,
-                                                    "lg": 12,
-                                                    "md": 12,
-                                                    "sm": 12,
-                                                    "xs": 12
-                                                  },
-                                                  "dropdownOptions": [
-                                                    {
-                                                      "code": "true",
-                                                      "name": "Active"
-                                                    },
-                                                    {
-                                                      "code": "false",
-                                                      "name": "InActive"
-                                                    }
-                                                  ],
-                                                  "variant": "standard",
-                                                  "selectedDataType": 1
-                                                },
-                                                "type": "20003",
-                                                "events": [],
-                                                "order": 10,
-                                                "version": "1.0.0",
-                                                "isLatest": true,
-                                                "projectType": "web",
-                                                "component": {
-                                                  "content": "Drop down",
-                                                  "type": "20003"
-                                                },
-                                                "path": "0-0-0-0-1-0-1-1-0-0-0"
-                                              }
-                                            ],
-                                            "layoutProperties": {
-                                              "xl": 12,
-                                              "lg": 12,
-                                              "md": 12,
-                                              "sm": 12,
-                                              "xs": 12
-                                            }
-                                          }
-                                        ],
-                                        "allowedContainers": [
-                                          "10001",
-                                          "20030",
-                                          "noLayout",
-                                          "20010",
-                                          "widget"
-                                        ],
-                                        "attributes": {
-                                          "gridProps": [],
-                                          "label": "Header",
-                                          "layoutProperties": {
-                                            "gridLayout": {
-                                              "//": "Use this class to style grid layout component.",
-                                              "spacing": 0
-                                            },
-                                            "mainContainer": "gridLayout",
-                                            "skeleton": {
-                                              "//": "Use this class to style skeleton loading component."
-                                            },
-                                            "imageStyles": {
-                                              "//": "Use this class to style image component."
-                                            }
-                                          },
-                                          "layoutProps": {
-                                            "direction": "row",
-                                            "justifyContent": "flex-start",
-                                            "alignItems": "flex-start"
-                                          },
-                                          "direction": "row",
-                                          "name": "Grid layout"
-                                        },
-                                        "events": [],
-                                        "component": {
-                                          "type": "10001",
-                                          "content": "Grid layout"
-                                        }
-                                      }
-                                    ],
+                                    "gridProps": [],
                                     "layoutProperties": {
                                       "xl": 4,
                                       "lg": 4,
@@ -780,37 +648,125 @@
                                                 },
                                                 "events": [
                                                   {
-                                                    "triggerId": "RflIn07Hyu2aLQ5zAu14-",
-                                                    "triggerName": "branch grid update ",
-                                                    "serviceType": "11",
+                                                    "triggerId": "YvuVeOSc74iEeoeMJQFZH",
+                                                    "triggerName": "CHANGE_IS_ENABLED_SEQUENTIAL",
+                                                    "serviceType": "2",
                                                     "attributes": {
-                                                      "stateName": "branchResponseData",
-                                                      "requestBody": [
+                                                      "delay": "",
+                                                      "storeType": "",
+                                                      "searchInState": false,
+                                                      "triggers": [
                                                         {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "Account Number",
-                                                          "value": "accountNumber"
+                                                          "id": "QBr_09QN6SHp_eAGt7LMc",
+                                                          "name": "CHANGE_IS_ENABLED",
+                                                          "projectId": "6475fc4c85cd1cddbc3b3524",
+                                                          "gitBranchName": "master",
+                                                          "services": [
+                                                            {
+                                                              "type": "11",
+                                                              "command": {
+                                                                "type": "6",
+                                                                "attributes": {
+                                                                  "storeType": "",
+                                                                  "selectedObjectBindingKey": "selectedObject",
+                                                                  "dataType": "",
+                                                                  "destinationBindingKey": "selectedObject",
+                                                                  "sourceBindingKey": "selectedObject",
+                                                                  "sourceStoreType": 2,
+                                                                  "destinationStoreType": 2,
+                                                                  "filterList": [
+                                                                    {
+                                                                      "key": "accountNumber",
+                                                                      "changeValueConditonally": false
+                                                                    },
+                                                                    {
+                                                                      "key": "accountTitle"
+                                                                    },
+                                                                    {
+                                                                      "key": "isEnable",
+                                                                      "changeValueConditonally": true,
+                                                                      "logic": {
+                                                                        "if": [
+                                                                          {
+                                                                            "==": [
+                                                                              {
+                                                                                "var": "isEnable"
+                                                                              },
+                                                                              true
+                                                                            ]
+                                                                          },
+                                                                          false,
+                                                                          true
+                                                                        ]
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "targettedType": "object",
+                                                                  "gridFormRowIdBindingKey": "editFormRowId"
+                                                                }
+                                                              }
+                                                            }
+                                                          ],
+                                                          "csrf": "0.i9lr5astaottoaz_Dm3d-85d2uDuPEJ_",
+                                                          "_id": "fSaxtFiXTnVo6Ig0sRfU1",
+                                                          "updatedAt": "8/16/2024",
+                                                          "createdAt": "8/16/2024",
+                                                          "createdBy": "zeeshan",
+                                                          "updatedBy": "zeeshan"
                                                         },
                                                         {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": "Account Title",
-                                                          "value": "accountTitle"
-                                                        },
-                                                        {
-                                                          "type": 1,
-                                                          "name": "Form",
-                                                          "key": " Is Enable",
-                                                          "value": " isEnable"
+                                                          "id": "KPHtXM5TQ_hi0nl48n3l6",
+                                                          "name": "UPDATE_IS_ENABLED",
+                                                          "projectId": "6475fc4c85cd1cddbc3b3524",
+                                                          "gitBranchName": "master",
+                                                          "services": [
+                                                            {
+                                                              "type": "11",
+                                                              "command": {
+                                                                "type": "1",
+                                                                "attributes": {
+                                                                  "stateName": "branchResponseData",
+                                                                  "requestBody": [
+                                                                    {
+                                                                      "type": 2,
+                                                                      "name": "Current screen",
+                                                                      "key": "accountNumber",
+                                                                      "value": "selectedObject.accountNumber"
+                                                                    },
+                                                                    {
+                                                                      "type": 2,
+                                                                      "name": "Current screen",
+                                                                      "key": "accountTitle",
+                                                                      "value": "selectedObject.accountTitle"
+                                                                    },
+                                                                    {
+                                                                      "type": 2,
+                                                                      "name": "Current screen",
+                                                                      "key": "isEnable",
+                                                                      "value": "selectedObject.isEnable"
+                                                                    }
+                                                                  ],
+                                                                  "storeType": "",
+                                                                  "selectedObjectBindingKey": "selectedObject",
+                                                                  "dataType": "",
+                                                                  "sourceBindingKey": "",
+                                                                  "gridFormRowIdBindingKey": "selectedObjectIndex"
+                                                                }
+                                                              }
+                                                            }
+                                                          ],
+                                                          "csrf": "0.i9lr5astaottoaz_Dm3d-85d2uDuPEJ_",
+                                                          "_id": "oapF8btTCakxlIbJnLJPF",
+                                                          "updatedAt": "8/16/2024",
+                                                          "createdAt": "8/16/2024",
+                                                          "createdBy": "zeeshan",
+                                                          "updatedBy": "zeeshan"
                                                         }
                                                       ],
-                                                      "storeType": "",
-                                                      "selectedObjectBindingKey": "selectedObject",
-                                                      "dataType": "",
-                                                      "sourceBindingKey": "",
-                                                      "targettedType": "value",
-                                                      "gridFormRowIdBindingKey": "editFormRowId"
+                                                      "triggerIds": [
+                                                        "QBr_09QN6SHp_eAGt7LMc",
+                                                        "KPHtXM5TQ_hi0nl48n3l6"
+                                                      ]
                                                     },
                                                     "type": "2",
                                                     "name": "On click",
@@ -1299,7 +1255,7 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "94GgasnRy-juEZfxuH-wn",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1355,7 +1311,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1434,7 +1390,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1496,7 +1452,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1531,7 +1487,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1607,7 +1563,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1710,7 +1666,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1759,7 +1715,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -1828,7 +1784,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1836,21 +1792,7 @@
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [
-        {
-          "componentId": "KhHzMGdMPUbB3UMPHK-s0",
-          "componentType": "10001",
-          "id": "KhHzMGdMPUbB3UMPHK-s0",
-          "position": {
-            "i": "KhHzMGdMPUbB3UMPHK-s0",
-            "x": null,
-            "y": null,
-            "w": null,
-            "h": null
-          },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
-        }
-      ],
+      "gridProps": [],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
@@ -1879,121 +1821,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "KhHzMGdMPUbB3UMPHK-s0",
-    "name": "Grid layout",
-    "type": "10001",
-    "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "TpW86Q7tPRk-ARE-J9BWe",
-          "componentType": "20003",
-          "order": 1
-        }
-      ],
-      "label": "Header",
-      "layoutProperties": {
-        "gridLayout": {
-          "//": "Use this class to style grid layout component.",
-          "spacing": 0
-        },
-        "mainContainer": "gridLayout",
-        "skeleton": {
-          "//": "Use this class to style skeleton loading component."
-        },
-        "imageStyles": { "//": "Use this class to style image component." }
-      },
-      "layoutProps": {
-        "direction": "row",
-        "justifyContent": "flex-start",
-        "alignItems": "flex-start"
-      },
-      "direction": "row",
-      "name": "Grid layout"
-    },
-    "layout": null,
-    "events": [],
-    "subType": "component",
-    "screenId": "94GgasnRy-juEZfxuH-wn",
-    "projectId": "6475fc4c85cd1cddbc3b3524",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "createdBy": "asadrahim",
-    "updatedAt": "8/16/2024",
-    "createdAt": "8/16/2024",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "TpW86Q7tPRk-ARE-J9BWe",
-    "status": "ACTIVE",
-    "name": "Drop down",
-    "icon": "FaCaretSquareDown",
-    "group": "Form",
-    "updatedAt": "8/16/2024",
-    "createdAt": "8/16/2024",
-    "attributes": {
-      "name": "Drop down",
-      "stateName": "isEnable",
-      "allValues": true,
-      "label": "Account Status",
-      "dataSource": "",
-      "dataKey": "",
-      "dataValue": "",
-      "mandatory": true,
-      "validate": { "required": false, "errorMsg": "This Field is Required" },
-      "layoutProperties": {
-        "autocomplete": {
-          "//": "Use this class to style autocomplete component in dropdown."
-        },
-        "textField": {
-          "//": "Use this class to style textField component in dropdown."
-        },
-        "inputProps": { "//": "Use this class to style dropdown element." },
-        "mainContainer": "autocomplete",
-        "options": { "//": "Use this class to style dropdown options." },
-        "optionItems": {
-          "//": "Use this class to style dropdown option items."
-        },
-        "popupIcon": { "//": "Use this class to style dropdown popup icon." },
-        "outlinedInput": { "//": "Use this class to style dropdown outline." },
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "dropdownOptions": [
-        { "code": "true", "name": "Active" },
-        { "code": "false", "name": "InActive" }
-      ],
-      "variant": "standard",
-      "selectedDataType": 1
-    },
-    "type": "20003",
-    "events": [],
-    "order": 10,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Drop down", "type": "20003" },
-    "path": "0-0-0-0-1-0-1-1-0-0-0",
-    "screenId": "94GgasnRy-juEZfxuH-wn",
-    "subType": "component",
-    "projectId": "6475fc4c85cd1cddbc3b3524",
-    "gitBranchName": "master",
-    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2038,7 +1868,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2124,7 +1954,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2159,7 +1989,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2207,7 +2037,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2237,11 +2067,11 @@
     },
     "events": [
       {
-        "triggerId": "RflIn07Hyu2aLQ5zAu14-",
-        "triggerName": "branch grid update ",
+        "triggerId": "YvuVeOSc74iEeoeMJQFZH",
+        "triggerName": "CHANGE_IS_ENABLED_SEQUENTIAL",
         "name": "On click",
         "type": "2",
-        "serviceType": "11"
+        "serviceType": "2"
       },
       {
         "triggerId": "UJSP1h8PZcVOoTfjVwgZw",
@@ -2257,7 +2087,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2292,7 +2122,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2340,7 +2170,7 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedAt": "8/16/2024",
     "createdAt": "8/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -2392,7 +2222,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "createdBy": "zeeshan",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]

@@ -1,0 +1,48 @@
+{
+  "id": "KPHtXM5TQ_hi0nl48n3l6",
+  "name": "UPDATE_IS_ENABLED",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "branchResponseData",
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "accountNumber",
+              "value": "selectedObject.accountNumber"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "accountTitle",
+              "value": "selectedObject.accountTitle"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "isEnable",
+              "value": "selectedObject.isEnable"
+            }
+          ],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": "",
+          "gridFormRowIdBindingKey": "selectedObjectIndex"
+        }
+      }
+    }
+  ],
+  "csrf": "0.i9lr5astaottoaz_Dm3d-85d2uDuPEJ_",
+  "_id": "oapF8btTCakxlIbJnLJPF",
+  "updatedAt": "8/16/2024",
+  "createdAt": "8/16/2024",
+  "createdBy": "zeeshan",
+  "updatedBy": "zeeshan"
+}
