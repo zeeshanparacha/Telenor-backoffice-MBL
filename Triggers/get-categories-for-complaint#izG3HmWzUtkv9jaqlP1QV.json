@@ -1,0 +1,45 @@
+{
+  "id": "tGm20aUjxIK8tCQ_TO9DJ",
+  "_id": "izG3HmWzUtkv9jaqlP1QV",
+  "projectId": "660533c7e4f3a280a51cce07",
+  "gitBranchName": "dev",
+  "name": "get categories for complaint",
+  "old_name": "get categories for complaint",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/api/v1/complaint/getCategoriesAndSubCategories",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "660a736596973234b81fc44e",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.fnx6fnrh9ip2NYUFJIhTfeRbbRTSkpqA",
+  "updatedAt": "4/1/2024",
+  "createdAt": "4/1/2024",
+  "createdBy": "faizanmemon",
+  "updatedBy": "faizanmemon"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "yk4BWixaI3wu7uCRf26dB",
+  "_id": "LuP2GqEqzZk98iN2qeNB7",
+  "name": "newBranchDataTable",
+  "old_name": "newBranchDataTable",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "object",
+          "destinationBindingKey": "newBranchResponseData",
+          "sourceBindingKey": "branchResponseData",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "accountCurrency", "changeValueConditonally": false },
+            { "key": "accountCurrencyType" },
+            { "key": "accountNumber" },
+            { "key": "accountTitle" },
+            { "key": "accountType" },
+            { "key": "authorityMatrixId" },
+            { "key": "branch" },
+            { "key": "corporateAccountType" },
+            { "key": "dailyLimit" },
+            { "key": "iban" },
+            { "key": "id" },
+            { "key": "isActive" },
+            { "key": "isEnabled" },
+            { "key": "monthlyLimit" },
+            { "key": "ntn" },
+            { "key": "product" }
+          ],
+          "targettedType": "array",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.sg8kcv2zadlaYL4HBNCc3lvGPCYeG0rn",
+  "updatedAt": "9/10/2024",
+  "createdAt": "9/10/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

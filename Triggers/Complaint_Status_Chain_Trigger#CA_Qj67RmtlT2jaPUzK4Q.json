@@ -1,0 +1,141 @@
+{
+  "_id": "CA_Qj67RmtlT2jaPUzK4Q",
+  "id": "JiQltrKzAGFdFMEyyHlq4",
+  "projectId": "660533c7e4f3a280a51cce07",
+  "gitBranchName": "dev",
+  "name": "Complaint_Status_Chain_Trigger",
+  "old_name": "Complaint_Status_Chain_Trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "delay": "500",
+          "storeType": "",
+          "searchInState": false,
+          "triggers": [
+            {
+              "id": "Ug0sP83yrB1AdOlmnAEZp",
+              "_id": "_TxqP5RZbtajmsWgGyaOE",
+              "projectId": "660533c7e4f3a280a51cce07",
+              "gitBranchName": "dev",
+              "name": "complain status trigger",
+              "old_name": "complain status trigger",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "complainResponse",
+                      "url": "/complaint/viewCustomerComplaints",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageNumber",
+                          "value": "1"
+                        },
+                        {
+                          "type": 4,
+                          "name": "Static",
+                          "key": "pageSize",
+                          "value": "5"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "category",
+                          "value": "categoryName"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "subCategory",
+                          "value": "subCategoryName"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "customerComplaintStatus",
+                          "value": "name"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "customerTicketStatus",
+                          "value": "name"
+                        }
+                      ],
+                      "baseURL": "6322eb25967b3c4df8e47be2",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "csrf": "0.tnhqna5w36RekTm37MIJ_bzEXQvXLa0",
+              "updatedAt": "4/23/2024",
+              "createdAt": "4/23/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            },
+            {
+              "id": "MqPYooCZYcsfaPACIoFEh",
+              "_id": "1dU2qZNiqqfI83o6CY-iz",
+              "name": "ComplaintStatus_Data Grid Service",
+              "old_name": "ComplaintStatus_Data Grid Service",
+              "projectId": "660533c7e4f3a280a51cce07",
+              "gitBranchName": "dev",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "complainResponse",
+                      "requestBody": [],
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.dez9m3xy1fsheluCGsz5Ic_oUGHHigvz",
+              "updatedAt": "4/24/2024",
+              "createdAt": "4/24/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            }
+          ],
+          "triggerIds": ["Ug0sP83yrB1AdOlmnAEZp", "MqPYooCZYcsfaPACIoFEh"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.dez9m3xy1fsheluCGsz5Ic_oUGHHigvz",
+  "updatedAt": "4/24/2024",
+  "createdAt": "4/24/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "LHvgu_YsbofbmoFr_ANo-",
+  "name": "isbranchAccountNtnChangeFormAdd",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "15",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": "",
+          "filterList": [
+            {
+              "key": "isbranchAccountNtnChange",
+              "changeValueConditonally": true,
+              "storeType": 1,
+              "logic": { "if": [false, false, false] }
+            }
+          ],
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.pyfpjdx8brsmdKGlHfF1Q32qyiFIBzYl",
+  "_id": "hSxDnBY3jBfvcLfBEPw0o",
+  "updatedAt": "9/12/2024",
+  "createdAt": "9/12/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

@@ -51,18 +51,42 @@
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
-        "events": [],
+        "events": [
+          {
+            "triggerId": "C3AbTrJkLJhXym253qqdd",
+            "triggerName": "CORP_EDIT_CASE_DELETE",
+            "serviceType": "11",
+            "attributes": {
+              "storeType": "",
+              "selectedObjectBindingKey": "selectedObject",
+              "dataType": "",
+              "sourceBindingKey": "",
+              "filterList": [
+                {
+                  "key": "CORP_EDIT_CASE",
+                  "changeValueConditonally": false,
+                  "logic": null,
+                  "storeType": 2
+                }
+              ],
+              "gridFormRowIdBindingKey": "editFormRowId"
+            },
+            "type": "1",
+            "name": "On initialization",
+            "commandType": "15"
+          }
+        ],
         "order": 1,
         "version": "1.0.0",
         "isLatest": true,
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 0,
+        "path": "0",
         "gridProps": [
           {
             "type": "column",
-            "id": "6s1_lEmpGvrjuhYVn68sF",
+            "id": "VUXnFufM_oU8fpSXoVszI",
             "gridProps": [
               {
                 "id": "Xi5mtG0vBDyleN5kLT6kJ",
@@ -2486,8 +2510,7 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
         "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
@@ -2500,9 +2523,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "BCHh76Z_SbbXVyFjjbLf4",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2549,15 +2572,22 @@
       "name": "Search Corporate Screen"
     },
     "layout": null,
-    "events": [],
+    "events": [
+      {
+        "triggerId": "C3AbTrJkLJhXym253qqdd",
+        "triggerName": "CORP_EDIT_CASE_DELETE",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
     "subType": "component",
     "screenId": "BCHh76Z_SbbXVyFjjbLf4",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2660,9 +2690,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2729,9 +2759,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2770,9 +2800,9 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2805,9 +2835,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2868,9 +2898,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2899,8 +2929,8 @@
     "group": "Form",
     "type": "20006",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "order": 1,
     "version": "1.0.0",
     "isLatest": true,
@@ -2920,7 +2950,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2974,9 +3004,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3068,9 +3098,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3116,9 +3146,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3151,8 +3181,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -3164,7 +3194,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3224,9 +3254,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3299,9 +3329,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3347,9 +3377,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3378,8 +3408,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -3391,7 +3421,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3437,9 +3467,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3482,8 +3512,8 @@
     "group": "Form",
     "type": "20004",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "order": 20,
     "version": "1.0.0",
     "isLatest": true,
@@ -3495,7 +3525,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3567,9 +3597,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3615,9 +3645,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3646,8 +3676,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -3659,7 +3689,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3705,9 +3735,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3750,8 +3780,8 @@
     "group": "Form",
     "type": "20004",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "order": 20,
     "version": "1.0.0",
     "isLatest": true,
@@ -3763,7 +3793,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3836,9 +3866,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3871,9 +3901,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3919,9 +3949,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -3954,8 +3984,8 @@
     "group": "Form",
     "type": "20006",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "order": 1,
     "version": "1.0.0",
     "isLatest": true,
@@ -3975,7 +4005,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4021,9 +4051,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4052,8 +4082,8 @@
     "group": "Form",
     "type": "20006",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "order": 1,
     "version": "1.0.0",
     "isLatest": true,
@@ -4080,7 +4110,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4098,9 +4128,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4153,9 +4183,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4208,9 +4238,9 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "createdBy": "areeb",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "createdBy": "asadrahim",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -4420,8 +4450,8 @@
     },
     "icon": "FaTable",
     "group": "Advanced",
-    "updatedAt": "7/11/2024",
-    "createdAt": "7/11/2024",
+    "updatedAt": "8/20/2024",
+    "createdAt": "8/20/2024",
     "order": 12,
     "version": "1.0.0",
     "isLatest": true,
@@ -4433,7 +4463,7 @@
     "subType": "component",
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
-    "createdBy": "areeb",
+    "createdBy": "asadrahim",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]

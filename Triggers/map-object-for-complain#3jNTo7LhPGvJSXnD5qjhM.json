@@ -1,0 +1,48 @@
+{
+  "id": "bDUR-vQR3CTbbm7eHTk0w",
+  "_id": "3jNTo7LhPGvJSXnD5qjhM",
+  "name": "map object for complain",
+  "projectId": "660533c7e4f3a280a51cce07",
+  "gitBranchName": "dev",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "dataForComplain",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 1,
+          "filterList": [
+            { "key": "title" },
+            { "key": "message" },
+            {
+              "key": "subCategoryName",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [true, { "var": "subCategory.subCategoryName" }, ""]
+              }
+            },
+            {
+              "key": "category",
+              "changeValueConditonally": true,
+              "logic": { "if": [true, { "var": "category.categoryName" }, ""] }
+            }
+          ],
+          "targettedType": "object",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.utguqwniduVRphourDgrKMkrqZsGDIM",
+  "updatedAt": "7/26/2024",
+  "createdAt": "7/26/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

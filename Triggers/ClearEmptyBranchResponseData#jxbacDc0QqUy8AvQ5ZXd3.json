@@ -1,0 +1,36 @@
+{
+  "id": "mGf3KUbZ7cZqvNJdQPm7i",
+  "_id": "jxbacDc0QqUy8AvQ5ZXd3",
+  "name": "ClearEmptyBranchResponseData",
+  "old_name": "ClearEmptyBranchResponseData",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "10",
+        "attributes": {
+          "requestBody": [],
+          "destinationBindingKey": "branchResponseData",
+          "sourceBindingKey": "branchResponseData",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "logic": {
+            "if": [
+              { "var": "currentScreen.branchResponseData.id" },
+              true,
+              false
+            ]
+          },
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.twxr36mw1mD6j3Z6TfjDFxfszRaR5SP",
+  "updatedAt": "9/13/2024",
+  "createdAt": "9/13/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

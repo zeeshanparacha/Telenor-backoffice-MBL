@@ -130,7 +130,13 @@
               "type": 2,
               "name": "Current screen",
               "key": "corporate.corporateBranchAccounts",
-              "value": "branchResponseData.data.result.detail"
+              "value": "branchResponseData"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "corporate.corporateBranchAccountsNtnChange",
+              "value": "corporateBranchAccountsNtnChange"
             },
             {
               "type": 1,
@@ -195,9 +201,9 @@
       }
     }
   ],
-  "csrf": "0.gzkmhks8ziwq9Xx8wrpkEfdBCymjy9NI",
-  "updatedAt": "8/8/2024",
-  "createdAt": "8/8/2024",
+  "csrf": "0.eyjkqb4k1fr-iNpqJA2IME3L0dlkfIkt",
+  "updatedAt": "9/11/2024",
+  "createdAt": "9/11/2024",
   "createdBy": "asadrahim",
   "updatedBy": "asadrahim"
 }

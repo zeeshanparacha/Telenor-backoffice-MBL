@@ -134,21 +134,57 @@
               "createdAt": "7/30/2024",
               "createdBy": "asadrahim",
               "updatedBy": "asadrahim"
+            },
+            {
+              "id": "_mJFgPkB3tu4SIW9CX5RE",
+              "name": "CORP_EDIT_CASE",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "15",
+                    "attributes": {
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": "",
+                      "filterList": [
+                        {
+                          "key": "CORP_EDIT_CASE",
+                          "changeValueConditonally": false,
+                          "storeType": 2,
+                          "logic": "1"
+                        }
+                      ],
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.pxgg9c1ra1KqkVXio-pjo0hOyr0yBXo",
+              "_id": "ycO2Qp2I-YOx9bOtdjQSL",
+              "updatedAt": "8/20/2024",
+              "createdAt": "8/20/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
             }
           ],
           "triggerIds": [
             "QnNlme_2dXLSg4CE4fWQn",
             "RmCeedffMHTKbFv0PbMyV",
             "9-JdYxLeQoHiwTc_X8bls",
-            "odMzKb9RZ_ERbxdoMN8LW"
+            "odMzKb9RZ_ERbxdoMN8LW",
+            "_mJFgPkB3tu4SIW9CX5RE"
           ]
         }
       }
     }
   ],
-  "csrf": "0.t3yhyeg8akao1ATpT5NF1kLO8-_YG4rW",
-  "updatedAt": "8/5/2024",
-  "createdAt": "8/5/2024",
+  "csrf": "0.pxgg9c1ra1KqkVXio-pjo0hOyr0yBXo",
+  "updatedAt": "8/20/2024",
+  "createdAt": "8/20/2024",
   "createdBy": "asadrahim",
   "updatedBy": "asadrahim"
 }

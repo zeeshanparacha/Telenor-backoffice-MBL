@@ -1,0 +1,140 @@
+{
+  "_id": "zZZd_a-Af6GEMAekXXt7t",
+  "id": "UySM7wu3c4SHNQ4eBrIgI",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "branch inquiry conditional trigger",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "13",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "triggers": [
+            {
+              "logic": {
+                "if": [
+                  { "var": "currentScreen.form.isbranchAccountNtnChange" },
+                  true,
+                  false
+                ]
+              },
+              "triggerName": "corporate branch NtnChange account list trigger",
+              "triggerId": "hhK8h6qlvcgh_GmNtU424",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "corporateBranchAccountsNtnChange",
+                      "responseReturnValue": "data.result.detail",
+                      "url": "/corporate/branch-account/list",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "ntn",
+                          "value": "ntnNumber"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "logic": { "==": [{ "var": "status" }, 0] },
+                        "httpStatus": 200,
+                        "triggerName": "Error Chain Trig",
+                        "triggerId": "Ofi8ASFRhMz4dPnBJDDbI"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "logic": {
+                "if": [
+                  { "var": "currentScreen.form.isbranchAccountNtnChange" },
+                  false,
+                  true
+                ]
+              },
+              "triggerName": "corporate branch account list trigger",
+              "triggerId": "6caVRKj-68pEmKeztRfwz",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "branchResponseData",
+                      "responseReturnValue": "data.result.detail",
+                      "url": "/corporate/branch-account/list",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "ntn",
+                          "value": "ntnNumber"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "logic": { "==": [{ "var": "status" }, 0] },
+                        "httpStatus": 200,
+                        "triggerName": "Error Chain Trig",
+                        "triggerId": "Ofi8ASFRhMz4dPnBJDDbI"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "csrf": "0.pyfpjdx8brsmdKGlHfF1Q32qyiFIBzYl",
+  "updatedAt": "9/12/2024",
+  "createdAt": "9/12/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

@@ -231,7 +231,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "nMMkTlfGz68Ue66G-FJ5_",
+                    "id": "xDTSGd8JsvCu-oQJ_Kpw5",
                     "gridProps": [
                       {
                         "id": "8e5JpcFWzHEeK-MzY4_-R",
@@ -294,7 +294,7 @@
                                   "label": "",
                                   "name": "Text box",
                                   "label-locale-key": "",
-                                  "maxLength": "11",
+                                  "maxLength": "15",
                                   "type": "text",
                                   "variant": "standard",
                                   "value": "",
@@ -395,19 +395,34 @@
                                   "stateName": "ntnNumber",
                                   "disableCondition": {
                                     "logic": {
-                                      "or": [
+                                      "and": [
                                         {
-                                          "==": [
+                                          "or": [
                                             {
-                                              "var": "currentScreen.selectedObject.status"
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.selectedObject.status"
+                                                },
+                                                "PENDING"
+                                              ]
                                             },
-                                            "PENDING"
+                                            {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.form.isbranchAccountNtnChange"
+                                                },
+                                                false
+                                              ]
+                                            }
                                           ]
                                         },
                                         {
-                                          "!!": {
-                                            "var": "currentScreen.branchResponseData"
-                                          }
+                                          "!=": [
+                                            {
+                                              "var": "currentScreen.CORP_EDIT_CASE"
+                                            },
+                                            "0"
+                                          ]
                                         }
                                       ]
                                     }
@@ -430,16 +445,41 @@
                                 },
                                 "events": [
                                   {
-                                    "triggerId": "eD-V4SHvEeaYQd1zVYmxg",
-                                    "triggerName": "DELETE_BRANCH_RESPONSE",
-                                    "serviceType": "11",
+                                    "triggerId": "Xt7c9YIJHyXHzhs5cq6GT",
+                                    "triggerName": "CONDITIONAL_DELETE_BRANCH_RESPONSE",
+                                    "serviceType": "13",
                                     "attributes": {
-                                      "stateName": "branchlessAccountResponse",
-                                      "storeType": 2,
-                                      "selectedObjectBindingKey": "selectedObject",
-                                      "dataType": "",
-                                      "sourceBindingKey": "",
-                                      "gridFormRowIdBindingKey": "editFormRowId"
+                                      "triggers": [
+                                        {
+                                          "triggerName": "DELETE_BRANCH_RESPONSE",
+                                          "triggerId": "eD-V4SHvEeaYQd1zVYmxg",
+                                          "services": [
+                                            {
+                                              "type": "11",
+                                              "command": {
+                                                "type": "4",
+                                                "attributes": {
+                                                  "stateName": "branchResponseData",
+                                                  "requestBody": [],
+                                                  "storeType": 2,
+                                                  "selectedObjectBindingKey": "selectedObject",
+                                                  "dataType": "",
+                                                  "sourceBindingKey": "",
+                                                  "gridFormRowIdBindingKey": "editFormRowId"
+                                                }
+                                              }
+                                            }
+                                          ],
+                                          "logic": {
+                                            "==": [
+                                              {
+                                                "var": "currentScreen.CORP_EDIT_CASE"
+                                              },
+                                              "0"
+                                            ]
+                                          }
+                                        }
+                                      ]
                                     },
                                     "type": "3",
                                     "name": "On change"
@@ -485,7 +525,7 @@
                   },
                   {
                     "type": "column",
-                    "id": "e_eTZXptFAYKN8L2_3nDL",
+                    "id": "0XVZeneg7qcT8g9xrlAxG",
                     "gridProps": [
                       {
                         "id": "TPzF_Wd67OgGPfc7YujJ7",
@@ -572,19 +612,34 @@
                                   "buttonIconPosition": "start",
                                   "disableCondition": {
                                     "logic": {
-                                      "or": [
+                                      "and": [
                                         {
-                                          "==": [
+                                          "or": [
                                             {
-                                              "var": "currentScreen.selectedObject.status"
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.selectedObject.status"
+                                                },
+                                                "PENDING"
+                                              ]
                                             },
-                                            "PENDING"
+                                            {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.form.isbranchAccountNtnChange"
+                                                },
+                                                false
+                                              ]
+                                            }
                                           ]
                                         },
                                         {
-                                          "!!": {
-                                            "var": "currentScreen.branchResponseData"
-                                          }
+                                          "!=": [
+                                            {
+                                              "var": "currentScreen.CORP_EDIT_CASE"
+                                            },
+                                            "0"
+                                          ]
                                         }
                                       ]
                                     }
@@ -607,37 +662,140 @@
                                 },
                                 "events": [
                                   {
-                                    "triggerId": "6caVRKj-68pEmKeztRfwz",
-                                    "triggerName": "corporate branch account list trigger",
-                                    "serviceType": "8",
+                                    "triggerId": "UySM7wu3c4SHNQ4eBrIgI",
+                                    "triggerName": "branch inquiry conditional trigger",
+                                    "serviceType": "13",
                                     "attributes": {
-                                      "loaderWidgetIds": [906070],
-                                      "messageWidgetIds": [906070],
-                                      "responseStateKey": "branchlessAccountResponse",
-                                      "url": "​/branch-account​/list",
-                                      "checksum": true,
-                                      "encryption": true,
-                                      "isDeviceDetails": true,
-                                      "loginTrigger": false,
-                                      "formData": false,
-                                      "logoutTrigger": false,
-                                      "headers": {
-                                        "Content-Type": "application/json",
-                                        "Accept": "application/json",
-                                        "channel_key": "001",
-                                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
-                                        "locale": "en-ltr"
-                                      },
-                                      "requestBody": [
+                                      "triggers": [
                                         {
-                                          "type": 1,
-                                          "name": "Form",
-                                          "key": "ntn",
-                                          "value": "String"
+                                          "logic": {
+                                            "if": [
+                                              {
+                                                "var": "currentScreen.form.isbranchAccountNtnChange"
+                                              },
+                                              true,
+                                              false
+                                            ]
+                                          },
+                                          "triggerName": "corporate branch NtnChange account list trigger",
+                                          "triggerId": "hhK8h6qlvcgh_GmNtU424",
+                                          "services": [
+                                            {
+                                              "type": "8",
+                                              "command": {
+                                                "type": "1",
+                                                "attributes": {
+                                                  "loaderWidgetIds": [906070],
+                                                  "messageWidgetIds": [906070],
+                                                  "responseStateKey": "corporateBranchAccountsNtnChange",
+                                                  "responseReturnValue": "data.result.detail",
+                                                  "url": "/corporate/branch-account/list",
+                                                  "checksum": true,
+                                                  "encryption": true,
+                                                  "isDeviceDetails": true,
+                                                  "loginTrigger": false,
+                                                  "formData": false,
+                                                  "logoutTrigger": false,
+                                                  "headers": {
+                                                    "Content-Type": "application/json",
+                                                    "Accept": "application/json",
+                                                    "channel_key": "001",
+                                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                    "locale": "en-ltr"
+                                                  },
+                                                  "requestBody": [
+                                                    {
+                                                      "type": 1,
+                                                      "name": "Form",
+                                                      "key": "ntn",
+                                                      "value": "ntnNumber"
+                                                    }
+                                                  ],
+                                                  "baseURL": "634555d068954540043d6820",
+                                                  "storeType": 2
+                                                },
+                                                "responseHandler": [
+                                                  {
+                                                    "logic": {
+                                                      "==": [
+                                                        { "var": "status" },
+                                                        0
+                                                      ]
+                                                    },
+                                                    "httpStatus": 200,
+                                                    "triggerName": "Error Chain Trig",
+                                                    "triggerId": "Ofi8ASFRhMz4dPnBJDDbI"
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "logic": {
+                                            "if": [
+                                              {
+                                                "var": "currentScreen.form.isbranchAccountNtnChange"
+                                              },
+                                              true,
+                                              false
+                                            ]
+                                          },
+                                          "triggerName": "corporate branch account list trigger",
+                                          "triggerId": "6caVRKj-68pEmKeztRfwz",
+                                          "services": [
+                                            {
+                                              "type": "8",
+                                              "command": {
+                                                "type": "1",
+                                                "attributes": {
+                                                  "loaderWidgetIds": [906070],
+                                                  "messageWidgetIds": [906070],
+                                                  "responseStateKey": "branchResponseData",
+                                                  "responseReturnValue": "data.result.detail",
+                                                  "url": "/corporate/branch-account/list",
+                                                  "checksum": true,
+                                                  "encryption": true,
+                                                  "isDeviceDetails": true,
+                                                  "loginTrigger": false,
+                                                  "formData": false,
+                                                  "logoutTrigger": false,
+                                                  "headers": {
+                                                    "Content-Type": "application/json",
+                                                    "Accept": "application/json",
+                                                    "channel_key": "001",
+                                                    "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                                    "locale": "en-ltr"
+                                                  },
+                                                  "requestBody": [
+                                                    {
+                                                      "type": 1,
+                                                      "name": "Form",
+                                                      "key": "ntn",
+                                                      "value": "ntnNumber"
+                                                    }
+                                                  ],
+                                                  "baseURL": "634555d068954540043d6820",
+                                                  "storeType": 2
+                                                },
+                                                "responseHandler": [
+                                                  {
+                                                    "logic": {
+                                                      "==": [
+                                                        { "var": "status" },
+                                                        0
+                                                      ]
+                                                    },
+                                                    "httpStatus": 200,
+                                                    "triggerName": "Error Chain Trig",
+                                                    "triggerId": "Ofi8ASFRhMz4dPnBJDDbI"
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
                                         }
-                                      ],
-                                      "baseURL": "634555d068954540043d6820",
-                                      "storeType": 2
+                                      ]
                                     },
                                     "type": "4",
                                     "name": "On Submit",
@@ -684,7 +842,7 @@
                   },
                   {
                     "type": "column",
-                    "id": "61BiWihFUn_Ed9V4QIKg2",
+                    "id": "d_TbYQlZo64sY5SV0ebom",
                     "gridProps": [
                       {
                         "id": "I1VfkTYdI6GLKSzIitSM1",
@@ -700,7 +858,8 @@
                               "//": "Use this class to style grid layout component.",
                               "padding": "0 5px",
                               "spacing": 0,
-                              "margin": "0px 0px 0px -40px"
+                              "margin": "0px 0px 0px -40px",
+                              "width": "140%"
                             },
                             "mainContainer": "gridLayout"
                           },
@@ -739,7 +898,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "hsW6SVtq8I1Ic_MAKQjJT",
+                            "id": "4z3CRaRqolgJYv0nzoInt",
                             "gridProps": [
                               {
                                 "id": "zMNJzF1lNwp6sP20tJ8OX",
@@ -776,19 +935,34 @@
                                   "buttonIconPosition": "start",
                                   "disableCondition": {
                                     "logic": {
-                                      "or": [
+                                      "and": [
                                         {
-                                          "==": [
+                                          "or": [
                                             {
-                                              "var": "currentScreen.selectedObject.status"
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.selectedObject.status"
+                                                },
+                                                "PENDING"
+                                              ]
                                             },
-                                            "PENDING"
+                                            {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.form.isbranchAccountNtnChange"
+                                                },
+                                                false
+                                              ]
+                                            }
                                           ]
                                         },
                                         {
-                                          "!!": {
-                                            "var": "currentScreen.branchResponseData"
-                                          }
+                                          "!=": [
+                                            {
+                                              "var": "currentScreen.CORP_EDIT_CASE"
+                                            },
+                                            "0"
+                                          ]
                                         }
                                       ]
                                     }
@@ -826,7 +1000,7 @@
                           },
                           {
                             "type": "column",
-                            "id": "d-aAI-SGk1nqtz7cblNS2",
+                            "id": "TBB_lSieGq7W4GUkodCJu",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -835,21 +1009,22 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "S28zevkT7zwsj-2SlLbL2",
+                                    "id": "QI9FCJ9ALY0gFuFWoRw3u",
                                     "gridProps": [
                                       {
                                         "id": "Nf67sbJVtnlMmPtUmAhYr",
                                         "status": "ACTIVE",
                                         "name": "Checkbox",
                                         "attributes": {
-                                          "label": "Ntn Change",
+                                          "label": " Do you want to Change NTN number?",
                                           "name": "Check Box",
                                           "layoutProperties": {
                                             "checkbox": {
                                               "//": "Use this class to style checkbox component."
                                             },
                                             "formControlLabel": {
-                                              "//": "Use this class to style checkbox label."
+                                              "//": "Use this class to style checkbox label.",
+                                              "width": "140%"
                                             },
                                             "inputProps": {
                                               "//": "Use this class to style checkbox element."
@@ -862,7 +1037,18 @@
                                             "xs": 12
                                           },
                                           "stateName": "isbranchAccountNtnChange",
-                                          "value": "true"
+                                          "value": "true",
+                                          "disableCondition": {},
+                                          "hideCondition": {
+                                            "logic": {
+                                              "==": [
+                                                {
+                                                  "var": "currentScreen.CORP_EDIT_CASE"
+                                                },
+                                                "0"
+                                              ]
+                                            }
+                                          }
                                         },
                                         "icon": "FaCheckSquare",
                                         "group": "Form",
@@ -904,7 +1090,8 @@
                                     "gridLayout": {
                                       "//": "Use this class to style grid layout component.",
                                       "spacing": 0,
-                                      "margin": "0px 0px 0px -30px"
+                                      "margin": "0px 0px 0px -30px",
+                                      "width": "140%"
                                     },
                                     "mainContainer": "gridLayout",
                                     "skeleton": {
@@ -921,7 +1108,25 @@
                                   },
                                   "direction": "row",
                                   "name": "Grid layout",
-                                  "hideCondition": { "logic": { "!=": [1, 1] } }
+                                  "hideCondition": {
+                                    "logic": {
+                                      "and": [
+                                        {
+                                          "!=": [
+                                            { "var": "selectedObject" },
+                                            null
+                                          ]
+                                        },
+                                        {
+                                          "!=": [
+                                            { "var": "selectedObject.address" },
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "disableCondition": {}
                                 },
                                 "events": [],
                                 "component": {
@@ -936,8 +1141,7 @@
                                   "colSize0sm": 12,
                                   "colSize0md": 12,
                                   "colSize0lg": 12,
-                                  "colSize0xl": 12,
-                                  "layoutProperties": null
+                                  "colSize0xl": 12
                                 },
                                 "readOnly": true
                               }
@@ -952,7 +1156,7 @@
                           },
                           {
                             "type": "column",
-                            "id": "6q2O4yjmUeuOnvvdKfD0n",
+                            "id": "QbFpYpo8U22U4ccJf5_nX",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -961,53 +1165,8 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "LymMO24e5_A9USKWmKimx",
-                                    "gridProps": [
-                                      {
-                                        "id": "QYt-Ol6o_6rJdXlcoV-tO",
-                                        "status": "ACTIVE",
-                                        "name": "Checkbox",
-                                        "attributes": {
-                                          "label": "Branch Account DeLink",
-                                          "name": "Check Box",
-                                          "layoutProperties": {
-                                            "checkbox": {
-                                              "//": "Use this class to style checkbox component."
-                                            },
-                                            "formControlLabel": {
-                                              "//": "Use this class to style checkbox label.",
-                                              "width": "200px"
-                                            },
-                                            "inputProps": {
-                                              "//": "Use this class to style checkbox element."
-                                            },
-                                            "mainContainer": "formControlLabel",
-                                            "xl": 12,
-                                            "lg": 12,
-                                            "md": 12,
-                                            "sm": 12,
-                                            "xs": 12
-                                          },
-                                          "stateName": "isDeLinkBranchAccount",
-                                          "value": "true"
-                                        },
-                                        "icon": "FaCheckSquare",
-                                        "group": "Form",
-                                        "type": "20013",
-                                        "updatedAt": "23-Aug-2021",
-                                        "createdAt": "23-Aug-2021",
-                                        "order": 16,
-                                        "version": "1.0.0",
-                                        "isLatest": true,
-                                        "projectType": "web",
-                                        "component": {
-                                          "content": "Checkbox",
-                                          "type": "20013"
-                                        },
-                                        "events": [],
-                                        "path": "0-0-1-2-0-2-0-0-0"
-                                      }
-                                    ],
+                                    "id": "I8HG3CrvPlJVkbM61b9WB",
+                                    "gridProps": [],
                                     "layoutProperties": {
                                       "xl": 12,
                                       "lg": 12,
@@ -1076,7 +1235,7 @@
                                   "colSize0xl": 12,
                                   "layoutProperties": null
                                 },
-                                "readOnly": true
+                                "readOnly": false
                               }
                             ],
                             "layoutProperties": {
@@ -1111,7 +1270,8 @@
                           "colSize2sm": 4,
                           "colSize2md": 4,
                           "colSize2lg": 4,
-                          "colSize2xl": 4
+                          "colSize2xl": 4,
+                          "layoutProperties": null
                         },
                         "readOnly": true
                       }
@@ -1226,8 +1386,8 @@
     "gitBranchName": "master",
     "_id": "rGDO_xTBh4inGwvQjLgVK",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1308,8 +1468,8 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1357,8 +1517,8 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1405,8 +1565,8 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1435,8 +1595,8 @@
     "icon": "FaFont",
     "group": "Form",
     "type": "20002",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "order": 15,
     "version": "1.0.0",
     "isLatest": true,
@@ -1522,8 +1682,8 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1571,8 +1731,8 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1583,7 +1743,7 @@
       "label": "",
       "name": "Text box",
       "label-locale-key": "",
-      "maxLength": "11",
+      "maxLength": "15",
       "type": "text",
       "variant": "standard",
       "value": "",
@@ -1673,14 +1833,24 @@
       "stateName": "ntnNumber",
       "disableCondition": {
         "logic": {
-          "or": [
+          "and": [
             {
-              "==": [
-                { "var": "currentScreen.selectedObject.status" },
-                "PENDING"
+              "or": [
+                {
+                  "==": [
+                    { "var": "currentScreen.selectedObject.status" },
+                    "PENDING"
+                  ]
+                },
+                {
+                  "==": [
+                    { "var": "currentScreen.form.isbranchAccountNtnChange" },
+                    false
+                  ]
+                }
               ]
             },
-            { "!!": { "var": "currentScreen.branchResponseData" } }
+            { "!=": [{ "var": "currentScreen.CORP_EDIT_CASE" }, "0"] }
           ]
         }
       },
@@ -1690,8 +1860,8 @@
     "group": "Form",
     "type": "20004",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "order": 20,
     "version": "1.0.0",
     "isLatest": true,
@@ -1699,11 +1869,11 @@
     "component": { "content": "Text Box", "type": "20004" },
     "events": [
       {
-        "triggerId": "eD-V4SHvEeaYQd1zVYmxg",
-        "triggerName": "DELETE_BRANCH_RESPONSE",
+        "triggerId": "Xt7c9YIJHyXHzhs5cq6GT",
+        "triggerName": "CONDITIONAL_DELETE_BRANCH_RESPONSE",
         "name": "On change",
         "type": "3",
-        "serviceType": "11"
+        "serviceType": "13"
       }
     ],
     "path": "0-0-1-0-0-0-0",
@@ -1759,8 +1929,8 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1789,14 +1959,24 @@
       "buttonIconPosition": "start",
       "disableCondition": {
         "logic": {
-          "or": [
+          "and": [
             {
-              "==": [
-                { "var": "currentScreen.selectedObject.status" },
-                "PENDING"
+              "or": [
+                {
+                  "==": [
+                    { "var": "currentScreen.selectedObject.status" },
+                    "PENDING"
+                  ]
+                },
+                {
+                  "==": [
+                    { "var": "currentScreen.form.isbranchAccountNtnChange" },
+                    false
+                  ]
+                }
               ]
             },
-            { "!!": { "var": "currentScreen.branchResponseData" } }
+            { "!=": [{ "var": "currentScreen.CORP_EDIT_CASE" }, "0"] }
           ]
         }
       }
@@ -1806,8 +1986,8 @@
     "group": "Form",
     "type": "20006",
     "Documentation": "<div>components 12344</div>",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "order": 1,
     "version": "1.0.0",
     "isLatest": true,
@@ -1815,11 +1995,11 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "6caVRKj-68pEmKeztRfwz",
-        "triggerName": "corporate branch account list trigger",
+        "triggerId": "UySM7wu3c4SHNQ4eBrIgI",
+        "triggerName": "branch inquiry conditional trigger",
         "name": "On Submit",
         "type": "4",
-        "serviceType": "8"
+        "serviceType": "13"
       }
     ],
     "path": "0-0-1-1-0-0-0",
@@ -1875,7 +2055,8 @@
           "//": "Use this class to style grid layout component.",
           "padding": "0 5px",
           "spacing": 0,
-          "margin": "0px 0px 0px -40px"
+          "margin": "0px 0px 0px -40px",
+          "width": "140%"
         },
         "mainContainer": "gridLayout"
       },
@@ -1897,8 +2078,8 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1927,14 +2108,24 @@
       "buttonIconPosition": "start",
       "disableCondition": {
         "logic": {
-          "or": [
+          "and": [
             {
-              "==": [
-                { "var": "currentScreen.selectedObject.status" },
-                "PENDING"
+              "or": [
+                {
+                  "==": [
+                    { "var": "currentScreen.selectedObject.status" },
+                    "PENDING"
+                  ]
+                },
+                {
+                  "==": [
+                    { "var": "currentScreen.form.isbranchAccountNtnChange" },
+                    false
+                  ]
+                }
               ]
             },
-            { "!!": { "var": "currentScreen.branchResponseData" } }
+            { "!=": [{ "var": "currentScreen.CORP_EDIT_CASE" }, "0"] }
           ]
         }
       }
@@ -1955,8 +2146,8 @@
     "projectId": "6475fc4c85cd1cddbc3b3524",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1983,7 +2174,8 @@
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
           "spacing": 0,
-          "margin": "0px 0px 0px -30px"
+          "margin": "0px 0px 0px -30px",
+          "width": "140%"
         },
         "mainContainer": "gridLayout",
         "skeleton": {
@@ -1998,7 +2190,15 @@
       },
       "direction": "row",
       "name": "Grid layout",
-      "hideCondition": { "logic": { "!=": [1, 1] } }
+      "hideCondition": {
+        "logic": {
+          "and": [
+            { "!=": [{ "var": "selectedObject" }, null] },
+            { "!=": [{ "var": "selectedObject.address" }, ""] }
+          ]
+        }
+      },
+      "disableCondition": {}
     },
     "layout": null,
     "events": [],
@@ -2008,8 +2208,8 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2017,11 +2217,14 @@
     "status": "ACTIVE",
     "name": "Checkbox",
     "attributes": {
-      "label": "Ntn Change",
+      "label": " Do you want to Change NTN number?",
       "name": "Check Box",
       "layoutProperties": {
         "checkbox": { "//": "Use this class to style checkbox component." },
-        "formControlLabel": { "//": "Use this class to style checkbox label." },
+        "formControlLabel": {
+          "//": "Use this class to style checkbox label.",
+          "width": "140%"
+        },
         "inputProps": { "//": "Use this class to style checkbox element." },
         "mainContainer": "formControlLabel",
         "xl": 12,
@@ -2031,13 +2234,17 @@
         "xs": 12
       },
       "stateName": "isbranchAccountNtnChange",
-      "value": "true"
+      "value": "true",
+      "disableCondition": {},
+      "hideCondition": {
+        "logic": { "==": [{ "var": "currentScreen.CORP_EDIT_CASE" }, "0"] }
+      }
     },
     "icon": "FaCheckSquare",
     "group": "Form",
     "type": "20013",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "order": 16,
     "version": "1.0.0",
     "isLatest": true,
@@ -2057,20 +2264,7 @@
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "QYt-Ol6o_6rJdXlcoV-tO",
-          "componentType": "20013",
-          "order": 1
-        }
-      ],
+      "gridProps": [],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
@@ -2105,51 +2299,8 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "createdBy": "asadrahim",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "QYt-Ol6o_6rJdXlcoV-tO",
-    "status": "ACTIVE",
-    "name": "Checkbox",
-    "attributes": {
-      "label": "Branch Account DeLink",
-      "name": "Check Box",
-      "layoutProperties": {
-        "checkbox": { "//": "Use this class to style checkbox component." },
-        "formControlLabel": {
-          "//": "Use this class to style checkbox label.",
-          "width": "200px"
-        },
-        "inputProps": { "//": "Use this class to style checkbox element." },
-        "mainContainer": "formControlLabel",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      },
-      "stateName": "isDeLinkBranchAccount",
-      "value": "true"
-    },
-    "icon": "FaCheckSquare",
-    "group": "Form",
-    "type": "20013",
-    "updatedAt": "8/15/2024",
-    "createdAt": "8/15/2024",
-    "order": 16,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "component": { "content": "Checkbox", "type": "20013" },
-    "events": [],
-    "path": "0-0-1-2-0-2-0-0-0",
-    "screenId": "rGDO_xTBh4inGwvQjLgVK",
-    "subType": "component",
-    "projectId": "6475fc4c85cd1cddbc3b3524",
-    "gitBranchName": "master",
-    "createdBy": "asadrahim",
+    "updatedAt": "9/16/2024",
+    "createdAt": "9/16/2024",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
 ]

@@ -1,0 +1,68 @@
+{
+  "id": "5-8ZoAhM_rzmS7SuhzEyz",
+  "_id": "GGLet5rhCbhIbyZAy1ofA",
+  "name": "Add corporate NtnChange in Table 1",
+  "old_name": "Add corporate NtnChange in Table 1",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "corporateBranchAccountsNtnChange",
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountNumber",
+              "value": "accountNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "accountTitle",
+              "value": "accountTitle"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "authorityMatrixId",
+              "value": "authorityMatrixId"
+            },
+            { "type": 1, "name": "Form", "key": "id", "value": "id" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "isEnabled",
+              "value": "isEnabled"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "isRemovedAllowed",
+              "value": "isRemovedAllowed"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "isSoftDeleteAllowed",
+              "value": "isSoftDeleteAllowed"
+            }
+          ],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": "",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.w7gllgqa9va5BU0p3TUGZbDL6EX_93-o",
+  "updatedAt": "9/15/2024",
+  "createdAt": "9/15/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

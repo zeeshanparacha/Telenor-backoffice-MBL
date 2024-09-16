@@ -1,0 +1,52 @@
+{
+  "id": "yayKlsvSLC1632OXXgFqB",
+  "_id": "Gbuk9HaE4vY_j71ElWhMS",
+  "name": "on Change Values For Complaints",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "form",
+          "sourceBindingKey": "form",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "agentName" },
+            { "key": "bankFeedback" },
+            { "key": "category" },
+            { "key": "closedBy" },
+            { "key": "closingComments" },
+            { "key": "creationDate" },
+            { "key": "customerComplaintStatus" },
+            { "key": "customerTicketStatus" },
+            { "key": "referenceNumber" },
+            { "key": "resolutionDate" },
+            { "key": "subCategory" },
+            { "key": "title" },
+            {
+              "key": "complaintAttachmentResponseDTO",
+              "changeValueConditonally": false
+            },
+            { "key": "attachments" },
+            { "key": "attachments.attachmentsData" }
+          ],
+          "targettedType": "object",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.iavxjmbs55lId_EfcZt6ULvqCStVxdtw",
+  "updatedAt": "9/6/2024",
+  "createdAt": "9/6/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

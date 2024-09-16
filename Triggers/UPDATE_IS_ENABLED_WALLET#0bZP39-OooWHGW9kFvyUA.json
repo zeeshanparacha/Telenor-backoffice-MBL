@@ -1,0 +1,61 @@
+{
+  "id": "lOi4NB31VdNX_ni00zyNh",
+  "_id": "0bZP39-OooWHGW9kFvyUA",
+  "name": "UPDATE_IS_ENABLED_WALLET",
+  "old_name": "UPDATE_IS_ENABLED_WALLET",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "stateName": "branchlessAccountData",
+          "requestBody": [
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "accountMobile",
+              "value": "selectedObject.accountMobile"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "accountTitle",
+              "value": "selectedObject.accountTitle"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "isEnabled",
+              "value": "selectedObject.isEnabled"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "isRemovedAllowed",
+              "value": "selectedObject.isRemovedAllowed"
+            },
+            {
+              "type": 2,
+              "name": "Current screen",
+              "key": "isSoftDeleteAllowed",
+              "value": "currentScreen.selectedObject.isSoftDeleteAllowed"
+            }
+          ],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": "",
+          "gridFormRowIdBindingKey": "selectedObjectIndex"
+        }
+      }
+    }
+  ],
+  "csrf": "0.8x03tiek7twJwIKCi_JSuU1NNJqSAwjX",
+  "updatedAt": "8/22/2024",
+  "createdAt": "8/22/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

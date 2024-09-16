@@ -1,0 +1,78 @@
+{
+  "id": "Ug0sP83yrB1AdOlmnAEZp",
+  "_id": "_TxqP5RZbtajmsWgGyaOE",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "complain status trigger",
+  "old_name": "complain status trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "complainResponse",
+          "url": "/complaints/viewCustomerComplaints",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 4, "name": "Static", "key": "pageNumber", "value": "1" },
+            { "type": 4, "name": "Static", "key": "pageSize", "value": "5" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "category",
+              "value": "category.categoryName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "subCategory",
+              "value": "subCategory.subCategoryName"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerComplaintStatus",
+              "value": "customerComplaintStatus.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerTicketStatus",
+              "value": "customerTicketStatus.name"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "referenceNumber",
+              "value": "referenceNumberKey"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.iavxjmbs55lId_EfcZt6ULvqCStVxdtw",
+  "updatedAt": "9/6/2024",
+  "createdAt": "9/6/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

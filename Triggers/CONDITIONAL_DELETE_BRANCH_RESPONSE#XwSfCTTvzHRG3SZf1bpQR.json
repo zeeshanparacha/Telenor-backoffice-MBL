@@ -1,0 +1,50 @@
+{
+  "id": "Xt7c9YIJHyXHzhs5cq6GT",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "CONDITIONAL_DELETE_BRANCH_RESPONSE",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "13",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "triggers": [
+            {
+              "triggerName": "DELETE_BRANCH_RESPONSE",
+              "triggerId": "eD-V4SHvEeaYQd1zVYmxg",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "branchResponseData",
+                      "requestBody": [],
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": "",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "logic": {
+                "==": [{ "var": "currentScreen.CORP_EDIT_CASE" }, "0"]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "csrf": "0.pyfpjdx8brsmdKGlHfF1Q32qyiFIBzYl",
+  "_id": "XwSfCTTvzHRG3SZf1bpQR",
+  "updatedAt": "9/12/2024",
+  "createdAt": "9/12/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

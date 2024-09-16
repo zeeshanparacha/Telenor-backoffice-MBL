@@ -1,0 +1,46 @@
+{
+  "id": "tGt7cPlMvOBAWELpOOUyJ",
+  "_id": "NRb-5ee3elvnaqeeyqAtU",
+  "name": "CHANGE_IS_ENABLED_WALLET",
+  "old_name": "CHANGE_IS_ENABLED_WALLET",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "destinationBindingKey": "selectedObject",
+          "sourceBindingKey": "selectedObject",
+          "sourceStoreType": 2,
+          "destinationStoreType": 2,
+          "filterList": [
+            { "key": "accountMobile", "changeValueConditonally": false },
+            { "key": "accountTitle" },
+            {
+              "key": "isEnabled",
+              "changeValueConditonally": true,
+              "logic": {
+                "if": [{ "==": [{ "var": "isEnabled" }, true] }, false, true]
+              }
+            },
+            { "key": "isRemovedAllowed", "changeValueConditonally": false },
+            { "key": "isSoftDeleteAllowed", "changeValueConditonally": false }
+          ],
+          "targettedType": "object",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.8x03tiek7twJwIKCi_JSuU1NNJqSAwjX",
+  "updatedAt": "8/22/2024",
+  "createdAt": "8/22/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

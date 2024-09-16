@@ -1,0 +1,159 @@
+{
+  "_id": "HYH1FBNv5nmizkYa5VDmY",
+  "id": "s57J2ZCosU6SRN6FmZ9z3",
+  "projectId": "660533c7e4f3a280a51cce07",
+  "gitBranchName": "dev",
+  "name": "chain trigger for create complain",
+  "old_name": "",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "storeType": "",
+          "searchInState": false,
+          "triggers": [
+            {
+              "id": "bDUR-vQR3CTbbm7eHTk0w",
+              "_id": "3jNTo7LhPGvJSXnD5qjhM",
+              "name": "map object for complain",
+              "projectId": "660533c7e4f3a280a51cce07",
+              "gitBranchName": "dev",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "6",
+                    "attributes": {
+                      "requestBody": [],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "destinationBindingKey": "dataForComplain",
+                      "sourceBindingKey": "form",
+                      "sourceStoreType": 2,
+                      "destinationStoreType": 1,
+                      "filterList": [
+                        { "key": "title" },
+                        { "key": "message" },
+                        {
+                          "key": "subCategoryName",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "if": [
+                              true,
+                              { "var": "subCategory.subCategoryName" },
+                              ""
+                            ]
+                          }
+                        },
+                        {
+                          "key": "category",
+                          "changeValueConditonally": true,
+                          "logic": {
+                            "if": [true, { "var": "category.categoryName" }, ""]
+                          }
+                        }
+                      ],
+                      "targettedType": "object",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.utguqwniduVRphourDgrKMkrqZsGDIM",
+              "updatedAt": "7/26/2024",
+              "createdAt": "7/26/2024",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            },
+            {
+              "id": "kC12Z7xdu35T3HSSb_eQ-",
+              "_id": "rJCnMZKHBbN1ihN_DoM5n",
+              "projectId": "660533c7e4f3a280a51cce07",
+              "gitBranchName": "dev",
+              "name": "Create Complaint",
+              "old_name": "Create Complaint",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "createComplaint",
+                      "url": "/complaint/create",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": true,
+                      "loginTrigger": false,
+                      "formData": true,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "multipartType": "multipleFile",
+                          "multipartName": "Multiple_Files/Images",
+                          "key": "images",
+                          "value": "ComplainArray"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "multipartType": "object",
+                          "multipartName": "Object",
+                          "key": "jsonData",
+                          "value": "dataforComplain"
+                        }
+                      ],
+                      "baseURL": "6322eb25967b3c4df8e47be2",
+                      "storeType": 2
+                    },
+                    "responseHandler": [
+                      {
+                        "httpStatus": 200,
+                        "logic": { "==": [{ "var": "status" }, 1] },
+                        "triggerName": "Show Complaint Modal",
+                        "triggerId": "agGDy9gGZgbRaNmGo6WED"
+                      },
+                      {
+                        "httpStatus": 200,
+                        "logic": { "==": [{ "var": "status" }, 1] },
+                        "triggerName": "Clear Form Data",
+                        "triggerId": "C9VAY5AImRfVpeNy7pz65"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "csrf": "0.utguqwniduVRphourDgrKMkrqZsGDIM",
+              "updatedAt": "7/26/2024",
+              "createdAt": "7/26/2024",
+              "createdBy": "areeb",
+              "updatedBy": "areeb"
+            }
+          ],
+          "triggerIds": ["bDUR-vQR3CTbbm7eHTk0w", "kC12Z7xdu35T3HSSb_eQ-"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.utguqwniduVRphourDgrKMkrqZsGDIM",
+  "updatedAt": "7/26/2024",
+  "createdAt": "7/26/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

@@ -1,0 +1,890 @@
+[
+  {
+    "id": "UuBznlT5m6UPeolwJsl63",
+    "name": "complain status drop down widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "bdSxh7R_evQMtORD5TD0L",
+          "componentType": "10001",
+          "id": "bdSxh7R_evQMtORD5TD0L",
+          "position": {
+            "i": "bdSxh7R_evQMtORD5TD0L",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "bdSxh7R_evQMtORD5TD0L",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "zWPloTrQXQAHEcZzbqUTy",
+            "gridProps": [
+              {
+                "type": "10001",
+                "id": "fuWGzj4xiCiYblCDzCEGK",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "vjGcB7jHPTB6mPJ8GuRQp",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "id": "adInTqfSQcTul2JSWQN3k",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "vap0WzHCZkb9rIhvR7j3L",
+                            "gridProps": [
+                              {
+                                "id": "XcFFG27kg40VguCnQIhq1",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "label": "Customer Complaint Status",
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": true,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component.",
+                                      "color": "#a8a8a8",
+                                      "font-size": "14px"
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "cssClassNames": [
+                                    { "cssClassName": "textfieldLabel" }
+                                  ]
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-3-0-1-0-0-0-4-0-0-0-0-0-0-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-3-0-1-0-0-0-4-0-0-0-0-0-0-0"
+                          }
+                        ],
+                        "path": "0-0-3-0-1-0-0-0-4-0-0-0-0-0-0",
+                        "events": [],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "component": {
+                          "type": "10001",
+                          "content": "Grid layout"
+                        },
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "name": "Grid layout"
+                      },
+                      {
+                        "id": "L21cGYudl14toEWab1TOF",
+                        "status": "ACTIVE",
+                        "_id": "610134a1d1f5e860b1e8c751",
+                        "name": "Grid layout",
+                        "icon": "FaGripHorizontal",
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component.",
+                              "padding": "5px",
+                              "spacing": 0
+                            },
+                            "mainContainer": "gridLayout"
+                          },
+                          "layoutProps": {
+                            "direction": "row",
+                            "justifyContent": "flex-start",
+                            "alignItems": "flex-start"
+                          },
+                          "direction": "row",
+                          "name": "Grid layout"
+                        },
+                        "group": "Layout",
+                        "type": "sidebarItem",
+                        "updatedAt": "23-Sep-2021",
+                        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+                        "createdAt": "24-Aug-2021",
+                        "events": [],
+                        "order": 1,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "allowedContainers": [
+                          "10001",
+                          "20030",
+                          "noLayout",
+                          "20010",
+                          "widget"
+                        ],
+                        "component": {
+                          "content": "Grid layout",
+                          "type": "10001"
+                        },
+                        "path": "0-0-3-0-1-0-0-0-4-0-0-0-0-0-1",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "nallBM4Ydj9iRaPHyYhZO",
+                            "gridProps": [
+                              {
+                                "id": "YtuGXrfub0U_2iJg4AV2b",
+                                "status": "ACTIVE",
+                                "name": "Drop down",
+                                "icon": "FaCaretSquareDown",
+                                "group": "Form",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "attributes": {
+                                  "name": "Drop down",
+                                  "stateName": "customerComplaintStatusForm",
+                                  "allValues": true,
+                                  "dataSource": "",
+                                  "dataKey": "",
+                                  "dataValue": "",
+                                  "mandatory": true,
+                                  "validate": {
+                                    "required": true,
+                                    "errorMsg": "This Field is Required",
+                                    "bindButton": [
+                                      {
+                                        "id": "tKXFdFsPNg_Nk3AVIDf1l",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "Update",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "cssClassNames": [
+                                            { "cssClassName": "CardButton" }
+                                          ]
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "n_3U_-ISxtbD9u8QRQfoD",
+                                            "triggerName": "Update Beneficiary Detail",
+                                            "name": "On Submit",
+                                            "type": "4",
+                                            "serviceType": "8"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-3-0-1-1-0-0-0",
+                                        "screenId": "dlGgbxKU3iiXUFrnvYMcE",
+                                        "subType": "component",
+                                        "projectId": "655cceefb6cb0dd562a26db4",
+                                        "gitBranchName": "dev",
+                                        "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+                                      }
+                                    ]
+                                  },
+                                  "layoutProperties": {
+                                    "autocomplete": {
+                                      "//": "Use this class to style autocomplete component in dropdown."
+                                    },
+                                    "textField": {
+                                      "//": "Use this class to style textField component in dropdown.",
+                                      "font-size": "14px",
+                                      "font-weight": "normal",
+                                      "color": "#333",
+                                      "background-color": "#fff",
+                                      "border": "1px solid #e5e5e5",
+                                      "box-shadow": "none",
+                                      "border-radius": "4px"
+                                    },
+                                    "inputProps": {
+                                      "//": "Use this class to style dropdown element.",
+                                      "paddingLeft": "15px"
+                                    },
+                                    "mainContainer": "autocomplete",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 12,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "dropdownOptions": [
+                                    { "code": "OPEN", "name": "OPEN" },
+                                    { "code": "CLOSED", "name": "CLOSED" }
+                                  ],
+                                  "variant": "standard",
+                                  "disableUnderline": true,
+                                  "storeType": 1,
+                                  "placeholder": "Select",
+                                  "cssClassNames": [
+                                    { "cssClassName": "card_dropdown" }
+                                  ],
+                                  "selectedDataType": 1,
+                                  "defaultKey": "customerComplaintStatus",
+                                  "disableCondition": {}
+                                },
+                                "type": "20003",
+                                "events": [
+                                  {
+                                    "triggerId": "yayKlsvSLC1632OXXgFqB",
+                                    "triggerName": "on Change Values For Complaints",
+                                    "serviceType": "11",
+                                    "attributes": {
+                                      "storeType": "",
+                                      "selectedObjectBindingKey": "selectedObject",
+                                      "dataType": "",
+                                      "destinationBindingKey": "form",
+                                      "sourceBindingKey": "form",
+                                      "sourceStoreType": 2,
+                                      "destinationStoreType": 2,
+                                      "filterList": [
+                                        { "key": "agentName" },
+                                        { "key": "bankFeedback" },
+                                        { "key": "category" },
+                                        { "key": "closedBy" },
+                                        { "key": "closingComments" },
+                                        { "key": "creationDate" },
+                                        { "key": "customerComplaintStatus" },
+                                        { "key": "customerTicketStatus" },
+                                        { "key": "referenceNumber" },
+                                        { "key": "resolutionDate" },
+                                        { "key": "subCategory" },
+                                        { "key": "title" },
+                                        {
+                                          "key": "complaintAttachmentResponseDTO",
+                                          "changeValueConditonally": false
+                                        }
+                                      ],
+                                      "targettedType": "object",
+                                      "gridFormRowIdBindingKey": "editFormRowId"
+                                    },
+                                    "type": "5",
+                                    "name": "On Focus"
+                                  }
+                                ],
+                                "order": 10,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Drop down",
+                                  "type": "20003"
+                                },
+                                "path": "0-0-3-0-1-0-0-0-4-0-0-0-0-0-1-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-3-0-1-0-0-0-4-0-0-0-0-0-1-0"
+                          }
+                        ],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    }
+                  }
+                ],
+                "path": "0-0-3-0-1-0-0-0-4-0-0-0-0",
+                "events": [],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "paddingLeft": "5px",
+                      "paddingRight": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "component": { "type": "10001", "content": "Grid layout" },
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "payment mode grid",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12
+                },
+                "readOnly": true
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "path": "0-0-3-0-1-0-0-0-4-0-0",
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "paddingLeft": "5px",
+              "paddingRight": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "complain status drop down",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12,
+          "name": null
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "UuBznlT5m6UPeolwJsl63",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "UuBznlT5m6UPeolwJsl63",
+    "createdBy": "areeb",
+    "updatedAt": "8/21/2024",
+    "createdAt": "8/21/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "bdSxh7R_evQMtORD5TD0L",
+    "name": "complain status drop down",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "fuWGzj4xiCiYblCDzCEGK",
+          "componentType": "10001",
+          "id": "fuWGzj4xiCiYblCDzCEGK",
+          "position": {
+            "i": "fuWGzj4xiCiYblCDzCEGK",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "paddingLeft": "5px",
+          "paddingRight": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "9Z2HPRAGGEtwO8M7djiOd",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "areeb",
+    "updatedAt": "8/21/2024",
+    "createdAt": "8/21/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "fuWGzj4xiCiYblCDzCEGK",
+    "name": "payment mode grid",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "adInTqfSQcTul2JSWQN3k",
+          "componentType": "10001",
+          "id": "adInTqfSQcTul2JSWQN3k",
+          "position": {
+            "i": "adInTqfSQcTul2JSWQN3k",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
+          "componentId": "L21cGYudl14toEWab1TOF",
+          "componentType": "10001",
+          "id": "L21cGYudl14toEWab1TOF",
+          "position": {
+            "i": "L21cGYudl14toEWab1TOF",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "paddingLeft": "5px",
+          "paddingRight": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "9Z2HPRAGGEtwO8M7djiOd",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "areeb",
+    "updatedAt": "8/21/2024",
+    "createdAt": "8/21/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "adInTqfSQcTul2JSWQN3k",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "XcFFG27kg40VguCnQIhq1",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "9Z2HPRAGGEtwO8M7djiOd",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "areeb",
+    "updatedAt": "8/21/2024",
+    "createdAt": "8/21/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "XcFFG27kg40VguCnQIhq1",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Customer Complaint Status",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": true,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "color": "#a8a8a8",
+          "font-size": "14px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "textfieldLabel" }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "8/21/2024",
+    "createdAt": "8/21/2024",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-3-0-1-0-0-0-4-0-0-0-0-0-0-0-0",
+    "screenId": "9Z2HPRAGGEtwO8M7djiOd",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "areeb",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "L21cGYudl14toEWab1TOF",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "YtuGXrfub0U_2iJg4AV2b",
+          "componentType": "20003",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "9Z2HPRAGGEtwO8M7djiOd",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "areeb",
+    "updatedAt": "8/21/2024",
+    "createdAt": "8/21/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "YtuGXrfub0U_2iJg4AV2b",
+    "status": "ACTIVE",
+    "name": "Drop down",
+    "icon": "FaCaretSquareDown",
+    "group": "Form",
+    "updatedAt": "8/21/2024",
+    "createdAt": "8/21/2024",
+    "attributes": {
+      "name": "Drop down",
+      "stateName": "customerComplaintStatusForm",
+      "allValues": true,
+      "dataSource": "",
+      "dataKey": "",
+      "dataValue": "",
+      "mandatory": true,
+      "validate": {
+        "required": true,
+        "errorMsg": "This Field is Required",
+        "bindButton": [
+          {
+            "id": "tKXFdFsPNg_Nk3AVIDf1l",
+            "status": "ACTIVE",
+            "attributes": {
+              "label": "Update",
+              "variant": "contained",
+              "name": "Button",
+              "label-locale-key": "",
+              "fullWidth": true,
+              "layoutProperties": {
+                "button": { "//": "Use this class to style button component." },
+                "inputProps": {
+                  "//": "Use this class to style button element."
+                },
+                "mainContainer": "button",
+                "xl": 12,
+                "lg": 12,
+                "md": 12,
+                "sm": 12,
+                "xs": 12
+              },
+              "cssClassNames": [{ "cssClassName": "CardButton" }]
+            },
+            "name": "Button",
+            "icon": "FaBimobject",
+            "group": "Form",
+            "type": "20006",
+            "Documentation": "<div>components 12344</div>",
+            "updatedAt": "23-Aug-2021",
+            "createdAt": "23-Aug-2021",
+            "order": 1,
+            "version": "1.0.0",
+            "isLatest": true,
+            "projectType": "web",
+            "component": { "content": "Button", "type": "20006" },
+            "events": [
+              {
+                "triggerId": "n_3U_-ISxtbD9u8QRQfoD",
+                "triggerName": "Update Beneficiary Detail",
+                "name": "On Submit",
+                "type": "4",
+                "serviceType": "8"
+              }
+            ],
+            "path": "0-0-0-0-3-0-1-1-0-0-0",
+            "screenId": "dlGgbxKU3iiXUFrnvYMcE",
+            "subType": "component",
+            "projectId": "655cceefb6cb0dd562a26db4",
+            "gitBranchName": "dev",
+            "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+          }
+        ]
+      },
+      "layoutProperties": {
+        "autocomplete": {
+          "//": "Use this class to style autocomplete component in dropdown."
+        },
+        "textField": {
+          "//": "Use this class to style textField component in dropdown.",
+          "font-size": "14px",
+          "font-weight": "normal",
+          "color": "#333",
+          "background-color": "#fff",
+          "border": "1px solid #e5e5e5",
+          "box-shadow": "none",
+          "border-radius": "4px"
+        },
+        "inputProps": {
+          "//": "Use this class to style dropdown element.",
+          "paddingLeft": "15px"
+        },
+        "mainContainer": "autocomplete",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "dropdownOptions": [
+        { "code": "OPEN", "name": "OPEN" },
+        { "code": "CLOSED", "name": "CLOSED" }
+      ],
+      "variant": "standard",
+      "disableUnderline": true,
+      "storeType": 1,
+      "placeholder": "Select",
+      "cssClassNames": [{ "cssClassName": "card_dropdown" }],
+      "selectedDataType": 1,
+      "defaultKey": "customerComplaintStatus",
+      "disableCondition": {}
+    },
+    "type": "20003",
+    "events": [
+      {
+        "triggerId": "yayKlsvSLC1632OXXgFqB",
+        "triggerName": "on Change Values For Complaints",
+        "name": "On Focus",
+        "type": "5",
+        "serviceType": "11"
+      }
+    ],
+    "order": 10,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Drop down", "type": "20003" },
+    "path": "0-0-3-0-1-0-0-0-4-0-0-0-0-0-1-0-0",
+    "screenId": "9Z2HPRAGGEtwO8M7djiOd",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "areeb",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

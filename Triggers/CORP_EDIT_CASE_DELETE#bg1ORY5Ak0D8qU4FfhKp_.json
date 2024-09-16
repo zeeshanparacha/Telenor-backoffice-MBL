@@ -1,0 +1,36 @@
+{
+  "id": "C3AbTrJkLJhXym253qqdd",
+  "_id": "bg1ORY5Ak0D8qU4FfhKp_",
+  "name": "CORP_EDIT_CASE_DELETE",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "15",
+        "attributes": {
+          "requestBody": [],
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": "",
+          "filterList": [
+            {
+              "key": "CORP_EDIT_CASE",
+              "changeValueConditonally": false,
+              "logic": "0",
+              "storeType": 2
+            }
+          ],
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.mlq53cvp24jnAH0A9Bv5VOKVO3jvwQ56",
+  "updatedAt": "8/20/2024",
+  "createdAt": "8/20/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

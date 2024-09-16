@@ -1,0 +1,30 @@
+{
+  "id": "xwAKDk3ifbZ5FKxIUuwIH",
+  "gitBranchName": "dev",
+  "name": "file upload for complainant",
+  "projectId": "660533c7e4f3a280a51cce07",
+  "services": [
+    {
+      "type": "16",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "bindingKey": "createComplain",
+          "storeType": 1,
+          "fileType": "img",
+          "maxSize": "50",
+          "uploadTrigger": {
+            "id": "NYXvBIw3HGc9DQQ2r58aZ",
+            "name": "push complain data into array"
+          }
+        }
+      }
+    }
+  ],
+  "csrf": "0.zjpuhtu4usfiEvtwMmg0nMke5YI14Vj",
+  "_id": "Qa4bcBHF-giSz1Cgc7CeI",
+  "updatedAt": "5/9/2024",
+  "createdAt": "5/9/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

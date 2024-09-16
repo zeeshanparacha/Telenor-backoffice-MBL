@@ -1,0 +1,96 @@
+{
+  "id": "kCpoTtMw2G7sn1yrBCpQM",
+  "_id": "xikZ27HcK-uvaxQYlQraI",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "Update Complaint Status Detail Trigger",
+  "old_name": "Update Complaint Status Detail Trigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "response",
+          "url": "/complaints/updateComplaint",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "category",
+              "value": "category"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "resolutionDate",
+              "value": "resolutionDate"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerComplaintStatus",
+              "value": "customerComplaintStatusForm.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "customerTicketStatus",
+              "value": "customerTicketStatusForm.code"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "referenceNumber",
+              "value": "referenceNumber"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "subCategory",
+              "value": "subCategory"
+            },
+            { "type": 1, "name": "Form", "key": "title", "value": "title" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "bankFeedback",
+              "value": "closingComments"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": [
+          {
+            "triggerName": "Show Complaint Update Success Modal Trigger",
+            "triggerId": "NFAhikKjWqJ6ybGDsPOMA",
+            "logic": { "==": [{ "var": "status" }, 1] },
+            "httpStatus": 200
+          }
+        ]
+      }
+    }
+  ],
+  "csrf": "0.tif7w7zjshqEvLmDEiB1pRe3KhUDIpX6",
+  "updatedAt": "9/6/2024",
+  "createdAt": "9/6/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

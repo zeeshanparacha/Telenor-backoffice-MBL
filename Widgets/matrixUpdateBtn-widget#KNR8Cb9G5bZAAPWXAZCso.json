@@ -1,0 +1,796 @@
+[
+  {
+    "id": "KNR8Cb9G5bZAAPWXAZCso",
+    "name": "matrixUpdateBtn widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "af0pepjSHp8SXhSnEtf-v",
+          "componentType": "10001",
+          "id": "af0pepjSHp8SXhSnEtf-v",
+          "position": {
+            "i": "af0pepjSHp8SXhSnEtf-v",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "af0pepjSHp8SXhSnEtf-v",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "matrixUpdateBtn",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "group": "Layout",
+        "type": "10001",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": "0-0-1-2-0",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "doIWSG59kBvmcwVz40CCh",
+            "gridProps": [
+              {
+                "id": "Lr-r-y4e7wYvqXr0oY_r9",
+                "status": "ACTIVE",
+                "attributes": {
+                  "label": "Update",
+                  "variant": "contained",
+                  "name": "Button",
+                  "label-locale-key": "",
+                  "fullWidth": true,
+                  "layoutProperties": {
+                    "button": {
+                      "//": "Use this class to style button component."
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style button element."
+                    },
+                    "mainContainer": "button",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "cssClassNames": [{ "cssClassName": "CardButton" }]
+                },
+                "name": "Button",
+                "icon": "FaBimobject",
+                "group": "Form",
+                "type": "20006",
+                "Documentation": "<div>components 12344</div>",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 1,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Button", "type": "20006" },
+                "events": [
+                  {
+                    "triggerId": "CRMbikPjvuSrjLkWFzR6Z",
+                    "triggerName": "Conditional_AuthMatrixFlow_chainTrigger",
+                    "serviceType": "13",
+                    "attributes": {
+                      "triggers": [
+                        {
+                          "triggerName": "Chain Trigger Checking NtnChange Corporate",
+                          "triggerId": "v6djQrgq2H3KthdFMgIqJ",
+                          "services": [
+                            {
+                              "type": "2",
+                              "command": {
+                                "type": "1",
+                                "attributes": {
+                                  "delay": "",
+                                  "storeType": "",
+                                  "searchInState": false,
+                                  "triggers": [
+                                    {
+                                      "id": "5-8ZoAhM_rzmS7SuhzEyz",
+                                      "_id": "GGLet5rhCbhIbyZAy1ofA",
+                                      "name": "Add corporate NtnChange in Table 1",
+                                      "old_name": "Add corporate NtnChange in Table 1",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "1",
+                                            "attributes": {
+                                              "stateName": "corporateBranchAccountsNtnChange",
+                                              "requestBody": [
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "accountNumber",
+                                                  "value": "accountNumber"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "accountTitle",
+                                                  "value": "accountTitle"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "authorityMatrixId",
+                                                  "value": "authorityMatrixId"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "id",
+                                                  "value": "id"
+                                                }
+                                              ],
+                                              "storeType": "",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.pyfpjdx8brsmdKGlHfF1Q32qyiFIBzYl",
+                                      "updatedAt": "9/12/2024",
+                                      "createdAt": "9/12/2024",
+                                      "createdBy": "asadrahim",
+                                      "updatedBy": "asadrahim"
+                                    },
+                                    {
+                                      "id": "VC6ZWmPcdMsZZKXlyyUy0",
+                                      "_id": "IFH9OJCw210p0DR0-rIrC",
+                                      "name": "Clear Corporate Branch Account Number",
+                                      "old_name": "Clear Corporate Branch Account Number",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "4",
+                                            "attributes": {
+                                              "stateName": "accountNumber",
+                                              "requestBody": [],
+                                              "storeType": 1,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.96worskthh4OjBOb0OmX0H28XOcR6w3I",
+                                      "updatedAt": "8/13/2024",
+                                      "createdAt": "8/13/2024",
+                                      "createdBy": "areeb",
+                                      "updatedBy": "areeb"
+                                    },
+                                    {
+                                      "id": "QhQjFZOYxRYlpTGFsZjGl",
+                                      "_id": "zvH-TR4EUmmnbimjpbS3D",
+                                      "name": "Clear branch id BindingKey in Add corporate",
+                                      "old_name": "Clear branch id BindingKey in Add corporate",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "4",
+                                            "attributes": {
+                                              "stateName": "id",
+                                              "requestBody": [],
+                                              "storeType": 1,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.96worskthh4OjBOb0OmX0H28XOcR6w3I",
+                                      "updatedAt": "8/13/2024",
+                                      "createdAt": "8/13/2024",
+                                      "createdBy": "areeb",
+                                      "updatedBy": "areeb"
+                                    },
+                                    {
+                                      "id": "_2RVZ6a03TYVBH7UQvd-t",
+                                      "_id": "-xcAG48Q58AZtesHA2pNr",
+                                      "name": "Clear Branch authorityMatrixId Binding Key Add corporate",
+                                      "old_name": "Clear Branch authorityMatrixId Binding Key Add corporate",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "4",
+                                            "attributes": {
+                                              "stateName": "authorityMatrixId",
+                                              "requestBody": [],
+                                              "storeType": 1,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.96worskthh4OjBOb0OmX0H28XOcR6w3I",
+                                      "updatedAt": "8/13/2024",
+                                      "createdAt": "8/13/2024",
+                                      "createdBy": "areeb",
+                                      "updatedBy": "areeb"
+                                    },
+                                    {
+                                      "id": "FM2iskTR6dQ8aVEnTuEHi",
+                                      "_id": "J8BU7uAOYU8Iu2bEvgsnJ",
+                                      "name": "Clear Branch Account Title Binding Key Add Corporate",
+                                      "old_name": "Clear Branch Account Title Binding Key Add Corporate",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "4",
+                                            "attributes": {
+                                              "stateName": "accountTitle",
+                                              "requestBody": [],
+                                              "storeType": 1,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.96worskthh4OjBOb0OmX0H28XOcR6w3I",
+                                      "updatedAt": "8/13/2024",
+                                      "createdAt": "8/13/2024",
+                                      "createdBy": "areeb",
+                                      "updatedBy": "areeb"
+                                    },
+                                    {
+                                      "id": "cKtTNtO2KNkun2GLdyQIJ",
+                                      "_id": "r6XEe_UtlzODr04pn0GFe",
+                                      "name": "swap checking branch component",
+                                      "old_name": "swap checking branch component",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "1",
+                                          "command": {
+                                            "type": "2",
+                                            "attributes": {
+                                              "fromWidgetId": "QrL8Spi1G-EgyCRCxqRXX",
+                                              "nextWidgetId": "rGDO_xTBh4inGwvQjLgVK",
+                                              "gridRadioValue": "Grid",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "editableForm": false
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.4hk8gwlpb1hS4HrFynJdhrNqh0T5TAgl",
+                                      "updatedAt": "7/29/2024",
+                                      "createdAt": "7/29/2024",
+                                      "createdBy": "asadrahim",
+                                      "updatedBy": "asadrahim"
+                                    }
+                                  ],
+                                  "triggerIds": [
+                                    "5-8ZoAhM_rzmS7SuhzEyz",
+                                    "VC6ZWmPcdMsZZKXlyyUy0",
+                                    "QhQjFZOYxRYlpTGFsZjGl",
+                                    "_2RVZ6a03TYVBH7UQvd-t",
+                                    "FM2iskTR6dQ8aVEnTuEHi",
+                                    "cKtTNtO2KNkun2GLdyQIJ"
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "logic": {
+                            "==": [
+                              {
+                                "var": "currentScreen.form.isbranchAccountNtnChange"
+                              },
+                              true
+                            ]
+                          }
+                        },
+                        {
+                          "logic": {
+                            "==": [
+                              {
+                                "var": "currentScreen.form.isbranchAccountNtnChange"
+                              },
+                              false
+                            ]
+                          },
+                          "triggerName": "Chain Trigger Checking Branch Corporate",
+                          "triggerId": "1mAivSgMfvBodT4fbpLXr",
+                          "services": [
+                            {
+                              "type": "2",
+                              "command": {
+                                "type": "1",
+                                "attributes": {
+                                  "delay": "",
+                                  "storeType": "",
+                                  "searchInState": false,
+                                  "triggers": [
+                                    {
+                                      "id": "hva1_3W6xJoNbHGbshJTz",
+                                      "_id": "bPDL6BxAKIw7wp9V0SUwq",
+                                      "name": "Add corporate Branch in Table 1",
+                                      "old_name": "Add corporate Branch in Table 1",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "1",
+                                            "attributes": {
+                                              "stateName": "branchResponseData",
+                                              "requestBody": [
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "accountCurrency",
+                                                  "value": "accountCurrency"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "accountCurrencyType",
+                                                  "value": "accountCurrencyType"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "accountNumber",
+                                                  "value": "accountNumber"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "accountTitle",
+                                                  "value": "accountTitle"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "accountType",
+                                                  "value": "accountType"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "authorityMatrixId",
+                                                  "value": "authorityMatrixId"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "branch",
+                                                  "value": "branch"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "corporateAccountType",
+                                                  "value": "corporateAccountType"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "dailyLimit",
+                                                  "value": "dailyLimit"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "iban",
+                                                  "value": "iban"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "id",
+                                                  "value": "id"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "isActive",
+                                                  "value": "isActive"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "monthlyLimit",
+                                                  "value": "monthlyLimit"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "ntn",
+                                                  "value": "ntn"
+                                                },
+                                                {
+                                                  "type": 1,
+                                                  "name": "Form",
+                                                  "key": "product",
+                                                  "value": "product"
+                                                }
+                                              ],
+                                              "storeType": "",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.3dll48htwhdGpZyGmzNfsTrH6ZsV9waR",
+                                      "updatedAt": "7/30/2024",
+                                      "createdAt": "7/30/2024",
+                                      "createdBy": "asadrahim",
+                                      "updatedBy": "asadrahim"
+                                    },
+                                    {
+                                      "id": "VC6ZWmPcdMsZZKXlyyUy0",
+                                      "_id": "IFH9OJCw210p0DR0-rIrC",
+                                      "name": "Clear Corporate Branch Account Number",
+                                      "old_name": "Clear Corporate Branch Account Number",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "4",
+                                            "attributes": {
+                                              "stateName": "branchResponseData.data.result.detail.accountNumber",
+                                              "requestBody": [],
+                                              "storeType": 2,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.wtw68i1u254KaaGndaEiaYnTJJynuV5",
+                                      "updatedAt": "8/13/2024",
+                                      "createdAt": "8/13/2024",
+                                      "createdBy": "asadrahim",
+                                      "updatedBy": "asadrahim"
+                                    },
+                                    {
+                                      "id": "QhQjFZOYxRYlpTGFsZjGl",
+                                      "_id": "zvH-TR4EUmmnbimjpbS3D",
+                                      "name": "Clear branch id BindingKey in Add corporate",
+                                      "old_name": "Clear branch id BindingKey in Add corporate",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "4",
+                                            "attributes": {
+                                              "stateName": "branchResponseData.data.result.detail.id",
+                                              "requestBody": [],
+                                              "storeType": 2,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.wtw68i1u254KaaGndaEiaYnTJJynuV5",
+                                      "updatedAt": "8/13/2024",
+                                      "createdAt": "8/13/2024",
+                                      "createdBy": "asadrahim",
+                                      "updatedBy": "asadrahim"
+                                    },
+                                    {
+                                      "id": "_2RVZ6a03TYVBH7UQvd-t",
+                                      "_id": "-xcAG48Q58AZtesHA2pNr",
+                                      "name": "Clear Branch authorityMatrixId Binding Key Add corporate",
+                                      "old_name": "Clear Branch authorityMatrixId Binding Key Add corporate",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "4",
+                                            "attributes": {
+                                              "stateName": "branchResponseData.authorityMatrixId",
+                                              "requestBody": [],
+                                              "storeType": 2,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.q8dv6k18f0lgTVVREclziZh8c2N83Ae9",
+                                      "updatedAt": "7/29/2024",
+                                      "createdAt": "7/29/2024",
+                                      "createdBy": "asadrahim",
+                                      "updatedBy": "asadrahim"
+                                    },
+                                    {
+                                      "id": "FM2iskTR6dQ8aVEnTuEHi",
+                                      "_id": "J8BU7uAOYU8Iu2bEvgsnJ",
+                                      "name": "Clear Branch Account Title Binding Key Add Corporate",
+                                      "old_name": "Clear Branch Account Title Binding Key Add Corporate",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "11",
+                                          "command": {
+                                            "type": "4",
+                                            "attributes": {
+                                              "stateName": "branchResponseData.data.result.detail.accountTitle",
+                                              "requestBody": [],
+                                              "storeType": 2,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": "",
+                                              "gridFormRowIdBindingKey": "editFormRowId"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.wtw68i1u254KaaGndaEiaYnTJJynuV5",
+                                      "updatedAt": "8/13/2024",
+                                      "createdAt": "8/13/2024",
+                                      "createdBy": "asadrahim",
+                                      "updatedBy": "asadrahim"
+                                    },
+                                    {
+                                      "id": "cKtTNtO2KNkun2GLdyQIJ",
+                                      "_id": "r6XEe_UtlzODr04pn0GFe",
+                                      "name": "swap checking branch component",
+                                      "old_name": "swap checking branch component",
+                                      "projectId": "6475fc4c85cd1cddbc3b3524",
+                                      "gitBranchName": "master",
+                                      "services": [
+                                        {
+                                          "type": "1",
+                                          "command": {
+                                            "type": "2",
+                                            "attributes": {
+                                              "fromWidgetId": "QrL8Spi1G-EgyCRCxqRXX",
+                                              "nextWidgetId": "rGDO_xTBh4inGwvQjLgVK",
+                                              "gridRadioValue": "Grid",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "editableForm": false
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "csrf": "0.4hk8gwlpb1hS4HrFynJdhrNqh0T5TAgl",
+                                      "updatedAt": "7/29/2024",
+                                      "createdAt": "7/29/2024",
+                                      "createdBy": "asadrahim",
+                                      "updatedBy": "asadrahim"
+                                    }
+                                  ],
+                                  "triggerIds": [
+                                    "hva1_3W6xJoNbHGbshJTz",
+                                    "VC6ZWmPcdMsZZKXlyyUy0",
+                                    "QhQjFZOYxRYlpTGFsZjGl",
+                                    "_2RVZ6a03TYVBH7UQvd-t",
+                                    "FM2iskTR6dQ8aVEnTuEHi",
+                                    "cKtTNtO2KNkun2GLdyQIJ"
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "type": "2",
+                    "name": "On click",
+                    "commandType": "1"
+                  }
+                ],
+                "path": "0-0-1-2-0-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12,
+          "name": null
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "KNR8Cb9G5bZAAPWXAZCso",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "KNR8Cb9G5bZAAPWXAZCso",
+    "createdBy": "asadrahim",
+    "updatedAt": "9/15/2024",
+    "createdAt": "9/15/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "af0pepjSHp8SXhSnEtf-v",
+    "name": "matrixUpdateBtn",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "Lr-r-y4e7wYvqXr0oY_r9",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "yI39eRcQB7emEGgmXqxzI",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedAt": "9/15/2024",
+    "createdAt": "9/15/2024",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Lr-r-y4e7wYvqXr0oY_r9",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Update",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "cssClassNames": [{ "cssClassName": "CardButton" }]
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "9/15/2024",
+    "createdAt": "9/15/2024",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "CRMbikPjvuSrjLkWFzR6Z",
+        "triggerName": "Conditional_AuthMatrixFlow_chainTrigger",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "13"
+      }
+    ],
+    "path": "0-0-1-2-0-0-0",
+    "screenId": "yI39eRcQB7emEGgmXqxzI",
+    "subType": "component",
+    "projectId": "6475fc4c85cd1cddbc3b3524",
+    "gitBranchName": "master",
+    "createdBy": "asadrahim",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

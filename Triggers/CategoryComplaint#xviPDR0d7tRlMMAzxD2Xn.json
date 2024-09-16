@@ -1,0 +1,45 @@
+{
+  "id": "6_EhE77GE58LUtYxCkP_q",
+  "_id": "xviPDR0d7tRlMMAzxD2Xn",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "CategoryComplaint",
+  "old_name": "CategoryComplaint",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "category",
+          "url": "/complaints/getCategoriesAndSubCategories",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.iavxjmbs55lId_EfcZt6ULvqCStVxdtw",
+  "updatedAt": "9/6/2024",
+  "createdAt": "9/6/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

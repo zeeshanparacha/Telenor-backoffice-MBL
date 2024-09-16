@@ -1,0 +1,31 @@
+{
+  "id": "2CZZ4lJyd4qkuLj4qG72K",
+  "gitBranchName": "dev",
+  "name": "file upload for complainant for multi part",
+  "projectId": "660533c7e4f3a280a51cce07",
+  "services": [
+    {
+      "type": "16",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "bindingKey": "createComplain",
+          "storeType": 1,
+          "fileType": "img",
+          "maxSize": "50",
+          "uploadTrigger": {
+            "id": "NYXvBIw3HGc9DQQ2r58aZ",
+            "name": "push complain data into array"
+          },
+          "encryptionType": "encryption"
+        }
+      }
+    }
+  ],
+  "csrf": "0.ufdl5os97srVJ7o7npEHKuJWJMpx-gb",
+  "_id": "g251v5BCKLhPOeVDgDIEH",
+  "updatedAt": "7/10/2024",
+  "createdAt": "7/10/2024",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

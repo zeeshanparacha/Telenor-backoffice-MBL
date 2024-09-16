@@ -1,0 +1,48 @@
+{
+  "id": "amug-d0poDL53VsbFgrGu",
+  "_id": "YtPJZKX4s-3qLi73b0NjF",
+  "projectId": "660533c7e4f3a280a51cce07",
+  "gitBranchName": "dev",
+  "name": "Complaint_Status_Grid",
+  "old_name": "Complaint_Status_Grid",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "Status",
+          "url": "/complaint/viewCustomerComplaints",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            { "type": 4, "name": "Static", "key": "pageNumber", "value": "1" },
+            { "type": 4, "name": "Static", "key": "pageSize", "value": "5" }
+          ],
+          "baseURL": "6322eb25967b3c4df8e47be2",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.xp9s3quurvsTK5j7QYmFryBuINXH7pEn",
+  "updatedAt": "4/22/2024",
+  "createdAt": "4/22/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

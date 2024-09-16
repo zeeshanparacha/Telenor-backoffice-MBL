@@ -1,0 +1,33 @@
+{
+  "id": "JmcrCY4ExFODXK61GI8Lj",
+  "name": "isbranchAccountNtnChange trigger",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "6",
+        "attributes": {
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "value",
+          "destinationBindingKey": "isbranchAccountNtnChange",
+          "sourceBindingKey": "isbranchAccountNtnChange",
+          "sourceStoreType": 1,
+          "destinationStoreType": 1,
+          "logic": { "if": [true, true, true] },
+          "changeValueConditonally": true,
+          "targettedType": "value",
+          "gridFormRowIdBindingKey": "editFormRowId"
+        }
+      }
+    }
+  ],
+  "csrf": "0.pyfpjdx8brsmdKGlHfF1Q32qyiFIBzYl",
+  "_id": "zlpS5HZGukR6C3f-6mU-E",
+  "updatedAt": "9/12/2024",
+  "createdAt": "9/12/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}
