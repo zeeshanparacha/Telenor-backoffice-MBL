@@ -1,10 +1,10 @@
 {
-  "_id": "eSx_1umLL1dR1xP_oq8yt",
-  "id": "iYiXGle-bFGeZ7O_DEC4l",
+  "_id": "5DxATtXmDKQYtXFVjuDlD",
+  "id": "bGyZo1BEKXMQ2EoMP1cYC",
   "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
-  "name": "CHANGE_IS_ENABLED_SEQUENTIAL_WALLET",
-  "old_name": "CHANGE_IS_ENABLED_SEQUENTIAL_WALLET",
+  "name": "CHANGE_IS_ENABLED_SEQUENTIAL_BRANCH",
+  "old_name": "CHANGE_IS_ENABLED_SEQUENTIAL_BRANCH",
   "status": "ACTIVE",
   "services": [
     {
@@ -68,10 +68,10 @@
               "updatedBy": "asadrahim"
             },
             {
-              "id": "lOi4NB31VdNX_ni00zyNh",
-              "_id": "0bZP39-OooWHGW9kFvyUA",
-              "name": "UPDATE_IS_ENABLED_WALLET",
-              "old_name": "UPDATE_IS_ENABLED_WALLET",
+              "id": "a3mTwEQnzUSarZWLx1uZ6",
+              "_id": "Jaksyek2GMJhNbzAO_UNg",
+              "name": "UPDATE_IS_ENABLED_BRANCH",
+              "old_name": "UPDATE_IS_ENABLED_BRANCH",
               "projectId": "6475fc4c85cd1cddbc3b3524",
               "gitBranchName": "master",
               "services": [
@@ -97,27 +97,39 @@
                         {
                           "type": 2,
                           "name": "Current screen",
-                          "key": "enable",
-                          "value": "selectedObject.enable"
+                          "key": "isEnabled",
+                          "value": "selectedObject.isEnabled"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "isRemovedAllowed",
+                          "value": "selectedObject.isRemovedAllowed"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "isSoftDeleteAllowed",
+                          "value": "selectedObject.isSoftDeleteAllowed"
                         }
                       ],
                       "storeType": "",
                       "selectedObjectBindingKey": "selectedObject",
                       "dataType": "",
                       "sourceBindingKey": "",
-                      "gridFormRowIdBindingKey": "selectedObjectIndex"
+                      "gridFormRowIdBindingKey": "selectedRowIndex"
                     }
                   }
                 }
               ],
-              "csrf": "0.n7gpzsbfhugrJxb0LcG4RQmS9SH3gn6W",
-              "updatedAt": "8/19/2024",
-              "createdAt": "8/19/2024",
-              "createdBy": "asadrahim",
-              "updatedBy": "asadrahim"
+              "csrf": "0.j8mubcir2bExmTZVc3TVdfu4kis9s3q",
+              "updatedAt": "9/23/2024",
+              "createdAt": "9/23/2024",
+              "createdBy": "zeeshan",
+              "updatedBy": "zeeshan"
             }
           ],
-          "triggerIds": ["tGt7cPlMvOBAWELpOOUyJ", "lOi4NB31VdNX_ni00zyNh"]
+          "triggerIds": ["tGt7cPlMvOBAWELpOOUyJ", "a3mTwEQnzUSarZWLx1uZ6"]
         }
       }
     }

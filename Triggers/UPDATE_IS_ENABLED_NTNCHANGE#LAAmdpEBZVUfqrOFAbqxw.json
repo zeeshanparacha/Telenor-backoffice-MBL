@@ -1,8 +1,8 @@
 {
-  "id": "lOi4NB31VdNX_ni00zyNh",
-  "_id": "0bZP39-OooWHGW9kFvyUA",
-  "name": "UPDATE_IS_ENABLED_WALLET",
-  "old_name": "UPDATE_IS_ENABLED_WALLET",
+  "id": "pDEuAji7t2jo1oeidZQEf",
+  "_id": "LAAmdpEBZVUfqrOFAbqxw",
+  "name": "UPDATE_IS_ENABLED_NTNCHANGE",
+  "old_name": "UPDATE_IS_ENABLED_NTNCHANGE",
   "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
   "services": [
@@ -11,7 +11,7 @@
       "command": {
         "type": "1",
         "attributes": {
-          "stateName": "branchlessAccountData",
+          "stateName": "corporateBranchAccountsNtnChange",
           "requestBody": [
             {
               "type": 2,
@@ -42,26 +42,20 @@
               "name": "Current screen",
               "key": "isSoftDeleteAllowed",
               "value": "selectedObject.isSoftDeleteAllowed"
-            },
-            {
-              "type": 2,
-              "name": "Current screen",
-              "key": "authorityMatrixId",
-              "value": "selectedObject.authorityMatrixId"
             }
           ],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "",
           "sourceBindingKey": "",
-          "gridFormRowIdBindingKey": "selectedRowIndex"
+          "gridFormRowIdBindingKey": "selectedObjectIndex"
         }
       }
     }
   ],
-  "csrf": "0.2qqynzcdl85uIgsZgGkIYdAj2-R07gZR",
-  "updatedAt": "9/23/2024",
-  "createdAt": "9/23/2024",
+  "csrf": "0.ntn5c1aarnkAlap4kjjEFjHlEhPk3A2e",
+  "updatedAt": "9/18/2024",
+  "createdAt": "9/18/2024",
   "createdBy": "asadrahim",
   "updatedBy": "asadrahim"
 }

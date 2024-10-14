@@ -31,18 +31,38 @@
               "key": "authorityMatrixId",
               "value": "authorityMatrixId"
             },
-            { "type": 1, "name": "Form", "key": "id", "value": "id" }
+            { "type": 1, "name": "Form", "key": "id", "value": "id" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "isEnabled",
+              "value": "isEnabled"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "isRemovedAllowed",
+              "value": "isRemovedAllowed"
+            },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "isSoftDeleteAllowed",
+              "value": "isSoftDeleteAllowed"
+            }
           ],
           "storeType": "",
           "selectedObjectBindingKey": "selectedObject",
           "dataType": "",
-          "sourceBindingKey": ""
+          "sourceBindingKey": "",
+          "gridFormRowIdBindingKey": "editFormRowId"
         }
       }
     }
   ],
-  "updatedAt": "6/13/2023",
-  "createdAt": "6/13/2023",
-  "createdBy": "ajk",
-  "updatedBy": "ajk"
+  "csrf": "0.2qqynzcdl85uIgsZgGkIYdAj2-R07gZR",
+  "updatedAt": "9/23/2024",
+  "createdAt": "9/23/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
 }

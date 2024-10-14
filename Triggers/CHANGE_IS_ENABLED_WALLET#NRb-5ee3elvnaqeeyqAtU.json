@@ -30,17 +30,20 @@
               }
             },
             { "key": "isRemovedAllowed", "changeValueConditonally": false },
-            { "key": "isSoftDeleteAllowed", "changeValueConditonally": false }
+            { "key": "isSoftDeleteAllowed", "changeValueConditonally": false },
+            { "key": "accountNumber", "changeValueConditonally": false },
+            { "key": "authorityMatrixId" }
           ],
+          "retainState": true,
           "targettedType": "object",
           "gridFormRowIdBindingKey": "editFormRowId"
         }
       }
     }
   ],
-  "csrf": "0.8x03tiek7twJwIKCi_JSuU1NNJqSAwjX",
-  "updatedAt": "8/22/2024",
-  "createdAt": "8/22/2024",
+  "csrf": "0.2qqynzcdl85uIgsZgGkIYdAj2-R07gZR",
+  "updatedAt": "9/23/2024",
+  "createdAt": "9/23/2024",
   "createdBy": "asadrahim",
   "updatedBy": "asadrahim"
 }

@@ -1,10 +1,10 @@
 {
-  "_id": "eSx_1umLL1dR1xP_oq8yt",
-  "id": "iYiXGle-bFGeZ7O_DEC4l",
+  "_id": "B4emtHo3gMGGAJklaqA-k",
+  "id": "UGl0hHswqGgLWTXja6nOw",
   "projectId": "6475fc4c85cd1cddbc3b3524",
   "gitBranchName": "master",
-  "name": "CHANGE_IS_ENABLED_SEQUENTIAL_WALLET",
-  "old_name": "CHANGE_IS_ENABLED_SEQUENTIAL_WALLET",
+  "name": "CHANGE_IS_ENABLED_SEQUENTIAL_NTNCHANGE",
+  "old_name": "CHANGE_IS_ENABLED_SEQUENTIAL_NTNCHANGE",
   "status": "ACTIVE",
   "services": [
     {
@@ -68,10 +68,10 @@
               "updatedBy": "asadrahim"
             },
             {
-              "id": "lOi4NB31VdNX_ni00zyNh",
-              "_id": "0bZP39-OooWHGW9kFvyUA",
-              "name": "UPDATE_IS_ENABLED_WALLET",
-              "old_name": "UPDATE_IS_ENABLED_WALLET",
+              "id": "pDEuAji7t2jo1oeidZQEf",
+              "_id": "LAAmdpEBZVUfqrOFAbqxw",
+              "name": "UPDATE_IS_ENABLED_NTNCHANGE",
+              "old_name": "UPDATE_IS_ENABLED_NTNCHANGE",
               "projectId": "6475fc4c85cd1cddbc3b3524",
               "gitBranchName": "master",
               "services": [
@@ -80,7 +80,7 @@
                   "command": {
                     "type": "1",
                     "attributes": {
-                      "stateName": "branchResponseData",
+                      "stateName": "corporateBranchAccountsNtnChange",
                       "requestBody": [
                         {
                           "type": 2,
@@ -97,8 +97,20 @@
                         {
                           "type": 2,
                           "name": "Current screen",
-                          "key": "enable",
-                          "value": "selectedObject.enable"
+                          "key": "isEnabled",
+                          "value": "selectedObject.isEnabled"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "isRemovedAllowed",
+                          "value": "selectedObject.isRemovedAllowed"
+                        },
+                        {
+                          "type": 2,
+                          "name": "Current screen",
+                          "key": "isSoftDeleteAllowed",
+                          "value": "selectedObject.isSoftDeleteAllowed"
                         }
                       ],
                       "storeType": "",
@@ -110,21 +122,21 @@
                   }
                 }
               ],
-              "csrf": "0.n7gpzsbfhugrJxb0LcG4RQmS9SH3gn6W",
-              "updatedAt": "8/19/2024",
-              "createdAt": "8/19/2024",
+              "csrf": "0.ntn5c1aarnkAlap4kjjEFjHlEhPk3A2e",
+              "updatedAt": "9/18/2024",
+              "createdAt": "9/18/2024",
               "createdBy": "asadrahim",
               "updatedBy": "asadrahim"
             }
           ],
-          "triggerIds": ["tGt7cPlMvOBAWELpOOUyJ", "lOi4NB31VdNX_ni00zyNh"]
+          "triggerIds": ["tGt7cPlMvOBAWELpOOUyJ", "pDEuAji7t2jo1oeidZQEf"]
         }
       }
     }
   ],
-  "csrf": "0.2qqynzcdl85uIgsZgGkIYdAj2-R07gZR",
-  "updatedAt": "9/23/2024",
-  "createdAt": "9/23/2024",
+  "csrf": "0.ntn5c1aarnkAlap4kjjEFjHlEhPk3A2e",
+  "updatedAt": "9/18/2024",
+  "createdAt": "9/18/2024",
   "createdBy": "asadrahim",
   "updatedBy": "asadrahim"
 }

@@ -1,0 +1,125 @@
+{
+  "_id": "UwA26Cy_qYd7nflxSiJUE",
+  "id": "32xZl35FfuFiRPDMlReYT",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "CORPORATE BRANCH REPORT CHAIN TRIGGER",
+  "old_name": "CORPORATE BRANCH REPORT CHAIN TRIGGER",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "storeType": "",
+          "searchInState": false,
+          "triggers": [
+            {
+              "id": "3bXVuZVvKtAElKelVMByQ",
+              "_id": "HHuduznXXBqgiKZYcYvxP",
+              "name": "clear branch and account report 1 binding key",
+              "old_name": "clear branch and account report 1 binding key",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "4",
+                    "attributes": {
+                      "stateName": "branchPaymentDetails",
+                      "requestBody": [],
+                      "storeType": 2,
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": "",
+                      "gridFormRowIdBindingKey": "editFormRowId"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.56abbbnq1ktbHz9NUZD0rg00xqOlE-mR",
+              "updatedAt": "10/10/2024",
+              "createdAt": "10/10/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            },
+            {
+              "id": "KfHAlulXq5ADXFl7dTbIn",
+              "_id": "rgx_EbV2ujvBlBLk-QxQI",
+              "projectId": "6475fc4c85cd1cddbc3b3524",
+              "gitBranchName": "master",
+              "name": "branchPaymentDetails",
+              "old_name": "branchPaymentDetails",
+              "status": "ACTIVE",
+              "services": [
+                {
+                  "type": "8",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "loaderWidgetIds": [906070],
+                      "messageWidgetIds": [906070],
+                      "responseStateKey": "branchPaymentDetails",
+                      "responseReturnValue": "data",
+                      "url": "/report/branch-payment-details",
+                      "checksum": true,
+                      "encryption": true,
+                      "isDeviceDetails": false,
+                      "loginTrigger": false,
+                      "formData": false,
+                      "logoutTrigger": false,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "channel_key": "001",
+                        "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                        "locale": "en-ltr"
+                      },
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "dateFrom",
+                          "value": "dateFrom"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "dateTo",
+                          "value": "dateTo"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "status",
+                          "value": "status"
+                        }
+                      ],
+                      "baseURL": "634555d068954540043d6820",
+                      "storeType": 2
+                    },
+                    "responseHandler": []
+                  }
+                }
+              ],
+              "csrf": "0.56abbbnq1ktbHz9NUZD0rg00xqOlE-mR",
+              "updatedAt": "10/10/2024",
+              "createdAt": "10/10/2024",
+              "createdBy": "asadrahim",
+              "updatedBy": "asadrahim"
+            }
+          ],
+          "triggerIds": ["3bXVuZVvKtAElKelVMByQ", "KfHAlulXq5ADXFl7dTbIn"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.56abbbnq1ktbHz9NUZD0rg00xqOlE-mR",
+  "updatedAt": "10/10/2024",
+  "createdAt": "10/10/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}

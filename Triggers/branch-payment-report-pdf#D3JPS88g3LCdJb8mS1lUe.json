@@ -1,0 +1,60 @@
+{
+  "id": "5pCJfmzoephcr9z0ZMhr_",
+  "_id": "D3JPS88g3LCdJb8mS1lUe",
+  "projectId": "6475fc4c85cd1cddbc3b3524",
+  "gitBranchName": "master",
+  "name": "branch payment report pdf",
+  "old_name": "branch payment report pdf",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "BranchPaymentReportXLS",
+          "url": "/report/branch-payment-details/export/pdf",
+          "checksum": true,
+          "encryption": true,
+          "fileName": "Branch Payment report.pdf",
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "dateFrom",
+              "value": "dateFrom"
+            },
+            { "type": 1, "name": "Form", "key": "dateTo", "value": "dateTo" },
+            {
+              "type": 1,
+              "name": "Form",
+              "key": "status",
+              "value": "status.code"
+            }
+          ],
+          "baseURL": "634555d068954540043d6820",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.56abbbnq1ktbHz9NUZD0rg00xqOlE-mR",
+  "updatedAt": "10/10/2024",
+  "createdAt": "10/10/2024",
+  "createdBy": "asadrahim",
+  "updatedBy": "asadrahim"
+}
